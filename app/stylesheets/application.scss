@@ -41,3 +41,16 @@ form.bp {
     @include column(3); }
   #content {
     @include column(21, true); } }
+h1{
+  font-size:25px;
+}
+p{
+   font-size: 20px;
+}
+#button{
+  height:20px;
+  witdh:20px;
+  margin-left:10px;
+  background-color:yellow;
+
+}
