@@ -6,6 +6,10 @@ class Localactors < Padrino::Application
 
 
   enable :sessions
+  
+  get '/' do
+    render "index"
+  end
 
   ##
   # Caching support
