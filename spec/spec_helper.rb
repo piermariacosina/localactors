@@ -2,6 +2,7 @@ PADRINO_ENV = 'test' unless defined?(PADRINO_ENV)
 
 require 'rubygems'
 require 'spork'
+
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 
@@ -21,3 +22,14 @@ Spork.each_run do
 
 end
 
+RSpec.configure do |conf|
+  conf.include Rack::Test::Methods
+  conf.include RSpec::Padrino # add this
+  conf.include Capybara::DSL
+end
+
+def app
+  ##
+  # You should point toplevel #app method to:
+  Padrino.application
+end

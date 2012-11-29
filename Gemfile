@@ -26,6 +26,7 @@ group :test do
 	gem 'capybara'
 	gem 'rb-fsevent'
 	gem 'terminal-notifier-guard'
+	gem 'rspec-padrino'
 end
 
 # Padrino Stable Gem
