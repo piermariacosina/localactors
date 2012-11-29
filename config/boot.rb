@@ -15,7 +15,7 @@ Bundler.require(:default, PADRINO_ENV)
 #
 # ## Configure your I18n
 #
-# I18n.default_locale = :en
+
 #
 # ## Configure your HTML5 data helpers
 #
@@ -34,12 +34,18 @@ Bundler.require(:default, PADRINO_ENV)
 # Add your before (RE)load hooks here
 #
 Padrino.before_load do
+	I18n.default_locale = :en
 end
 
 ##
 # Add your after (RE)load hooks here
 #
 Padrino.after_load do
+end
+
+Padrino.after_load do
+  ::RAILS_ENV = PADRINO_ENV unless defined?(::RAILS_ENV) # jammit 0.6.0 workaround
+  Jammit.load_configuration("#{Padrino.root}/config/assets.yml")
 end
 
 Padrino.load!

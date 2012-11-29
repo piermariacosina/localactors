@@ -5,6 +5,7 @@
 module CompassInitializer
   def self.registered(app)
     require 'sass/plugin/rack'
+    require 'susy'
 
     Compass.configuration do |config|
       config.project_path = Padrino.root
@@ -13,8 +14,10 @@ module CompassInitializer
       config.http_path = "/"
       config.css_dir = "public/stylesheets"
       config.images_dir = "public/images"
-      config.javascripts_dir = "public/javascripts"
-      config.output_style = :compressed
+      #config.javascripts_dir = "public/javascripts"
+      #config.fonts_dir = "public/fonts"
+      config.output_style = :nested
+      config.preferred_syntax = :sass
     end
 
     Compass.configure_sass_plugin!

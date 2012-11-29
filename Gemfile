@@ -13,6 +13,7 @@ gem 'compass'
 gem 'haml'
 gem 'susy'
 
+
 # Test requirements
 group :development, :test do
 	gem 'rspec', :group => "test"
@@ -20,6 +21,7 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+	gem 'jammit-sinatra'
 end
 
 group :test do
