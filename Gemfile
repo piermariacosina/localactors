@@ -11,13 +11,29 @@ gem 'sinatra-flash', :require => 'sinatra/flash'
 # Component requirements
 gem 'compass'
 gem 'haml'
+gem 'susy'
 
 # Test requirements
-gem 'rspec', :group => "test"
-gem 'rack-test', :require => "rack/test", :group => "test"
+group :development, :test do
+	gem 'rspec', :group => "test"
+	gem 'rack-test', :require => "rack/test", :group => "test"
+	gem 'guard-rspec'
+	gem 'guard-spork'
+	gem 'spork'
+end
+
+group :test do
+	gem 'capybara'
+	gem 'rb-fsevent'
+end
 
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
+
+group :development do
+	gem 'annotate', '2.5.0'
+	gem 'awesome_print'
+end
 
 # Or Padrino Edge
 # gem 'padrino', :git => 'git://github.com/padrino/padrino-framework.git'
