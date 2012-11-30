@@ -21,6 +21,7 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+	gem 'oily_png'
 end
 
 group :test do

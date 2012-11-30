@@ -1,78 +1,370 @@
-/*
-Errno::ENOENT: No such file or directory - /Users/piermariacosina/Documents/padrino/localactors/images/spined.png
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal; }
 
-Backtrace:
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:28:in `initialize'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:28:in `open'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:28:in `get_size_for_png'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:21:in `size'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:50:in `image_dimensions'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/lib/compass/sass_extensions/functions/image_size.rb:10:in `image_height'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/script/funcall.rb:106:in `_perform'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/script/node.rb:40:in `perform'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin.rb:81:in `update_stylesheets'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin.rb:54:in `check_for_updates'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/rack.rb:51:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/head.rb:9:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/reloader.rb:250:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/logger.rb:388:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/showexceptions.rb:21:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `block in call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1471:in `synchronize'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:83:in `block in call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:76:in `each'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:76:in `call'
-/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
-/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
-/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
-/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - /Users/piermariacosina/Documents/padrino/localactors/images/spined.png"; }
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-bold-webfont.eot');
+  src: url('/fonts/miso/miso-bold-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-bold-webfont.woff') format('woff'), url('/fonts/miso/miso-bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-light-webfont.eot');
+  src: url('/fonts/miso/miso-light-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-light-webfont.woff') format('woff'), url('/fonts/miso/miso-light-webfont.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-webfont.eot');
+  src: url('/fonts/miso/miso-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-webfont.woff') format('woff'), url('/fonts/miso/miso-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 346, assets/*.png */
+.assets-sprite {
+  background: url('/images/assets-s81091bc1b0.png') no-repeat; }
+
+/* line 69, ../../app/stylesheets/application.sass */
+header {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 71, ../../app/stylesheets/application.sass */
+  header #logo {
+    overflow: hidden;
+    *zoom: 1;
+    display: inline;
+    float: left; }
+    /* line 30, ../../app/stylesheets/application.sass */
+    header #logo span {
+      background-image: url('/images/assets-s8736d19e48.png');
+      background-repeat: no-repeat;
+      display: block;
+      display: inline;
+      float: left; }
+      /* line 33, ../../app/stylesheets/application.sass */
+      header #logo span.stripe {
+        margin-top: 3px; }
+        /* line 35, ../../app/stylesheets/application.sass */
+        header #logo span.stripe.one {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -2256px;
+          width: 12px;
+          height: 66px; }
+        /* line 37, ../../app/stylesheets/application.sass */
+        header #logo span.stripe.two {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -2124px;
+          width: 12px;
+          height: 66px; }
+        /* line 39, ../../app/stylesheets/application.sass */
+        header #logo span.stripe.three {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -2058px;
+          width: 12px;
+          height: 66px; }
+        /* line 41, ../../app/stylesheets/application.sass */
+        header #logo span.stripe.four {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -2190px;
+          width: 12px;
+          height: 66px; }
+      /* line 43, ../../app/stylesheets/application.sass */
+      header #logo span.num {
+        margin-top: 3px; }
+        /* line 45, ../../app/stylesheets/application.sass */
+        header #logo span.num.zero {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1458px;
+          width: 24px;
+          height: 66px; }
+        /* line 47, ../../app/stylesheets/application.sass */
+        header #logo span.num.one {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1932px;
+          width: 15px;
+          height: 66px; }
+        /* line 49, ../../app/stylesheets/application.sass */
+        header #logo span.num.two {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1326px;
+          width: 24px;
+          height: 66px; }
+        /* line 51, ../../app/stylesheets/application.sass */
+        header #logo span.num.three {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1686px;
+          width: 24px;
+          height: 66px; }
+        /* line 53, ../../app/stylesheets/application.sass */
+        header #logo span.num.four {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1146px;
+          width: 24px;
+          height: 66px; }
+        /* line 55, ../../app/stylesheets/application.sass */
+        header #logo span.num.five {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1212px;
+          width: 24px;
+          height: 66px; }
+        /* line 57, ../../app/stylesheets/application.sass */
+        header #logo span.num.six {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1572px;
+          width: 24px;
+          height: 66px; }
+        /* line 59, ../../app/stylesheets/application.sass */
+        header #logo span.num.seven {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -978px;
+          width: 24px;
+          height: 66px; }
+        /* line 61, ../../app/stylesheets/application.sass */
+        header #logo span.num.eight {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1800px;
+          width: 24px;
+          height: 66px; }
+        /* line 63, ../../app/stylesheets/application.sass */
+        header #logo span.num.nine {
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -1392px;
+          width: 24px;
+          height: 66px; }
+      /* line 65, ../../app/stylesheets/application.sass */
+      header #logo span.logo_text {
+        text-indent: -119988px;
+        overflow: hidden;
+        text-align: left;
+        background-position: 0 0;
+        width: 124px;
+        height: 73px;
+        margin-left: 18px; }
+  /* line 75, ../../app/stylesheets/application.sass */
+  header #number {
+    height: 50px;
+    width: 75px;
+    background-color: #001fff;
+    display: inline;
+    float: left;
+    margin: 10px; }
+  /* line 82, ../../app/stylesheets/application.sass */
+  header h1 {
+    font-family: "miso";
+    color: #001fff;
+    font-size: 35px;
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline;
+    float: left; }
+  /* line 91, ../../app/stylesheets/application.sass */
+  header nav {
+    width: 60px;
+    margin-left: 100px;
+    display: inline;
+    float: left; }
+    /* line 95, ../../app/stylesheets/application.sass */
+    header nav a {
+      font-family: "miso";
+      color: black;
+      background-color: yellow;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 400;
+      display: inline;
+      float: left;
+      margin-top: 10px; }
+  /* line 105, ../../app/stylesheets/application.sass */
+  header #paper {
+    margin-top: 10px;
+    margin-left: 100px;
+    display: inline;
+    float: left; }
+    /* line 110, ../../app/stylesheets/application.sass */
+    header #paper span.pdf_icon {
+      background-image: url('/images/assets-s8736d19e48.png');
+      background-repeat: no-repeat;
+      display: block;
+      text-indent: -119988px;
+      overflow: hidden;
+      text-align: left;
+      background-position: 0 -1866px;
+      width: 51px;
+      height: 66px;
+      display: inline;
+      float: left; }
+    /* line 114, ../../app/stylesheets/application.sass */
+    header #paper span.label {
+      display: inline;
+      float: left;
+      font-family: "miso";
+      color: black;
+      background-color: yellow;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 400; }
+  /* line 124, ../../app/stylesheets/application.sass */
+  header #social {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 127, ../../app/stylesheets/application.sass */
+    header #social .facebook {
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+      display: inline;
+      float: left;
+      background-color: yellow; }
+    /* line 133, ../../app/stylesheets/application.sass */
+    header #social .twitter {
+      width: 20px;
+      height: 20px;
+      margin: 10px;
+      display: inline;
+      float: left;
+      background-color: yellow; }
+
+/* line 141, ../../app/stylesheets/application.sass */
+#container #description {
+  width: 700px; }
+  /* line 143, ../../app/stylesheets/application.sass */
+  #container #description h1 {
+    font-family: "miso";
+    color: #ff4874;
+    font-size: 30px; }
+/* line 149, ../../app/stylesheets/application.sass */
+#container #map #slides {
+  width: 800px;
+  height: 400px;
+  border: 3px #001fff solid; }
+  /* line 153, ../../app/stylesheets/application.sass */
+  #container #map #slides img {
+    position: absolute; }
+/* line 156, ../../app/stylesheets/application.sass */
+#container ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 158, ../../app/stylesheets/application.sass */
+  #container ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: "miso";
+    font-weight: 400;
+    width: 250px;
+    overflow: hidden;
+    *zoom: 1; }
+    /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    #container ul li:first-child, #container ul li.first {
+      padding-left: 0; }
+    /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    #container ul li:last-child {
+      padding-right: 0; }
+    /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    #container ul li.last {
+      padding-right: 0; }
+    /* line 164, ../../app/stylesheets/application.sass */
+    #container ul li h4 {
+      color: #ff4874;
+      font-size: 30px;
+      text-transform: uppercase; }
+    /* line 168, ../../app/stylesheets/application.sass */
+    #container ul li p {
+      color: #001fff;
+      font-size: 20px; }
+/* line 172, ../../app/stylesheets/application.sass */
+#container .spined {
+  background: url('/images/assets/spined.png') repeat-x left top;
+  height: 5px;
+  width: 100%; }
+/* line 178, ../../app/stylesheets/application.sass */
+#container #mailing-list {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline; }
+  /* line 180, ../../app/stylesheets/application.sass */
+  #container #mailing-list p {
+    background-color: yellow; }
+/* line 183, ../../app/stylesheets/application.sass */
+#container #faq {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline; }
+  /* line 185, ../../app/stylesheets/application.sass */
+  #container #faq p {
+    background-color: yellow; }
+/* line 188, ../../app/stylesheets/application.sass */
+#container #submit-project {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline; }
+  /* line 190, ../../app/stylesheets/application.sass */
+  #container #submit-project p {
+    background-color: yellow; }
+
+/* line 193, ../../app/stylesheets/application.sass */
+#footer {
+  clear: both;
+  border: 3px #001fff solid; }

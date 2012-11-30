@@ -14,11 +14,13 @@ module CompassInitializer
       config.http_path = "/"
       config.css_dir = "public/stylesheets"
       config.images_dir = "images"
+      config.images_path = "public/images"
+      config.generated_images_dir = "images"
+      config.generated_images_path = "public/images"
       config.javascripts_dir = "javascripts"
       config.fonts_dir = "fonts"
       config.output_style = :nested
       config.preferred_syntax = :sass
-      config.relative_assets = true
     end
 
     Compass.configure_sass_plugin!
