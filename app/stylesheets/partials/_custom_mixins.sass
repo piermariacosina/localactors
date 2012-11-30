@@ -1,0 +1,51 @@
+@mixin replace-with-sprite($sprite)
+	@include hide-text
+	$sprite-file:  sprite-file($assets, $sprite)
+	background-position: sprite-position($assets, $sprite)
+	width: image-width( $sprite-file )
+	height: image-height( $sprite-file )
+
+@mixin assign-sprite-background($assets)
+	background-image: sprite-url($assets)
+	background-repeat: no-repeat
+	display: block
+
+@mixin logo()
+	span
+		@include assign-sprite-background($assets)
+		@include float-left
+		&.stripe
+			margin-top: 3px
+			&.one
+				@include replace-with-sprite("stripe1")
+			&.two
+				@include replace-with-sprite("stripe2")
+			&.three
+				@include replace-with-sprite("stripe3")
+			&.four
+				@include replace-with-sprite("stripe4")
+		&.num
+			margin-top: 3px
+			&.zero
+				@include replace-with-sprite("l0")
+			&.one
+				@include replace-with-sprite("l1")
+			&.two
+				@include replace-with-sprite("l2")
+			&.three
+				@include replace-with-sprite("l3")
+			&.four
+				@include replace-with-sprite("l4")
+			&.five
+				@include replace-with-sprite("l5")
+			&.six
+				@include replace-with-sprite("l6")
+			&.seven
+				@include replace-with-sprite("l7")
+			&.eight
+				@include replace-with-sprite("l8")
+			&.nine
+				@include replace-with-sprite("l9")
+		&.logo_text
+			@include replace-with-sprite("logo")
+			margin-left: 18px

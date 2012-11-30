@@ -40,31 +40,71 @@
   font-weight: normal;
   font-style: normal; }
 
+/* line 14, ../../app/stylesheets/partials/_grid.sass */
+.grid {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(100, 100, 225, 0.25)), color-stop(49.36709%, rgba(100, 100, 225, 0.25)), color-stop(49.36709%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 49.36709%, rgba(0, 0, 0, 0) 49.36709%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 49.36709%, rgba(0, 0, 0, 0) 49.36709%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 49.36709%, rgba(0, 0, 0, 0) 49.36709%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 49.36709%, rgba(0, 0, 0, 0) 49.36709%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box; }
+
+/* line 17, ../../app/stylesheets/partials/_grid.sass */
+.page {
+  *zoom: 1;
+  max-width: 79em;
+  _width: 79em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 49.375em) {
+    /* line 17, ../../app/stylesheets/partials/_grid.sass */
+    .page {
+      max-width: 79em; } }
+
 /* line 346, assets/*.png */
 .assets-sprite {
   background: url('/images/assets-s81091bc1b0.png') no-repeat; }
 
-/* line 69, ../../app/stylesheets/application.sass */
+/* line 19, ../../app/stylesheets/application.sass */
+body {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 22, ../../app/stylesheets/application.sass */
 header {
   overflow: hidden;
   *zoom: 1; }
-  /* line 71, ../../app/stylesheets/application.sass */
+  /* line 24, ../../app/stylesheets/application.sass */
   header #logo {
     overflow: hidden;
     *zoom: 1;
     display: inline;
     float: left; }
-    /* line 30, ../../app/stylesheets/application.sass */
+    /* line 14, ../../app/stylesheets/partials/_custom_mixins.sass */
     header #logo span {
       background-image: url('/images/assets-s8736d19e48.png');
       background-repeat: no-repeat;
       display: block;
       display: inline;
       float: left; }
-      /* line 33, ../../app/stylesheets/application.sass */
+      /* line 17, ../../app/stylesheets/partials/_custom_mixins.sass */
       header #logo span.stripe {
         margin-top: 3px; }
-        /* line 35, ../../app/stylesheets/application.sass */
+        /* line 19, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.stripe.one {
           text-indent: -119988px;
           overflow: hidden;
@@ -72,7 +112,7 @@ header {
           background-position: 0 -2256px;
           width: 12px;
           height: 66px; }
-        /* line 37, ../../app/stylesheets/application.sass */
+        /* line 21, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.stripe.two {
           text-indent: -119988px;
           overflow: hidden;
@@ -80,7 +120,7 @@ header {
           background-position: 0 -2124px;
           width: 12px;
           height: 66px; }
-        /* line 39, ../../app/stylesheets/application.sass */
+        /* line 23, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.stripe.three {
           text-indent: -119988px;
           overflow: hidden;
@@ -88,7 +128,7 @@ header {
           background-position: 0 -2058px;
           width: 12px;
           height: 66px; }
-        /* line 41, ../../app/stylesheets/application.sass */
+        /* line 25, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.stripe.four {
           text-indent: -119988px;
           overflow: hidden;
@@ -96,10 +136,10 @@ header {
           background-position: 0 -2190px;
           width: 12px;
           height: 66px; }
-      /* line 43, ../../app/stylesheets/application.sass */
+      /* line 27, ../../app/stylesheets/partials/_custom_mixins.sass */
       header #logo span.num {
         margin-top: 3px; }
-        /* line 45, ../../app/stylesheets/application.sass */
+        /* line 29, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.zero {
           text-indent: -119988px;
           overflow: hidden;
@@ -107,7 +147,7 @@ header {
           background-position: 0 -1458px;
           width: 24px;
           height: 66px; }
-        /* line 47, ../../app/stylesheets/application.sass */
+        /* line 31, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.one {
           text-indent: -119988px;
           overflow: hidden;
@@ -115,7 +155,7 @@ header {
           background-position: 0 -1932px;
           width: 15px;
           height: 66px; }
-        /* line 49, ../../app/stylesheets/application.sass */
+        /* line 33, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.two {
           text-indent: -119988px;
           overflow: hidden;
@@ -123,7 +163,7 @@ header {
           background-position: 0 -1326px;
           width: 24px;
           height: 66px; }
-        /* line 51, ../../app/stylesheets/application.sass */
+        /* line 35, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.three {
           text-indent: -119988px;
           overflow: hidden;
@@ -131,7 +171,7 @@ header {
           background-position: 0 -1686px;
           width: 24px;
           height: 66px; }
-        /* line 53, ../../app/stylesheets/application.sass */
+        /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.four {
           text-indent: -119988px;
           overflow: hidden;
@@ -139,7 +179,7 @@ header {
           background-position: 0 -1146px;
           width: 24px;
           height: 66px; }
-        /* line 55, ../../app/stylesheets/application.sass */
+        /* line 39, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.five {
           text-indent: -119988px;
           overflow: hidden;
@@ -147,7 +187,7 @@ header {
           background-position: 0 -1212px;
           width: 24px;
           height: 66px; }
-        /* line 57, ../../app/stylesheets/application.sass */
+        /* line 41, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.six {
           text-indent: -119988px;
           overflow: hidden;
@@ -155,7 +195,7 @@ header {
           background-position: 0 -1572px;
           width: 24px;
           height: 66px; }
-        /* line 59, ../../app/stylesheets/application.sass */
+        /* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.seven {
           text-indent: -119988px;
           overflow: hidden;
@@ -163,7 +203,7 @@ header {
           background-position: 0 -978px;
           width: 24px;
           height: 66px; }
-        /* line 61, ../../app/stylesheets/application.sass */
+        /* line 45, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.eight {
           text-indent: -119988px;
           overflow: hidden;
@@ -171,7 +211,7 @@ header {
           background-position: 0 -1800px;
           width: 24px;
           height: 66px; }
-        /* line 63, ../../app/stylesheets/application.sass */
+        /* line 47, ../../app/stylesheets/partials/_custom_mixins.sass */
         header #logo span.num.nine {
           text-indent: -119988px;
           overflow: hidden;
@@ -179,7 +219,7 @@ header {
           background-position: 0 -1392px;
           width: 24px;
           height: 66px; }
-      /* line 65, ../../app/stylesheets/application.sass */
+      /* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
       header #logo span.logo_text {
         text-indent: -119988px;
         overflow: hidden;
@@ -188,7 +228,7 @@ header {
         width: 124px;
         height: 73px;
         margin-left: 18px; }
-  /* line 75, ../../app/stylesheets/application.sass */
+  /* line 28, ../../app/stylesheets/application.sass */
   header #number {
     height: 50px;
     width: 75px;
@@ -196,23 +236,13 @@ header {
     display: inline;
     float: left;
     margin: 10px; }
-  /* line 82, ../../app/stylesheets/application.sass */
-  header h1 {
-    font-family: "miso";
-    color: #001fff;
-    font-size: 35px;
-    width: 100px;
-    text-transform: uppercase;
-    font-weight: 400;
-    display: inline;
-    float: left; }
-  /* line 91, ../../app/stylesheets/application.sass */
+  /* line 35, ../../app/stylesheets/application.sass */
   header nav {
     width: 60px;
     margin-left: 100px;
     display: inline;
     float: left; }
-    /* line 95, ../../app/stylesheets/application.sass */
+    /* line 39, ../../app/stylesheets/application.sass */
     header nav a {
       font-family: "miso";
       color: black;
@@ -223,13 +253,13 @@ header {
       display: inline;
       float: left;
       margin-top: 10px; }
-  /* line 105, ../../app/stylesheets/application.sass */
+  /* line 49, ../../app/stylesheets/application.sass */
   header #paper {
     margin-top: 10px;
     margin-left: 100px;
     display: inline;
     float: left; }
-    /* line 110, ../../app/stylesheets/application.sass */
+    /* line 54, ../../app/stylesheets/application.sass */
     header #paper span.pdf_icon {
       background-image: url('/images/assets-s8736d19e48.png');
       background-repeat: no-repeat;
@@ -242,7 +272,7 @@ header {
       height: 66px;
       display: inline;
       float: left; }
-    /* line 114, ../../app/stylesheets/application.sass */
+    /* line 58, ../../app/stylesheets/application.sass */
     header #paper span.label {
       display: inline;
       float: left;
@@ -252,13 +282,13 @@ header {
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 400; }
-  /* line 124, ../../app/stylesheets/application.sass */
+  /* line 68, ../../app/stylesheets/application.sass */
   header #social {
     display: inline;
     float: left;
     overflow: hidden;
     *zoom: 1; }
-    /* line 127, ../../app/stylesheets/application.sass */
+    /* line 71, ../../app/stylesheets/application.sass */
     header #social .facebook {
       width: 20px;
       height: 20px;
@@ -266,7 +296,7 @@ header {
       display: inline;
       float: left;
       background-color: yellow; }
-    /* line 133, ../../app/stylesheets/application.sass */
+    /* line 77, ../../app/stylesheets/application.sass */
     header #social .twitter {
       width: 20px;
       height: 20px;
@@ -275,31 +305,37 @@ header {
       float: left;
       background-color: yellow; }
 
-/* line 141, ../../app/stylesheets/application.sass */
-#container #description {
+/* line 85, ../../app/stylesheets/application.sass */
+section.page #description {
   width: 700px; }
-  /* line 143, ../../app/stylesheets/application.sass */
-  #container #description h1 {
+  /* line 87, ../../app/stylesheets/application.sass */
+  section.page #description h1.vision {
     font-family: "miso";
+    width: 640px;
     color: #ff4874;
-    font-size: 30px; }
-/* line 149, ../../app/stylesheets/application.sass */
-#container #map #slides {
-  width: 800px;
-  height: 400px;
-  border: 3px #001fff solid; }
-  /* line 153, ../../app/stylesheets/application.sass */
-  #container #map #slides img {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 48px;
+    letter-spacing: 0px; }
+/* line 97, ../../app/stylesheets/application.sass */
+section.page #map #slides {
+  width: 760px;
+  height: 407px;
+  border: 2px #001fff solid;
+  margin-bottom: 1px; }
+  /* line 102, ../../app/stylesheets/application.sass */
+  section.page #map #slides img {
     position: absolute; }
-/* line 156, ../../app/stylesheets/application.sass */
-#container ul {
+/* line 105, ../../app/stylesheets/application.sass */
+section.page ul {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
-  *zoom: 1; }
-  /* line 158, ../../app/stylesheets/application.sass */
-  #container ul li {
+  *zoom: 1;
+  margin-top: 1px; }
+  /* line 108, ../../app/stylesheets/application.sass */
+  section.page ul li {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0;
@@ -308,63 +344,64 @@ header {
     float: left;
     padding-left: 4px;
     padding-right: 4px;
+    border: 2px #001fff solid;
     font-family: "miso";
     font-weight: 400;
     width: 250px;
     overflow: hidden;
     *zoom: 1; }
     /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    #container ul li:first-child, #container ul li.first {
+    section.page ul li:first-child, section.page ul li.first {
       padding-left: 0; }
     /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    #container ul li:last-child {
+    section.page ul li:last-child {
       padding-right: 0; }
     /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    #container ul li.last {
+    section.page ul li.last {
       padding-right: 0; }
-    /* line 164, ../../app/stylesheets/application.sass */
-    #container ul li h4 {
+    /* line 115, ../../app/stylesheets/application.sass */
+    section.page ul li h4 {
       color: #ff4874;
       font-size: 30px;
       text-transform: uppercase; }
-    /* line 168, ../../app/stylesheets/application.sass */
-    #container ul li p {
+    /* line 119, ../../app/stylesheets/application.sass */
+    section.page ul li p {
       color: #001fff;
       font-size: 20px; }
-/* line 172, ../../app/stylesheets/application.sass */
-#container .spined {
+/* line 123, ../../app/stylesheets/application.sass */
+section.page .spined {
   background: url('/images/assets/spined.png') repeat-x left top;
   height: 5px;
   width: 100%; }
-/* line 178, ../../app/stylesheets/application.sass */
-#container #mailing-list {
+/* line 129, ../../app/stylesheets/application.sass */
+section.page #mailing-list {
   width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
-  /* line 180, ../../app/stylesheets/application.sass */
-  #container #mailing-list p {
+  /* line 131, ../../app/stylesheets/application.sass */
+  section.page #mailing-list p {
     background-color: yellow; }
-/* line 183, ../../app/stylesheets/application.sass */
-#container #faq {
+/* line 134, ../../app/stylesheets/application.sass */
+section.page #faq {
   width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
-  /* line 185, ../../app/stylesheets/application.sass */
-  #container #faq p {
+  /* line 136, ../../app/stylesheets/application.sass */
+  section.page #faq p {
     background-color: yellow; }
-/* line 188, ../../app/stylesheets/application.sass */
-#container #submit-project {
+/* line 139, ../../app/stylesheets/application.sass */
+section.page #submit-project {
   width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
-  /* line 190, ../../app/stylesheets/application.sass */
-  #container #submit-project p {
+  /* line 141, ../../app/stylesheets/application.sass */
+  section.page #submit-project p {
     background-color: yellow; }
 
-/* line 193, ../../app/stylesheets/application.sass */
+/* line 144, ../../app/stylesheets/application.sass */
 #footer {
   clear: both;
-  border: 3px #001fff solid; }
+  border: 2px #001fff solid; }
