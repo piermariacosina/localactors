@@ -32,7 +32,6 @@ end
 
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
-gem 'padrino-assets'
 
 group :development do
 	gem 'annotate'

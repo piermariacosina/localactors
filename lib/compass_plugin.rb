@@ -9,13 +9,13 @@ module CompassInitializer
 
     Compass.configuration do |config|
       config.project_path = Padrino.root
-      config.sass_dir = "assets"
+      config.sass_dir = "app/stylesheets"
       config.project_type = :stand_alone
       config.http_path = "/"
-      config.css_dir = "assets"
-      config.images_dir = "assets"
-      config.javascripts_dir = "assets"
-      config.fonts_dir = "assets"
+      config.css_dir = "stylesheets"
+      config.images_dir = "images"
+      config.javascripts_dir = "javascripts"
+      config.fonts_dir = "fonts"
       config.output_style = :nested
       config.preferred_syntax = :sass
     end
