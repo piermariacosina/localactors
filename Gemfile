@@ -21,7 +21,6 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
-	gem 'jammit-sinatra'
 end
 
 group :test do
@@ -33,9 +32,10 @@ end
 
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
+gem 'padrino-assets'
 
 group :development do
-	gem 'annotate', '2.5.0'
+	gem 'annotate'
 	gem 'awesome_print'
 end
 

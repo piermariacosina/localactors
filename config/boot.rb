@@ -44,8 +44,6 @@ Padrino.after_load do
 end
 
 Padrino.after_load do
-  ::RAILS_ENV = PADRINO_ENV unless defined?(::RAILS_ENV) # jammit 0.6.0 workaround
-  Jammit.load_configuration("#{Padrino.root}/config/assets.yml")
 end
 
 Padrino.load!

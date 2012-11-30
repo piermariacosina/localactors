@@ -2,16 +2,21 @@ class Localactors < Padrino::Application
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
-  register Jammit
+  
+  register Padrino::Assets
 
   register CompassInitializer
 
 
   enable :sessions
   
+
+  
   get '/' do
     render "index"
   end
+  
+  
 
   ##
   # Caching support

@@ -12,10 +12,10 @@ module CompassInitializer
       config.sass_dir = "app/stylesheets"
       config.project_type = :stand_alone
       config.http_path = "/"
-      config.css_dir = "public/stylesheets"
-      config.images_dir = "public/images"
-      #config.javascripts_dir = "public/javascripts"
-      #config.fonts_dir = "public/fonts"
+      config.css_dir = "app/assets/stylesheets"
+      config.images_dir = "app/assets/images"
+      config.javascripts_dir = "app/assets/javascripts"
+      config.fonts_dir = "assets/fonts"
       config.output_style = :nested
       config.preferred_syntax = :sass
     end
