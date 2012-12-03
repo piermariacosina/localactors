@@ -2,42 +2,42 @@
   font-family: "source sans pro";
   src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot');
   src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype');
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: "source sans pro";
   src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot');
   src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "source sans pro";
   src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot');
   src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "miso";
   src: url('/fonts/miso/miso-bold-webfont.eot');
   src: url('/fonts/miso/miso-bold-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-bold-webfont.woff') format('woff'), url('/fonts/miso/miso-bold-webfont.ttf') format('truetype');
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: "miso";
   src: url('/fonts/miso/miso-light-webfont.eot');
   src: url('/fonts/miso/miso-light-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-light-webfont.woff') format('woff'), url('/fonts/miso/miso-light-webfont.ttf') format('truetype');
-  font-weight: lighter;
+  font-weight: 200;
   font-style: normal; }
 
 @font-face {
   font-family: "miso";
   src: url('/fonts/miso/miso-webfont.eot');
   src: url('/fonts/miso/miso-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-webfont.woff') format('woff'), url('/fonts/miso/miso-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 /* line 14, ../../app/stylesheets/partials/_grid.sass */
@@ -93,16 +93,55 @@
     background-origin: content-box;
     -webkit-background-clip: content-box;
     -moz-background-clip: content-box;
-    background-clip: content-box; } }
-/* line 19, ../../app/stylesheets/application.sass */
+    background-clip: content-box; }
+
+  /* line 28, ../../app/stylesheets/partials/_grid.sass */
+  .wide {
+    width: 81.01266%;
+    float: left;
+    margin-right: 1.26582%; }
+
+  /* line 31, ../../app/stylesheets/partials/_grid.sass */
+  #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon {
+    width: 11.39241%;
+    float: left;
+    margin-right: 1.26582%; }
+  /* line 33, ../../app/stylesheets/partials/_grid.sass */
+  #mailing-list h2.section_title, #faq h2.section_title, #submit-project h2.section_title {
+    width: 49.36709%;
+    float: left;
+    margin-right: 1.26582%; }
+  /* line 35, ../../app/stylesheets/partials/_grid.sass */
+  #mailing-list section, #faq section, #submit-project section {
+    margin-left: 6.32911%;
+    width: 76.5625%;
+    float: left;
+    margin-right: 1.5625%; } }
+/* line 20, ../../app/stylesheets/application.sass */
 body {
   -webkit-font-smoothing: antialiased; }
 
-/* line 22, ../../app/stylesheets/application.sass */
+/* line 25, ../../app/stylesheets/application.sass */
+.section_title {
+  font-family: "miso";
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 40px;
+  color: black; }
+
+/* line 34, ../../app/stylesheets/application.sass */
+.ul {
+  text-decoration: underline; }
+
+/* line 36, ../../app/stylesheets/application.sass */
+.hl {
+  background-color: yellow; }
+
+/* line 40, ../../app/stylesheets/application.sass */
 header {
   overflow: hidden;
   *zoom: 1; }
-  /* line 24, ../../app/stylesheets/application.sass */
+  /* line 42, ../../app/stylesheets/application.sass */
   header #logo {
     overflow: hidden;
     *zoom: 1;
@@ -242,7 +281,7 @@ header {
         width: 124px;
         height: 73px;
         margin-left: 18px; }
-  /* line 28, ../../app/stylesheets/application.sass */
+  /* line 46, ../../app/stylesheets/application.sass */
   header #number {
     height: 50px;
     width: 75px;
@@ -250,17 +289,17 @@ header {
     display: inline;
     float: left;
     margin: 10px; }
-  /* line 35, ../../app/stylesheets/application.sass */
+  /* line 53, ../../app/stylesheets/application.sass */
   header nav {
     clear: both; }
-    /* line 37, ../../app/stylesheets/application.sass */
+    /* line 55, ../../app/stylesheets/application.sass */
     header nav ul {
       margin: 0;
       padding: 0;
       border: 0;
       overflow: hidden;
       *zoom: 1; }
-      /* line 39, ../../app/stylesheets/application.sass */
+      /* line 57, ../../app/stylesheets/application.sass */
       header nav ul li {
         list-style-image: none;
         list-style-type: none;
@@ -279,7 +318,7 @@ header {
         /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
         header nav ul li.last {
           padding-right: 0; }
-        /* line 41, ../../app/stylesheets/application.sass */
+        /* line 59, ../../app/stylesheets/application.sass */
         header nav ul li a {
           font-family: "miso";
           color: black;
@@ -290,13 +329,13 @@ header {
           display: inline;
           float: left;
           margin-top: 10px; }
-  /* line 51, ../../app/stylesheets/application.sass */
+  /* line 69, ../../app/stylesheets/application.sass */
   header #paper {
     margin-top: 10px;
     margin-left: 100px;
     display: inline;
     float: left; }
-    /* line 56, ../../app/stylesheets/application.sass */
+    /* line 74, ../../app/stylesheets/application.sass */
     header #paper span.pdf_icon {
       background-image: url('/images/assets-s8736d19e48.png');
       background-repeat: no-repeat;
@@ -309,7 +348,7 @@ header {
       height: 66px;
       display: inline;
       float: left; }
-    /* line 60, ../../app/stylesheets/application.sass */
+    /* line 78, ../../app/stylesheets/application.sass */
     header #paper span.label {
       display: inline;
       float: left;
@@ -319,13 +358,13 @@ header {
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 400; }
-  /* line 70, ../../app/stylesheets/application.sass */
+  /* line 88, ../../app/stylesheets/application.sass */
   header #social {
     display: inline;
     float: left;
     overflow: hidden;
     *zoom: 1; }
-    /* line 73, ../../app/stylesheets/application.sass */
+    /* line 91, ../../app/stylesheets/application.sass */
     header #social .facebook {
       width: 20px;
       height: 20px;
@@ -333,7 +372,7 @@ header {
       display: inline;
       float: left;
       background-color: yellow; }
-    /* line 79, ../../app/stylesheets/application.sass */
+    /* line 97, ../../app/stylesheets/application.sass */
     header #social .twitter {
       width: 20px;
       height: 20px;
@@ -342,83 +381,133 @@ header {
       float: left;
       background-color: yellow; }
 
-/* line 90, ../../app/stylesheets/application.sass */
+/* line 108, ../../app/stylesheets/application.sass */
 section.page #description h1.vision {
   font-family: "miso";
   color: #ff4874;
   font-size: 40px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 48px;
   letter-spacing: 0px; }
-/* line 98, ../../app/stylesheets/application.sass */
+/* line 116, ../../app/stylesheets/application.sass */
 section.page #map {
   clear: both; }
-  /* line 100, ../../app/stylesheets/application.sass */
+  /* line 118, ../../app/stylesheets/application.sass */
   section.page #map #slides {
     height: 407px;
     border: 2px #001fff solid;
     margin-bottom: 1px; }
-    /* line 105, ../../app/stylesheets/application.sass */
+    /* line 123, ../../app/stylesheets/application.sass */
     section.page #map #slides img {
       position: absolute; }
-/* line 108, ../../app/stylesheets/application.sass */
-section.page ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: 1px; }
-  /* line 111, ../../app/stylesheets/application.sass */
-  section.page ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    white-space: nowrap;
-    display: inline;
-    float: left;
-    padding-left: 4px;
-    padding-right: 4px;
-    border: 2px #001fff solid;
-    font-family: "miso";
-    font-weight: 400;
-    width: 250px;
+  /* line 126, ../../app/stylesheets/application.sass */
+  section.page #map ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
     overflow: hidden;
-    *zoom: 1; }
-    /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:first-child, section.page ul li.first {
-      padding-left: 0; }
-    /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:last-child {
-      padding-right: 0; }
-    /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li.last {
-      padding-right: 0; }
-    /* line 118, ../../app/stylesheets/application.sass */
-    section.page ul li h4 {
-      color: #ff4874;
-      font-size: 30px;
-      text-transform: uppercase; }
-    /* line 122, ../../app/stylesheets/application.sass */
-    section.page ul li p {
-      color: #001fff;
-      font-size: 20px; }
-/* line 126, ../../app/stylesheets/application.sass */
+    *zoom: 1;
+    margin-top: 1px; }
+    /* line 129, ../../app/stylesheets/application.sass */
+    section.page #map ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px;
+      border: 2px #001fff solid;
+      font-family: "miso";
+      font-weight: 400;
+      width: 250px;
+      overflow: hidden;
+      *zoom: 1; }
+      /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li:first-child, section.page #map ul li.first {
+        padding-left: 0; }
+      /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li:last-child {
+        padding-right: 0; }
+      /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li.last {
+        padding-right: 0; }
+      /* line 136, ../../app/stylesheets/application.sass */
+      section.page #map ul li h4 {
+        color: #ff4874;
+        font-size: 30px;
+        text-transform: uppercase; }
+      /* line 140, ../../app/stylesheets/application.sass */
+      section.page #map ul li p {
+        color: #001fff;
+        font-size: 20px; }
+/* line 144, ../../app/stylesheets/application.sass */
 section.page .spined {
   background: url('/images/assets/spined.png') repeat-x left top;
   height: 5px;
   width: 100%; }
-/* line 134, ../../app/stylesheets/application.sass */
-section.page #mailing-list p {
-  background-color: yellow; }
-/* line 139, ../../app/stylesheets/application.sass */
-section.page #faq p {
-  background-color: yellow; }
-/* line 144, ../../app/stylesheets/application.sass */
-section.page #submit-project p {
-  background-color: yellow; }
+/* line 152, ../../app/stylesheets/application.sass */
+section.page #mailing-list a span.icon {
+  background-image: url('/images/assets-s8736d19e48.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -374px;
+  height: 76px;
+  width: 94px; }
+  /* line 155, ../../app/stylesheets/application.sass */
+  section.page #mailing-list a span.icon:hover {
+    background-position: 0 -224px;
+    height: 75px;
+    width: 93px; }
+/* line 162, ../../app/stylesheets/application.sass */
+section.page #faq a span.icon {
+  background-image: url('/images/assets-s8736d19e48.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -73px;
+  height: 76px;
+  width: 94px; }
+  /* line 165, ../../app/stylesheets/application.sass */
+  section.page #faq a span.icon:hover {
+    background-position: 0 -299px;
+    height: 75px;
+    width: 93px; }
+/* line 170, ../../app/stylesheets/application.sass */
+section.page #faq .questions li h3 {
+  font-family: "source sans pro";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: black; }
+  /* line 178, ../../app/stylesheets/application.sass */
+  section.page #faq .questions li h3 span:hover {
+    color: #6045ff;
+    background-color: #81ffd0; }
+/* line 181, ../../app/stylesheets/application.sass */
+section.page #faq .questions li p {
+  clear: both;
+  font-family: "source sans pro";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6045ff; }
+/* line 192, ../../app/stylesheets/application.sass */
+section.page #submit-project a span.icon {
+  background-image: url('/images/assets-s8736d19e48.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -548px;
+  height: 75px;
+  width: 93px; }
+  /* line 195, ../../app/stylesheets/application.sass */
+  section.page #submit-project a span.icon:hover {
+    background-position: 0 -149px;
+    height: 75px;
+    width: 93px; }
 
-/* line 147, ../../app/stylesheets/application.sass */
+/* line 199, ../../app/stylesheets/application.sass */
 #footer {
   clear: both;
   border: 2px #001fff solid; }

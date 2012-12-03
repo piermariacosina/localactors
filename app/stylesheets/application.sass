@@ -15,9 +15,27 @@ $purple: #6045FF
 $rose: #FF4874
 $yellow: #FFFF00
 $black: #000
+$acqua: #81FFD0
 
 body
   -webkit-font-smoothing: antialiased
+
+
+
+.section_title
+  font-family: "miso"
+  font-weight: 200
+  font-size: 32px
+  line-height: 40px
+  color: $black
+
+
+
+.ul
+  text-decoration: underline
+.hl
+  background-color: $yellow
+    
 
 header
   @include clearfix
@@ -91,7 +109,7 @@ section.page
       font-family: "miso"
       color: $rose
       font-size: 40px
-      font-weight: normal
+      font-weight: 400
       line-height: 48px
       letter-spacing: 0px
   
@@ -105,23 +123,23 @@ section.page
       img
         position: absolute
   
-  ul
-    @include horizontal-list-container
-    margin-top: 1px
-    li
-      @include horizontal-list-item
-      border: 2px $blue solid
-      font-family: "miso"
-      font-weight: 400
-      width: 250px
-      @include clearfix
-      h4
-        color: $rose
-        font-size: 30px
-        text-transform: uppercase          
-      p
-        color: $blue
-        font-size: 20px
+    ul
+      @include horizontal-list-container
+      margin-top: 1px
+      li
+        @include horizontal-list-item
+        border: 2px $blue solid
+        font-family: "miso"
+        font-weight: 400
+        width: 250px
+        @include clearfix
+        h4
+          color: $rose
+          font-size: 30px
+          text-transform: uppercase          
+        p
+          color: $blue
+          font-size: 20px
 
   .spined
     $image: image-url("assets/spined.png")
@@ -130,19 +148,53 @@ section.page
     width: 100%
   
   #mailing-list
+    a
+      span.icon
+        @include assign-sprite-background($assets)
+        @include sprite($assets, "mail", true)
+        &:hover
+          @include sprite($assets, "mail_inverted", true)
     
-    p
-      background-color: $yellow 
+      
      
   #faq
-   
-    p
-      background-color: $yellow 
+    a
+      span.icon
+        @include assign-sprite-background($assets)
+        @include sprite($assets, "bubble", true)
+        &:hover
+          @include sprite($assets, "bubble_inverted", true)
+    .questions
+      li
+        
+        h3
+          font-family: "source sans pro"
+          font-weight: 600
+          font-size: 16px
+          line-height: 40px
+          color: $black
+          
+          
+          span:hover
+            color: $purple
+            background-color: $acqua 
+        p
+          clear: both
+          font-family: "source sans pro"
+          font-weight: 400
+          font-style: italic
+          font-size: 16px
+          line-height: 20px
+          color: $purple
      
   #submit-project
-    
-    p
-      background-color: $yellow  
+    a
+      span.icon
+        @include assign-sprite-background($assets)
+        @include sprite($assets, "pointer", true)
+        &:hover
+          @include sprite($assets, "pointer_inverted", true)
+      
   
 #footer
   clear: both

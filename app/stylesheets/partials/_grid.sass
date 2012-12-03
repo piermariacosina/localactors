@@ -24,4 +24,15 @@ $break: 16
 @include at-breakpoint($break)
 	.grid
 		@include susy-grid-background
-
+	
+	.wide
+		@include span-columns(13, $break)
+	#mailing-list,#faq,#submit-project
+		a span.icon
+			@include span-columns(2,$break)
+		h2.section_title
+			@include span-columns(8,$break)
+		section
+			@include pre(1)
+			@include span-columns(10,13)
+		
