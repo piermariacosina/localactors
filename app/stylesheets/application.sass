@@ -17,30 +17,8 @@ $yellow: #FFFF00
 $black: #000
 $acqua: #81FFD0
 
-body
-  -webkit-font-smoothing: antialiased
-
-
-
-.section_title
-  font-family: "miso"
-  font-weight: 200
-  font-size: 32px
-  line-height: 40px
-  color: $black
-
-
-
-.ul
-  text-decoration: underline
-.hl
-  background-color: $yellow
-  
-.hover
-  &:hover
-    color: $purple
-    background-color: $acqua
-    
+@import partials/general
+@import partials/map
 
 header
   @include clearfix
@@ -116,7 +94,6 @@ header
      
 section.page
   #description
-    @include span-columns(11)
     h1.vision
       font-family: "miso"
       color: $rose
@@ -124,59 +101,6 @@ section.page
       font-weight: 400
       line-height: 48px
       letter-spacing: 2px
-  
-  #map
-    clear: both
-    #slides
-      height: 350px
-      border: 2px $blue solid
-      margin-bottom: 1px
-      img
-        position: absolute
-        max-width: 659px
-    #steps
-      ul
-        @include horizontal-list-container
-        margin-top: 1px
-        li
-          @include horizontal-list-item
-          font-family: "miso"
-          font-weight: 400
-          white-space: normal
-          padding: 0px
-          
-          p
-            color: $blue
-            font-size: 14px
-            text-transform: uppercase
-            @include pre(1,4)
-          
-          .selected
-            border: 2px $blue solid
-          
-          #title
-            margin-top: 20px
-            margin-botton: 20px
-            .arrow
-              @include assign-sprite-background($assets)
-              @include float-left
-              margin-right: 15px
-            #arrow1
-              @extend .arrow
-              @include replace-with-sprite($assets,"arrow1")
-            #arrow2
-              @extend .arrow
-              @include replace-with-sprite($assets,"arrow2")
-            #arrow3
-              @extend .arrow
-              @include replace-with-sprite($assets,"arrow3")
-      
-            h4
-              display: inline
-              color: $rose
-              font-size: 24px
-              text-transform: uppercase
-              letter-spacing: 2px
 
   .spined
     $image: image-url("assets/spined.png")
@@ -201,7 +125,8 @@ section.page
         @include sprite($assets, "bubble", true)
         &:hover
           @include sprite($assets, "bubble_inverted", true)
-    .questions
+    ul.questions
+      list-style: none
       li
         
         h3
