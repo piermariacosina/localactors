@@ -1,4 +1,4 @@
-@mixin replace-with-sprite($sprite)
+@mixin replace-with-sprite($assets, $sprite)
 	@include hide-text
 	$sprite-file:  sprite-file($assets, $sprite)
 	background-position: sprite-position($assets, $sprite)

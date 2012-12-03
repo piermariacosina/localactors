@@ -1,443 +1,130 @@
-@font-face {
-  font-family: "source sans pro";
-  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot');
-  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal; }
+/*
+Syntax error: Mixin replace-with-sprite is missing argument $sprite.
+        on line 20 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass, in `replace-with-sprite'
+        from line 20 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass, in `logo'
+        from line 27 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/application.sass
 
-@font-face {
-  font-family: "source sans pro";
-  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot');
-  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic; }
+15: $rose: #FF4874
+16: $yellow: #FFFF00
+17: $black: #000
+18: 
+19: body
+20:   -webkit-font-smoothing: antialiased
+21: 
+22: header
+23:   @include clearfix
+24:   #logo
+25:     @include clearfix
 
-@font-face {
-  font-family: "source sans pro";
-  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot');
-  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "miso";
-  src: url('/fonts/miso/miso-bold-webfont.eot');
-  src: url('/fonts/miso/miso-bold-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-bold-webfont.woff') format('woff'), url('/fonts/miso/miso-bold-webfont.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: "miso";
-  src: url('/fonts/miso/miso-light-webfont.eot');
-  src: url('/fonts/miso/miso-light-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-light-webfont.woff') format('woff'), url('/fonts/miso/miso-light-webfont.ttf') format('truetype');
-  font-weight: lighter;
-  font-style: normal; }
-
-@font-face {
-  font-family: "miso";
-  src: url('/fonts/miso/miso-webfont.eot');
-  src: url('/fonts/miso/miso-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-webfont.woff') format('woff'), url('/fonts/miso/miso-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal; }
-
-/* line 14, ../../app/stylesheets/partials/_grid.sass */
-.grid {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(11.76471%, rgba(100, 100, 225, 0.25)), color-stop(11.76471%, rgba(0, 0, 0, 0)), color-stop(14.70588%, rgba(0, 0, 0, 0)), color-stop(14.70588%, rgba(100, 100, 225, 0.25)), color-stop(26.47059%, rgba(100, 100, 225, 0.25)), color-stop(26.47059%, rgba(0, 0, 0, 0)), color-stop(29.41176%, rgba(0, 0, 0, 0)), color-stop(29.41176%, rgba(100, 100, 225, 0.25)), color-stop(41.17647%, rgba(100, 100, 225, 0.25)), color-stop(41.17647%, rgba(0, 0, 0, 0)), color-stop(44.11765%, rgba(0, 0, 0, 0)), color-stop(44.11765%, rgba(100, 100, 225, 0.25)), color-stop(55.88235%, rgba(100, 100, 225, 0.25)), color-stop(55.88235%, rgba(0, 0, 0, 0)), color-stop(58.82353%, rgba(0, 0, 0, 0)), color-stop(58.82353%, rgba(100, 100, 225, 0.25)), color-stop(70.58824%, rgba(100, 100, 225, 0.25)), color-stop(70.58824%, rgba(0, 0, 0, 0)), color-stop(73.52941%, rgba(0, 0, 0, 0)), color-stop(73.52941%, rgba(100, 100, 225, 0.25)), color-stop(85.29412%, rgba(100, 100, 225, 0.25)), color-stop(85.29412%, rgba(0, 0, 0, 0)), color-stop(88.23529%, rgba(0, 0, 0, 0)), color-stop(88.23529%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.76471%, rgba(0, 0, 0, 0) 11.76471%, rgba(0, 0, 0, 0) 14.70588%, rgba(100, 100, 225, 0.25) 14.70588%, rgba(100, 100, 225, 0.25) 26.47059%, rgba(0, 0, 0, 0) 26.47059%, rgba(0, 0, 0, 0) 29.41176%, rgba(100, 100, 225, 0.25) 29.41176%, rgba(100, 100, 225, 0.25) 41.17647%, rgba(0, 0, 0, 0) 41.17647%, rgba(0, 0, 0, 0) 44.11765%, rgba(100, 100, 225, 0.25) 44.11765%, rgba(100, 100, 225, 0.25) 55.88235%, rgba(0, 0, 0, 0) 55.88235%, rgba(0, 0, 0, 0) 58.82353%, rgba(100, 100, 225, 0.25) 58.82353%, rgba(100, 100, 225, 0.25) 70.58824%, rgba(0, 0, 0, 0) 70.58824%, rgba(0, 0, 0, 0) 73.52941%, rgba(100, 100, 225, 0.25) 73.52941%, rgba(100, 100, 225, 0.25) 85.29412%, rgba(0, 0, 0, 0) 85.29412%, rgba(0, 0, 0, 0) 88.23529%, rgba(100, 100, 225, 0.25) 88.23529%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.76471%, rgba(0, 0, 0, 0) 11.76471%, rgba(0, 0, 0, 0) 14.70588%, rgba(100, 100, 225, 0.25) 14.70588%, rgba(100, 100, 225, 0.25) 26.47059%, rgba(0, 0, 0, 0) 26.47059%, rgba(0, 0, 0, 0) 29.41176%, rgba(100, 100, 225, 0.25) 29.41176%, rgba(100, 100, 225, 0.25) 41.17647%, rgba(0, 0, 0, 0) 41.17647%, rgba(0, 0, 0, 0) 44.11765%, rgba(100, 100, 225, 0.25) 44.11765%, rgba(100, 100, 225, 0.25) 55.88235%, rgba(0, 0, 0, 0) 55.88235%, rgba(0, 0, 0, 0) 58.82353%, rgba(100, 100, 225, 0.25) 58.82353%, rgba(100, 100, 225, 0.25) 70.58824%, rgba(0, 0, 0, 0) 70.58824%, rgba(0, 0, 0, 0) 73.52941%, rgba(100, 100, 225, 0.25) 73.52941%, rgba(100, 100, 225, 0.25) 85.29412%, rgba(0, 0, 0, 0) 85.29412%, rgba(0, 0, 0, 0) 88.23529%, rgba(100, 100, 225, 0.25) 88.23529%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.76471%, rgba(0, 0, 0, 0) 11.76471%, rgba(0, 0, 0, 0) 14.70588%, rgba(100, 100, 225, 0.25) 14.70588%, rgba(100, 100, 225, 0.25) 26.47059%, rgba(0, 0, 0, 0) 26.47059%, rgba(0, 0, 0, 0) 29.41176%, rgba(100, 100, 225, 0.25) 29.41176%, rgba(100, 100, 225, 0.25) 41.17647%, rgba(0, 0, 0, 0) 41.17647%, rgba(0, 0, 0, 0) 44.11765%, rgba(100, 100, 225, 0.25) 44.11765%, rgba(100, 100, 225, 0.25) 55.88235%, rgba(0, 0, 0, 0) 55.88235%, rgba(0, 0, 0, 0) 58.82353%, rgba(100, 100, 225, 0.25) 58.82353%, rgba(100, 100, 225, 0.25) 70.58824%, rgba(0, 0, 0, 0) 70.58824%, rgba(0, 0, 0, 0) 73.52941%, rgba(100, 100, 225, 0.25) 73.52941%, rgba(100, 100, 225, 0.25) 85.29412%, rgba(0, 0, 0, 0) 85.29412%, rgba(0, 0, 0, 0) 88.23529%, rgba(100, 100, 225, 0.25) 88.23529%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 11.76471%, rgba(0, 0, 0, 0) 11.76471%, rgba(0, 0, 0, 0) 14.70588%, rgba(100, 100, 225, 0.25) 14.70588%, rgba(100, 100, 225, 0.25) 26.47059%, rgba(0, 0, 0, 0) 26.47059%, rgba(0, 0, 0, 0) 29.41176%, rgba(100, 100, 225, 0.25) 29.41176%, rgba(100, 100, 225, 0.25) 41.17647%, rgba(0, 0, 0, 0) 41.17647%, rgba(0, 0, 0, 0) 44.11765%, rgba(100, 100, 225, 0.25) 44.11765%, rgba(100, 100, 225, 0.25) 55.88235%, rgba(0, 0, 0, 0) 55.88235%, rgba(0, 0, 0, 0) 58.82353%, rgba(100, 100, 225, 0.25) 58.82353%, rgba(100, 100, 225, 0.25) 70.58824%, rgba(0, 0, 0, 0) 70.58824%, rgba(0, 0, 0, 0) 73.52941%, rgba(100, 100, 225, 0.25) 73.52941%, rgba(100, 100, 225, 0.25) 85.29412%, rgba(0, 0, 0, 0) 85.29412%, rgba(0, 0, 0, 0) 88.23529%, rgba(100, 100, 225, 0.25) 88.23529%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
-  background-position: left top;
-  -webkit-background-origin: content;
-  -moz-background-origin: content;
-  -ms-background-origin: content-box;
-  -o-background-origin: content-box;
-  background-origin: content-box;
-  -webkit-background-clip: content-box;
-  -moz-background-clip: content-box;
-  background-clip: content-box; }
-
-/* line 20, ../../app/stylesheets/partials/_grid.sass */
-.page {
-  *zoom: 1;
-  max-width: 340px;
-  _width: 340px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-left: 0; }
-  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .page:after {
-    content: "";
-    display: table;
-    clear: both; }
-  @media (min-width: 790px) {
-    /* line 20, ../../app/stylesheets/partials/_grid.sass */
-    .page {
-      max-width: 790px; } }
-
-/* line 19, ../../app/stylesheets/application.sass */
-body {
-  -webkit-font-smoothing: antialiased; }
-
-/* line 22, ../../app/stylesheets/application.sass */
-header {
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 24, ../../app/stylesheets/application.sass */
-  header #logo {
-    overflow: hidden;
-    *zoom: 1;
-    display: inline;
-    float: left; }
-    /* line 14, ../../app/stylesheets/partials/_custom_mixins.sass */
-    header #logo span {
-      background-image: url('/images/assets-s8736d19e48.png');
-      background-repeat: no-repeat;
-      display: block;
-      display: inline;
-      float: left; }
-      /* line 17, ../../app/stylesheets/partials/_custom_mixins.sass */
-      header #logo span.stripe {
-        margin-top: 3px; }
-        /* line 19, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.stripe.one {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -2256px;
-          width: 12px;
-          height: 66px; }
-        /* line 21, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.stripe.two {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -2124px;
-          width: 12px;
-          height: 66px; }
-        /* line 23, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.stripe.three {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -2058px;
-          width: 12px;
-          height: 66px; }
-        /* line 25, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.stripe.four {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -2190px;
-          width: 12px;
-          height: 66px; }
-      /* line 27, ../../app/stylesheets/partials/_custom_mixins.sass */
-      header #logo span.num {
-        margin-top: 3px; }
-        /* line 29, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.zero {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1458px;
-          width: 24px;
-          height: 66px; }
-        /* line 31, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.one {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1932px;
-          width: 15px;
-          height: 66px; }
-        /* line 33, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.two {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1326px;
-          width: 24px;
-          height: 66px; }
-        /* line 35, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.three {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1686px;
-          width: 24px;
-          height: 66px; }
-        /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.four {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1146px;
-          width: 24px;
-          height: 66px; }
-        /* line 39, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.five {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1212px;
-          width: 24px;
-          height: 66px; }
-        /* line 41, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.six {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1572px;
-          width: 24px;
-          height: 66px; }
-        /* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.seven {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -978px;
-          width: 24px;
-          height: 66px; }
-        /* line 45, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.eight {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1800px;
-          width: 24px;
-          height: 66px; }
-        /* line 47, ../../app/stylesheets/partials/_custom_mixins.sass */
-        header #logo span.num.nine {
-          text-indent: -119988px;
-          overflow: hidden;
-          text-align: left;
-          background-position: 0 -1392px;
-          width: 24px;
-          height: 66px; }
-      /* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
-      header #logo span.logo_text {
-        text-indent: -119988px;
-        overflow: hidden;
-        text-align: left;
-        background-position: 0 0;
-        width: 124px;
-        height: 73px;
-        margin-left: 18px; }
-  /* line 28, ../../app/stylesheets/application.sass */
-  header #number {
-    height: 50px;
-    width: 75px;
-    background-color: #001fff;
-    display: inline;
-    float: left;
-    margin: 10px; }
-  /* line 35, ../../app/stylesheets/application.sass */
-  header nav {
-    clear: both; }
-    /* line 37, ../../app/stylesheets/application.sass */
-    header nav ul {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      overflow: hidden;
-      *zoom: 1; }
-      /* line 39, ../../app/stylesheets/application.sass */
-      header nav ul li {
-        list-style-image: none;
-        list-style-type: none;
-        margin-left: 0;
-        white-space: nowrap;
-        display: inline;
-        float: left;
-        padding-left: 4px;
-        padding-right: 4px; }
-        /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li:first-child, header nav ul li.first {
-          padding-left: 0; }
-        /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li:last-child {
-          padding-right: 0; }
-        /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li.last {
-          padding-right: 0; }
-        /* line 41, ../../app/stylesheets/application.sass */
-        header nav ul li a {
-          font-family: "miso";
-          color: black;
-          background-color: yellow;
-          font-size: 20px;
-          text-transform: uppercase;
-          font-weight: 400;
-          display: inline;
-          float: left;
-          margin-top: 10px; }
-    @media (min-width: 790px) {
-      /* line 35, ../../app/stylesheets/application.sass */
-      header nav {
-        display: inline;
-        float: left;
-        width: 60px;
-        margin-left: 100px;
-        clear: none; } }
-  /* line 59, ../../app/stylesheets/application.sass */
-  header #paper {
-    margin-top: 10px;
-    margin-left: 100px;
-    display: inline;
-    float: left; }
-    /* line 64, ../../app/stylesheets/application.sass */
-    header #paper span.pdf_icon {
-      background-image: url('/images/assets-s8736d19e48.png');
-      background-repeat: no-repeat;
-      display: block;
-      text-indent: -119988px;
-      overflow: hidden;
-      text-align: left;
-      background-position: 0 -1866px;
-      width: 51px;
-      height: 66px;
-      display: inline;
-      float: left; }
-    /* line 68, ../../app/stylesheets/application.sass */
-    header #paper span.label {
-      display: inline;
-      float: left;
-      font-family: "miso";
-      color: black;
-      background-color: yellow;
-      font-size: 20px;
-      text-transform: uppercase;
-      font-weight: 400; }
-  /* line 78, ../../app/stylesheets/application.sass */
-  header #social {
-    display: inline;
-    float: left;
-    overflow: hidden;
-    *zoom: 1; }
-    /* line 81, ../../app/stylesheets/application.sass */
-    header #social .facebook {
-      width: 20px;
-      height: 20px;
-      margin: 10px;
-      display: inline;
-      float: left;
-      background-color: yellow; }
-    /* line 87, ../../app/stylesheets/application.sass */
-    header #social .twitter {
-      width: 20px;
-      height: 20px;
-      margin: 10px;
-      display: inline;
-      float: left;
-      background-color: yellow; }
-
-/* line 95, ../../app/stylesheets/application.sass */
-section.page #description {
-  width: 62.02532%;
-  float: left;
-  margin-right: 1.26582%;
-  display: inline; }
-  /* line 97, ../../app/stylesheets/application.sass */
-  section.page #description h1.vision {
-    font-family: "miso";
-    color: #ff4874;
-    font-size: 40px;
-    font-weight: normal;
-    line-height: 48px;
-    letter-spacing: 0px; }
-/* line 105, ../../app/stylesheets/application.sass */
-section.page #map {
-  clear: both; }
-  /* line 107, ../../app/stylesheets/application.sass */
-  section.page #map #slides {
-    width: 100%;
-    float: left;
-    margin-right: 1.26582%;
-    display: inline;
-    height: 407px;
-    border: 2px #001fff solid;
-    margin-bottom: 1px; }
-    /* line 112, ../../app/stylesheets/application.sass */
-    section.page #map #slides img {
-      position: absolute; }
-/* line 115, ../../app/stylesheets/application.sass */
-section.page ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: 1px; }
-  /* line 118, ../../app/stylesheets/application.sass */
-  section.page ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    white-space: nowrap;
-    display: inline;
-    float: left;
-    padding-left: 4px;
-    padding-right: 4px;
-    border: 2px #001fff solid;
-    font-family: "miso";
-    font-weight: 400;
-    width: 250px;
-    overflow: hidden;
-    *zoom: 1; }
-    /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:first-child, section.page ul li.first {
-      padding-left: 0; }
-    /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:last-child {
-      padding-right: 0; }
-    /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li.last {
-      padding-right: 0; }
-    /* line 125, ../../app/stylesheets/application.sass */
-    section.page ul li h4 {
-      color: #ff4874;
-      font-size: 30px;
-      text-transform: uppercase; }
-    /* line 129, ../../app/stylesheets/application.sass */
-    section.page ul li p {
-      color: #001fff;
-      font-size: 20px; }
-/* line 133, ../../app/stylesheets/application.sass */
-section.page .spined {
-  background: url('/images/assets/spined.png') repeat-x left top;
-  height: 5px;
-  width: 100%; }
-/* line 139, ../../app/stylesheets/application.sass */
-section.page #mailing-list {
-  width: 91.52542%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline; }
-  /* line 141, ../../app/stylesheets/application.sass */
-  section.page #mailing-list p {
-    background-color: yellow; }
-/* line 144, ../../app/stylesheets/application.sass */
-section.page #faq {
-  width: 91.52542%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline; }
-  /* line 146, ../../app/stylesheets/application.sass */
-  section.page #faq p {
-    background-color: yellow; }
-/* line 149, ../../app/stylesheets/application.sass */
-section.page #submit-project {
-  width: 91.52542%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline; }
-  /* line 151, ../../app/stylesheets/application.sass */
-  section.page #submit-project p {
-    background-color: yellow; }
-
-/* line 154, ../../app/stylesheets/application.sass */
-#footer {
-  clear: both;
-  border: 2px #001fff solid; }
+Backtrace:
+/Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass:20:in `replace-with-sprite'
+/Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass:20:in `logo'
+/Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/application.sass:27
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:57:in `block in perform_arguments'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:50:in `zip'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:50:in `perform_arguments'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:261:in `visit_mixin'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:266:in `block (3 levels) in visit_mixin'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:266:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:266:in `block (2 levels) in visit_mixin'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:266:in `block in visit_mixin'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:68:in `perform_arguments'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:261:in `visit_mixin'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.2.3/lib/sass/plugin/rack.rb:51:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/head.rb:9:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/reloader.rb:250:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/logger.rb:388:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/showexceptions.rb:21:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `block in call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1471:in `synchronize'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sinatra-1.3.3/lib/sinatra/base.rb:1389:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:83:in `block in call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:76:in `each'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/padrino-core-0.10.7/lib/padrino-core/router.rb:76:in `call'
+/Users/piermariacosina/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/piermariacosina/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Mixin replace-with-sprite is missing argument $sprite.\A         on line 20 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass, in `replace-with-sprite'\A         from line 20 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/partials/_custom_mixins.sass, in `logo'\A         from line 27 of /Users/piermariacosina/Documents/padrino/localactors/app/stylesheets/application.sass\A \A 15: $rose: #FF4874\A 16: $yellow: #FFFF00\A 17: $black: #000\A 18: \A 19: body\A 20:   -webkit-font-smoothing: antialiased\A 21: \A 22: header\A 23:   @include clearfix\A 24:   #logo\A 25:     @include clearfix"; }

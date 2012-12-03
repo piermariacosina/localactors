@@ -46,15 +46,7 @@ header
           text-transform: uppercase
           font-weight: 400
           @include float-left
-          margin-top: 10px
-    
-    @include at-breakpoint($break)
-      @include float-left
-      width: 60px
-      margin-left: 100px
-      clear: none
-      
-      
+          margin-top: 10px    
 
   #paper
     margin-top: 10px
@@ -63,7 +55,7 @@ header
     span
       &.pdf_icon
         @include assign-sprite-background($assets)
-        @include replace-with-sprite("pdf_icon")
+        @include replace-with-sprite($assets,"pdf_icon")
         @include float-left
       &.label
         @include float-left
@@ -93,7 +85,8 @@ header
      
 section.page
   #description
-    @include span-columns(10,$break)
+    
+    
     h1.vision
       font-family: "miso"
       color: $rose
@@ -105,7 +98,7 @@ section.page
   #map
     clear: both
     #slides
-      @include span-columns(16,$break)
+     
       height: 407px
       border: 2px $blue solid
       margin-bottom: 1px
@@ -137,17 +130,17 @@ section.page
     width: 100%
   
   #mailing-list
-    @include span-columns(11,12)
+    
     p
       background-color: $yellow 
      
   #faq
-    @include span-columns(11,12)
+   
     p
       background-color: $yellow 
      
   #submit-project
-    @include span-columns(11,12)
+    
     p
       background-color: $yellow  
   

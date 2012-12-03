@@ -3,7 +3,7 @@
 
 $base-font-size: 16px
 
-$total-columns: 7 
+$total-columns: 16 
 $column-width: 40px
 $gutter-width: 10px
 $grid-padding: 10px
@@ -21,5 +21,7 @@ $break: 16
 	@include container($total-columns, $break) 
 	margin-left: 0
 	
+@include at-breakpoint($break)
+	.grid
+		@include susy-grid-background
 
-	
