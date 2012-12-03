@@ -1,8 +1,7 @@
 %html
  %head
-  %title= [@title, "Padrino Sample Blog"].compact.join(" | ")
+  %title= [@title, "Local Actors"].compact.join(" | ")
   = stylesheet_link_tag 'application'
-  = javascript_include_tag 'application'
   = favicon_tag 'favicon.ico', :type => 'image/ico'
   = yield_content :include
 
@@ -12,4 +11,5 @@
   %section.page.grid
    = yield
   %footer= partial "layouts/footer"
+  = javascript_include_tag 'application'
 	

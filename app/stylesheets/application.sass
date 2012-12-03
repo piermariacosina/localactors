@@ -7,7 +7,7 @@
 @import "compass/utilities/lists/horizontal-list"
 
 $assets-layout:smart
-@import "assets/*.png"
+
 $assets: sprite-map("assets/*.png")
 
 $blue: #001FFF
@@ -33,18 +33,28 @@ header
     margin: 10px
       
   nav
-    width: 60px
-    margin-left: 100px
-    @include float-left    
-    a
-      font-family: "miso"
-      color: $black
-      background-color: $yellow
-      font-size: 20px
-      text-transform: uppercase
-      font-weight: 400
+    clear: both
+    ul
+      @include horizontal-list-container
+      li
+        @include horizontal-list-item
+        a
+          font-family: "miso"
+          color: $black
+          background-color: $yellow
+          font-size: 20px
+          text-transform: uppercase
+          font-weight: 400
+          @include float-left
+          margin-top: 10px
+    
+    @include at-breakpoint($break)
       @include float-left
-      margin-top: 10px
+      width: 60px
+      margin-left: 100px
+      clear: none
+      
+      
 
   #paper
     margin-top: 10px
@@ -83,10 +93,9 @@ header
      
 section.page
   #description
-    width: 700px
+    @include span-columns(10,$break)
     h1.vision
       font-family: "miso"
-      width: 640px
       color: $rose
       font-size: 40px
       font-weight: normal
@@ -94,8 +103,9 @@ section.page
       letter-spacing: 0px
   
   #map
+    clear: both
     #slides
-      width: 760px
+      @include span-columns(16,$break)
       height: 407px
       border: 2px $blue solid
       margin-bottom: 1px

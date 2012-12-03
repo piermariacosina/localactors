@@ -1,12 +1,12 @@
 @import susy
 @import "compass/typography/vertical_rhythm"
 
-$base-font-size: 10px
+$base-font-size: 16px
 
-$total-columns: 16 
-$column-width: 4em 
-$gutter-width: 1em 
-$grid-padding: 1em 
+$total-columns: 7 
+$column-width: 40px
+$gutter-width: 10px
+$grid-padding: 10px
 $container-style: magic
 
 $break: 16
@@ -14,5 +14,12 @@ $break: 16
 .grid
 	@include susy-grid-background
 
-.page 
-	@include container($total-columns, $break)
+
+
+	
+.page
+	@include container($total-columns, $break) 
+	margin-left: 0
+	
+
+	
