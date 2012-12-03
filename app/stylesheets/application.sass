@@ -17,8 +17,25 @@ $yellow: #FFFF00
 $black: #000
 $acqua: #81FFD0
 
-@import partials/general
-@import partials/map
+body
+  -webkit-font-smoothing: antialiased
+
+
+
+.section_title
+  font-family: "miso"
+  font-weight: 200
+  font-size: 32px
+  line-height: 40px
+  color: $black
+
+
+
+.ul
+  text-decoration: underline
+.hl
+  background-color: $yellow
+    
 
 header
   @include clearfix
@@ -45,7 +62,6 @@ header
       padding-left: 0px
       li 
         a
-          @extend .hover
           font-family: "miso"
           color: $black
           background-color: $yellow
@@ -64,16 +80,15 @@ header
         @include assign-sprite-background($assets)
         @include replace-with-sprite($assets,"pdf_icon")
         @include float-left
-    a
-      @extend .hover
-      @include float-left
-      font-family: "miso"
-      color: $black
-      background-color: $yellow
-      font-size: 14px
-      text-transform: uppercase
-      font-weight: 400
-      margin-left: 10px
+      &.label
+        @include float-left
+        font-family: "miso"
+        color: $black
+        background-color: $yellow
+        font-size: 14px
+        text-transform: uppercase
+        font-weight: 400
+        margin-left: 10px
       
 
   #social
@@ -94,13 +109,69 @@ header
      
 section.page
   #description
+    @include span-columns(11)
     h1.vision
       font-family: "miso"
       color: $rose
       font-size: 40px
       font-weight: 400
       line-height: 48px
-      letter-spacing: 2px
+      letter-spacing: 0px
+  
+  #map
+    clear: both
+    #slides
+      height: 350px
+      border: 2px $blue solid
+      margin-bottom: 1px
+      img
+        @include span-columns(13)
+        position: absolute
+        max-width: 659px
+    #steps
+      ul
+        @include horizontal-list-container
+        margin-top: 1px
+        li
+          @include horizontal-list-item
+          font-family: "miso"
+          font-weight: 400
+          white-space: normal
+          padding: 0px
+          
+          p
+            color: $blue
+            font-size: 14px
+            text-transform: uppercase
+            @include pre(1,4)
+          
+          .selected
+            border: 2px $blue solid
+          
+          #title
+            margin-top: 20px
+            margin-botton: 20px
+            #arrow1
+              @include assign-sprite-background($assets)
+              @include replace-with-sprite($assets,"arrow1")
+              @include float-left
+              margin-right: 15px
+            #arrow2
+              @include assign-sprite-background($assets)
+              @include replace-with-sprite($assets,"arrow2")
+              @include float-left
+              margin-right: 15px
+            #arrow3
+              @include assign-sprite-background($assets)
+              @include replace-with-sprite($assets,"arrow3")
+              @include float-left
+              margin-right: 15px
+      
+            h4
+              display: inline
+              color: $rose
+              font-size: 24px
+              text-transform: uppercase
 
   .spined
     $image: image-url("assets/spined.png")
@@ -125,8 +196,7 @@ section.page
         @include sprite($assets, "bubble", true)
         &:hover
           @include sprite($assets, "bubble_inverted", true)
-    ul.questions
-      list-style: none
+    .questions
       li
         
         h3
@@ -182,10 +252,56 @@ section.page
           background-color: yellow
           color: black
           
-          @extend .hover
-          
         .selected
           border: 2px $blue solid
+        
+      li:first-child
+        padding-left: 5px  
+  
+  #people
+    @include span-columns(11)
+    font-family: "miso"
+    font-weight: 400       
+    color: $blue
+    font-size: 18px
+    
+    margin-top: 3px
+    p
+      span
+        text-transform: uppercase
+        display: inline
+        font-size: 24px  
+        text-decoration: underline
+
+        &.rose
+          color: $rose
+          text-decoration: underline
+      
+  .mailing_list  
+    .icon
+      
+      @include assign-sprite-background($assets)
+      @include float-left
+      margin-right: 10px
+    #icon1
+      @include pre(2)
+      @extend .icon
+      @include replace-with-sprite($assets,"dashed")
+    #icon2
+      @extend .icon
+      @include replace-with-sprite($assets,"one")
+    #spiegazione
+      @include float-left
+      @include span-columns(3,13)
+      p
+        text-transform: uppercase
+        font-family: "miso"
+        font-weight: 400       
+        color: $blue
+        font-size: 14px
+    
+  
+  
 hr.footer
   border: 1px $blue solid
   margin-top: 0px
