@@ -1,19 +1,18 @@
 %html
-    %head
-        %title= [@title, "Local Actors"].compact.join(" | ")
-        = stylesheet_link_tag 'application'
-        <link href="/components/jquery-ui/themes/base/jquery.ui.accordion.css" media="screen" rel="stylesheet" type="text/css">
-        = favicon_tag 'favicon.ico', :type => 'image/ico'
-        = yield_content :include
+ %head
+  %title= [@title, "Local Actors"].compact.join(" | ")
+  = stylesheet_link_tag 'application'
+  = favicon_tag 'favicon.ico', :type => 'image/ico'
+  = yield_content :include
 
-    %body
-        %header= partial "layouts/header"
-
-        %section.page.grid
-            = yield
-
-        %footer= partial "layouts/footer"
-        <script src="/components/jquery/jquery.js" type="text/javascript"></script>
+  %body
+  
+  
+    %section.page.grid
+      %header= partial "layouts/header"
+      = yield
+      %footer= partial "layouts/footer"
+    <script src="/components/jquery/jquery.js" type="text/javascript"></script>
         <script src="/components/jquery-ui/ui/jquery.ui.core.js" type="text/javascript"></script>
         <script src="/components/jquery-ui/ui/jquery.ui.widget.js" type="text/javascript"></script>
         <script src="/components/jquery-ui/ui/jquery.ui.accordion.js" type="text/javascript"></script>

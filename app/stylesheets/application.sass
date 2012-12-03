@@ -43,6 +43,7 @@ header
     @include clearfix
     @include float-left
     @include logo()
+    
   #number
     height: 50px
     width: 75px
@@ -50,17 +51,21 @@ header
     @include float-left
     margin: 10px
       
-  nav
-    clear: both
+  nav-header
+    @include float-left
+    margin-top: 0px
+    @include pre(3)
     ul
-      @include horizontal-list-container
-      li
-        @include horizontal-list-item
+      list-style-type: none
+      float:left
+      margin-top: 0px
+      padding-left: 0px
+      li 
         a
           font-family: "miso"
           color: $black
           background-color: $yellow
-          font-size: 20px
+          font-size: 14px
           text-transform: uppercase
           font-weight: 400
           @include float-left
@@ -68,7 +73,7 @@ header
 
   #paper
     margin-top: 10px
-    margin-left: 100px
+    @include pre(1)
     @include float-left
     span
       &.pdf_icon
@@ -80,9 +85,10 @@ header
         font-family: "miso"
         color: $black
         background-color: $yellow
-        font-size: 20px
+        font-size: 14px
         text-transform: uppercase
         font-weight: 400
+        margin-left: 10px
       
 
   #social
@@ -103,8 +109,7 @@ header
      
 section.page
   #description
-    
-    
+    @include span-columns(11)
     h1.vision
       font-family: "miso"
       color: $rose
@@ -114,32 +119,34 @@ section.page
       letter-spacing: 0px
   
   #map
+        
     clear: both
     #slides
-     
-      height: 407px
+      width: columns(13)  
+      height: 350px
       border: 2px $blue solid
       margin-bottom: 1px
       img
+        @include span-columns(13,$total-columns)
         position: absolute
   
-    ul
-      @include horizontal-list-container
-      margin-top: 1px
-      li
-        @include horizontal-list-item
-        border: 2px $blue solid
-        font-family: "miso"
-        font-weight: 400
-        width: 250px
-        @include clearfix
-        h4
-          color: $rose
-          font-size: 30px
-          text-transform: uppercase          
-        p
-          color: $blue
-          font-size: 20px
+  ul
+    @include horizontal-list-container
+    margin-top: 1px
+    li
+      @include horizontal-list-item
+      border: 2px $blue solid
+      font-family: "miso"
+      font-weight: 400
+      width: 250px
+      @include clearfix
+      h4
+        color: $rose
+        font-size: 30px
+        text-transform: uppercase          
+      p
+        color: $blue
+        font-size: 20px
 
   .spined
     $image: image-url("assets/spined.png")
@@ -196,6 +203,32 @@ section.page
           @include sprite($assets, "pointer_inverted", true)
       
   
-#footer
-  clear: both
-  border: 2px $blue solid
+  footer
+    clear: both
+    border: 2px $blue solid
+    border-bottom: none
+    @include span-columns(13)
+    ul
+      @include horizontal-list-container
+      margin-top: 1px
+      li
+        @include horizontal-list-item
+        font-family: "miso"
+        font-weight: 400       
+        color: $blue
+        font-size: 14px
+        text-transform: uppercase
+        margin-top: 3px
+
+        p
+          display: inline
+          color: $blue
+        a
+          background-color: yellow
+          color: black
+          
+        .selected
+          border: 2px $blue solid
+hr.footer
+  border: 1px $blue solid
+  margin-top: 0px
