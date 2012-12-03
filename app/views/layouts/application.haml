@@ -1,10 +1,10 @@
 %html
- %head
-  %title= [@title, "Local Actors"].compact.join(" | ")
-  = stylesheet_link_tag 'application'
-  = favicon_tag 'favicon.ico', :type => 'image/ico'
-  = yield_content :include
-
+  %head
+    %title= [@title, "Local Actors"].compact.join(" | ")
+    = stylesheet_link_tag 'application'
+    = favicon_tag 'favicon.ico', :type => 'image/ico'
+    = yield_content :include
+  
   %body
   
   
@@ -13,8 +13,8 @@
       = yield
       %footer= partial "layouts/footer"
     <script src="/components/jquery/jquery.js" type="text/javascript"></script>
-        <script src="/components/jquery-ui/ui/jquery.ui.core.js" type="text/javascript"></script>
-        <script src="/components/jquery-ui/ui/jquery.ui.widget.js" type="text/javascript"></script>
-        <script src="/components/jquery-ui/ui/jquery.ui.accordion.js" type="text/javascript"></script>
-        = javascript_include_tag 'application'
-        -# = Localactors.component_include_tag ('jquery/jquery.js')
+    <script src="/components/jquery-ui/ui/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="/components/jquery-ui/ui/jquery.ui.widget.js" type="text/javascript"></script>
+    <script src="/components/jquery-ui/ui/jquery.ui.accordion.js" type="text/javascript"></script>
+    = javascript_include_tag 'application'
+    -# = Localactors.component_include_tag ('jquery/jquery.js')
