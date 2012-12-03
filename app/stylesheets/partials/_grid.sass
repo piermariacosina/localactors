@@ -22,7 +22,9 @@ $break: 16
 @include at-breakpoint($break)
 	.grid
 		@include susy-grid-background
-
+	#map
+		img
+			width: columns(13,$break)
 .wide
 	@include span-columns(13, $break)
 	
