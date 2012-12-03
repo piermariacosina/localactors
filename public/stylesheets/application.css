@@ -57,7 +57,7 @@
   -moz-background-clip: content-box;
   background-clip: content-box; }
 
-/* line 20, ../../app/stylesheets/partials/_grid.sass */
+/* line 18, ../../app/stylesheets/partials/_grid.sass */
 .page {
   *zoom: 1;
   max-width: 790px;
@@ -67,18 +67,18 @@
   margin-left: auto;
   margin-right: auto;
   margin-left: 0; }
-  /* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .page:after {
     content: "";
     display: table;
     clear: both; }
   @media (min-width: 790px) {
-    /* line 20, ../../app/stylesheets/partials/_grid.sass */
+    /* line 18, ../../app/stylesheets/partials/_grid.sass */
     .page {
       max-width: 790px; } }
 
 @media (min-width: 790px) {
-  /* line 25, ../../app/stylesheets/partials/_grid.sass */
+  /* line 23, ../../app/stylesheets/partials/_grid.sass */
   .grid {
     background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(100, 100, 225, 0.25)), color-stop(5.06329%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(0, 0, 0, 0)), color-stop(6.32911%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(100, 100, 225, 0.25)), color-stop(11.39241%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(0, 0, 0, 0)), color-stop(12.65823%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(100, 100, 225, 0.25)), color-stop(17.72152%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(0, 0, 0, 0)), color-stop(18.98734%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(100, 100, 225, 0.25)), color-stop(24.05063%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(0, 0, 0, 0)), color-stop(25.31646%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(100, 100, 225, 0.25)), color-stop(30.37975%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(0, 0, 0, 0)), color-stop(31.64557%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(100, 100, 225, 0.25)), color-stop(36.70886%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(0, 0, 0, 0)), color-stop(37.97468%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(100, 100, 225, 0.25)), color-stop(43.03797%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(0, 0, 0, 0)), color-stop(44.3038%, rgba(100, 100, 225, 0.25)), color-stop(49.36709%, rgba(100, 100, 225, 0.25)), color-stop(49.36709%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(0, 0, 0, 0)), color-stop(50.63291%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(100, 100, 225, 0.25)), color-stop(55.6962%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(0, 0, 0, 0)), color-stop(56.96203%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(100, 100, 225, 0.25)), color-stop(62.02532%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(0, 0, 0, 0)), color-stop(63.29114%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(100, 100, 225, 0.25)), color-stop(68.35443%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(0, 0, 0, 0)), color-stop(69.62025%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(100, 100, 225, 0.25)), color-stop(74.68354%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(0, 0, 0, 0)), color-stop(75.94937%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(100, 100, 225, 0.25)), color-stop(81.01266%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(0, 0, 0, 0)), color-stop(82.27848%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(100, 100, 225, 0.25)), color-stop(87.34177%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(0, 0, 0, 0)), color-stop(88.60759%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(100, 100, 225, 0.25)), color-stop(93.67089%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(0, 0, 0, 0)), color-stop(94.93671%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.06329%, rgba(0, 0, 0, 0) 5.06329%, rgba(0, 0, 0, 0) 6.32911%, rgba(100, 100, 225, 0.25) 6.32911%, rgba(100, 100, 225, 0.25) 11.39241%, rgba(0, 0, 0, 0) 11.39241%, rgba(0, 0, 0, 0) 12.65823%, rgba(100, 100, 225, 0.25) 12.65823%, rgba(100, 100, 225, 0.25) 17.72152%, rgba(0, 0, 0, 0) 17.72152%, rgba(0, 0, 0, 0) 18.98734%, rgba(100, 100, 225, 0.25) 18.98734%, rgba(100, 100, 225, 0.25) 24.05063%, rgba(0, 0, 0, 0) 24.05063%, rgba(0, 0, 0, 0) 25.31646%, rgba(100, 100, 225, 0.25) 25.31646%, rgba(100, 100, 225, 0.25) 30.37975%, rgba(0, 0, 0, 0) 30.37975%, rgba(0, 0, 0, 0) 31.64557%, rgba(100, 100, 225, 0.25) 31.64557%, rgba(100, 100, 225, 0.25) 36.70886%, rgba(0, 0, 0, 0) 36.70886%, rgba(0, 0, 0, 0) 37.97468%, rgba(100, 100, 225, 0.25) 37.97468%, rgba(100, 100, 225, 0.25) 43.03797%, rgba(0, 0, 0, 0) 43.03797%, rgba(0, 0, 0, 0) 44.3038%, rgba(100, 100, 225, 0.25) 44.3038%, rgba(100, 100, 225, 0.25) 49.36709%, rgba(0, 0, 0, 0) 49.36709%, rgba(0, 0, 0, 0) 50.63291%, rgba(100, 100, 225, 0.25) 50.63291%, rgba(100, 100, 225, 0.25) 55.6962%, rgba(0, 0, 0, 0) 55.6962%, rgba(0, 0, 0, 0) 56.96203%, rgba(100, 100, 225, 0.25) 56.96203%, rgba(100, 100, 225, 0.25) 62.02532%, rgba(0, 0, 0, 0) 62.02532%, rgba(0, 0, 0, 0) 63.29114%, rgba(100, 100, 225, 0.25) 63.29114%, rgba(100, 100, 225, 0.25) 68.35443%, rgba(0, 0, 0, 0) 68.35443%, rgba(0, 0, 0, 0) 69.62025%, rgba(100, 100, 225, 0.25) 69.62025%, rgba(100, 100, 225, 0.25) 74.68354%, rgba(0, 0, 0, 0) 74.68354%, rgba(0, 0, 0, 0) 75.94937%, rgba(100, 100, 225, 0.25) 75.94937%, rgba(100, 100, 225, 0.25) 81.01266%, rgba(0, 0, 0, 0) 81.01266%, rgba(0, 0, 0, 0) 82.27848%, rgba(100, 100, 225, 0.25) 82.27848%, rgba(100, 100, 225, 0.25) 87.34177%, rgba(0, 0, 0, 0) 87.34177%, rgba(0, 0, 0, 0) 88.60759%, rgba(100, 100, 225, 0.25) 88.60759%, rgba(100, 100, 225, 0.25) 93.67089%, rgba(0, 0, 0, 0) 93.67089%, rgba(0, 0, 0, 0) 94.93671%, rgba(100, 100, 225, 0.25) 94.93671%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
@@ -242,7 +242,7 @@ header {
         width: 124px;
         height: 73px;
         margin-left: 18px; }
-  /* line 28, ../../app/stylesheets/application.sass */
+  /* line 29, ../../app/stylesheets/application.sass */
   header #number {
     height: 50px;
     width: 75px;
@@ -250,53 +250,35 @@ header {
     display: inline;
     float: left;
     margin: 10px; }
-  /* line 35, ../../app/stylesheets/application.sass */
-  header nav {
-    clear: both; }
-    /* line 37, ../../app/stylesheets/application.sass */
-    header nav ul {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      overflow: hidden;
-      *zoom: 1; }
-      /* line 39, ../../app/stylesheets/application.sass */
-      header nav ul li {
-        list-style-image: none;
-        list-style-type: none;
-        margin-left: 0;
-        white-space: nowrap;
+  /* line 36, ../../app/stylesheets/application.sass */
+  header nav-header {
+    display: inline;
+    float: left;
+    margin-top: 0px;
+    margin-left: 18.98734%; }
+    /* line 40, ../../app/stylesheets/application.sass */
+    header nav-header ul {
+      list-style-type: none;
+      margin-top: 0px;
+      padding-left: 0px; }
+      /* line 46, ../../app/stylesheets/application.sass */
+      header nav-header ul li a {
+        font-family: "miso";
+        color: black;
+        background-color: yellow;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
         display: inline;
         float: left;
-        padding-left: 4px;
-        padding-right: 4px; }
-        /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li:first-child, header nav ul li.first {
-          padding-left: 0; }
-        /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li:last-child {
-          padding-right: 0; }
-        /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        header nav ul li.last {
-          padding-right: 0; }
-        /* line 41, ../../app/stylesheets/application.sass */
-        header nav ul li a {
-          font-family: "miso";
-          color: black;
-          background-color: yellow;
-          font-size: 20px;
-          text-transform: uppercase;
-          font-weight: 400;
-          display: inline;
-          float: left;
-          margin-top: 10px; }
-  /* line 51, ../../app/stylesheets/application.sass */
+        margin-top: 10px; }
+  /* line 56, ../../app/stylesheets/application.sass */
   header #paper {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 6.32911%;
     display: inline;
     float: left; }
-    /* line 56, ../../app/stylesheets/application.sass */
+    /* line 61, ../../app/stylesheets/application.sass */
     header #paper span.pdf_icon {
       background-image: url('/images/assets-s8736d19e48.png');
       background-repeat: no-repeat;
@@ -309,23 +291,24 @@ header {
       height: 66px;
       display: inline;
       float: left; }
-    /* line 60, ../../app/stylesheets/application.sass */
+    /* line 65, ../../app/stylesheets/application.sass */
     header #paper span.label {
       display: inline;
       float: left;
       font-family: "miso";
       color: black;
       background-color: yellow;
-      font-size: 20px;
+      font-size: 14px;
       text-transform: uppercase;
-      font-weight: 400; }
-  /* line 70, ../../app/stylesheets/application.sass */
+      font-weight: 400;
+      margin-left: 10px; }
+  /* line 76, ../../app/stylesheets/application.sass */
   header #social {
     display: inline;
     float: left;
     overflow: hidden;
     *zoom: 1; }
-    /* line 73, ../../app/stylesheets/application.sass */
+    /* line 79, ../../app/stylesheets/application.sass */
     header #social .facebook {
       width: 20px;
       height: 20px;
@@ -333,7 +316,7 @@ header {
       display: inline;
       float: left;
       background-color: yellow; }
-    /* line 79, ../../app/stylesheets/application.sass */
+    /* line 85, ../../app/stylesheets/application.sass */
     header #social .twitter {
       width: 20px;
       height: 20px;
@@ -342,83 +325,202 @@ header {
       float: left;
       background-color: yellow; }
 
-/* line 90, ../../app/stylesheets/application.sass */
-section.page #description h1.vision {
-  font-family: "miso";
-  color: #ff4874;
-  font-size: 40px;
-  font-weight: normal;
-  line-height: 48px;
-  letter-spacing: 0px; }
-/* line 98, ../../app/stylesheets/application.sass */
+/* line 93, ../../app/stylesheets/application.sass */
+section.page #description {
+  width: 68.35443%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline; }
+  /* line 95, ../../app/stylesheets/application.sass */
+  section.page #description h1.vision {
+    font-family: "miso";
+    color: #ff4874;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 48px;
+    letter-spacing: 0px; }
+/* line 103, ../../app/stylesheets/application.sass */
 section.page #map {
   clear: both; }
-  /* line 100, ../../app/stylesheets/application.sass */
+  /* line 106, ../../app/stylesheets/application.sass */
   section.page #map #slides {
-    height: 407px;
+    width: 81.01266%;
+    height: 350px;
     border: 2px #001fff solid;
     margin-bottom: 1px; }
-    /* line 105, ../../app/stylesheets/application.sass */
+    /* line 111, ../../app/stylesheets/application.sass */
     section.page #map #slides img {
-      position: absolute; }
-/* line 108, ../../app/stylesheets/application.sass */
-section.page ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: 1px; }
-  /* line 111, ../../app/stylesheets/application.sass */
-  section.page ul li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    white-space: nowrap;
-    display: inline;
-    float: left;
-    padding-left: 4px;
-    padding-right: 4px;
-    border: 2px #001fff solid;
-    font-family: "miso";
-    font-weight: 400;
-    width: 250px;
+      width: 81.01266%;
+      float: left;
+      margin-right: 1.26582%;
+      display: inline;
+      position: absolute;
+      max-width: 659px; }
+  /* line 116, ../../app/stylesheets/application.sass */
+  section.page #map ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
     overflow: hidden;
-    *zoom: 1; }
-    /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:first-child, section.page ul li.first {
-      padding-left: 0; }
-    /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li:last-child {
-      padding-right: 0; }
-    /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-    section.page ul li.last {
-      padding-right: 0; }
-    /* line 118, ../../app/stylesheets/application.sass */
-    section.page ul li h4 {
-      color: #ff4874;
-      font-size: 30px;
-      text-transform: uppercase; }
-    /* line 122, ../../app/stylesheets/application.sass */
-    section.page ul li p {
-      color: #001fff;
-      font-size: 20px; }
-/* line 126, ../../app/stylesheets/application.sass */
+    *zoom: 1;
+    margin-top: 1px; }
+    /* line 119, ../../app/stylesheets/application.sass */
+    section.page #map ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px;
+      font-family: "miso";
+      font-weight: 400;
+      width: 24.05063%;
+      float: left;
+      margin-right: 1.26582%;
+      display: inline;
+      white-space: normal;
+      padding: 0px; }
+      /* line 48, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li:first-child, section.page #map ul li.first {
+        padding-left: 0; }
+      /* line 49, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li:last-child {
+        padding-right: 0; }
+      /* line 50, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page #map ul li.last {
+        padding-right: 0; }
+      /* line 126, ../../app/stylesheets/application.sass */
+      section.page #map ul li #title {
+        margin-top: 20px;
+        margin-botton: 20px; }
+        /* line 129, ../../app/stylesheets/application.sass */
+        section.page #map ul li #title #arrow1 {
+          background-image: url('/images/assets-s8736d19e48.png');
+          background-repeat: no-repeat;
+          display: block;
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -623px;
+          width: 31px;
+          height: 49px;
+          display: inline;
+          float: left;
+          margin-right: 15px; }
+        /* line 134, ../../app/stylesheets/application.sass */
+        section.page #map ul li #title #arrow2 {
+          background-image: url('/images/assets-s8736d19e48.png');
+          background-repeat: no-repeat;
+          display: block;
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -499px;
+          width: 31px;
+          height: 49px;
+          display: inline;
+          float: left;
+          margin-right: 15px; }
+        /* line 139, ../../app/stylesheets/application.sass */
+        section.page #map ul li #title #arrow3 {
+          background-image: url('/images/assets-s8736d19e48.png');
+          background-repeat: no-repeat;
+          display: block;
+          text-indent: -119988px;
+          overflow: hidden;
+          text-align: left;
+          background-position: 0 -450px;
+          width: 31px;
+          height: 49px;
+          display: inline;
+          float: left;
+          margin-right: 15px; }
+      /* line 145, ../../app/stylesheets/application.sass */
+      section.page #map ul li h4 {
+        display: inline;
+        color: #ff4874;
+        font-size: 24px;
+        text-transform: uppercase; }
+      /* line 151, ../../app/stylesheets/application.sass */
+      section.page #map ul li p {
+        color: #001fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-left: 26.31579%; }
+      /* line 157, ../../app/stylesheets/application.sass */
+      section.page #map ul li .selected {
+        border: 2px #001fff solid; }
+/* line 159, ../../app/stylesheets/application.sass */
 section.page .spined {
   background: url('/images/assets/spined.png') repeat-x left top;
   height: 5px;
   width: 100%; }
-/* line 134, ../../app/stylesheets/application.sass */
+/* line 167, ../../app/stylesheets/application.sass */
 section.page #mailing-list p {
   background-color: yellow; }
-/* line 139, ../../app/stylesheets/application.sass */
+/* line 172, ../../app/stylesheets/application.sass */
 section.page #faq p {
   background-color: yellow; }
-/* line 144, ../../app/stylesheets/application.sass */
+/* line 177, ../../app/stylesheets/application.sass */
 section.page #submit-project p {
   background-color: yellow; }
-
-/* line 147, ../../app/stylesheets/application.sass */
-#footer {
+/* line 180, ../../app/stylesheets/application.sass */
+section.page footer {
   clear: both;
-  border: 2px #001fff solid; }
+  border: 2px #001fff solid;
+  border-bottom: none;
+  width: 81.01266%;
+  float: left;
+  margin-right: 1.26582%;
+  display: inline; }
+  /* line 185, ../../app/stylesheets/application.sass */
+  section.page footer ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    margin-top: 1px; }
+    /* line 188, ../../app/stylesheets/application.sass */
+    section.page footer ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px;
+      font-family: "miso";
+      font-weight: 400;
+      color: #001fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-top: 3px; }
+      /* line 48, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page footer ul li:first-child, section.page footer ul li.first {
+        padding-left: 0; }
+      /* line 49, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page footer ul li:last-child {
+        padding-right: 0; }
+      /* line 50, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      section.page footer ul li.last {
+        padding-right: 0; }
+      /* line 197, ../../app/stylesheets/application.sass */
+      section.page footer ul li p {
+        display: inline;
+        color: #001fff; }
+      /* line 200, ../../app/stylesheets/application.sass */
+      section.page footer ul li a {
+        background-color: yellow;
+        color: black; }
+      /* line 204, ../../app/stylesheets/application.sass */
+      section.page footer ul li .selected {
+        border: 2px #001fff solid; }
+
+/* line 206, ../../app/stylesheets/application.sass */
+hr.footer {
+  border: 1px #001fff solid;
+  margin-top: 0px; }

@@ -1,15 +1,17 @@
 %html
- %head
-  %title= [@title, "Local Actors"].compact.join(" | ")
-  = stylesheet_link_tag 'application'
-  = favicon_tag 'favicon.ico', :type => 'image/ico'
-  = yield_content :include
+  %head
+    %title= [@title, "Local Actors"].compact.join(" | ")
+    = stylesheet_link_tag 'application'
+    = favicon_tag 'favicon.ico', :type => 'image/ico'
+    = yield_content :include
 
- %body
-  %header= partial "layouts/header"
+  %body
   
-  %section.page.grid
-   = yield
-  %footer= partial "layouts/footer"
-  = javascript_include_tag 'application'
+  
+    %section.page.grid
+      %header= partial "layouts/header"
+      = yield
+      %footer= partial "layouts/footer"
+    %hr.footer
+    = javascript_include_tag 'application'
 	
