@@ -1,0 +1,53 @@
+#map
+	clear: both
+	#slides
+		height: 350px
+		border: 2px $blue solid
+		margin-bottom: 1px
+		img
+			position: absolute
+	  	
+	#steps
+		ul
+			@include horizontal-list-container
+			margin-top: 1px
+			li
+				@include horizontal-list-item
+				font-family: "miso"
+				font-weight: 400
+				white-space: normal
+				padding: 0px
+				height: 180px
+				border: 2px white solid
+				p
+					color: $blue
+					font-size: 14px
+					text-transform: uppercase
+					@include pre(1,4)
+					
+				&:hover,&.selected
+					border: 2px $blue solid
+		  	  
+				#title
+					margin-top: 20px
+					margin-botton: 20px
+					.arrow
+						@include assign-sprite-background($assets)
+						@include float-left
+						margin-right: 15px
+					#arrow1
+						@extend .arrow
+						@include replace-with-sprite($assets,"arrow1")
+					#arrow2
+						@extend .arrow
+						@include replace-with-sprite($assets,"arrow2")
+					#arrow3
+						@extend .arrow
+						@include replace-with-sprite($assets,"arrow3")
+					
+					h4
+						display: inline
+						color: $rose
+						font-size: 24px
+						text-transform: uppercase
+						letter-spacing: 2px
