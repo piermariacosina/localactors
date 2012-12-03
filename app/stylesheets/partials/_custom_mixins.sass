@@ -13,39 +13,54 @@
 @mixin logo()
 	span
 		@include assign-sprite-background($assets)
-		@include float-left
-		&.stripe
+		@include float-left	
+		
+		.num
 			margin-top: 3px
-			&.one
-				@include replace-with-sprite($assets,"stripe1")
-			&.two
-				@include replace-with-sprite($assets,"stripe2")
-			&.three
-				@include replace-with-sprite($assets,"stripe3")
-			&.four
-				@include replace-with-sprite($assets,"stripe4")
-		&.num
-			margin-top: 3px
-			&.zero
-				@include replace-with-sprite($assets,"l0")
-			&.one
-				@include replace-with-sprite($assets,"l1")
-			&.two
-				@include replace-with-sprite($assets,"l2")
-			&.three
-				@include replace-with-sprite($assets,"l3")
-			&.four
-				@include replace-with-sprite($assets,"l4")
-			&.five
-				@include replace-with-sprite($assets,"l5")
-			&.six
-				@include replace-with-sprite($assets,"l6")
-			&.seven
-				@include replace-with-sprite($assets,"l7")
-			&.eight
-				@include replace-with-sprite($assets,"l8")
-			&.nine
-				@include replace-with-sprite($assets,"l9")
+		
+		&.sone
+			@extend .num
+			@include replace-with-sprite($assets,"stripe1")
+		&.stwo
+			@extend .num
+			@include replace-with-sprite($assets,"stripe2")
+		&.sthree
+			@extend .num
+			@include replace-with-sprite($assets,"stripe3")
+		&.sfour
+			@extend .num
+			@include replace-with-sprite($assets,"stripe4")
+			
+		&.zero
+			@extend .num
+			@include replace-with-sprite($assets,"l0")
+		&.one
+			@extend .num
+			@include replace-with-sprite($assets,"l1")
+		&.two
+			@extend .num
+			@include replace-with-sprite($assets,"l2")
+		&.three
+			@extend .num
+			@include replace-with-sprite($assets,"l3")
+		&.four
+			@extend .num
+			@include replace-with-sprite($assets,"l4")
+		&.five
+			@extend .num
+			@include replace-with-sprite($assets,"l5")
+		&.six
+			@extend .num
+			@include replace-with-sprite($assets,"l6")
+		&.seven
+			@extend .num
+			@include replace-with-sprite($assets,"l7")
+		&.eight
+			@extend .num
+			@include replace-with-sprite($assets,"l8")
+		&.nine
+			@extend .num
+			@include replace-with-sprite($assets,"l9")
 		&.logo_text
 			@include replace-with-sprite($assets,"logo")
 			margin-left: 18px
