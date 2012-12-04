@@ -1,48 +1,94 @@
-@import susy
-@import "compass/typography/vertical_rhythm"
-
 $base-font-size: 16px
 
-$total-columns: 16 
-$column-width: 40px
-$gutter-width: 10px
-$grid-padding: 10px
+$total-columns: 7 
+$column-width: 2.5em
+$gutter-width: 1.25em
+$grid-padding: $gutter-width
 $container-style: magic
 
 $break: 16
 
 .grid
-	@include susy-grid-background
-
+	+susy-grid-background
 	
-.page
-	@include container($total-columns, $break) 
+	
+
+
+.full
+	+span-columns($total-columns omega)
+	
+section.page
+	+container($total-columns, $break)
+	@extend .grid
 	margin-left: 0
 	
-@include at-breakpoint($break)
-	.grid
-		@include susy-grid-background
-	#map
-		img
-			max-width: columns(13,$break)
-.wide
-	@include span-columns(13, $break)
+	footer
+		@extend .full
 	
 #map
-	.slides
-		img
-			@include span-columns(13,$total-columns)
-	#steps
-		@include span-columns(13,$total-columns)
+	@extend .full
+	#slides
 		ul
 			li
-				@include span-columns(4,13)
-	
+				img
+					max-width: 100%
+					max-height: 100%
+	#steps
+		ul
+			li
+				+span-columns(2,$total-columns)
+				
 #mailing-list,#faq,#submit-project
+	@extend .full
 	a span.icon
-		@include span-columns(2,$break)
+		+span-columns(2,$break)
 	h2.section_title
-		@include span-columns(8,$break)
+		+span-columns($total-columns)
 	section
-		@include pre(1)
-		@include span-columns(10,13)
+		+span-columns($total-columns)
+		ul
+			@extend .noindent
+		
+
+	
++at-breakpoint($break)
+	.wide
+		+span-columns(13, $break)
+	.borded
+		border: 2px $blue solid	
+	
+	.grid
+		+susy-grid-background
+	section.page
+		footer
+			@extend .wide
+			@extend .borded
+		hr.footer
+			@extend .borded
+
+		
+	#description
+		+span-columns(11, $break)
+	
+	#map
+		@extend .wide
+		#slides
+			@extend .borded
+			ul
+				li
+					
+		#steps
+			ul
+				li
+					+span-columns(4,13)
+					&:hover,&.selected
+						@extend .borded
+	#mailing-list,#faq,#submit-project
+		@extend .wide
+		a span.icon
+			+span-columns(2,$break)
+		h2.section_title
+			+span-columns(8,$break)
+		section
+			+pre(2)
+			+span-columns(10,13)

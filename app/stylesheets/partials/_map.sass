@@ -1,12 +1,17 @@
 #map
 	clear: both
 	#slides
-		height: 350px
-		border: 2px $blue solid
+		height: 334px
+		@extend .borded
 		margin-bottom: 1px
-		img
-			position: absolute
-	  	
+		ul
+			@include no-bullets
+			@extend .noindent
+			li
+				display: none
+				position: absolute
+				img
+			
 	#steps
 		ul
 			@include horizontal-list-container
@@ -26,7 +31,7 @@
 					@include pre(1,4)
 					
 				&:hover,&.selected
-					border: 2px $blue solid
+					@extend .borded
 		  	  
 				#title
 					margin-top: 20px
