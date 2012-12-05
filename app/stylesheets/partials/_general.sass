@@ -1,12 +1,20 @@
 body
 	-webkit-font-smoothing: antialiased
+.ul
+	text-decoration: underline
+.hl
+	background-color: $yellow
 
 .section_title
 	font-family: "miso"
-	font-weight: 200
-	font-size: 32px
-	line-height: 40px
+	font-weight: 200	
+	text-transform: uppercase
 	color: $black
+	font-size: px-to-em(17px,16px)
+	line-height: px-to-em(16px,17px)
+	span
+		font-size: px-to-em(19px,17px)
+		line-height: px-to-em(18px,17px)	
 
 .noindent 
 	padding: 0
@@ -15,12 +23,19 @@ body
 .borded
 	border: 1px $blue solid
 
-.ul
-	text-decoration: underline
-.hl
-	background-color: $yellow
-
 .hover
 	&:hover
 		color: $purple
 		background-color: $acqua
+		
+.spined
+	$image: image-url("assets/spined.png")
+	background: $image repeat-x left top
+	
+.arrow
+	@include assign-sprite-background($assets)
+	@include float-left
+	margin-right: 15px
+
+.pointer
+	cursor: pointer

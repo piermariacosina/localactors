@@ -4,6 +4,7 @@
 	"dependencies": {
 		"jquery": "latest",
 		"jquery.scrollTo": "latest",
-		"jquery-ui":"latest"
+		"jquery-ui":"latest",
+		"response.js":"latest"
 	}
 }

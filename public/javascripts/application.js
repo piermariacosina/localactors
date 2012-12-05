@@ -7,11 +7,10 @@ $(window).bind('resize', function(e)
         window.resizeEvt = setTimeout(function()
         {
             fitMap();
-$( "#faq_accordion" ).accordion( "refresh" );
+			$( "#faq_accordion" ).accordion( "refresh" );
         }, 250);
     });
 });
-
 
 function fitMap() {
 	var slides_width =  $('#slides').css("width");
@@ -19,6 +18,7 @@ function fitMap() {
 }
 
 $(document).ready(function() {
+	$( "#sections_accordion" ).accordion({ header: "header", collapsible: true, heightStyle: "content", active: false  });
 	$( "#faq_accordion" ).accordion({ header: "h3", collapsible: true, heightStyle: "content", active: false  });
 
 	var step1 = $( "li.step1" );
@@ -33,53 +33,75 @@ $(document).ready(function() {
 	
 	arSlides = [slide1,slide2,slide3];
 	
+	var right_arrow = $( "#arrow_right" );
+	var left_arrow = $( "#arrow_left" );
+	
+	var current = 0
+	
 	fitMap();
-	showFirst();
+	showCurrentSlide(current);
+	showCurrentStep(current);
+	hideLeft();
 
-	for (var i=0;i<arSteps.length;i++){
-		(function(slide,step) {
-			step.click(function(){
-				if (step == step1){
-					hideRest(step,1);
-					showSelected(step);
-				}else if(step == step2){
-					hideRest(step,1);
-					showSelected(step);
-					slide.delay(500).fadeIn("slow", showSelected(step));
-				}else{
-					slide.delay(500).fadeIn("slow", showSelected(step));
-				}
-			});
-		})(arSlides[i],arSteps[i]);
+	right_arrow.click(function(){
+		current++;
+		checkLimit(current);
+		showCurrentSlide(current);
+		left_arrow.css('visibility', 'visible');
+	});
+	
+	left_arrow.click(function(){
+		current--;
+		checkLimit(current);
+		showCurrentSlide(current);
+		right_arrow.css('visibility', 'visible');
+	});
+
+	function checkLimit(reached){
+		if (reached <= 0){
+			current = 0
+			hideLeft();
+			hideRest(current,1)
+		}
+		
+		if (reached == 1){
+			hideRest(current,2)
+		}
+		
+		if (reached == arSlides.length-1){
+			current = arSlides.length-1;
+			hideRight();		
+		}
 	}
 	
-	function showFirst(){
-		slide1.fadeIn("slow", showSelected(step1));
-		hideRest(slide1,0);
-	}
 	
-	function hideRest(selected,offset){
+	function hideRest(current,offset){
 		for (var i=offset;i<arSlides.length;i++){
 			(function(slide) {
-				if (selected == slide){
-					
-				}else{
+				if (current != slide){
 					slide.fadeOut("slow");
 				}
 			})(arSlides[i]);
 		}
 	}
 	
-	function showSelected(selected){
-		for (var i=0;i<arSteps.length;i++){
-			(function(step) {
-				if (selected == step){
-					step.addClass("selected");
-				}else{
-					step.removeClass("selected");
-				}
-			})(arSteps[i]);
-		}	
+	function hideLeft(){
+		left_arrow.css('visibility', 'hidden');
+		left_arrow.click(false);
 	}
 	
+	function hideRight(){
+		right_arrow.css('visibility', 'hidden');
+		right_arrow.click(false);
+	}
+	
+	
+	function showCurrentSlide(current){
+		arSlides[current].delay(500).fadeIn("slow");
+	}
+	
+	function showCurrentStep(current){
+		arSteps[current].delay(500).fadeIn("slow");
+	}
+
 });

@@ -21,18 +21,23 @@ $yellow: #FFFF00
 $black: #000
 $acqua: #81FFD0
 
+@import partials/custom_mixins
 @import partials/general
 @import partials/fonts
-@import partials/grid
-@import partials/custom_mixins
+
+
+@import partials/320grid
+@import partials/960grid
+
 @import partials/map
+@import partials/explanation
 
 header
   @include clearfix
   #logo
     @include clearfix
     @include float-left
-    @include logo()
+    @include logo($assets,"mobile")
     
   #number
     height: 50px
@@ -42,25 +47,31 @@ header
     margin: 10px
       
   nav-header
-    @include float-left
-    margin-top: 0px
-    @include pre(3)
+    clear: both
+    @extend .full
+    display: block
+    +padding-leader(1)
     ul
-      list-style-type: none
-      float:left
-      margin-top: 0px
-      padding-left: 0px
+      +horizontal-list-container
       li 
+        +horizontal-list-item(18px)
+        background: image-url("assets/dashed.png") repeat-y right top
+        &:last-child
+          background: none
+        min-height: rhythm(1,13px)   
+        width: columns(2)
+        
         a
           @extend .hover
           font-family: "miso"
           color: $black
           background-color: $yellow
-          font-size: 14px
+          font-size: px-to-em(12px)
+          line-height: px-to-em(13px,12px)
+          letter-spacing: px-to-em(2px)
           text-transform: uppercase
           font-weight: 400
-          @include float-left
-          margin-top: 10px    
+          white-space: normal
 
   #paper
     margin-top: 10px
@@ -102,74 +113,13 @@ header
 section.page
   #description
     +hyphenation
-    h1.vision
-      font-family: "miso"
-      color: $rose
-      font-size: 40px
-      font-weight: 400
-      line-height: 48px
-      letter-spacing: 2px
-
-  .spined
-    $image: image-url("assets/spined.png")
-    background: $image repeat-x left top
-    height: image-height("assets/spined.png")
-    width: 100%
   
-  #mailing-list
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "mail", true)
-        &:hover
-          @include sprite($assets, "mail_inverted", true)
-    
-      
-     
-  #faq
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "bubble", true)
-        &:hover
-          @include sprite($assets, "bubble_inverted", true)
-    ul.questions
-      list-style: none
-      li
-        
-        h3
-          font-family: "source sans pro"
-          font-weight: 600
-          font-size: 16px
-          line-height: 40px
-          color: $black
-          
-          
-          span:hover
-            color: $purple
-            background-color: $acqua 
-        p
-          clear: both
-          font-family: "source sans pro"
-          font-weight: 400
-          font-style: italic
-          font-size: 16px
-          line-height: 20px
-          color: $purple
-     
-  #submit-project
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "pointer", true)
-        &:hover
-          @include sprite($assets, "pointer_inverted", true)
-      
+   
   
   footer
     clear: both
-    border-bottom: none
     @extend .borded
+    border-bottom: none
   
     ul
       @include horizontal-list-container
@@ -196,5 +146,5 @@ section.page
         .selected
           @extend .borded
 hr.footer
-  @extend .borded
+  border-top: 1px $blue solid
   margin-top: 0px
