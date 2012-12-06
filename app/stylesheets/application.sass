@@ -1,6 +1,6 @@
 @import compass/utilities/sprites
 @import compass/typography/text/replacement
-@import compass/utilities/lists/horizontal-list
+@import compass/typography/lists/horizontal-list
 @import compass/typography/lists/bullets
 @import h5bp
 @import susy
@@ -25,7 +25,6 @@ $acqua: #81FFD0
 @import partials/general
 @import partials/fonts
 
-
 @import partials/320grid
 @import partials/960grid
 
@@ -48,7 +47,7 @@ header
       
   nav-header
     clear: both
-    @extend .full
+    @extend .full !optional
     display: block
     +padding-leader(1)
     ul
@@ -62,7 +61,7 @@ header
         width: columns(2)
         
         a
-          @extend .hover
+          @extend .hover !optional
           font-family: "miso"
           color: $black
           background-color: $yellow
@@ -83,7 +82,7 @@ header
         @include replace-with-sprite($assets,"pdf_icon")
         @include float-left
     a
-      @extend .hover
+      @extend .hover !optional
       @include float-left
       font-family: "miso"
       color: $black
@@ -118,7 +117,7 @@ section.page
   
   footer
     clear: both
-    @extend .borded
+    @extend .borded !optional
     border-bottom: none
   
     ul
@@ -140,11 +139,10 @@ section.page
         a
           background-color: yellow
           color: black
-          
-          @extend .hover
+          @extend .hover !optional
           
         .selected
-          @extend .borded
+          @extend .borded !optional
 hr.footer
   border-top: 1px $blue solid
   margin-top: 0px

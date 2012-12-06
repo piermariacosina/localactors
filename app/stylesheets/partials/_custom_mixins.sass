@@ -4,6 +4,16 @@
 	background-position: sprite-position($assets, $sprite)
 	width: image-width( $sprite-file )
 	height: image-height( $sprite-file )
+	
+@function sprite-width($assets, $sprite)
+	$sprite-file:  sprite-file($assets, $sprite)
+	@return image-width( $sprite-file )
+
+@function sprite-height($assets, $sprite)
+	$sprite-file:  sprite-file($assets, $sprite)
+	@return image-height( $sprite-file )
+
+
 
 =assign-sprite-background($assets)
 	background-image: sprite-url($assets)
@@ -25,86 +35,86 @@
 			margin-top: 3px
 		
 		&.sone
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"stripe1-mobile")
 			@else
 				@include replace-with-sprite($assets,"stripe1")
 		&.stwo
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"stripe2-mobile")
 			@else
 				@include replace-with-sprite($assets,"stripe2")
 		&.sthree
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"stripe3-mobile")
 			@else
 				@include replace-with-sprite($assets,"stripe3")
 		&.sfour
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"stripe4-mobile")
 			@else
 				@include replace-with-sprite($assets,"stripe4")
 			
 		&.zero
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l0-mobile")
 			@else
 				@include replace-with-sprite($assets,"l0")
 		&.one
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l1-mobile")
 			@else
 				@include replace-with-sprite($assets,"l1")
 		&.two
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l2-mobile")
 			@else
 				@include replace-with-sprite($assets,"l2")
 		&.three
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l3-mobile")
 			@else
 				@include replace-with-sprite($assets,"l3")
 		&.four
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l4-mobile")
 			@else
 				@include replace-with-sprite($assets,"l4")
 		&.five
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l5-mobile")
 			@else
 				@include replace-with-sprite($assets,"l5")
 		&.six
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l6-mobile")
 			@else
 				@include replace-with-sprite($assets,"l6")
 		&.seven
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l7-mobile")
 			@else
 				@include replace-with-sprite($assets,"l7")
 		&.eight
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l8-mobile")
 			@else
 				@include replace-with-sprite($assets,"l8")
 		&.nine
-			@extend .num
+			@extend .num !optional
 			@if $context == "mobile"
 				@include replace-with-sprite($assets,"l9-mobile")
 			@else

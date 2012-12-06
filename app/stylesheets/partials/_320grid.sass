@@ -14,7 +14,7 @@ $break: 16
 	
 section.page
 	+container($total-columns, $break)
-	//@extend .grid
+	@extend .grid !optional
 	margin-left: 0
 	
 	header
@@ -33,7 +33,7 @@ section.page
 			letter-spacing: px-to-em(1.6px)
 
 	#map
-		@extend .full
+		@extend .full !optional
 		#slides
 			ul
 				li
@@ -49,12 +49,13 @@ section.page
 			#text
 				ul
 					li
-						+span-columns(5, $total-columns)
+						+span-columns(4, $total-columns)
+						+hyphenation
 						display: none
 
 					
 	footer
-		@extend .full
+		@extend .full !optional
 		ul
 			li.nline
 				width: columns($total-columns)
@@ -75,7 +76,7 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size: 14px
+					font-size: px-to-em(14px)
 	#faq
 		a
 			span.icon
@@ -83,14 +84,28 @@ section.page
 				@include sprite($assets, "bubble-mobile", true)
 		ul.questions
 			list-style: none
+			+pre(1)
+			+span-columns(5 omega)
 			li
-				
 				h3
 					font-family: "source sans pro"
 					font-weight: 600
-					font-size: 16px
-					line-height: 40px
+					font-size: px-to-em(16px)
+					line-height: px-to-em(40px,24px)
 					color: $black
+					
+					i
+						margin-top: 3px
+						position:relative
+						@include float-left
+						margin-left: -(sprite-height($assets,"questionmark")+6px)
+						@include assign-sprite-background($assets)
+						@include sprite($assets, "questionmark", true)
+					
+					&.ui-accordion-header-active
+						i
+							margin-left: 13px -(sprite-height($assets,"questionmark_color"))
+							@include sprite($assets, "questionmark_color", true)
 					
 					span:hover
 						color: $purple
@@ -100,8 +115,8 @@ section.page
 					font-family: "source sans pro"
 					font-weight: 400
 					font-style: italic
-					font-size: 16px
-					line-height: 20px
+					font-size: px-to-em(12px)
+					line-height: px-to-em(20px)
 					color: $purple
 				 
 	#submit-project
@@ -119,20 +134,20 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size: 14px
+					font-size:  px-to-em(14px)
 				h4
 					display: inline
 					text-transform: uppercase
 					font-family: "miso"
 					font-weight: 400       
 					color: $rose
-					font-size: 16px			
+					font-size:  px-to-em(16px)
 #mailing-list,#faq,#submit-project
-	@extend .full
-	@extend .spined
+	@extend .full !optional
+	@extend .spined !optional
 	+clearfix
 	header
-		@extend .pointer
+		@extend .pointer !optional
 		padding-top: 10px
 		&.ui-state-hover, &.ui-accordion-header-active
 			h2
@@ -145,12 +160,12 @@ section.page
 		+span-columns(2,$break)
 	h2
 		+span-columns(5 omega,$total-columns)
-		@extend .section_title
+		@extend .section_title !optional
 		margin-top: 0
 		span 
-			@extend .hover
+			@extend .hover !optional
 
 	section
 		+span-columns($total-columns)
 		ul
-			@extend .noindent
+			@extend .noindent !optional

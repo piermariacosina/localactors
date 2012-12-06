@@ -5,8 +5,8 @@
 		border: 2px $blue solid
 	
 	.icon
-		@include assign-sprite-background($assets)
-		@include float-left
+		+assign-sprite-background($assets)
+		+float-left
 
 	.grid
 		+susy-grid-background
@@ -14,9 +14,9 @@
 	section.page
 		header
 			#logo
-				@include logo($assets,"web")
+				+logo($assets,"web")
 			nav-header
-				@include pre(3)
+				+pre(3)
 				clear: none
 				float: left
 				padding-top: 0
@@ -29,7 +29,7 @@
 						min-height: px-to-em(20px)
 						padding-left: 0
 						a
-							@extend .hover							
+							@extend .hover !optional
 							font-size: px-to-em(14px)
 							font-weight: 400
 			#paper
@@ -37,13 +37,13 @@
 				margin-top: 0
 	
 		footer
-			@extend .wide
-			@extend .borded
+			@extend .wide !optional
+			@extend .borded !optional
 			li.nline
 				float: none
 			
 		hr.footer
-			@extend .borded
+			@extend .borded !optional
 
 
 		#description
@@ -70,72 +70,72 @@
 		#mailing-list
 			a
 				span.icon
-					@include sprite($assets, "mail", true)
+					+sprite($assets, "mail", true)
 					&.hover
-						@include sprite($assets, "mail_inverted", true)	
+						+sprite($assets, "mail_inverted", true)	
 			.mailing_list  
 				#icon1
-					@include pre(2)
+					+pre(2)
 					@extend .icon
-					@include replace-with-sprite($assets,"dashed")
+					+replace-with-sprite($assets,"dashed")
 				#icon2
 					@extend .icon
 				#spiegazione
-					@include span-columns(3,13)
+					+span-columns(3,13)
 				
 			
 		#faq
 			a
 				span.icon
-					@include assign-sprite-background($assets)
-					@include sprite($assets, "bubble", true)
+					+assign-sprite-background($assets)
+					+sprite($assets, "bubble", true)
 					&:hover
-						@include sprite($assets, "bubble_inverted", true)
+						+sprite($assets, "bubble_inverted", true)
 			  
 		#submit-project
 			a
 				span.icon
-					@include assign-sprite-background($assets)
-					@include sprite($assets, "pointer", true)
+					+assign-sprite-background($assets)
+					+sprite($assets, "pointer", true)
 					&:hover
-						@include sprite($assets, "pointer_inverted", true)
+						+sprite($assets, "pointer_inverted", true)
 			.submit  
 				clear:both
 				#documenti
 					clear: both
 				#icon-number1
-					@extend .icon
-					@include replace-with-sprite($assets,"one")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"one")
 				#icon-number2
-					@extend .icon
-					@include replace-with-sprite($assets,"two")
-				#icon-number3
-					@extend .icon
-					@include replace-with-sprite($assets,"three")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"two")
+				#icon-number3 
+					@extend .icon !optional
+					+replace-with-sprite($assets,"three")
 				#icon-doc1
-					@extend .icon
-					@include replace-with-sprite($assets,"doc1")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"doc1")
 				#icon-doc2
-					@extend .icon
-					@include replace-with-sprite($assets,"doc2")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"doc2")
 				#icon-doc3
-					@extend .icon
-					@include replace-with-sprite($assets,"doc3")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"doc3")
 				#icon-plus1
 					margin-left: 5px
 					margin-right: 5px
-					@extend .icon
-					@include replace-with-sprite($assets,"plus1")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"plus1")
 				#icon-plus2
 					margin-left: 5px
 					margin-right: 5px
-					@extend .icon
-					@include replace-with-sprite($assets,"plus2")
+					@extend .icon !optional
+					+replace-with-sprite($assets,"plus2")
 				#spiegazione
-					@include span-columns(3,13)
+					+span-columns(3,13)
 											
 		#mailing-list,#faq,#submit-project
-			@extend .wide
+			@extend .wide !optional
 			a span.icon
 				+span-columns(3,$break)
 			h2.section_title
@@ -153,14 +153,14 @@
 				
 
 			#map
-				@extend .wide
+				@extend .wide !optional
 				#slides
-					@extend .borded
+					@extend .borded !optional
 					min-height: 334px
 				#steps
 					ul				
 						li
-							@include horizontal-list-item
+							+horizontal-list-item
 							font-family: "miso"
 							font-weight: 400
 							white-space: normal
@@ -172,10 +172,10 @@
 								color: $blue
 								font-size: 14px
 								text-transform: uppercase
-								@include pre(1,4)
+								+pre(1,4)
 								
 							&:hover,&.selected
-								@extend .borded
+								@extend .borded !optional
 									
 							#title
 								margin-top: 20px
@@ -183,17 +183,17 @@
 								
 									
 								#arrow1
-									@extend .arrow
+									@extend .arrow !optional
 									display: none
-									@include replace-with-sprite($assets,"arrow1")
+									+replace-with-sprite($assets,"arrow1")
 								#arrow2
-									@extend .arrow
+									@extend .arrow !optional
 									display: none
-									@include replace-with-sprite($assets,"arrow2")
+									+replace-with-sprite($assets,"arrow2")
 								#arrow3
-									@extend .arrow
+									@extend .arrow !optional
 									display: none
-									@include replace-with-sprite($assets,"arrow3")
+									+replace-with-sprite($assets,"arrow3")
 								
 								h4
 									display: inline
@@ -203,7 +203,7 @@
 									letter-spacing: 2px
 								+span-columns(4,13)
 								&:hover,&.selected
-								@extend .borded
+								@extend .borded !optional
 					
 							
 	
