@@ -10,8 +10,10 @@ gem 'sinatra-flash', :require => 'sinatra/flash'
 
 # Component requirements
 gem 'compass'
+gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
+gem 'yui-compressor', :require => 'yui/compressor'
 
 
 # Test requirements
@@ -33,6 +35,8 @@ end
 
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
+gem 'padrino-contrib'
+
 
 group :development do
 	gem 'annotate'

@@ -1,0 +1,130 @@
+$base-font-size: 16px
+$base-line-height: 24px
+
+$total-columns: 7 
+$column-width: 2.5em
+$gutter-width: 1.25em
+$grid-padding: 0.625em
+$container-style: magic
+
+$break: 16
+
+.grid
+	+susy-grid-background
+	
+section.page
+	+container($total-columns, $break)
+	//@extend .grid
+	margin-left: 0
+	
+	header
+		margin-top: $grid-padding
+		#paper
+			display: none
+	
+	#description
+		h1.vision
+			+leader(1)
+			font-family: "miso"
+			color: $rose
+			font-size: px-to-em(19px)
+			line-height: px-to-em(20.2px,16px)
+			font-weight: 400
+			letter-spacing: px-to-em(1.6px)
+
+	#map
+		@extend .full
+		#slides
+			ul
+				li
+					img
+						max-width: 100%
+						max-height: 100%
+		#steps
+			+clearfix
+			#arrow_left
+				+span-columns(1)
+			#arrow_right
+				+span-columns(1 omega)
+			#text
+				ul
+					li
+						+span-columns(5, $total-columns)
+						display: none
+
+					
+	footer
+		@extend .full
+		ul
+			li.nline
+				width: columns($total-columns)
+			li.nopadding
+				padding-left: 0
+				
+	#mailing-list
+		a
+			span.icon
+				@include assign-sprite-background($assets)
+				@include sprite($assets, "mail-mobile", true)
+	#faq
+		a
+			span.icon
+				@include assign-sprite-background($assets)
+				@include sprite($assets, "bubble-mobile", true)
+		ul.questions
+			list-style: none
+			li
+				
+				h3
+					font-family: "source sans pro"
+					font-weight: 600
+					font-size: 16px
+					line-height: 40px
+					color: $black
+					
+					
+					span:hover
+						color: $purple
+						background-color: $acqua 
+				p
+					clear: both
+					font-family: "source sans pro"
+					font-weight: 400
+					font-style: italic
+					font-size: 16px
+					line-height: 20px
+					color: $purple
+				 
+	#submit-project
+		a
+			span.icon
+				@include assign-sprite-background($assets)
+				@include sprite($assets, "pointer-mobile", true)
+					
+#mailing-list,#faq,#submit-project
+	@extend .full
+	@extend .spined
+	+clearfix
+	header
+		@extend .pointer
+		padding-top: 10px
+		&.ui-state-hover, &.ui-accordion-header-active
+			h2
+				span
+					color: $purple
+					background-color: $acqua
+		
+	a span.icon
+		margin-left: 20px
+		+span-columns(2,$break)
+	h2
+		+span-columns(5 omega,$total-columns)
+		@extend .section_title
+		margin-top: 0
+		span 
+			@extend .hover
+
+	section
+		+span-columns($total-columns)
+		ul
+			@extend .noindent

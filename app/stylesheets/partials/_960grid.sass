@@ -1,0 +1,132 @@
++at-breakpoint($break)
+	.wide
+		+span-columns(13, $break)
+	.borded
+		border: 2px $blue solid
+
+	//.grid
+		//+susy-grid-background
+		
+	section.page
+		header
+			nav-header
+				@include float-left
+				margin-top: 0px
+				@include pre(3)
+				ul
+					list-style-type: none
+					float:left
+					margin-top: 0px
+					padding-left: 0px
+					li 
+						a
+							@extend .hover
+							font-family: "miso"
+							color: $black
+							background-color: $yellow
+							font-size: 14px
+							text-transform: uppercase
+							font-weight: 400
+							@include float-left
+							margin-top: 10px
+	
+		footer
+			@extend .wide
+			@extend .borded
+		hr.footer
+			@extend .borded
+
+
+	#description
+		+span-columns(11, $break)
+		h1.vision
+			font-family: "miso"
+			color: $rose
+			font-size: 40px
+			font-weight: 400
+			line-height: 48px
+			letter-spacing: 2px
+
+	#map
+		@extend .wide
+		#slides
+			@extend .borded
+			min-height: 334px
+		#steps
+			ul
+				li
+				@include horizontal-list-item
+				font-family: "miso"
+				font-weight: 400
+				white-space: normal
+				padding: 0px
+				height: 180px
+				border: 2px white solid
+				p
+					color: $blue
+					font-size: 14px
+					text-transform: uppercase
+					@include pre(1,4)
+					
+				&:hover,&.selected
+					@extend .borded
+						
+				#title
+					margin-top: 20px
+					margin-botton: 20px
+					
+						
+					#arrow1
+						@extend .arrow
+						display: none
+						@include replace-with-sprite($assets,"arrow1")
+					#arrow2
+						@extend .arrow
+						display: none
+						@include replace-with-sprite($assets,"arrow2")
+					#arrow3
+						@extend .arrow
+						display: none
+						@include replace-with-sprite($assets,"arrow3")
+					
+					h4
+						display: inline
+						color: $rose
+						font-size: 24px
+						text-transform: uppercase
+						letter-spacing: 2px
+					+span-columns(4,13)
+					&:hover,&.selected
+					@extend .borded
+					
+	#mailing-list
+		a
+			span.icon
+				@include sprite($assets, "mail", true)
+				&.hover
+					@include sprite($assets, "mail_inverted", true)
+	#faq
+		a
+			span.icon
+				@include assign-sprite-background($assets)
+				@include sprite($assets, "bubble", true)
+				&:hover
+					@include sprite($assets, "bubble_inverted", true)
+		
+	#submit-project
+		a
+			span.icon
+				@include assign-sprite-background($assets)
+				@include sprite($assets, "pointer", true)
+				&:hover
+					@include sprite($assets, "pointer_inverted", true)
+							
+	#mailing-list,#faq,#submit-project
+		@extend .wide
+		a span.icon
+			+span-columns(2,$break)
+		h2.section_title
+			+span-columns(8,$break)
+		section
+			+pre(2)
+			+span-columns(10,13)

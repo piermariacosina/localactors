@@ -1,13 +1,17 @@
-@import partials/fonts
-@import partials/grid
-@import partials/custom_mixins
+@import compass/utilities/sprites
+@import compass/typography/text/replacement
+@import compass/utilities/lists/horizontal-list
+@import compass/typography/lists/bullets
+@import h5bp
+@import susy
+@import compass/typography/vertical_rhythm
+@import compass/css3/hyphenation
 
-@import "compass/utilities/sprites"
-@import "compass/typography/text/replacement"
-@import "compass/utilities/lists/horizontal-list"
+
++h5bp-normalize
++establish-baseline
 
 $assets-layout:smart
-
 $assets: sprite-map("assets/*.png")
 
 $blue: #001FFF
@@ -17,15 +21,23 @@ $yellow: #FFFF00
 $black: #000
 $acqua: #81FFD0
 
+@import partials/custom_mixins
 @import partials/general
+@import partials/fonts
+
+
+@import partials/320grid
+@import partials/960grid
+
 @import partials/map
+@import partials/explanation
 
 header
   @include clearfix
   #logo
     @include clearfix
     @include float-left
-    @include logo()
+    @include logo($assets,"mobile")
     
   #number
     height: 50px
@@ -35,24 +47,31 @@ header
     margin: 10px
       
   nav-header
-    @include float-left
-    margin-top: 0px
-    @include pre(3)
+    clear: both
+    @extend .full
+    display: block
+    +padding-leader(1)
     ul
-      list-style-type: none
-      float:left
-      margin-top: 0px
-      padding-left: 0px
+      +horizontal-list-container
       li 
+        +horizontal-list-item(18px)
+        background: image-url("assets/dashed.png") repeat-y right top
+        &:last-child
+          background: none
+        min-height: rhythm(1,13px)   
+        width: columns(2)
+        
         a
+          @extend .hover
           font-family: "miso"
           color: $black
           background-color: $yellow
-          font-size: 14px
+          font-size: px-to-em(12px)
+          line-height: px-to-em(13px,12px)
+          letter-spacing: px-to-em(2px)
           text-transform: uppercase
           font-weight: 400
-          @include float-left
-          margin-top: 10px    
+          white-space: normal
 
   #paper
     margin-top: 10px
@@ -63,15 +82,16 @@ header
         @include assign-sprite-background($assets)
         @include replace-with-sprite($assets,"pdf_icon")
         @include float-left
-      &.label
-        @include float-left
-        font-family: "miso"
-        color: $black
-        background-color: $yellow
-        font-size: 14px
-        text-transform: uppercase
-        font-weight: 400
-        margin-left: 10px
+    a
+      @extend .hover
+      @include float-left
+      font-family: "miso"
+      color: $black
+      background-color: $yellow
+      font-size: 14px
+      text-transform: uppercase
+      font-weight: 400
+      margin-left: 10px
       
 
   #social
@@ -92,78 +112,19 @@ header
      
 section.page
   #description
-    @include span-columns(11)
-    h1.vision
-      font-family: "miso"
-      color: $rose
-      font-size: 40px
-      font-weight: 400
-      line-height: 48px
-      letter-spacing: 0px
+    +hyphenation
   
-  .spined
-    $image: image-url("assets/spined.png")
-    background: $image repeat-x left top
-    height: image-height("assets/spined.png")
-    width: 100%
-  
-  #mailing-list
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "mail", true)
-        &:hover
-          @include sprite($assets, "mail_inverted", true)
-    
-      
-     
-  #faq
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "bubble", true)
-        &:hover
-          @include sprite($assets, "bubble_inverted", true)
-    .questions
-      li
-        
-        h3
-          font-family: "source sans pro"
-          font-weight: 600
-          font-size: 16px
-          line-height: 40px
-          color: $black
-          
-          
-          span:hover
-            color: $purple
-            background-color: $acqua 
-        p
-          clear: both
-          font-family: "source sans pro"
-          font-weight: 400
-          font-style: italic
-          font-size: 16px
-          line-height: 20px
-          color: $purple
-     
-  #submit-project
-    a
-      span.icon
-        @include assign-sprite-background($assets)
-        @include sprite($assets, "pointer", true)
-        &:hover
-          @include sprite($assets, "pointer_inverted", true)
-      
+   
   
   footer
     clear: both
-    border: 2px $blue solid
+    @extend .borded
     border-bottom: none
-    @include span-columns(13)
+  
     ul
       @include horizontal-list-container
       margin-top: 1px
+      padding: 0 10px 0 10px
       li
         @include horizontal-list-item
         font-family: "miso"
@@ -172,7 +133,7 @@ section.page
         font-size: 14px
         text-transform: uppercase
         margin-top: 3px
-
+        
         p
           display: inline
           color: $blue
@@ -180,100 +141,10 @@ section.page
           background-color: yellow
           color: black
           
+          @extend .hover
+          
         .selected
-          border: 2px $blue solid
-        
-      li:first-child
-        padding-left: 5px  
-  
-  #people
-    @include span-columns(11)
-    font-family: "miso"
-    font-weight: 400       
-    color: $blue
-    font-size: 18px
-    
-    margin-top: 3px
-    p
-      span
-        text-transform: uppercase
-        display: inline
-        font-size: 24px  
-        text-decoration: underline
-
-        &.rose
-          color: $rose
-          text-decoration: underline
-      
-  .mailing_list  
-    
-    #icon1
-      @include pre(2)
-      @extend .icon
-      @include replace-with-sprite($assets,"dashed")
-    #icon2
-      @extend .icon
-      @include replace-with-sprite($assets,"one")
-    #spiegazione
-      @include float-left
-      @include span-columns(3,13)
-      p
-        text-transform: uppercase
-        font-family: "miso"
-        font-weight: 400       
-        color: $blue
-        font-size: 14px
-  
-  .submit  
-    clear:both
-    #icon-number1
-      @include pre(2)
-      @extend .icon
-      @include replace-with-sprite($assets,"one")
-    #icon-number2
-      @extend .icon
-      @include replace-with-sprite($assets,"two")
-    #icon-number3
-      @extend .icon
-      @include replace-with-sprite($assets,"three")
-    #icon-doc1
-      margin-left: 16.5%
-      @extend .icon
-      @include replace-with-sprite($assets,"doc1")
-    #icon-doc2
-      @extend .icon
-      @include replace-with-sprite($assets,"doc2")
-    #icon-doc3
-      @extend .icon
-      @include replace-with-sprite($assets,"doc3")
-    #icon-plus1
-      margin-left: 10px
-      margin-right: 10px
-      @extend .icon
-      @include replace-with-sprite($assets,"plus1")
-    #icon-plus2
-      margin-left: 10px
-      margin-right: 10px
-      @extend .icon
-      @include replace-with-sprite($assets,"plus2")
-    #spiegazione
-      @include float-left
-      @include span-columns(3,13)
-      margin-left: 8px
-      p
-        text-transform: uppercase
-        font-family: "miso"
-        font-weight: 400       
-        color: $blue
-        font-size: 14px
-      h4
-        display: inline
-        text-transform: uppercase
-        font-family: "miso"
-        font-weight: 400       
-        color: $rose
-        font-size: 20px
-  
+          @extend .borded
 hr.footer
-  border: 1px $blue solid
+  border-top: 1px $blue solid
   margin-top: 0px

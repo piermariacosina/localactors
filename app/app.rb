@@ -2,6 +2,7 @@ class Localactors < Padrino::Application
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
+  register Padrino::Contrib::Helpers::AssetsCompressor
 
   register CompassInitializer
 

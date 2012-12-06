@@ -7,6 +7,8 @@ require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
+#require 'padrino-contrib/helpers/assets_compressor'
+
 ##
 # ## Enable devel logging
 #
