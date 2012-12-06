@@ -9,25 +9,16 @@
 		
 	section.page
 		header
+			#logo
+				+logo($assets,"web")
 			nav-header
-				@include float-left
-				margin-top: 0px
 				@include pre(3)
 				ul
-					list-style-type: none
-					float:left
-					margin-top: 0px
-					padding-left: 0px
 					li 
 						a
 							@extend .hover
-							font-family: "miso"
-							color: $black
-							background-color: $yellow
 							font-size: 14px
-							text-transform: uppercase
 							font-weight: 400
-							@include float-left
 							margin-top: 10px
 	
 		footer

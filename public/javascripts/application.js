@@ -12,9 +12,32 @@ $(window).bind('resize', function(e)
     });
 });
 
+	var subscribe = $("a.subscribe");
+	var ask = $("a.ask");
+	var submit = $("a.submit");
+	subscribe.click(function(event) {
+		event.preventDefault();
+		$(window).scrollTo( $("#mailing-list"),600);
+		$( "#sections_accordion" ).accordion('activate' , 0);
+	});
+	ask.click(function(event) {
+		event.preventDefault();
+		$(window).scrollTo( $("#faq"),600);
+		$( "#sections_accordion" ).accordion('activate' , 1);
+	});
+	submit.click(function(event) {
+		event.preventDefault();
+		$(window).scrollTo( $("#submit-project"),600);
+		$( "#sections_accordion" ).accordion('activate' , 2);
+	});
+
+
+
 function fitMap() {
 	var slides_width =  $('#slides').css("width");
 	$('#slides ul li').css("width",slides_width);
+	var slides_height =  $('#slides img').css("height");
+	$('#slides').css('height',slides_height);
 }
 
 $(document).ready(function() {
