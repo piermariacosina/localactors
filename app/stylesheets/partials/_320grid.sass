@@ -66,6 +66,16 @@ section.page
 			span.icon
 				@include assign-sprite-background($assets)
 				@include sprite($assets, "mail-mobile", true)
+		.mailing_list
+			#spiegazione
+				@include float-left
+				@include span-columns(7)
+				p
+					text-transform: uppercase
+					font-family: "miso"
+					font-weight: 400       
+					color: $blue
+					font-size: 14px
 	#faq
 		a
 			span.icon
@@ -99,7 +109,24 @@ section.page
 			span.icon
 				@include assign-sprite-background($assets)
 				@include sprite($assets, "pointer-mobile", true)
-					
+		.submit
+			#spiegazione
+				@include float-left
+				@include span-columns(7)
+				margin-left: 8px
+				p
+					text-transform: uppercase
+					font-family: "miso"
+					font-weight: 400       
+					color: $blue
+					font-size: 14px
+				h4
+					display: inline
+					text-transform: uppercase
+					font-family: "miso"
+					font-weight: 400       
+					color: $rose
+					font-size: 16px			
 #mailing-list,#faq,#submit-project
 	@extend .full
 	@extend .spined

@@ -13,7 +13,7 @@ gem 'compass'
 gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
-gem 'yui-compressor', :require => 'yui/compressor'
+# gem 'yui-compressor', :require => 'yui/compressor'
 
 
 # Test requirements
