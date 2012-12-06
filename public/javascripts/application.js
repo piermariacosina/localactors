@@ -6,8 +6,8 @@ $(window).bind('resize', function(e)
         clearTimeout(window.resizeEvt);
         window.resizeEvt = setTimeout(function()
         {
-            fitMap();
-			$( "#faq_accordion" ).accordion( "refresh" );
+        		fitMap();
+						$( "#faq_accordion" ).accordion( "refresh" );
         }, 250);
     });
 });
@@ -47,6 +47,8 @@ $(document).ready(function() {
 		current++;
 		checkLimit(current);
 		showCurrentSlide(current);
+		hideAllSteps();
+		showCurrentStep(current);
 		left_arrow.css('visibility', 'visible');
 	});
 	
@@ -54,6 +56,8 @@ $(document).ready(function() {
 		current--;
 		checkLimit(current);
 		showCurrentSlide(current);
+		hideAllSteps();
+		showCurrentStep(current);
 		right_arrow.css('visibility', 'visible');
 	});
 
@@ -61,11 +65,11 @@ $(document).ready(function() {
 		if (reached <= 0){
 			current = 0
 			hideLeft();
-			hideRest(current,1)
+			hideRest(current,1);
 		}
 		
 		if (reached == 1){
-			hideRest(current,2)
+			hideRest(current,2);
 		}
 		
 		if (reached == arSlides.length-1){
@@ -98,6 +102,14 @@ $(document).ready(function() {
 	
 	function showCurrentSlide(current){
 		arSlides[current].delay(500).fadeIn("slow");
+	}
+	
+	function hideAllSteps(){
+		for (var i=0;i<arSlides.length;i++){
+			(function(step) {
+				step.fadeOut("fast");
+			})(arSteps[i]);
+		}
 	}
 	
 	function showCurrentStep(current){
