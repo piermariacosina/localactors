@@ -19,7 +19,7 @@ module CompassInitializer
       config.generated_images_path = "public/images"
       config.javascripts_dir = "javascripts"
       config.fonts_dir = "fonts"
-      config.output_style = :nested
+      config.output_style = :compressed
       config.preferred_syntax = :sass
     end
 

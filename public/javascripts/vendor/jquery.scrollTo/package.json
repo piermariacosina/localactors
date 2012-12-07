@@ -1,0 +1,32 @@
+{
+    "author": {
+        "name": "Ariel Flesler",
+        "url": "http://flesler.blogspot.com"
+    },
+    "name": "jquery.scrollTo",
+    "licenses": [
+        {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+            "type": "GPL",
+            "url": "http://www.opensource.org/licenses/GPL-2.0"
+        }
+    ],
+    "description": "With this plugin, you will easily scroll overflowed elements, and the screen itself. It gives you access to many different options to customize and various ways to specify where to scroll.",
+    "keywords": [
+        "jquery",
+        "scroll"
+    ],
+    "homepage": "http://flesler.blogspot.kr/",
+    "url": "https://github.com/flesler/jquery.scrollTo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flesler/jquery.scrollTo.git"
+    },
+    "main": "jquery.scrollTo.js",
+    "version": "1.4.4",
+    "readme": "An jam package for the jquery.scrollTo.js plugin",
+    "categories": ["Events", "Utilities"]
+}

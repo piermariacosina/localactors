@@ -1,16 +1,11 @@
 {
-	"name": "Local Actors",
-	"version": "0.0.1",
-	"description": "A donation based platform",
-	"dependencies": {
-		
-	},
 	"jam": {
-		"packageDir": "public/javascripts",
+		"packageDir": "public/javascripts/vendor/",
 		"baseUrl": "public",
 		"dependencies": {
-			"jquery": "1.7.1",
-			"underscore": null
+			"jquery": null,
+			"jquery.scrollTo": null,
+			"jquery-ui": null
 		}
 	}
 }
