@@ -4,7 +4,6 @@
 	+padding-trailer(1)
 	#slides
 		min-height: 190px
-		@extend .borded
 		margin-bottom: 1px
 		ul
 			@include no-bullets
@@ -13,9 +12,11 @@
 				display: none
 				position: absolute
 				img
+					@extend .borded
 			
 	#steps
 		margin-top: 10px
+		min-height: rhythm(2)
 		+trailer(1)
 		#arrow_left
 			@extend .pointer

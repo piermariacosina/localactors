@@ -15,5 +15,5 @@ doc/
 .project
 .DS_Store
 /.sass-cache
-/public/components/*
+
 /public/stylesheets/*.css
