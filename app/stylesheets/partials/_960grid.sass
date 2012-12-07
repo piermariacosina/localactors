@@ -71,8 +71,9 @@
 			a
 				span.icon
 					+sprite($assets, "mail", true)
-					&.hover
-						+sprite($assets, "mail_inverted", true)	
+					&:hover
+						+sprite($assets, "mail_inverted", true)
+						+span-columns(3,$break)	
 			.mailing_list  
 				#icon1
 					+pre(2)
@@ -91,7 +92,7 @@
 					+sprite($assets, "bubble", true)
 					&:hover
 						+sprite($assets, "bubble_inverted", true)
-			  
+						+span-columns(3,$break)
 		#submit-project
 			a
 				span.icon
@@ -99,6 +100,8 @@
 					+sprite($assets, "pointer", true)
 					&:hover
 						+sprite($assets, "pointer_inverted", true)
+						+span-columns(3,$break)
+						
 			.submit  
 				clear:both
 				#documenti
@@ -141,15 +144,24 @@
 			h2.section_title
 				+span-columns(8,$break)
 			section
-				+pre(4)
+				+pre(3)
 				+span-columns(9,13)
 			h2
-				span
-					font-size: px-to-em(20px)
+				font-size: px-to-em(20px)
 				span.hl
 					display: block
-				font-size: px-to-em(18px)	
+			header
+				&.ui-state-hover, &.ui-accordion-header-active
+					h2
+						span		
+							color: black
+							background-color: transparent
 			
+					
+		
+		#faq
+			section
+				margin-left: 0	
 				
 
 		#map
