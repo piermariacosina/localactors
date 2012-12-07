@@ -152,58 +152,58 @@
 			
 				
 
-			#map
-				@extend .wide !optional
-				#slides
-					@extend .borded !optional
-					min-height: 334px
-				#steps
+		#map
+			@extend .wide !optional
+			#slides
+				min-height: 334px
+			#steps
+				#arrow_right
+					display: none
+				#arrow_left
+					display: none	
+				#text			
 					ul				
+						+horizontal-list
 						li
+							+span-columns(4,13)
 							+horizontal-list-item
-							font-family: "miso"
-							font-weight: 400
 							white-space: normal
-							padding: 0px
 							height: 180px
-							border: 2px white solid
-							display: inline !important
+							display: block
+							position: relative
 							p
-								color: $blue
 								font-size: 14px
 								text-transform: uppercase
 								+pre(1,4)
 								
-							&:hover,&.selected
-								@extend .borded !optional
 									
 							#title
-								margin-top: 20px
 								margin-botton: 20px
-								
-									
+								margin-top: 20px
 								#arrow1
 									@extend .arrow !optional
-									display: none
+									@extend .icon
 									+replace-with-sprite($assets,"arrow1")
+									margin-right: px-to-em(27px)
 								#arrow2
 									@extend .arrow !optional
-									display: none
+									@extend .icon
 									+replace-with-sprite($assets,"arrow2")
+									margin-right: px-to-em(27px)
 								#arrow3
 									@extend .arrow !optional
-									display: none
+									@extend .icon
 									+replace-with-sprite($assets,"arrow3")
-								
+									margin-right: px-to-em(27px)
 								h4
 									display: inline
-									color: $rose
 									font-size: 24px
 									text-transform: uppercase
 									letter-spacing: 2px
-								+span-columns(4,13)
-								&:hover,&.selected
+
+								
+							&:hover,&.selected
 								@extend .borded !optional
-					
+				
 							
 	
