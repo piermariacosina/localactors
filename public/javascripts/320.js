@@ -37,10 +37,10 @@ submit.click(function(event) {
 
 
 function fitMap() {
-var slides_width =  $('#slides').css("width");
-$('#slides ul li').css("width",slides_width);
-var slides_height =  $('#slides ul li:first-child').css("height");
-$('#slides').css('height',slides_height);
+	var slides_width =  $('#slides').css("width");
+	$('#slides ul li').css("width",slides_width);
+	var slides_height =  $('#slides ul li:first-child').css("height");
+	$('#slides').css('height',slides_height);
 }
 
 $(document).ready(function() {
