@@ -23,7 +23,7 @@ yepnope([
 					basicURl+'jquery-ui/ui/jquery.ui.accordion.js',
 					basicURl+'response.js'],
 	complete: function(){
-		Response.create({ mode: 'src',  prefix: 'src', breakpoints: [0,480] });
+		Response.create({ mode: 'src',  prefix: 'src', breakpoints: [0,980] });
 		yepnope([
 			{
 				test: Modernizr.mq('all and (max-width: 320px)'),

@@ -10,6 +10,9 @@
 
 	.grid
 		+susy-grid-background
+	.spined
+		$image: image-url("assets/spined.png")
+		background: $image repeat-x left top
 		
 	section.page
 		header
@@ -39,6 +42,7 @@
 		footer
 			@extend .wide !optional
 			@extend .borded !optional
+			margin-top: 20px
 			li.nline
 				float: none
 			
@@ -50,6 +54,7 @@
 			+span-columns(11, $break)
 		h1.vision
 			font-size: px-to-em(30px)
+			
 
 		#explanation
 			+span-columns(10, $break)
@@ -68,6 +73,9 @@
 						font-size: px-to-em(18px)
 						
 		#mailing-list
+			section
+				+pre(2)
+				+span-columns(11,13)
 			a
 				span.icon
 					+sprite($assets, "mail", true)
@@ -86,6 +94,9 @@
 				
 			
 		#faq
+			section
+				+pre(2)
+				+span-columns(11,13)
 			a
 				span.icon
 					+assign-sprite-background($assets)
@@ -94,6 +105,9 @@
 						+sprite($assets, "bubble_inverted", true)
 						+span-columns(3,$break)
 		#submit-project
+			section
+				+pre(3)
+				+span-columns(13,13)
 			a
 				span.icon
 					+assign-sprite-background($assets)
@@ -143,9 +157,7 @@
 				+span-columns(3,$break)
 			h2.section_title
 				+span-columns(8,$break)
-			section
-				+pre(3)
-				+span-columns(9,13)
+			
 			h2
 				font-size: px-to-em(20px)
 				span.hl
@@ -168,6 +180,11 @@
 			@extend .wide !optional
 			#slides
 				min-height: 334px
+				ul
+					img
+						width: 100%
+			h1.vision
+				+span-columns(11,13)
 			#steps
 				#arrow_right
 					display: none
@@ -183,6 +200,7 @@
 							height: 180px
 							display: block
 							position: relative
+							border: 2px white solid
 							p
 								font-size: 14px
 								text-transform: uppercase
@@ -216,6 +234,44 @@
 								
 							&:hover,&.selected
 								@extend .borded !optional
-				
-							
 	
+		h1.terms
+			
+			font-size: px-to-em(35px)
+			font-family: "miso"
+			color: $rose					
+			text-transform: uppercase
+			font-weight: 400	
+		#terms
+			#section
+				@extend .spined			
+				+span-columns(13,16)
+				font-family: "miso"
+				
+				#title
+					font-size: px-to-em(35px)
+					color: $blue					
+					text-transform: uppercase
+					margin-top: px-to-em(20px)
+					font-weight: 400
+				#subtitle
+					font-size: px-to-em(30px)
+					color: $rose
+					margin-top: px-to-em(5px)
+					font-weight: 400
+				p
+					color: black
+					font-family: "source sans pro"
+					+span-columns(10,13)
+					font-size: px-to-em(15px)
+					line-height: px-to-em(18px)
+				ol
+					font-family: "source sans pro"
+					color: $blue
+					+span-columns(7,13)
+					+pre(1)
+					font-size: px-to-em(15px)
+					line-height: px-to-em(20px)
+					li
+						margin-bottom: 10px
+				
