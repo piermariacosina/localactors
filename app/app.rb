@@ -2,13 +2,16 @@ class Localactors < Padrino::Application
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
-  #  register Padrino::Contrib::Helpers::AssetsCompressor
+
+  register Padrino::Contrib::Helpers::AssetsCompressor
 
   register CompassInitializer
-
-
+  
+  # register Padrino::Cache
+  # enable :caching
   enable :sessions
   
+  #disable :asset_stamp
 
   
   get '/' do
