@@ -8,7 +8,8 @@
       "Modernizr": "github:Modernizr/Modernizr/v2.6.2",
       "yepnope": "github:SlexAxton/yepnope.js/v1.5.4",
       "jquery.scrollTo": "github:flesler/jquery.scrollTo/1.4.4",
-      "enquire": "github:WickyNilliams/enquire.js/master"
+      "enquire": "github:WickyNilliams/enquire.js/master",
+      "response": "github:ryanve/response.js/master"
     }
   }
 }

@@ -20,9 +20,10 @@ yepnope([
 					basicURl+'jquery.scrollTo.js',
 					basicURl+'jquery-ui/ui/jquery.ui.core.js',
 					basicURl+'jquery-ui/ui/jquery.ui.widget.js',
-					basicURl+'jquery-ui/ui/jquery.ui.accordion.js'],
+					basicURl+'jquery-ui/ui/jquery.ui.accordion.js',
+					basicURl+'response.js'],
 	complete: function(){
-		
+		Response.create({ mode: 'src',  prefix: 'src', breakpoints: [0,480] });
 		yepnope([
 			{
 				test: Modernizr.mq('all and (max-width: 320px)'),
