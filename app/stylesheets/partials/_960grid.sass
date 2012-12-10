@@ -198,12 +198,13 @@
 							+horizontal-list-item
 							white-space: normal
 							height: 180px
-							display: block
+							display: block !important
 							position: relative
 							border: 2px white solid
 							p
 								font-size: 14px
 								text-transform: uppercase
+
 								+pre(1,4)
 								
 									
@@ -274,4 +275,9 @@
 					line-height: px-to-em(20px)
 					li
 						margin-bottom: 10px
+
++at-breakpoint(17)
+	section-page
+		+pre(2)						
+
 				
