@@ -21,7 +21,17 @@ module CompassInitializer
       config.fonts_dir = "fonts"
       config.output_style = :compressed
       config.preferred_syntax = :sass
+      
+      config.on_sprite_saved do |filename|
+        unless filename.match(/^transparent/)
+          png8filename = filename.sub(/\.png/, '-fs8.png')
+          %x{compile/pngquant/pngquant #{filename}}
+          %x{mv -f #{png8filename} #{filename}}   
+        end
+      end
     end
+    
+    
 
     Compass.configure_sass_plugin!
     Compass.handle_configuration_change!

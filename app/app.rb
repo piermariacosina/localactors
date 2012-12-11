@@ -7,11 +7,11 @@ class Localactors < Padrino::Application
 
   register CompassInitializer
   
-  register Padrino::Cache
-  enable :caching
+  # register Padrino::Cache
+  # enable :caching
   enable :sessions
   
-  disable :asset_stamp
+  #disable :asset_stamp
 
   
   get '/' do
