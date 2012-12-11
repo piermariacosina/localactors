@@ -9,7 +9,8 @@
       "yepnope": "github:SlexAxton/yepnope.js/v1.5.4",
       "jquery.scrollTo": "github:flesler/jquery.scrollTo/1.4.4",
       "enquire": "github:WickyNilliams/enquire.js/master",
-      "response": "github:ryanve/response.js/master"
+      "response": "github:ryanve/response.js/master",
+      "Respond": "github:scottjehl/Respond/1.2.0"
     }
   }
 }
