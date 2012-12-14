@@ -1,7 +1,8 @@
 source :rubygems
 
 # Server requirements
-gem 'thin' 
+#gem 'thin'
+gem "puma"
 # or mongrel
 # gem 'trinidad', :platform => 'jruby'
 
@@ -9,13 +10,17 @@ gem 'thin'
 gem 'rake'
 
 gem 'sinatra-flash', :require => 'sinatra/flash'
+gem 'sinatra-redirect-with-flash'
 
 # Component requirements
+gem 'rack-google-analytics', :require => "rack/google-analytics"
 gem 'compass'
 gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
 gem 'yui-compressor', :require => 'yui/compressor'
+gem 'gibbon'
+gem 'rack-google-analytics'
 
 
 # Test requirements

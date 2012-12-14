@@ -44,39 +44,39 @@ function fitMap() {
 }
 
 $(document).ready(function() {
-$( "#sections_accordion" ).accordion({ header: "header", collapsible: true, heightStyle: "content", active: false  });
-$( "#faq_accordion" ).accordion({ header: "h3", collapsible: true, heightStyle: "content", active: false  });
-
-var step1 = $( "li.step1" );
-var step2 = $( "li.step2" );
-var step3 = $( "li.step3" );
-
-arSteps = [step1,step2,step3];
-
-var slide1 = $( "li.slide1" );
-var slide2 = $( "li.slide2" );
-var slide3 = $( "li.slide3" );
-
-arSlides = [slide1,slide2,slide3];
-
-var right_arrow = $( "#arrow_right" );
-var left_arrow = $( "#arrow_left" );
-
-var current = 0
-
-fitMap();
-showCurrentSlide(current);
-showCurrentStep(current);
-hideLeft();
-
-
-right_arrow.click(function(){
-	current++;
-	checkLimit(current);
+	$( "#sections_accordion" ).accordion({ header: "header", collapsible: true, heightStyle: "content", active: false  });
+	$( "#faq_accordion" ).accordion({ header: "h3", collapsible: true, heightStyle: "content", active: false  });
+	
+	var step1 = $( "li.step1" );
+	var step2 = $( "li.step2" );
+	var step3 = $( "li.step3" );
+	
+	arSteps = [step1,step2,step3];
+	
+	var slide1 = $( "li.slide1" );
+	var slide2 = $( "li.slide2" );
+	var slide3 = $( "li.slide3" );
+	
+	arSlides = [slide1,slide2,slide3];
+	
+	var right_arrow = $( "#arrow_right" );
+	var left_arrow = $( "#arrow_left" );
+	
+	var current = 0
+	
+	fitMap();
 	showCurrentSlide(current);
-	hideAllSteps();
 	showCurrentStep(current);
-	left_arrow.css('visibility', 'visible');
+	hideLeft();
+	
+	
+	right_arrow.click(function(){
+		current++;
+		checkLimit(current);
+		showCurrentSlide(current);
+		hideAllSteps();
+		showCurrentStep(current);
+		left_arrow.css('visibility', 'visible');
 });
 
 $('#slides').on('swipe', function (event) {

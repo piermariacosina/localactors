@@ -1,4 +1,5 @@
 class Localactors < Padrino::Application
+  register AnalyticsInitializer
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
@@ -7,11 +8,28 @@ class Localactors < Padrino::Application
 
   register CompassInitializer
   
-  # register Padrino::Cache
-  # enable :caching
+  
   enable :sessions
   
-  #disable :asset_stamp
+  configure do
+    # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
+    Gibbon.api_key = "b8127902c768c167f848ab92191175e8-us1"
+    Gibbon.timeout = 15
+    Gibbon.throws_exceptions = false
+
+    set :mailchimp_list_id, "e01ee24d90"
+  end
+  
+  configure :production do
+     register Padrino::Cache
+     enable :caching
+     disable :asset_stamp
+  end
+  
+  configure :development do
+     disable :caching
+     enable :asset_stamp
+  end  
 
   
   get '/' do
@@ -22,13 +40,19 @@ class Localactors < Padrino::Application
     render "terms"
   end
   
+  post '/subscribe' do
+    email = params[:email]
+    mail_submit(email)
+  end
   
+  post '/subscribejs', :provides => :json do
+    email = params[:email]
+    mail_submitjson(email)
+  end
+
 
   ##
   # Caching support
-  #
-  # register Padrino::Cache
-  # enable :caching
   #
   # You can customize caching store engines:
   #
@@ -53,15 +77,6 @@ class Localactors < Padrino::Application
   # disable :sessions             # Disabled sessions by default (enable if needed)
   # disable :flash                # Disables sinatra-flash (enabled by default if Sinatra::Flash is defined)
   # layout  :my_layout            # Layout can be in views/layouts/foo.ext or views/foo.ext (default :application)
-  #
-
-  ##
-  # You can configure for a specified environment like:
-  #
-  #   configure :development do
-  #     set :foo, :bar
-  #     disable :asset_stamp # no asset timestamping for dev
-  #   end
   #
 
   ##
