@@ -1,6 +1,21 @@
 @import susy
 @import compass/css3/hyphenation
 
+$base-font-size: 16px
+$base-line-height: 24px
+
+$total-columns: 7 
+$column-width: 40px
+$gutter-width: 20px
+$grid-padding: 10px
+$container-style: magic
+
+$break: 16
+
+.grid
+	+susy-grid-background
+
+
 @import partials/custom_mixins
 
 $blue: #001FFF
@@ -11,9 +26,13 @@ $rose: #FF4874
 	width: image-width("logo_mail.png")
 	height: image-height("logo_mail.png")
 table[id="esterna"]
+	
 	td[id="esternotd"]
 		
 		table[id="main"]
+			+container($total-columns, $break)
+			@extend .grid
+			
 			h2
 				color: $rose
 				font-family: "Helvetica"
@@ -32,3 +51,9 @@ table[id="esterna"]
 				font-family: "Helvetica"
 				background-color: yellow
 				
++at-breakpoint($break)
+	table[id="esterna"]
+		td[id="esternotd"]
+			table[id="main"]
+				.grid
+					+susy-grid-background
