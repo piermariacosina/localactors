@@ -14,6 +14,39 @@ $(document).ready(function() {
 
 	arSlides = [slide1,slide2,slide3];
 	
+	
+	$( "input#mail_submit" ).click(function(event){
+		event.preventDefault();
+		email = $("input#email").val();
+		$.ajax({
+			data: {email: email},
+			dataType: "json",
+			url: "/subscribe",
+			type: "post",
+			success: function(response){
+				if (response){
+					if(response.notice){
+						showFlashMessage(response.notice);
+					}	
+				}
+					
+			}
+		});
+	});
+	
+	function showFlashMessage(msg){
+		flushFlashMessages();
+		var form = $('form#mail_form')
+		 $('<div class="notice">'+msg+'</div>').hide().prependTo(form).fadeIn();
+		
+	}
+	
+	function flushFlashMessages(){
+		$('form#mail_form .notice').remove();
+	}
+	
+
+	
 	function fitMap() {
 		var slides_width =  $('#slides').css("width");
 		$('#slides ul li').css("width",slides_width);

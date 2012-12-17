@@ -15,3 +15,12 @@
 	#icon2
 	#spiegazione
 		%p  You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a 
+	
+	- form_tag '/subscribe', :id => "mail_form", :class => 'submit-form', :method => 'post' do
+		= flash_tag(:notice) 
+		- field_set_tag do
+			%p
+				= label_tag :email, :class => 'first'
+				= text_field_tag :email, :value => params[:email], :id => 'email'
+		- field_set_tag(:class => 'buttons') do
+			= submit_tag "Submit", :id => 'mail_submit'

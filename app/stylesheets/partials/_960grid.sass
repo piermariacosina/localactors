@@ -15,6 +15,7 @@
 		background: $image repeat-x left top
 		
 	section.page
+		+pre(0)
 		header
 			#logo
 				+logo($assets,"web")
@@ -104,6 +105,7 @@
 					&:hover
 						+sprite($assets, "bubble_inverted", true)
 						+span-columns(3,$break)
+						
 		#submit-project
 			section
 				+pre(3)
@@ -162,12 +164,6 @@
 				font-size: px-to-em(20px)
 				span.hl
 					display: block
-			header
-				&.ui-state-hover, &.ui-accordion-header-active
-					h2
-						span		
-							color: black
-							background-color: transparent
 			
 					
 		
@@ -178,24 +174,31 @@
 
 		#map
 			@extend .wide !optional
-			#slides
-				min-height: 334px
-				ul
-					img
-						width: 100%
 			h1.vision
 				+span-columns(11,13)
+			#slides
+				ul
+					li
+						img
+							margin-left: -(0.5*image-width("world1.png"))
+
 			#steps
+				
 				#arrow_right
 					display: none
 				#arrow_left
 					display: none	
-				#text			
+				#text	
+					margin-top: 3px		
 					ul				
 						+horizontal-list
 						li
 							+span-columns(4,13)
 							+horizontal-list-item
+							&:first-child
+								padding-left: 4px
+							&:last-child
+								padding-right: 4px
 							white-space: normal
 							height: 180px
 							display: block !important
@@ -276,8 +279,8 @@
 					li
 						margin-bottom: 10px
 
-+at-breakpoint(17)
-	section-page
++at-breakpoint(18)
+	section.page
 		+pre(2)						
 
 				

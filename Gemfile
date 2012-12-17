@@ -1,19 +1,26 @@
 source :rubygems
 
 # Server requirements
-# gem 'thin' # or mongrel
+#gem 'thin'
+gem "puma"
+# or mongrel
 # gem 'trinidad', :platform => 'jruby'
 
 # Project requirements
 gem 'rake'
+
 gem 'sinatra-flash', :require => 'sinatra/flash'
+gem 'sinatra-redirect-with-flash'
 
 # Component requirements
+gem 'rack-google-analytics', :require => "rack/google-analytics"
 gem 'compass'
 gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
-# gem 'yui-compressor', :require => 'yui/compressor'
+gem 'yui-compressor', :require => 'yui/compressor'
+gem 'gibbon'
+gem 'rack-google-analytics'
 
 
 # Test requirements
@@ -23,7 +30,6 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
-	gem 'oily_png'
 end
 
 group :test do
@@ -41,6 +47,7 @@ gem 'padrino-contrib'
 group :development do
 	gem 'annotate'
 	gem 'awesome_print'
+	gem 'oily_png'
 end
 
 # Or Padrino Edge
