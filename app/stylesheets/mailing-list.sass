@@ -12,9 +12,6 @@ $container-style: magic
 
 $break: 16
 
-.grid
-	+susy-grid-background
-
 
 @import partials/custom_mixins
 
@@ -30,8 +27,8 @@ table[id="esterna"]
 	td[id="esternotd"]
 		
 		table[id="main"]
-			+container($total-columns, $break)
-			@extend .grid
+			width: columns($total-columns)
+			+susy-grid-background
 			
 			h2
 				color: $rose
@@ -55,5 +52,5 @@ table[id="esterna"]
 	table[id="esterna"]
 		td[id="esternotd"]
 			table[id="main"]
-				.grid
-					+susy-grid-background
+				@include set-container-width
+				+susy-grid-background
