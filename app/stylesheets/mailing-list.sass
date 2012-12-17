@@ -1,18 +1,5 @@
-@import compass/utilities/sprites
-@import compass/typography/text/replacement
-@import compass/typography/lists/horizontal-list
-@import compass/typography/lists/bullets
-@import h5bp
 @import susy
-@import compass/typography/vertical_rhythm
 @import compass/css3/hyphenation
-
-
-+h5bp-normalize
-+establish-baseline
-
-$assets-layout:smart
-$assets: sprite-map("assets/*.png")
 
 @import partials/custom_mixins
 
@@ -20,18 +7,9 @@ $blue: #001FFF
 $rose: #FF4874
 
 .logo
-	@include assign-sprite-background($assets)
-	@include replace-with-sprite($assets,"logo")
-	width: 580px
-p.mese
-	text-align: left
-	color: $rose
-	font-family: "Helvetica"
-	font-size: 15px
-	text-transform: uppercase
-	span
-		color: $blue
-
+	background: white image-url("logo_mail.png") no-repeat left top
+	width: image-width("logo_mail.png")
+	height: image-height("logo_mail.png")
 table[id="esterna"]
 	td[id="esternotd"]
 		
