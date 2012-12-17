@@ -22,6 +22,10 @@ class Localactors < Padrino::Application
     render "terms"
   end
   
+  get '/mail' do
+    render "mails/mailing-list", :layout =>false
+  end
+  
   
 
   ##

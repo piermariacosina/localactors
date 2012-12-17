@@ -1,0 +1,21 @@
+!!!
+%html{:lang => "en"}
+	%head
+		%meta{'http-equiv' => 'Content-Type', :content => 'ext/html; charset=utf-8'}/
+		%title Newsletter
+		= stylesheet_link_tag 'mailing-list'
+	%body
+		%table#esterna{:cellspacing=> "10", :cellpadding=> "0", :width=>"100%"}
+			%tr
+				%td#esternotd{:align=> "center"}		
+					%table#main{:width=> "580",	:border=> "0",	:cellspacing=> "0",	:cellpadding=> "0"}
+						%tr
+							%td
+								%h2.title Primo titolo
+								%p.subtitle Primo titolo
+								%p.description prima descrizione
+						%tr
+							%td
+								%h2.title Seconda titolo
+								%p.description seconda descrizione
+								%a{href: 'c'} Read More
