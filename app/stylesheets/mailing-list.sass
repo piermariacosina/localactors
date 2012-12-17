@@ -51,10 +51,10 @@ table[id="esterna"]
 				font-family: "Helvetica"
 				background-color: yellow
 				
-+at-breakpoint($break)
++at-breakpoint(480px)
 	table[id="esterna"]
-		@include set-container-width
+		width: 600px
 		td[id="esternotd"]
 			table[id="main"]
-				width: columns(7,$break)
+				width: columns($break)
 				+susy-grid-background
