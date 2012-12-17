@@ -18,50 +18,54 @@ Localactors.helpers do
 		gb.list_subscribe({:id => 'e01ee24d90', :email_address => email, :email_type => 'html', :double_optin => 'false', :update_existing => 'false', :replace_interests => 'true', :send_welcome => 'true'})
 	end
 	
-	def mail_submit(email)
+	def mail_submit(email,content_type)
+		flash.discard
 		unless email.nil? || email.strip.empty?
 			if validate_email(email)
 						memberInfo = check_member_subscription(email)
 						if memberInfo.fetch('success') == 0
 							if subscribe_to_list(email)
-								flash[:success] = "success"
+								if content_type == :json
+									flash.now[:success] = "success"
+								else
+									flash[:success] = "success"
+								end
 							else
-								flash[:errors] = "fail"
+								if content_type == :json
+									flash.now[:errors] = "fail"
+								else
+									flash[:errors] = "fail"
+								end
 							end
 						else
-							flash[:notice] = "You are already subscribed"
-						end
-			else
-				flash[:notice] = "Email address is not valid"
-			end
-		else
-			flash[:notice] = "Please fill the email field"
-		end
-		redirect '/#mailing-list'
-	end
-	
-	def mail_submitjson(email)
-		response = Hash.new
-		unless email.nil? || email.strip.empty?
-			if validate_email(email)
-						memberInfo = check_member_subscription(email)
-						if memberInfo.fetch('success') == 0
-							if subscribe_to_list(email)
-								response[:success] = "success"
+							if content_type == :json
+								flash.now[:notice] = "You are already subscribed"
 							else
-								response[:errors] = "fail"
+								flash[:notice] = "You are already subscribed"
 							end
-						else
-							response[:notice] = "You are already subscribed"
 						end
 			else
-				response[:notice] = "Email address is not valid"
+				if content_type == :json
+					flash.now[:notice] = "Email address is not valid"
+				else
+					flash[:notice] = "Email address is not valid"
+				end
+				
 			end
 		else
-			response[:notice] = "Please fill the email field"
+			if content_type == :json
+				flash.now[:notice] = "Please fill the email field"
+			else
+				flash[:notice] = "Please fill the email field"
+			end
+			
 		end
 		
-		return response.to_json
+		if content_type == :json
+			return flash.to_json
+		else
+			redirect "/#mailing-list"
+		end 
 	end
 end
 

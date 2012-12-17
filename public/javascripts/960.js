@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$.ajax({
 			data: {email: email},
 			dataType: "json",
-			url: "/subscribejs",
+			url: "/subscribe",
 			type: "post",
 			success: function(response){
 				if (response){

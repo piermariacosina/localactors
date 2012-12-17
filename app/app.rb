@@ -30,7 +30,8 @@ class Localactors < Padrino::Application
      disable :caching
      enable :asset_stamp
   end  
-
+  
+  
   
   get '/' do
     render "index"
@@ -40,14 +41,10 @@ class Localactors < Padrino::Application
     render "terms"
   end
   
-  post '/subscribe' do
-    email = params[:email]
-    mail_submit(email)
-  end
   
-  post '/subscribejs', :provides => :json do
+  post '/subscribe', :provides => [:html, :json] do
     email = params[:email]
-    mail_submitjson(email)
+    mail_submit(email, content_type)
   end
 
 
