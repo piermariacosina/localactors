@@ -21,6 +21,7 @@ gem 'susy'
 gem 'yui-compressor', :require => 'yui/compressor'
 gem 'gibbon'
 gem 'rack-google-analytics'
+gem 'rdiscount'
 
 
 # Test requirements

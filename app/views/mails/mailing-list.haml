@@ -1,27 +1,40 @@
 !!!
 %html{:lang => "en"}
 	%head
-		%meta{'http-equiv' => 'Content-Type', :content => 'ext/html; charset=utf-8'}/
+		%meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
 		%title Newsletter
 		= stylesheet_link_tag 'mailing-list'
 	%body
 		
-		%table#esterna
+		%table#external
 			%tr
-				%td#esternotd		
+				%td#externaltd		
 					%table#main
 						%tr
 							%td
 								.logo
-								%p.mese
-									newsletter / 
+								%p.month
+									NEWSLETTER / 
 									%span
-										september 2012
-						%tr
+										SEPTEMBER 2012
+						%tr.story
 							%td
 								= image_tag('img1.png')
-								%h2.title From Local to Global
-								%p.subtitle Subtitle placeholder text
+								%h1.title From Local to Global
+								%p.subtitle SUBTITLE PLACEHOLDER TEXT
+								%p.description 
+									Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with 
+									my name printed on it? Do you see a little Asian child with a blank expression on his face sitting 
+									outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, 
+									that's what you see at a toy store. And you must think you're in a toy store, 
+									because you're here shopping for  
+									%a{href: 'c'} Read More
+								%hr.border
+						%tr.story
+							%td
+								= image_tag('img1.png')
+								%h1.title From Local to Global
+								%p.subtitle SUBTITLE PLACEHOLDER TEXT
 								%p.description 
 									Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with 
 									my name printed on it? Do you see a little Asian child with a blank expression on his face sitting 
@@ -29,18 +42,5 @@
 									that's what you see at a toy store. And you must think you're in a toy store, 
 									because you're here shopping for an infant named Jeb. 
 									%a{href: 'c'} Read More
-								.border
-						%tr
-							%td
-								= image_tag('img1.png')
-								%h2.title From Local to Global
-								%p.subtitle Subtitle placeholder text
-								%p.description 
-									Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with 
-									my name printed on it? Do you see a little Asian child with a blank expression on his face sitting 
-									outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, 
-									that's what you see at a toy store. And you must think you're in a toy store, 
-									because you're here shopping for an infant named Jeb. 
-									%a{href: 'c'} Read More
-								.border
+								%hr.border
 								
