@@ -36,8 +36,10 @@ body
 	-ms-text-size-adjust: 100%
 	margin: 0
 	padding: 0
-	font-family: "source sans pro","Helvetica Neue", Helvetica, Arial, sans-serif
 	-webkit-font-smoothing: antialiased
+
+p
+	font-family: "source sans pro","Helvetica Neue", Helvetica, Arial, sans-serif
 
 div.logo
 	background: white image-url("logo_mail.png") no-repeat left top
@@ -50,7 +52,7 @@ h1,h2,h3,h4,h5,h6
 	color: $rose
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 	font-weight: bold
-	
+	line-height: px-to-em(16px)
 h1
 	font-size: px-to-em(36px)
 h2
@@ -105,20 +107,19 @@ p
 table[id="external"]
 	margin: 0
 	padding: 0
-	width: 100% !important
+
 	
 	td[id="externaltd"]
-		width: columns($total-columns,$break)
-		max-width: 600px
+		+container($break,$total-columns)
+		max-width: px-to-em(600px)
 		padding: $grid-padding*2
 		table[id="main"]
 			td[class="story"]
-				+span-columns(7,$break)
 				margin-top: px-to-em(20px)
 
 			
 				
-@media screen and (max-device-width: 480px)
+@media screen and (max-device-width: 480px), screen and (max-width: 480px)
 	div.logo
 		background: white image-url("logo_mail_mobile.png") no-repeat left top
 		width: image-width("logo_mail_mobile.png")
@@ -126,7 +127,8 @@ table[id="external"]
 		margin-bottom: px-to-em(30px)
 	
 	h1,h2,h3,h4,h5,h6
-		margin: px-to-em(5px) 0 0 0 
+		margin: px-to-em(5px) 0 0 0
+		 
 	
 	h1
 		font-size: px-to-em(30px)
@@ -159,10 +161,12 @@ table[id="external"]
 			font-size: px-to-em(13px)
 
 	table[id="external"]
+		margin: 0
+		padding: 0
 		td[id="externaltd"]
 			+set-container-width
 			position: relative
-			padding: $grid-padding
+			padding: $grid-padding*.5
 			table[id="main"]
 				width: columns($total-columns)
 	
