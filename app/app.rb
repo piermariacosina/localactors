@@ -45,7 +45,6 @@ class Localactors < Padrino::Application
     render "mails/mailing-list", :layout =>false
   end
   
-  
   post '/subscribe', :provides => [:html, :json] do
     email = params[:email]
     mail_submit(email, content_type)
