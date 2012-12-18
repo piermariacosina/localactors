@@ -2,7 +2,6 @@
 @import h5bp
 @import partials/fonts
 @import compass/utilities/general/float
-@import compass/utilities/text/replacement
 
 @function px-to-em($target, $context: $base-font-size)
 	@if $target == 0 
@@ -37,7 +36,9 @@ body, p
 	-webkit-text-size-adjust:none
 
 div.logo
-	+replace-text-with-dimensions("logo_mail_mobile.png")
+	background: white image-url("") no-repeat left top
+	width: image-width("logo_mail_mobile.png")
+	height: image-height("logo_mail_mobile.png")
 	margin-bottom: px-to-em(30px)
 
 h1,h2,h3,h4,h5,h6
@@ -109,7 +110,7 @@ table[id="external"]
 			width: columns($total-columns)
 			
 				
-+at-breakpoint($break)
++at-breakpoint(px-to-em(480px))
 	div.logo
 		background: white image-url("logo_mail.png") no-repeat left top
 		width: image-width("logo_mail.png")
