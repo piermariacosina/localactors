@@ -48,7 +48,7 @@ div.logo
 h1,h2,h3,h4,h5,h6	
 	margin: px-to-em(10px) 0 0 0 
 	color: $rose
-	font-family: "source sans pro","Helvetica Neue", Helvetica, Arial, sans-serif
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 	font-weight: bold
 	
 h1
@@ -106,7 +106,6 @@ table[id="external"]
 	margin: 0
 	padding: 0
 	width: 100% !important
-	line-height: 100% !important
 	
 	td[id="externaltd"]
 		width: columns($total-columns,$break)
@@ -161,9 +160,9 @@ table[id="external"]
 
 	table[id="external"]
 		td[id="externaltd"]
-			width: 320px
+			+set-container-width
 			position: relative
-			padding-top: $grid-padding
+			padding: $grid-padding
 			table[id="main"]
 				width: columns($total-columns)
 	
