@@ -13,13 +13,13 @@
 $base-font-size: 16px
 $base-line-height: 24px
 
-$total-columns: 7 
+$total-columns: 9 
 $column-width: 2.5em
 $gutter-width: 1.25em
 $grid-padding: 0.625em
 $container-style: magic
 
-$break: 9
+$break: 7
 
 $legacy-support-for-ie: true
 
@@ -36,17 +36,89 @@ body, p
 	-webkit-text-size-adjust:none
 
 div.logo
-	background: white image-url("logo_mail_mobile.png") no-repeat left top
-	width: image-width("logo_mail_mobile.png")
-	height: image-height("logo_mail_mobile.png")
-	margin-bottom: px-to-em(30px)
+	background: white image-url("logo_mail.png") no-repeat left top
+	width: image-width("logo_mail.png")
+	height: image-height("logo_mail.png")
+	margin-bottom: px-to-em(0px)
 
-h1,h2,h3,h4,h5,h6
+h1,h2,h3,h4,h5,h6	
+	margin: px-to-em(10px) 0 0 0 
 	color: $rose
 	font-family: "source sans pro","Helvetica Neue", Helvetica, Arial, sans-serif
 	font-weight: bold
-	margin: px-to-em(5px) 0 0 0 
+	
+h1
+	font-size: px-to-em(36px)
+h2
+	font-size: px-to-em(32px)
+h3
+	font-size: px-to-em(28px)
+h4
+	font-size: px-to-em(24px)
+h5
+	font-size: px-to-em(20px)
+h6
+	font-size: px-to-em(16px)
 
+hr.border
+	margin-bottom: px-to-em(0px)
+	border : 0
+	height : image-height("textures/spined.png")
+	background : image-url("textures/spined.png") repeat-x
+
+img
+	width: 100%
+	max-width: 100%
+p
+	&.subtitle
+		font-size: px-to-em(18px)
+		margin: 0 0 px-to-em(5px) 0
+		color: $rose
+		text-transform: uppercase
+		font-size: px-to-em(14px)
+	&.month
+		font-size: px-to-em(12px)
+		margin-top: px-to-em(5px)
+		margin-bottom: px-to-em(20px)
+		position: relative
+		color: $rose
+		font-weight: bold
+		text-transform: uppercase
+		span
+			color: $purple
+	&.description
+		font-size: px-to-em(16px)
+		display: inline
+		color: $purple
+	
+	a
+		background-color: yellow
+		color: $black
+		&:hover
+			color: $purple
+			background-color: $acqua
+
+table[id="external"]
+	td[id="externaltd"]
+		+container($break,$total-columns)
+		padding: $grid-padding*2
+		table[id="main"]
+			td[class="story"]
+				+span-columns(7,$break)
+				margin-top: px-to-em(20px)
+
+			
+				
+@media screen and (max-device-width: 480px)
+	div.logo
+		background: white image-url("logo_mail_mobile.png") no-repeat left top
+		width: image-width("logo_mail_mobile.png")
+		height: image-height("logo_mail_mobile.png")
+		margin-bottom: px-to-em(30px)
+	
+	h1,h2,h3,h4,h5,h6
+		margin: px-to-em(5px) 0 0 0 
+	
 	h1
 		font-size: px-to-em(30px)
 	h2
@@ -60,101 +132,32 @@ h1,h2,h3,h4,h5,h6
 	h6
 		font-size: px-to-em(12px)
 	
-img
-	width: 100%
-	max-width: 100%
-	
-hr.border
-	border : 0
-	height : image-height("textures/spined.png")
-	background : image-url("textures/spined.png") repeat-x
-	margin-top: px-to-em(20px)
-	margin-bottom: px-to-em(10px)
-	
-p
-	&.subtitle
-		color: $rose
-		text-transform: uppercase
-		font-size: px-to-em(14px)
-		margin: px-to-em(5px) 0 px-to-em(10px) 0
-	&.month
-		color: $rose
-		font-weight: bold
-		text-transform: uppercase
-		position: absolute
-		right: 0
-		padding-right: px-to-em(10px,12px)
-		top: 0
-		font-size: px-to-em(12px)
-		
-		span
-			color: $purple
-	&.description
-		display: inline
-		color: $purple
-		font-size: px-to-em(13px)
-	a
-		background-color: yellow
-		color: $black
-		&:hover
-			color: $purple
-			background-color: $acqua
-	
-	
-table[id="external"]
-	td[id="externaltd"]
-		+container($total-columns, $break)
-		position: relative
-		padding-top: $grid-padding
-		table[id="main"]
-			width: columns($total-columns)
-			
-				
-@media screen and (max-device-width: 480px)
-	div.logo
-		background: white image-url("logo_mail.png") no-repeat left top
-		width: image-width("logo_mail.png")
-		height: image-height("logo_mail.png")
-		margin-bottom: px-to-em(0px)
-	
-	h1,h2,h3,h4,h5,h6	
-		margin: px-to-em(10px) 0 0 0 
-	
-	h1
-		font-size: px-to-em(36px)
-	h2
-		font-size: px-to-em(32px)
-	h3
-		font-size: px-to-em(28px)
-	h4
-		font-size: px-to-em(24px)
-	h5
-		font-size: px-to-em(20px)
-	h6
-		font-size: px-to-em(16px)
+
 	
 	hr.border
-		margin-bottom: px-to-em(0px)
+		margin-top: px-to-em(20px)
+		margin-bottom: px-to-em(10px)
 	
 	p
 		&.subtitle
-			font-size: px-to-em(18px)
-			margin: 0 0 px-to-em(5px) 0
+			margin: px-to-em(5px) 0 px-to-em(10px) 0
 		&.month
+			position: absolute
+			right: 0
+			top: 0
+			padding-right: px-to-em(10px,12px)
 			font-size: px-to-em(12px)
-			margin-top: px-to-em(5px)
-			margin-bottom: px-to-em(20px)
-			position: relative
+
 		&.description
-			font-size: px-to-em(16px)
+			font-size: px-to-em(13px)
 	
+
 	
 	table[id="external"]
 		td[id="externaltd"]
 			+set-container-width
-			padding: $grid-padding*2
+			position: relative
+			padding-top: $grid-padding
 			table[id="main"]
-				
-				td[class="story"]
-					+span-columns(7,$break)
-					margin-top: px-to-em(20px)
+				width: columns($total-columns)
+	
