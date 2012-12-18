@@ -100,7 +100,8 @@ p
 
 table[id="external"]
 	td[id="externaltd"]
-		+container($break,$total-columns)
+		width: columns($total-columns,$break)
+		max-width: 600px
 		padding: $grid-padding*2
 		table[id="main"]
 			td[class="story"]
@@ -132,8 +133,6 @@ table[id="external"]
 	h6
 		font-size: px-to-em(12px)
 	
-
-	
 	hr.border
 		margin-top: px-to-em(20px)
 		margin-bottom: px-to-em(10px)
@@ -150,9 +149,7 @@ table[id="external"]
 
 		&.description
 			font-size: px-to-em(13px)
-	
 
-	
 	table[id="external"]
 		td[id="externaltd"]
 			+set-container-width
