@@ -60,12 +60,15 @@ header
     ul
       +horizontal-list-container
       li 
-        +horizontal-list-item(18px)
+        +horizontal-list-item(14px)
         background: image-url("assets/dashed.png") repeat-y right top
-        &:last-child
-          background: none
         min-height: rhythm(1,13px)   
         width: columns(2)
+        margin-top: 4px
+        &:last-child
+          background: none
+        &.nopadding
+          padding-left: 0
         
         a
           @extend .hover !optional
