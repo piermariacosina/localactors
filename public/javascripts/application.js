@@ -19,7 +19,6 @@ load: [ basicURl+'jquery.js',
 },{
 	load: basicURl+'enquire/dist/enquire.min.js',
 	complete: function(){
-		console.log("complete");
 		enquire.register("all and (min-width:58.75em)", {
 			deferSetup: true,
 			match : function() {

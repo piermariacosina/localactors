@@ -25,24 +25,37 @@ $(document).ready(function() {
 			type: "post",
 			success: function(response){
 				if (response){
+					console.log(response)
 					if(response.notice){
-						showFlashMessage(response.notice);
-					}	
+						showFlashMessage(response.notice,"notice");
+					}else if(response.success){
+						showFlashMessage(response.success,"success");
+					}else if(response.error){
+						showFlashMessage(response.error,"error");
+					}
 				}
 					
 			}
 		});
 	});
 	
-	function showFlashMessage(msg){
+	function showFlashMessage(msg, type){
 		flushFlashMessages();
 		var form = $('form#mail_form')
-		 $('<div class="notice">'+msg+'</div>').hide().prependTo(form).fadeIn();
+		if("notice"==type){
+		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+	 }else if("success"==type){
+		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+	 }else if("error"==type){
+		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+	 }
 		
 	}
 	
 	function flushFlashMessages(){
 		$('form#mail_form .notice').remove();
+		$('form#mail_form .error').remove();
+		$('form#mail_form .success').remove();
 	}
 	
 

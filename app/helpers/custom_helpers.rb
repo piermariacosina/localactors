@@ -10,12 +10,12 @@ Localactors.helpers do
 	
 	def check_member_subscription(email)
 		gb = Gibbon.new
-		gb.listMemberInfo({:id => 'e01ee24d90', :email_address => email})
+		gb.listMemberInfo({:id => 'a060862fbc', :email_address => email})
 	end
 	
 	def subscribe_to_list(email)
 		gb = Gibbon.new
-		gb.list_subscribe({:id => 'e01ee24d90', :email_address => email, :email_type => 'html', :double_optin => 'false', :update_existing => 'false', :replace_interests => 'true', :send_welcome => 'true'})
+		gb.list_subscribe({:id => 'a060862fbc', :email_address => email, :email_type => 'html', :double_optin => 'false', :update_existing => 'false', :replace_interests => 'true', :send_welcome => 'true'})
 	end
 	
 	def mail_submit(email,content_type)

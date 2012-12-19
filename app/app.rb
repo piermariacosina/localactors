@@ -14,11 +14,11 @@ class Localactors < Padrino::Application
   
   configure do
     # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
-    Gibbon.api_key = "b8127902c768c167f848ab92191175e8-us1"
+    Gibbon.api_key = "d56cc299106c03af76a91763efab386e-us6"
     Gibbon.timeout = 15
     Gibbon.throws_exceptions = false
 
-    set :mailchimp_list_id, "e01ee24d90"
+    set :mailchimp_list_id, "a060862fbc"
   end
   
   configure :production do
