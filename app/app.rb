@@ -8,6 +8,7 @@ class Localactors < Padrino::Application
 
   register CompassInitializer
   
+  load 'cockpito_data_sender.rb'
   
   enable :sessions
   
@@ -34,6 +35,8 @@ class Localactors < Padrino::Application
   
   
   get '/' do
+    c = CockpitoDataSender.new
+    c.increment('localactors.views', 1) # it returns the number of bytes sent
     render "index"
   end
   
