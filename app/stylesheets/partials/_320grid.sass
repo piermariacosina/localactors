@@ -13,6 +13,7 @@ $break: 16
 	+susy-grid-background
 	
 section.page
+	@extend .grid
 	+pre(1)
 	+container($total-columns, $break)
 	margin-left: 0
@@ -73,13 +74,47 @@ section.page
 		.mailing_list
 			#spiegazione
 				@include float-left
-				@include span-columns(7)
+				@include span-columns(5)
+				@include pre(2)
 				p
 					text-transform: uppercase
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
 					font-size: px-to-em(14px)
+		.notice
+			+pre(2)
+		fieldset
+			@include span-columns(5)
+			@include pre(2)
+			border: none
+			padding: 0
+			p
+				margin: 0
+				padding: 0
+				label
+					display: none
+				input 
+					width: 100%
+					border: 2px solid $blue
+					padding: px-to-em(10px)
+					color: $blue
+					font-family: "source sans pro"
+				input::-webkit-input-placeholder
+					color: $blue
+					font-family: "source sans pro"
+		.buttons
+			input
+				float: right
+				background-color: $yellow
+				color: $black
+				border: 2px solid $blue
+				margin-top: 4px	
+				text-transform: uppercase
+				font-family: "miso"
+				margin-bottom: 10px
+			input:hover
+				text-decoration: underline			
 	#faq
 		a
 			span.icon
@@ -129,9 +164,9 @@ section.page
 				@include sprite($assets, "pointer-mobile", true)
 		.submit
 			#spiegazione
-				@include float-left
-				@include span-columns(7)
-				margin-left: 8px
+				@include span-columns(5)
+				+pre(2)
+				margin-top: -35
 				p
 					text-transform: uppercase
 					font-family: "miso"
@@ -145,7 +180,62 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $rose
-					font-size:  px-to-em(16px)
+					font-size:  px-to-em(20px)
+			
+				#icon-doc1
+					@include assign-sprite-background($assets)	
+					@include sprite($assets, "doc1-mobile", true)
+
+					margin-top: 10px
+
+				#icon-doc2
+					@include assign-sprite-background($assets)	
+					@include sprite($assets, "doc2-mobile", true)
+
+					margin-top: 10px
+					
+			
+				#icon-doc3
+					@include assign-sprite-background($assets)	
+					@include sprite($assets, "doc3-mobile", true)
+
+					margin-top: 10px
+					margin-bottom: 10px
+			.border-dashed
+				height: 1px
+				+span-columns(7,7)
+				overflow:visible
+				border-top: 1px dashed $blue
+				margin-top: 30px
+				margin-bottom: 30px
+				#icon-plus1
+					@include assign-sprite-background($assets)	
+					@include sprite($assets, "plus1-mobile", true)
+					+pre(3)
+					margin-top: -10px
+				#icon-plus2
+					@include assign-sprite-background($assets)	
+					@include sprite($assets, "plus2-mobile", true)
+					margin-left: px-to-em(160px)
+					margin-top: -10px	
+			#icon-number1
+				@include assign-sprite-background($assets)	
+				@include sprite($assets, "one-mobile", true)
+				+pre(1)
+				@include span-columns(1)
+
+			#icon-number2
+				@include assign-sprite-background($assets)	
+				@include sprite($assets, "two-mobile", true)
+				+pre(1)
+				@include span-columns(1)
+			#icon-number3
+				@include assign-sprite-background($assets)	
+				@include sprite($assets, "three-mobile", true)
+				+pre(1)
+				@include span-columns(1)
+			
+			
 #mailing-list,#faq,#submit-project
 	@extend .full !optional
 	@extend .spined !optional

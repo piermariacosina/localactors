@@ -4,7 +4,7 @@ class Localactors < Padrino::Application
   register Padrino::Mailer
   register Padrino::Helpers
 
-  register Padrino::Contrib::Helpers::AssetsCompressor
+  # register Padrino::Contrib::Helpers::AssetsCompressor
 
   register CompassInitializer
   

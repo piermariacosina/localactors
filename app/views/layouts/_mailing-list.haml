@@ -21,6 +21,6 @@
 		- field_set_tag do
 			%p
 				= label_tag :email, :class => 'first'
-				= text_field_tag :email, :value => params[:email], :id => 'email'
+				= text_field_tag :email, :value => params[:email], :id => 'email', :placeholder=>"Your email address here"
 		- field_set_tag(:class => 'buttons') do
 			= submit_tag "Submit", :id => 'mail_submit'
