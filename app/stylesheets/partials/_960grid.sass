@@ -1,4 +1,8 @@
 +at-breakpoint($break)
+	.hover
+		&:hover
+			color: $purple
+			background-color: $acqua
 	.wide
 		+span-columns(13, $break)
 	.borded
@@ -26,6 +30,7 @@
 				padding-top: 0
 				ul
 					li 
+						margin-top: 0px
 						display: block
 						float: none
 						background: none
@@ -247,6 +252,13 @@
 			text-transform: uppercase
 			font-weight: 400	
 		#terms
+		
+			a
+				@extend .hover !optional
+				color: $black
+				background-color: $yellow
+
+
 			#section
 				@extend .spined			
 				+span-columns(13,16)
