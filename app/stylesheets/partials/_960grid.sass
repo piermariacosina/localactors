@@ -90,19 +90,38 @@
 						+span-columns(3,$break)	
 			.mailing_list  
 				#icon1
-					+pre(2)
+					margin-left: 10%
 					@extend .icon
-					+replace-with-sprite($assets,"dashed")
+					+replace-with-sprite($assets,"one")
 				#icon2
 					@extend .icon
 				#spiegazione
-					+span-columns(3,13)
+					+span-columns(10,13)
+					margin-left: 10%
+				form
+					@include clearfix	
+					+span-columns(8,13)
+					margin-left: 10%
+					fieldset
+						+span-columns(5,8)
+						+pre(0)	
+					.buttons
+						+span-columns(2,8)
+						+pre(0)
+						float:left
+						input
+							width: 100%
+							height: 35px
+					
+							
 				
 			
 		#faq
 			section
-				+pre(2)
 				+span-columns(11,13)
+			ul.questions
+				float: left
+				+pre(4)	
 			a
 				span.icon
 					+assign-sprite-background($assets)
@@ -113,7 +132,6 @@
 						
 		#submit-project
 			section
-				+pre(3)
 				+span-columns(13,13)
 			a
 				span.icon
@@ -136,34 +154,38 @@
 				#icon-number1
 					@extend .icon !optional
 					+replace-with-sprite($assets,"one")
+					+pre(2)
 				#icon-number2
 					@extend .icon !optional
 					+replace-with-sprite($assets,"two")
+					+pre(2)
 				#icon-number3 
 					@extend .icon !optional
 					+replace-with-sprite($assets,"three")
-				#icon-doc1
-					@extend .icon !optional
-					+replace-with-sprite($assets,"doc1")
-				#icon-doc2
-					@extend .icon !optional
-					+replace-with-sprite($assets,"doc2")
-				#icon-doc3
-					@extend .icon !optional
-					+replace-with-sprite($assets,"doc3")
-				#icon-plus1
-					margin-left: 5px
-					margin-right: 5px
-					@extend .icon !optional
-					+replace-with-sprite($assets,"plus1")
-				#icon-plus2
-					margin-left: 5px
-					margin-right: 5px
-					@extend .icon !optional
-					+replace-with-sprite($assets,"plus2")
+					+pre(2)
 				#spiegazione
-					+span-columns(3,13)
-											
+					+span-columns(10)
+					+pre(0)
+					margin-top: 0
+					#icon-doc1
+						@include assign-sprite-background($assets)	
+						@include sprite($assets, "doc1", true)
+					#icon-doc2
+						@include assign-sprite-background($assets)	
+						@include sprite($assets, "doc2", true)	
+					#icon-doc3
+						@include assign-sprite-background($assets)	
+						@include sprite($assets, "doc3", true)				
+				.border-dashed
+					#icon-plus1
+						@include assign-sprite-background($assets)	
+						@include sprite($assets, "plus1", true)
+						margin-top: -15px						
+					#icon-plus2
+						@include assign-sprite-background($assets)	
+						@include sprite($assets, "plus2", true)
+						margin-top: -15px
+													
 		#mailing-list,#faq,#submit-project
 			@extend .wide !optional
 			a span.icon
@@ -177,10 +199,7 @@
 					display: block
 			
 					
-		
-		#faq
-			section
-				margin-left: 0	
+			
 				
 
 		#map
