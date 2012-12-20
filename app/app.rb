@@ -40,9 +40,9 @@ class Localactors < Padrino::Application
     render "index"
   end
   
-  get '/terms' do
-    render "terms"
-  end
+  # get '/terms' do
+  #   render "terms"
+  # end
   
   # get '/mail' do
   #   render "mails/mailing-list", :layout =>false
