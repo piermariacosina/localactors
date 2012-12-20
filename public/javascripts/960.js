@@ -39,6 +39,40 @@ $(document).ready(function() {
 		});
 	});
 	
+	
+	var subscribe = $("a.subscribe");
+	var ask = $("a.ask");
+	var submit = $("a.submit");
+	
+	subscribe.click(function(event) {
+		var mailingDiv = $("#mailing-list");
+		if(mailingDiv.length != 0){
+			event.preventDefault();
+			$(window).scrollTo( mailingDiv,600);
+			$( "#sections_accordion" ).accordion('activate' , 0);
+		}
+	});
+	
+	ask.click(function(event) {
+		var askDiv = $("#faq");
+		if(askDIv.length != 0){
+			event.preventDefault();
+			$(window).scrollTo( askDiv,600);
+			$( "#sections_accordion" ).accordion('activate' , 1);
+		}
+	});
+	
+	submit.click(function(event) {
+		var submitDiv = $("#submit-project");
+		if(submitDiv.length != 0){
+			event.preventDefault();
+			$(window).scrollTo( submitDiv,600);
+			$( "#sections_accordion" ).accordion('activate' , 2);
+		}
+	});
+	
+	
+	
 	function showFlashMessage(msg, type){
 		flushFlashMessages();
 		var form = $('form#mail_form')
