@@ -9,7 +9,9 @@ Bundler.require(:default, PADRINO_ENV)
 
 require 'gibbon'
 require 'rdiscount'
-#require 'padrino-contrib/helpers/assets_compressor'
+
+
+
 
 ##
 # ## Enable devel logging

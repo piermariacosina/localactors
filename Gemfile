@@ -18,10 +18,16 @@ gem 'compass'
 gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
-# gem 'yui-compressor', :require => 'yui/compressor'
+
 gem 'gibbon'
 gem 'rack-google-analytics'
 gem 'rdiscount'
+
+
+group :production do
+	gem 'yui-compressor', :require => 'yui/compressor'
+	gem 'newrelic_rpm'
+end
 
 
 # Test requirements

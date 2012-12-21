@@ -19,14 +19,17 @@ class Localactors < Padrino::Application
     Gibbon.throws_exceptions = false
 
     set :mailchimp_list_id, "a060862fbc"
-    
-    
+
   end
   
+  
   configure :production do
-     register Padrino::Cache
-     enable :caching
-     disable :asset_stamp
+    require 'padrino-contrib/helpers/assets_compressor'
+    require 'newrelic_rpm'
+    register Padrino::Cache
+    enable :caching
+    disable :asset_stamp
+     
   end
   
   configure :development do
