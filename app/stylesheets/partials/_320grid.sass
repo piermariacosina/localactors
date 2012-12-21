@@ -13,7 +13,7 @@ $break: 16
 	+susy-grid-background
 	
 section.page
-	@extend .grid
+	
 	+pre(1)
 	+container($total-columns, $break)
 	margin-left: 0
@@ -69,13 +69,18 @@ section.page
 	#mailing-list
 		a
 			span.icon
-				@include assign-sprite-background($assets)
-				@include sprite($assets, "mail-mobile", true)
+				+assign-sprite-background($assets)
+				+sprite($assets, "mail-mobile", true)
 		.mailing_list
+			#icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "subscribe-mobile", true)
+				+pre(2)
+				
 			#spiegazione
-				@include float-left
-				@include span-columns(5)
-				@include pre(2)
+				+float-left
+				+span-columns(5)
+				+pre(2)
 				p
 					text-transform: uppercase
 					font-family: "miso"
@@ -85,8 +90,8 @@ section.page
 		.notice
 			+pre(2)
 		fieldset
-			@include span-columns(5)
-			@include pre(2)
+			+span-columns(5)
+			+pre(2)
 			border: none
 			padding: 0
 			p
@@ -118,8 +123,8 @@ section.page
 	#faq
 		a
 			span.icon
-				@include assign-sprite-background($assets)
-				@include sprite($assets, "bubble-mobile", true)
+				+assign-sprite-background($assets)
+				+sprite($assets, "bubble-mobile", true)
 		ul.questions
 			list-style: none
 			+pre(1)
@@ -135,15 +140,15 @@ section.page
 					i
 						margin-top: 3px
 						position:relative
-						@include float-left
+						+float-left
 						margin-left: -(sprite-height($assets,"questionmark")+6px)
-						@include assign-sprite-background($assets)
-						@include sprite($assets, "questionmark", true)
+						+assign-sprite-background($assets)
+						+sprite($assets, "questionmark", true)
 					
 					&.ui-accordion-header-active
 						i
 							margin-left: 13px -(sprite-height($assets,"questionmark_color"))
-							@include sprite($assets, "questionmark_color", true)
+							+sprite($assets, "questionmark_color", true)
 					
 					span:hover
 						color: $purple
@@ -160,11 +165,11 @@ section.page
 	#submit-project
 		a
 			span.icon
-				@include assign-sprite-background($assets)
-				@include sprite($assets, "pointer-mobile", true)
+				+assign-sprite-background($assets)
+				+sprite($assets, "pointer-mobile", true)
 		.submit
 			#spiegazione
-				@include span-columns(5)
+				+span-columns(5)
 				+pre(2)
 				margin-top: -35
 				p
@@ -183,21 +188,21 @@ section.page
 					font-size:  px-to-em(20px)
 			
 				#icon-doc1
-					@include assign-sprite-background($assets)	
-					@include sprite($assets, "doc1-mobile", true)
+					+assign-sprite-background($assets)	
+					+sprite($assets, "doc1-mobile", true)
 
 					margin-top: 10px
 
 				#icon-doc2
-					@include assign-sprite-background($assets)	
-					@include sprite($assets, "doc2-mobile", true)
+					+assign-sprite-background($assets)	
+					+sprite($assets, "doc2-mobile", true)
 
 					margin-top: 10px
 					
 			
 				#icon-doc3
-					@include assign-sprite-background($assets)	
-					@include sprite($assets, "doc3-mobile", true)
+					+assign-sprite-background($assets)	
+					+sprite($assets, "doc3-mobile", true)
 
 					margin-top: 10px
 					margin-bottom: 10px
@@ -209,31 +214,31 @@ section.page
 				margin-top: 30px
 				margin-bottom: 30px
 				#icon-plus1
-					@include assign-sprite-background($assets)	
-					@include sprite($assets, "plus1-mobile", true)
+					+assign-sprite-background($assets)	
+					+sprite($assets, "plus1-mobile", true)
 					+pre(3)
 					margin-top: -10px
 				#icon-plus2
-					@include assign-sprite-background($assets)	
-					@include sprite($assets, "plus2-mobile", true)
+					+assign-sprite-background($assets)	
+					+sprite($assets, "plus2-mobile", true)
 					+pre(3)
 					margin-top: -10px	
 			#icon-number1
-				@include assign-sprite-background($assets)	
-				@include sprite($assets, "one-mobile", true)
+				+assign-sprite-background($assets)	
+				+sprite($assets, "one-mobile", true)
 				+pre(1)
-				@include span-columns(1)
+				+span-columns(1)
 
 			#icon-number2
-				@include assign-sprite-background($assets)	
-				@include sprite($assets, "two-mobile", true)
+				+assign-sprite-background($assets)	
+				+sprite($assets, "two-mobile", true)
 				+pre(1)
-				@include span-columns(1)
+				+span-columns(1)
 			#icon-number3
-				@include assign-sprite-background($assets)	
-				@include sprite($assets, "three-mobile", true)
+				+assign-sprite-background($assets)	
+				+sprite($assets, "three-mobile", true)
 				+pre(1)
-				@include span-columns(1)
+				+span-columns(1)
 			
 			
 #mailing-list,#faq,#submit-project

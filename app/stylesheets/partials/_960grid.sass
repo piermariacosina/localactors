@@ -80,8 +80,9 @@
 						
 		#mailing-list
 			section
-				+pre(2)
+				+pre(3,13)
 				+span-columns(11,13)
+				
 			a
 				span.icon
 					+sprite($assets, "mail", true)
@@ -89,19 +90,16 @@
 						+sprite($assets, "mail_inverted", true)
 						+span-columns(3,$break)	
 			.mailing_list  
-				#icon1
-					margin-left: 10%
-					@extend .icon
-					+replace-with-sprite($assets,"one")
-				#icon2
-					@extend .icon
+				#icon
+					+sprite($assets, "subscribe", true)
+					+pre(0)
 				#spiegazione
-					+span-columns(10,13)
-					margin-left: 10%
+					+span-columns(8,11)
+					+pre(0)
 				form
 					@include clearfix	
-					+span-columns(8,13)
-					margin-left: 10%
+					+span-columns(8,11)
+					+pre(0)
 					fieldset
 						+span-columns(5,8)
 						+pre(0)	
@@ -132,7 +130,8 @@
 						
 		#submit-project
 			section
-				+span-columns(13,13)
+				+span-columns(11,13)
+				
 			a
 				span.icon
 					+assign-sprite-background($assets)
@@ -154,17 +153,17 @@
 				#icon-number1
 					@extend .icon !optional
 					+replace-with-sprite($assets,"one")
-					+pre(2)
+					+pre(2,11)
 				#icon-number2
 					@extend .icon !optional
 					+replace-with-sprite($assets,"two")
-					+pre(2)
+					+pre(2,11)
 				#icon-number3 
 					@extend .icon !optional
 					+replace-with-sprite($assets,"three")
-					+pre(2)
+					+pre(2,11)
 				#spiegazione
-					+span-columns(10)
+					+span-columns(8 omega,11)
 					+pre(0)
 					margin-top: 0
 					#icon-doc1

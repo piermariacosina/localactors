@@ -19,6 +19,8 @@ class Localactors < Padrino::Application
     Gibbon.throws_exceptions = false
 
     set :mailchimp_list_id, "a060862fbc"
+    
+    
   end
   
   configure :production do
@@ -36,7 +38,7 @@ class Localactors < Padrino::Application
   
   get '/' do
     c = CockpitoDataSender.new
-    c.increment('localactors.views', 1) # it returns the number of bytes sent
+    c.increment('localactors.views', 1)
     render "index"
   end
   
@@ -50,14 +52,20 @@ class Localactors < Padrino::Application
   # 
   
   get '/callforprojects' do
+    c = CockpitoDataSender.new
+    c.increment('localactors.callforproject', 1)
     render "call_for_projects"
   end
    
   get '/whoweare' do
+    c = CockpitoDataSender.new
+    c.increment('localactors.whoweare', 1)
     render "who_we_are"
   end
    
   post '/subscribe', :provides => [:html, :json] do
+    c = CockpitoDataSender.new
+    c.increment('localactors.subscribe', 1)
     email = params[:email]
     mail_submit(email, content_type)
   end

@@ -29,7 +29,7 @@
 require 'socket'
 
 class CockpitoDataSender #sends data via UDP protocol
-  def initialize(host = '127.0.0.1',port = 2322)
+  def initialize(host = '0.0.0.0',port = 2322)
     @host = host # Cockpito server IP
     @port = port # listening port
   end
