@@ -111,15 +111,21 @@ section.page
 		.buttons
 			input
 				float: right
-				background-color: $yellow
-				color: $black
-				border: 2px solid $blue
-				margin-top: 4px	
-				text-transform: uppercase
-				font-family: "miso"
-				margin-bottom: 10px
-			input:hover
-				text-decoration: underline			
+	.buttons
+		input, a
+			background-color: $yellow
+			color: $black
+			border: 2px solid $blue
+			margin-top: 4px	
+			text-transform: uppercase !important
+			font-family: "miso"
+			text-decoration: none
+			margin-bottom: 10px
+			font-size: px-to-em(16px) !important
+			padding: 5px 10px 5px 10px
+		input:hover, a:hover
+			text-decoration: underline
+			background-color: yellow			
 	#faq
 		a
 			span.icon
@@ -161,7 +167,10 @@ section.page
 					font-size: px-to-em(12px)
 					line-height: px-to-em(20px)
 					color: $purple
-				 
+		.buttons
+			a
+				+pre(2)
+						 
 	#submit-project
 		a
 			span.icon
@@ -198,6 +207,8 @@ section.page
 					+sprite($assets, "doc2-mobile", true)
 
 					margin-top: 10px
+					margin-bottom: 15px
+
 					
 			
 				#icon-doc3
