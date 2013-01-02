@@ -14,12 +14,13 @@ class Localactors < Padrino::Application
   
   configure do
     # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
-    Gibbon.api_key = "d56cc299106c03af76a91763efab386e-us6"
-    Gibbon.timeout = 15
-    Gibbon.throws_exceptions = false
+    # Gibbon.api_key = "d56cc299106c03af76a91763efab386e-us6"
+    # Gibbon.timeout = 15
+    # Gibbon.throws_exceptions = false
 
-    set :mailchimp_list_id, "a060862fbc"
-
+    # set :mailchimp_list_id, "a060862fbc"
+  
+    enable :cross_origins
   end
   
   
@@ -42,6 +43,9 @@ class Localactors < Padrino::Application
   get '/' do
     c = CockpitoDataSender.new
     c.increment('localactors.views', 1)
+    if params[:success]
+      flash[:success] = "success"
+    end
     render "index"
   end
   
@@ -49,10 +53,10 @@ class Localactors < Padrino::Application
   #   render "terms"
   # end
   
-  # get '/mail' do
-  #   render "mails/mailing-list", :layout =>false
-  # end
-  # 
+  get '/mail' do
+    render "mails/mailing-list", :layout =>false
+  end
+  
   
   get '/callforprojects' do
     c = CockpitoDataSender.new
@@ -66,12 +70,13 @@ class Localactors < Padrino::Application
     render "who_we_are"
   end
    
-  post '/subscribe', :provides => [:html, :json] do
-    c = CockpitoDataSender.new
-    c.increment('localactors.subscribe', 1)
-    email = params[:email]
-    mail_submit(email, content_type)
-  end
+  # get '/subscribe', :provides => [:html, :json] do
+  # 
+  #   c = CockpitoDataSender.new
+  #   c.increment('localactors.subscribe', 1)
+  #   email = params[:email]
+  #   mail_submit(email, content_type)
+  # end
 
 
   ##

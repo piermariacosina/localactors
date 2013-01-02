@@ -13,31 +13,43 @@ $(document).ready(function() {
 	var slide3 = $( "li.slide3" );
 
 	arSlides = [slide1,slide2,slide3];
-	
+
 	
 	$( "input#mail_submit" ).click(function(event){
-		event.preventDefault();
-		email = $("input#email").val();
-		$.ajax({
-			data: {email: email},
-			dataType: "json",
-			url: "/subscribe",
-			type: "post",
-			success: function(response){
-				if (response){
-					console.log(response)
-					if(response.notice){
-						showFlashMessage(response.notice,"notice");
-					}else if(response.success){
-						showFlashMessage(response.success,"success");
-					}else if(response.error){
-						showFlashMessage(response.error,"error");
-					}
-				}
+			//event.preventDefault();
+			email = $("input#email").val();
+			list = $("input#mail_list").val();
+			$.ajax({
+				data: {email: email, list: list, boolean: true},
+				dataType: "html",
+				url: "http://thedoersproject.com/mailinglist/subscribe",
+				type: "post",
+				success: function(response){
+						switch (response){
+							case "1":
+								showFlashMessage(response,"success");
+							break;
+							case "Some fields are missing.":
+								showFlashMessage(response,"error");
+							break;
+							case "Invalid email address.":
+								showFlashMessage(response,"error");
+							break;
+							case "Already subscribed.":
+								showFlashMessage(response,"notice");
+							break;
+							
+						}
+					},
+				error: function(jqXHR, textStatus, errorThrown){
 					
-			}
+						console.log(textStatus)
+						
+					}
+						
+				
+			});
 		});
-	});
 	
 	
 	var subscribe = $("a.subscribe");
@@ -82,8 +94,7 @@ $(document).ready(function() {
 		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
 	 }else if("error"==type){
 		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
-	 }
-		
+	 }	
 	}
 	
 	function flushFlashMessages(){

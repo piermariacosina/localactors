@@ -11,6 +11,7 @@ gem 'rake'
 
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'sinatra-redirect-with-flash'
+gem 'sinatra-cross_origin'
 
 # Component requirements
 gem 'rack-google-analytics', :require => "rack/google-analytics"
