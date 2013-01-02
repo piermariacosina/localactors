@@ -20,8 +20,7 @@ gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
 
-gem 'gibbon'
-gem 'rack-google-analytics'
+# gem 'gibbon'
 gem 'rdiscount'
 
 
