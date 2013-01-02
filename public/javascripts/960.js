@@ -27,7 +27,7 @@ $(document).ready(function() {
 				success: function(response){
 						switch (response){
 							case "1":
-								showFlashMessage(response,"success");
+								showFlashMessage("success","success");
 							break;
 							case "Some fields are missing.":
 								showFlashMessage(response,"error");
