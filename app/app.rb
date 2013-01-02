@@ -43,8 +43,11 @@ class Localactors < Padrino::Application
   get '/' do
     c = CockpitoDataSender.new
     c.increment('localactors.views', 1)
-    if params[:success]
-      flash[:success] = "success"
+      
+    if params[:newsletter] == "success"
+      flash.now[:success] = params[:newsletter]
+    else
+      flash.discard
     end
     render "index"
   end

@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	
 	$( "input#mail_submit" ).click(function(event){
-			//event.preventDefault();
+			event.preventDefault();
 			email = $("input#email").val();
 			list = $("input#mail_list").val();
 			$.ajax({
