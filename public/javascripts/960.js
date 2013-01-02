@@ -89,11 +89,11 @@ $(document).ready(function() {
 		flushFlashMessages();
 		var form = $('form#mail_form')
 		if("notice"==type){
-		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
 	 }else if("success"==type){
-		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
 	 }else if("error"==type){
-		 $('<div class="'+type+'">'+msg+'</div>').hide().prependTo(form).fadeIn();
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
 	 }	
 	}
 	

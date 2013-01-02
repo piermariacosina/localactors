@@ -71,11 +71,16 @@ section.page
 			span.icon
 				+assign-sprite-background($assets)
 				+sprite($assets, "mail-mobile", true)
+		
+		#mail_form
+			overflow: visible
+		
 		.mailing_list
 			#icon
 				+assign-sprite-background($assets)
 				+sprite($assets, "subscribe-mobile", true)
 				+pre(2)
+				
 				
 			#spiegazione
 				+float-left
@@ -87,8 +92,7 @@ section.page
 					font-weight: 400       
 					color: $blue
 					font-size: px-to-em(14px)
-		.notice
-			+pre(2)
+		
 		fieldset
 			+span-columns(5)
 			+pre(2)

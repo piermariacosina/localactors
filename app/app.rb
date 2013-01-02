@@ -43,9 +43,10 @@ class Localactors < Padrino::Application
   get '/' do
     c = CockpitoDataSender.new
     c.increment('localactors.views', 1)
+    check = params[:newsletter]
+    if check == "success"
       
-    if params[:newsletter] == "success"
-      flash.now[:success] = params[:newsletter]
+      flash.now[:success] = '<div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+check+'</span></div>'
     else
       flash.discard
     end

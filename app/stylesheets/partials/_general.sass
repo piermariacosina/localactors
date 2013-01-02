@@ -44,3 +44,103 @@ i
 
 .pointer
 	cursor: pointer
+
+
+
+div.success
+	$image: image-url("textures/dash_green.png")
+	background: $image repeat left top
+	
+	
+	div.box
+		border: 3px solid $green
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		margin: 20px 0
+		
+		
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $green
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 10px
+			display: inline-block
+			margin-left: 10px
+			width: 85%
+		span.symbol
+			border: 3px solid $green
+			padding: 10px 3px
+			margin-left: -(image-width("assets/check.png")*.8)
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"check")
+
+div.error
+	$image: image-url("textures/dash_red.png")
+	background: $image repeat left top
+	
+	
+	div.box
+		border: 3px solid $rose
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		margin: 20px 0
+		
+		
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $rose
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 10px
+			display: inline-block
+			margin-left: 10px
+			width: 85%
+		span.symbol
+			border: 3px solid $rose
+			padding: 10px 20px
+			margin-left: -40px
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"exclamation")
+				
+div.notice
+	$image: image-url("textures/dash_red.png")
+	background: $image repeat left top
+	
+	
+	div.box
+		border: 3px solid $rose
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		margin: 20px 0
+		
+		
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $rose
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 10px
+			display: inline-block
+			margin-left: 10px
+			width: 85%
+		span.symbol
+			border: 3px solid $rose
+			padding: 10px 20px
+			margin-left: -40px
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"exclamation")
+				
+			
