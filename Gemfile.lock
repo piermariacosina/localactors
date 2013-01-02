@@ -33,9 +33,6 @@ GEM
     ffi (1.2.0)
     ffi (1.2.0-x86-mingw32)
     fssm (0.2.9)
-    gibbon (0.4.2)
-      httparty
-      json
     guard (1.5.4)
       listen (>= 0.4.2)
       lumberjack (>= 1.0.2)
@@ -52,11 +49,7 @@ GEM
     http_router (0.10.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    httparty (0.9.0)
-      multi_json (~> 1.0)
-      multi_xml
     i18n (0.6.1)
-    json (1.7.5)
     libwebsocket (0.1.7.1)
       addressable
       websocket
@@ -69,7 +62,6 @@ GEM
     method_source (0.8.1)
     mime-types (1.19)
     multi_json (1.4.0)
-    multi_xml (0.5.1)
     newrelic_rpm (3.5.4.33)
     nokogiri (1.5.5)
     nokogiri (1.5.5-x86-mingw32)
@@ -185,7 +177,6 @@ DEPENDENCIES
   capybara
   compass
   compass-h5bp
-  gibbon
   guard-rspec
   guard-spork
   haml
