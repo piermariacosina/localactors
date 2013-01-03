@@ -18,6 +18,43 @@
 		$image: image-url("textures/spined.png")
 		background: $image repeat-x left top
 		
+		
+	div.success
+		+span-columns(8,11)
+		+pre(0)
+		div.box
+			span.msg
+				font-size: px-to-em(28px)
+			span.symbol
+				margin-left: -(image-width("assets/check.png")*.8)
+				i
+					@include assign-sprite-background($assets)
+					@include replace-with-sprite($assets,"check")
+	
+	div.error
+		+span-columns(8,11)
+		+pre(0)
+		div.box
+		
+			span.msg
+				font-size: px-to-em(28px)
+			span.symbol
+				i
+					@include assign-sprite-background($assets)
+					@include replace-with-sprite($assets,"exclamation")
+	
+	div.notice
+		+span-columns(8,11)
+		+pre(0)
+		div.box
+			span.msg
+				background-color: white
+
+			span.symbol
+				i
+					@include assign-sprite-background($assets)
+					@include replace-with-sprite($assets,"exclamation")
+		
 	section.page
 		.buttons
 			+pre(0)

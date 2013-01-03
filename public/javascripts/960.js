@@ -50,6 +50,25 @@ $(document).ready(function() {
 				
 			});
 		});
+		
+		
+		function showFlashMessage(msg, type){
+			flushFlashMessages();
+			var form = $('form#mail_form')
+			if("notice"==type){
+			 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+		 }else if("success"==type){
+			 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+		 }else if("error"==type){
+			 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+		 }	
+		}
+		
+		function flushFlashMessages(){
+			$('form#mail_form .notice').remove();
+			$('form#mail_form .error').remove();
+			$('form#mail_form .success').remove();
+		}
 	
 	
 	var subscribe = $("a.subscribe");
@@ -85,23 +104,7 @@ $(document).ready(function() {
 	
 	
 	
-	function showFlashMessage(msg, type){
-		flushFlashMessages();
-		var form = $('form#mail_form')
-		if("notice"==type){
-		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
-	 }else if("success"==type){
-		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
-	 }else if("error"==type){
-		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
-	 }	
-	}
-	
-	function flushFlashMessages(){
-		$('form#mail_form .notice').remove();
-		$('form#mail_form .error').remove();
-		$('form#mail_form .success').remove();
-	}
+
 	
 
 	

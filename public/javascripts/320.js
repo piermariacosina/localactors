@@ -11,6 +11,63 @@ $(window).bind('resize', function(e)
 	        }, 250);
 	    });
 	});
+	
+	
+	$( "input#mail_submit" ).click(function(event){
+		event.preventDefault();
+		email = $("input#email").val();
+		list = $("input#mail_list").val();
+		$.ajax({
+			data: {email: email, list: list, boolean: true},
+			dataType: "html",
+			url: "http://thedoersproject.com/mailinglist/subscribe",
+			type: "post",
+			success: function(response){
+					switch (response){
+						case "1":
+							showFlashMessage("success","success");
+						break;
+						case "Some fields are missing.":
+							showFlashMessage(response,"error");
+						break;
+						case "Invalid email address.":
+							showFlashMessage(response,"error");
+						break;
+						case "Already subscribed.":
+							showFlashMessage(response,"notice");
+						break;
+						
+					}
+				},
+			error: function(jqXHR, textStatus, errorThrown){
+				
+					console.log(textStatus)
+					
+				}
+					
+			
+		});
+	});
+	
+	
+	function showFlashMessage(msg, type){
+		flushFlashMessages();
+		var form = $('form#mail_form')
+		if("notice"==type){
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+	 }else if("success"==type){
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+	 }else if("error"==type){
+		 $('<div class="'+type+'"><div class="box"><span class="symbol"><i>V</i></span><span class="msg">'+msg+'</span></div></div>').hide().prependTo(form).fadeIn();
+	 }	
+	}
+	
+	function flushFlashMessages(){
+		$('form#mail_form .notice').remove();
+		$('form#mail_form .error').remove();
+		$('form#mail_form .success').remove();
+	}	
+	
 
 var subscribe = $("a.subscribe");
 var ask = $("a.ask");
