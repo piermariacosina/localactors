@@ -1,1 +1,0 @@
-web: bundle exec padrino server puma -p $PORT -e $RACK_ENV
