@@ -31,7 +31,10 @@ module CompassInitializer
       end
     end
     
-    
+    if Padrino.env == :production
+       Sass::Plugin.options[:never_update] = true
+    end
+
 
     Compass.configure_sass_plugin!
     Compass.handle_configuration_change!
