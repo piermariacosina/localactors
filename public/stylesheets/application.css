@@ -1,0 +1,2030 @@
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 39, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 55, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* line 69, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 82, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif; }
+
+/* line 88, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/* line 109, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 122, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 127, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+/* line 132, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+/* line 137, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+/* line 142, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/* line 153, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 159, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 163, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px; }
+
+/* line 168, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 173, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 180, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+p, pre {
+  margin: 1em 0; }
+
+/* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 202, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none; }
+
+/* line 208, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 214, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 220, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 227, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 231, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 245, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+dl, menu, ol, ul {
+  margin: 1em 0; }
+
+/* line 249, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px; }
+
+/* line 256, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+menu, ol, ul {
+  padding: 0 0 0 40px; }
+
+/* line 268, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/* line 274, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 285, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* line 296, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0; }
+
+/* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 310, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+/* line 323, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+/* line 333, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+button, input {
+  line-height: normal; }
+
+/* line 347, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+/* line 355, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 364, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+/* line 374, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 384, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 390, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 397, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 409, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%; }
+
+/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+/* line 1, ../../app/stylesheets/partials/_general.sass */
+body {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 3, ../../app/stylesheets/partials/_general.sass */
+.ul {
+  text-decoration: underline; }
+
+/* line 5, ../../app/stylesheets/partials/_general.sass */
+.hl {
+  background-color: yellow; }
+
+/* line 8, ../../app/stylesheets/partials/_general.sass */
+.section_title, #mailing-list h2, #faq h2, #submit-project h2 {
+  font-family: "miso";
+  font-weight: 200;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.0625em;
+  line-height: 0.94118em; }
+/* line 15, ../../app/stylesheets/partials/_general.sass */
+.section_title span, #mailing-list h2 span, #faq h2 span, #submit-project h2 span {
+  font-size: 1.11765em;
+  line-height: 1.05882em; }
+
+/* line 19, ../../app/stylesheets/partials/_general.sass */
+.noindent, #mailing-list section ul, #faq section ul, #submit-project section ul, #map #slides ul, #map #steps #text ul, #explanation ul {
+  padding: 0;
+  margin: 0; }
+
+/* line 23, ../../app/stylesheets/partials/_general.sass */
+.borded, section.page footer, #map #slides ul li, section.page footer ul li .selected {
+  border: 1px #001fff solid; }
+
+/* line 27, ../../app/stylesheets/partials/_general.sass */
+.hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, header nav-header ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
+  color: #6045ff;
+  background-color: #81ffd0; }
+
+/* line 31, ../../app/stylesheets/partials/_general.sass */
+i {
+  font-style: italic;
+  font-family: "source sans pro";
+  text-transform: none; }
+
+/* line 36, ../../app/stylesheets/partials/_general.sass */
+.spined, #mailing-list, #faq, #submit-project {
+  background: url('/images/textures/spined.png') repeat-x left top; }
+
+/* line 40, ../../app/stylesheets/partials/_general.sass */
+.arrow {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  display: inline;
+  float: left;
+  margin-right: 15px; }
+
+/* line 45, ../../app/stylesheets/partials/_general.sass */
+.pointer, #mailing-list header, #faq header, #submit-project header, #map #steps #arrow_left, #map #steps #arrow_right {
+  cursor: pointer; }
+
+/* line 50, ../../app/stylesheets/partials/_general.sass */
+div.success {
+  background: url('/images/textures/dash_green.png') repeat left top;
+  margin: 20px 0;
+  width: 70.58824%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+  margin-left: 30%; }
+/* line 57, ../../app/stylesheets/partials/_general.sass */
+div.success div.box {
+  border: 3px solid #00ff80;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 63, ../../app/stylesheets/partials/_general.sass */
+div.success div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #00ff80;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 85%; }
+/* line 74, ../../app/stylesheets/partials/_general.sass */
+div.success div.box span.symbol {
+  border: 3px solid #00ff80;
+  padding: 10px 3px;
+  margin-left: -25.6px;
+  display: inline-block;
+  background-color: white; }
+/* line 80, ../../app/stylesheets/partials/_general.sass */
+div.success div.box span.symbol i {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -2939px;
+  width: 32px;
+  height: 26px; }
+
+/* line 84, ../../app/stylesheets/partials/_general.sass */
+div.error {
+  background: url('/images/textures/dash_red.png') repeat left top;
+  margin: 20px 0;
+  width: 70.58824%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+  margin-left: 30%; }
+/* line 92, ../../app/stylesheets/partials/_general.sass */
+div.error div.box {
+  border: 3px solid #ff4874;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 98, ../../app/stylesheets/partials/_general.sass */
+div.error div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #ff4874;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 0 0 5px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 85%; }
+/* line 109, ../../app/stylesheets/partials/_general.sass */
+div.error div.box span.symbol {
+  border: 3px solid #ff4874;
+  padding: 10px 20px;
+  margin-left: -40px;
+  display: inline-block;
+  background-color: white; }
+/* line 115, ../../app/stylesheets/partials/_general.sass */
+div.error div.box span.symbol i {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3640px;
+  width: 8px;
+  height: 44px; }
+
+/* line 119, ../../app/stylesheets/partials/_general.sass */
+div.notice {
+  background: url('/images/textures/dash_red.png') repeat left top;
+  margin: 20px 0;
+  width: 70.58824%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+  margin-left: 30%; }
+/* line 126, ../../app/stylesheets/partials/_general.sass */
+div.notice div.box {
+  border: 3px solid #ff4874;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 132, ../../app/stylesheets/partials/_general.sass */
+div.notice div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #ff4874;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-left: 10px; }
+/* line 143, ../../app/stylesheets/partials/_general.sass */
+div.notice div.box span.symbol {
+  border: 3px solid #ff4874;
+  padding: 10px 20px;
+  margin-left: -40px;
+  display: inline-block;
+  background-color: white; }
+/* line 149, ../../app/stylesheets/partials/_general.sass */
+div.notice div.box span.symbol i {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3640px;
+  width: 8px;
+  height: 44px; }
+
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-italic-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "source sans pro";
+  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot');
+  src: url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('eot'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'), url('/fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-bold-webfont.eot');
+  src: url('/fonts/miso/miso-bold-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-bold-webfont.woff') format('woff'), url('/fonts/miso/miso-bold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-light-webfont.eot');
+  src: url('/fonts/miso/miso-light-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-light-webfont.woff') format('woff'), url('/fonts/miso/miso-light-webfont.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: "miso";
+  src: url('/fonts/miso/miso-webfont.eot');
+  src: url('/fonts/miso/miso-webfont.eot?#iefix') format('eot'), url('/fonts/miso/miso-webfont.woff') format('woff'), url('/fonts/miso/miso-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 12, ../../app/stylesheets/partials/_320grid.sass */
+.grid {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box; }
+
+/* line 15, ../../app/stylesheets/partials/_320grid.sass */
+section.page {
+  margin-left: 15%;
+  *zoom: 1;
+  max-width: 25em;
+  _width: 25em;
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 0; }
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+section.page:after {
+  content: "";
+  display: table;
+  clear: both; }
+@media (min-width: 58.75em) {
+  /* line 15, ../../app/stylesheets/partials/_320grid.sass */
+  section.page {
+    max-width: 58.75em; } }
+/* line 21, ../../app/stylesheets/partials/_320grid.sass */
+section.page header {
+  margin-top: 0.625em; }
+/* line 23, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #paper {
+  display: none; }
+/* line 27, ../../app/stylesheets/partials/_320grid.sass */
+section.page h1.vision {
+  margin-top: 1.5em;
+  font-family: "miso";
+  color: #ff4874;
+  font-size: 1.1875em;
+  line-height: 1.2625em;
+  font-weight: 400;
+  letter-spacing: 0.1em; }
+/* line 40, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #slides ul li {
+  overflow: hidden;
+  *zoom: 1; }
+/* line 42, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #slides ul li img {
+  position: relative;
+  margin-left: -199px;
+  left: 50%; }
+/* line 47, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #steps {
+  overflow: hidden;
+  *zoom: 1; }
+/* line 49, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #steps #arrow_left {
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 51, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #steps #arrow_right {
+  width: 10%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline; }
+/* line 55, ../../app/stylesheets/partials/_320grid.sass */
+section.page #map #steps #text ul li {
+  width: 55.0%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  display: none; }
+/* line 64, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer ul li.nline {
+  width: 100%; }
+/* line 66, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer ul li.nopadding {
+  padding-left: 0; }
+/* line 71, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list a span.icon {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2698px;
+  height: 38px;
+  width: 50px; }
+/* line 75, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list #mail_form {
+  overflow: visible; }
+/* line 79, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list .mailing_list #icon {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3027px;
+  height: 20px;
+  width: 125px;
+  margin-left: 30%; }
+/* line 85, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list .mailing_list #spiegazione {
+  display: inline;
+  float: left;
+  width: 70%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-left: 30%; }
+/* line 89, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list .mailing_list #spiegazione p {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  font-size: 0.875em; }
+/* line 96, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list fieldset {
+  width: 70%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-left: 30%;
+  border: none;
+  padding: 0; }
+/* line 101, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list fieldset p {
+  margin: 0;
+  padding: 0; }
+/* line 104, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list fieldset p label {
+  display: none; }
+/* line 106, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list fieldset p input {
+  width: 100%;
+  border: 2px solid #001fff;
+  padding: 0.625em;
+  color: #001fff;
+  font-family: "source sans pro"; }
+/* line 112, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list fieldset p input::-webkit-input-placeholder {
+  color: #001fff;
+  font-family: "source sans pro"; }
+/* line 116, ../../app/stylesheets/partials/_320grid.sass */
+section.page #mailing-list .buttons input {
+  float: right; }
+/* line 119, ../../app/stylesheets/partials/_320grid.sass */
+section.page .buttons input, section.page .buttons a {
+  background-color: yellow;
+  color: black;
+  border: 2px solid #001fff;
+  margin-top: 4px;
+  text-transform: uppercase !important;
+  font-family: "miso";
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 1em !important;
+  padding: 5px 10px 5px 10px; }
+/* line 130, ../../app/stylesheets/partials/_320grid.sass */
+section.page .buttons input:hover, section.page .buttons a:hover {
+  text-decoration: underline;
+  background-color: yellow; }
+/* line 135, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq a span.icon {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2774px;
+  height: 38px;
+  width: 50px; }
+/* line 138, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions {
+  list-style: none;
+  margin-left: 15%;
+  width: 70%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline; }
+/* line 143, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions li h3 {
+  font-family: "source sans pro";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.66667em;
+  color: black; }
+/* line 150, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions li h3 i {
+  margin-top: 3px;
+  display: inline;
+  float: left;
+  margin-left: -24px;
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3009px;
+  height: 18px;
+  width: 9px; }
+/* line 159, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions li h3.ui-accordion-header-active i {
+  margin-left: -45px;
+  background-position: 0 -720px;
+  height: 58px;
+  width: 30px; }
+/* line 163, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions li h3 span:hover {
+  color: #6045ff;
+  background-color: #81ffd0; }
+/* line 166, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq ul.questions li p {
+  clear: both;
+  font-family: "source sans pro";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.75em;
+  line-height: 1.25em;
+  color: #6045ff; }
+/* line 175, ../../app/stylesheets/partials/_320grid.sass */
+section.page #faq .buttons a {
+  margin-left: 30%; }
+/* line 180, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project a span.icon {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2736px;
+  height: 38px;
+  width: 50px; }
+/* line 184, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione {
+  width: 70%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-left: 30%;
+  margin-top: -35; }
+/* line 188, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione p {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  font-size: 0.875em;
+  line-height: 1.25em; }
+/* line 195, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione h4 {
+  display: inline;
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #ff4874;
+  font-size: 1.25em; }
+/* line 203, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione #icon-doc1 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2611px;
+  height: 87px;
+  width: 120px;
+  margin-top: 10px; }
+/* line 209, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione #icon-doc2 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2437px;
+  height: 87px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+/* line 218, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione #icon-doc3 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2524px;
+  height: 87px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+/* line 224, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit .border-dashed {
+  height: 1px;
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  border-top: 1px dashed #001fff;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+/* line 231, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit .border-dashed #icon-plus1 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3415px;
+  height: 20px;
+  width: 32px;
+  margin-left: 45%;
+  margin-top: -10px; }
+/* line 236, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit .border-dashed #icon-plus2 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3395px;
+  height: 20px;
+  width: 32px;
+  margin-left: 45%;
+  margin-top: -10px; }
+/* line 241, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #icon-number1 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3608px;
+  height: 32px;
+  width: 20px;
+  margin-left: 15%;
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 247, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #icon-number2 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3467px;
+  height: 32px;
+  width: 20px;
+  margin-left: 15%;
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 252, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #icon-number3 {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3435px;
+  height: 32px;
+  width: 20px;
+  margin-left: 15%;
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+
+/* line 259, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list, #faq, #submit-project {
+  overflow: hidden;
+  *zoom: 1; }
+/* line 263, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list header, #faq header, #submit-project header {
+  padding-top: 10px; }
+/* line 268, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span {
+  color: #6045ff;
+  background-color: #81ffd0; }
+/* line 272, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon {
+  margin-left: 20px;
+  width: 10.6383%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline; }
+/* line 275, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list h2, #faq h2, #submit-project h2 {
+  width: 70%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  margin-top: 0; }
+/* line 282, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list section, #faq section, #submit-project section {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+
+@media (min-width: 36.25em) {
+  /* line 288, ../../app/stylesheets/partials/_320grid.sass */
+  section.page {
+    margin-left: 10.34483%; } }
+@media (min-width: 58.75em) {
+  /* line 3, ../../app/stylesheets/partials/_960grid.sass */
+  .hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, section.page header nav-header ul li a:hover, section.page #terms a:hover, header nav-header ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
+    color: #6045ff;
+    background-color: #81ffd0; }
+
+  /* line 6, ../../app/stylesheets/partials/_960grid.sass */
+  .wide, section.page footer, section.page #mailing-list, section.page #faq, section.page #submit-project, section.page #map {
+    width: 80.85106%;
+    float: left;
+    margin-right: 2.12766%; }
+
+  /* line 8, ../../app/stylesheets/partials/_960grid.sass */
+  .borded, section.page footer, section.page hr.footer, section.page #map #steps #text ul li:hover, section.page #map #steps #text ul li.selected, #map #slides ul li, section.page footer ul li .selected {
+    border: 2px #001fff solid; }
+
+  /* line 11, ../../app/stylesheets/partials/_960grid.sass */
+  .icon, section.page #submit-project .submit #icon-number1, section.page #submit-project .submit #icon-number2, section.page #submit-project .submit #icon-number3, section.page #map #steps #text ul li #title #arrow1, section.page #map #steps #text ul li #title #arrow2, section.page #map #steps #text ul li #title #arrow3 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: inline;
+    float: left; }
+
+  /* line 15, ../../app/stylesheets/partials/_960grid.sass */
+  .grid {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+    background-position: left top;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box; }
+
+  /* line 17, ../../app/stylesheets/partials/_960grid.sass */
+  .spined, #mailing-list, #faq, #submit-project, section.page #terms #section {
+    background: url('/images/textures/spined.png') repeat-x left top; }
+
+  /* line 22, ../../app/stylesheets/partials/_960grid.sass */
+  div.success {
+    width: 71.875%;
+    float: left;
+    margin-right: 3.125%;
+    margin-left: 0%; }
+  /* line 26, ../../app/stylesheets/partials/_960grid.sass */
+  div.success div.box span.msg {
+    font-size: 1.75em; }
+  /* line 28, ../../app/stylesheets/partials/_960grid.sass */
+  div.success div.box span.symbol {
+    margin-left: -38.4px; }
+  /* line 30, ../../app/stylesheets/partials/_960grid.sass */
+  div.success div.box span.symbol i {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2812px;
+    width: 48px;
+    height: 39px; }
+
+  /* line 34, ../../app/stylesheets/partials/_960grid.sass */
+  div.error {
+    width: 71.875%;
+    float: left;
+    margin-right: 3.125%;
+    margin-left: 0%; }
+  /* line 39, ../../app/stylesheets/partials/_960grid.sass */
+  div.error div.box span.msg {
+    font-size: 1.75em; }
+  /* line 42, ../../app/stylesheets/partials/_960grid.sass */
+  div.error div.box span.symbol i {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -3499px;
+    width: 12px;
+    height: 66px; }
+
+  /* line 46, ../../app/stylesheets/partials/_960grid.sass */
+  div.notice {
+    width: 71.875%;
+    float: left;
+    margin-right: 3.125%;
+    margin-left: 0%; }
+  /* line 50, ../../app/stylesheets/partials/_960grid.sass */
+  div.notice div.box span.msg {
+    background-color: white; }
+  /* line 54, ../../app/stylesheets/partials/_960grid.sass */
+  div.notice div.box span.symbol i {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -3499px;
+    width: 12px;
+    height: 66px; }
+
+  /* line 58, ../../app/stylesheets/partials/_960grid.sass */
+  section.page {
+    margin-left: 0%; }
+  /* line 59, ../../app/stylesheets/partials/_960grid.sass */
+  section.page .buttons {
+    margin-left: 0%; }
+  /* line 62, ../../app/stylesheets/partials/_960grid.sass */
+  section.page .buttons input, section.page .buttons a {
+    width: 100%;
+    height: 35px;
+    font-size: 1.25em !important; }
+  /* line 66, ../../app/stylesheets/partials/_960grid.sass */
+  section.page .buttons a:hover {
+    background-color: yellow !important;
+    color: black !important; }
+  /* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    display: inline;
+    float: left; }
+  /* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span .num, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine {
+    margin-top: 3px; }
+  /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.sone {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2371px;
+    width: 12px;
+    height: 66px; }
+  /* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.stwo {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2239px;
+    width: 12px;
+    height: 66px; }
+  /* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.sthree {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2173px;
+    width: 12px;
+    height: 66px; }
+  /* line 55, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.sfour {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2305px;
+    width: 12px;
+    height: 66px; }
+  /* line 62, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.zero {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1506px;
+    width: 24px;
+    height: 66px; }
+  /* line 68, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.one {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -2047px;
+    width: 15px;
+    height: 66px; }
+  /* line 74, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.two {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1374px;
+    width: 24px;
+    height: 66px; }
+  /* line 80, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.three {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1734px;
+    width: 24px;
+    height: 66px; }
+  /* line 86, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.four {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1194px;
+    width: 24px;
+    height: 66px; }
+  /* line 92, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.five {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1260px;
+    width: 24px;
+    height: 66px; }
+  /* line 98, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.six {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1620px;
+    width: 24px;
+    height: 66px; }
+  /* line 104, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.seven {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1026px;
+    width: 24px;
+    height: 66px; }
+  /* line 110, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.eight {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1848px;
+    width: 24px;
+    height: 66px; }
+  /* line 116, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.nine {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1440px;
+    width: 24px;
+    height: 66px; }
+  /* line 122, ../../app/stylesheets/partials/_custom_mixins.sass */
+  section.page header #logo span.logo_text {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 0;
+    width: 124px;
+    height: 73px;
+    margin-left: 18px; }
+  /* line 74, ../../app/stylesheets/partials/_960grid.sass */
+  section.page header nav-header {
+    margin-left: 19.14894%;
+    clear: none;
+    float: left;
+    padding-top: 0; }
+  /* line 80, ../../app/stylesheets/partials/_960grid.sass */
+  section.page header nav-header ul li {
+    margin-top: 0px;
+    display: block;
+    float: none;
+    background: none;
+    width: 100%;
+    min-height: 1.25em;
+    padding-left: 0; }
+  /* line 88, ../../app/stylesheets/partials/_960grid.sass */
+  section.page header nav-header ul li a {
+    font-size: 0.875em;
+    font-weight: 400; }
+  /* line 92, ../../app/stylesheets/partials/_960grid.sass */
+  section.page header #paper {
+    display: block;
+    margin-top: 0; }
+  /* line 96, ../../app/stylesheets/partials/_960grid.sass */
+  section.page footer {
+    margin-top: 20px; }
+  /* line 100, ../../app/stylesheets/partials/_960grid.sass */
+  section.page footer li.nline {
+    float: none; }
+  /* line 107, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #description {
+    width: 68.08511%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 109, ../../app/stylesheets/partials/_960grid.sass */
+  section.page h1.vision {
+    font-size: 1.875em; }
+  /* line 113, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #explanation {
+    width: 61.70213%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 116, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #explanation ul li {
+    margin-top: 0.9375em;
+    margin-bottom: 0.9375em; }
+  /* line 119, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #explanation ul li h2 {
+    font-size: 1.5em;
+    display: inline;
+    text-decoration: underline; }
+  /* line 123, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #explanation ul li h2 span {
+    text-decoration: underline; }
+  /* line 125, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #explanation ul li p {
+    display: inline;
+    font-size: 1.125em; }
+  /* line 130, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list section {
+    margin-left: 23.68421%;
+    width: 84.21053%;
+    float: left;
+    margin-right: 2.63158%; }
+  /* line 135, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list a span.icon, section.page #mailing-list a #submit-project .submit span#icon-number1, section.page #submit-project .submit #mailing-list a span#icon-number1, section.page #mailing-list a #submit-project .submit span#icon-number2, section.page #submit-project .submit #mailing-list a span#icon-number2, section.page #mailing-list a #submit-project .submit span#icon-number3, section.page #submit-project .submit #mailing-list a span#icon-number3, section.page #mailing-list a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #mailing-list a span#arrow1, section.page #mailing-list a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #mailing-list a span#arrow2, section.page #mailing-list a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #mailing-list a span#arrow3 {
+    background-position: 0 -422px;
+    height: 76px;
+    width: 94px; }
+  /* line 137, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list a span.icon:hover, section.page #mailing-list a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #mailing-list a span#icon-number1:hover, section.page #mailing-list a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #mailing-list a span#icon-number2:hover, section.page #mailing-list a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #mailing-list a span#icon-number3:hover, section.page #mailing-list a #map #steps #text ul li #title span#arrow1:hover, section.page #map #steps #text ul li #title #mailing-list a span#arrow1:hover, section.page #mailing-list a #map #steps #text ul li #title span#arrow2:hover, section.page #map #steps #text ul li #title #mailing-list a span#arrow2:hover, section.page #mailing-list a #map #steps #text ul li #title span#arrow3:hover, section.page #map #steps #text ul li #title #mailing-list a span#arrow3:hover {
+    background-position: 0 -272px;
+    height: 75px;
+    width: 93px;
+    width: 17.02128%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 141, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list .mailing_list #icon {
+    background-position: 0 -1914px;
+    height: 67px;
+    width: 307px;
+    margin-left: 0%; }
+  /* line 144, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list .mailing_list #spiegazione {
+    width: 71.875%;
+    float: left;
+    margin-right: 3.125%;
+    margin-left: 0%; }
+  /* line 147, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list .mailing_list form {
+    overflow: hidden;
+    width: 71.875%;
+    float: left;
+    margin-right: 3.125%;
+    margin-left: 0%; }
+  /* line 151, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list .mailing_list form fieldset {
+    width: 60.86957%;
+    float: left;
+    margin-right: 4.34783%;
+    margin-left: 0%; }
+  /* line 154, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list .mailing_list form .buttons {
+    width: 21.73913%;
+    float: left;
+    margin-right: 4.34783%; }
+  /* line 159, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq section {
+    width: 84.21053%;
+    float: left;
+    margin-right: 2.63158%; }
+  /* line 161, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq ul.questions {
+    float: left;
+    margin-left: 25.53191%; }
+  /* line 165, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq a span.icon, section.page #faq a #submit-project .submit span#icon-number1, section.page #submit-project .submit #faq a span#icon-number1, section.page #faq a #submit-project .submit span#icon-number2, section.page #submit-project .submit #faq a span#icon-number2, section.page #faq a #submit-project .submit span#icon-number3, section.page #submit-project .submit #faq a span#icon-number3, section.page #faq a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #faq a span#arrow1, section.page #faq a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #faq a span#arrow2, section.page #faq a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #faq a span#arrow3 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -73px;
+    height: 76px;
+    width: 94px; }
+  /* line 168, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq a span.icon:hover, section.page #faq a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #faq a span#icon-number1:hover, section.page #faq a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #faq a span#icon-number2:hover, section.page #faq a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #faq a span#icon-number3:hover, section.page #faq a #map #steps #text ul li #title span#arrow1:hover, section.page #map #steps #text ul li #title #faq a span#arrow1:hover, section.page #faq a #map #steps #text ul li #title span#arrow2:hover, section.page #map #steps #text ul li #title #faq a span#arrow2:hover, section.page #faq a #map #steps #text ul li #title span#arrow3:hover, section.page #map #steps #text ul li #title #faq a span#arrow3:hover {
+    background-position: 0 -347px;
+    height: 75px;
+    width: 93px;
+    width: 17.02128%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 171, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq .buttons {
+    width: 56%;
+    text-align: center; }
+  /* line 174, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #faq .buttons a {
+    padding: 10px 20px 10px 20px; }
+  /* line 179, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project section {
+    width: 84.21053%;
+    float: left;
+    margin-right: 2.63158%; }
+  /* line 183, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project a span.icon, section.page #submit-project a .submit span#icon-number1, section.page #submit-project .submit a span#icon-number1, section.page #submit-project a .submit span#icon-number2, section.page #submit-project .submit a span#icon-number2, section.page #submit-project a .submit span#icon-number3, section.page #submit-project .submit a span#icon-number3, section.page #submit-project a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #submit-project a span#arrow1, section.page #submit-project a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #submit-project a span#arrow2, section.page #submit-project a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #submit-project a span#arrow3 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -596px;
+    height: 75px;
+    width: 93px; }
+  /* line 186, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project a span.icon:hover, section.page #submit-project a .submit span#icon-number1:hover, section.page #submit-project .submit a span#icon-number1:hover, section.page #submit-project a .submit span#icon-number2:hover, section.page #submit-project .submit a span#icon-number2:hover, section.page #submit-project a .submit span#icon-number3:hover, section.page #submit-project .submit a span#icon-number3:hover, section.page #submit-project a #map #steps #text ul li #title span#arrow1:hover, section.page #map #steps #text ul li #title #submit-project a span#arrow1:hover, section.page #submit-project a #map #steps #text ul li #title span#arrow2:hover, section.page #map #steps #text ul li #title #submit-project a span#arrow2:hover, section.page #submit-project a #map #steps #text ul li #title span#arrow3:hover, section.page #map #steps #text ul li #title #submit-project a span#arrow3:hover {
+    background-position: 0 -197px;
+    height: 75px;
+    width: 93px;
+    width: 17.02128%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 190, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project div a {
+    background-color: yellow;
+    color: black; }
+  /* line 193, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project div a:hover {
+    color: #6045ff;
+    background-color: #81ffd0; }
+  /* line 198, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #documenti {
+    clear: both; }
+  /* line 200, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #icon-number1 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -978px;
+    width: 21px;
+    height: 48px;
+    margin-left: 18.75%; }
+  /* line 204, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #icon-number2 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1800px;
+    width: 30px;
+    height: 48px;
+    margin-left: 18.75%; }
+  /* line 208, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #icon-number3 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -1686px;
+    width: 30px;
+    height: 48px;
+    margin-left: 18.75%; }
+  /* line 212, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #spiegazione {
+    width: 71.875%;
+    float: right;
+    margin-right: 0;
+    margin-left: 0%;
+    margin-top: 0; }
+  /* line 216, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #spiegazione #icon-doc1 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -1092px;
+    height: 102px;
+    width: 140px; }
+  /* line 219, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #spiegazione #icon-doc2 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -878px;
+    height: 100px;
+    width: 140px;
+    margin-bottom: 20px; }
+  /* line 223, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit #spiegazione #icon-doc3 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -778px;
+    height: 100px;
+    width: 150px; }
+  /* line 227, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit .border-dashed #icon-plus1 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -2113px;
+    height: 30px;
+    width: 30px;
+    margin-top: -15px; }
+  /* line 231, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .submit .border-dashed #icon-plus2 {
+    background-image: url('/images/assets-sed62263819.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0 -2143px;
+    height: 30px;
+    width: 30px;
+    margin-top: -15px; }
+  /* line 236, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .buttons {
+    width: 68%; }
+  /* line 238, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #submit-project .buttons a {
+    padding: 10px 20px 10px 20px; }
+  /* line 243, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list a span.icon, section.page #mailing-list a #submit-project .submit span#icon-number1, section.page #submit-project .submit #mailing-list a span#icon-number1, section.page #mailing-list a #submit-project .submit span#icon-number2, section.page #submit-project .submit #mailing-list a span#icon-number2, section.page #mailing-list a #submit-project .submit span#icon-number3, section.page #submit-project .submit #mailing-list a span#icon-number3, section.page #mailing-list a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #mailing-list a span#arrow1, section.page #mailing-list a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #mailing-list a span#arrow2, section.page #mailing-list a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #mailing-list a span#arrow3, section.page #faq a span.icon, section.page #faq a #submit-project .submit span#icon-number1, section.page #submit-project .submit #faq a span#icon-number1, section.page #faq a #submit-project .submit span#icon-number2, section.page #submit-project .submit #faq a span#icon-number2, section.page #faq a #submit-project .submit span#icon-number3, section.page #submit-project .submit #faq a span#icon-number3, section.page #faq a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #faq a span#arrow1, section.page #faq a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #faq a span#arrow2, section.page #faq a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #faq a span#arrow3, section.page #submit-project a span.icon, section.page #submit-project a .submit span#icon-number1, section.page #submit-project .submit a span#icon-number1, section.page #submit-project a .submit span#icon-number2, section.page #submit-project .submit a span#icon-number2, section.page #submit-project a .submit span#icon-number3, section.page #submit-project .submit a span#icon-number3, section.page #submit-project a #map #steps #text ul li #title span#arrow1, section.page #map #steps #text ul li #title #submit-project a span#arrow1, section.page #submit-project a #map #steps #text ul li #title span#arrow2, section.page #map #steps #text ul li #title #submit-project a span#arrow2, section.page #submit-project a #map #steps #text ul li #title span#arrow3, section.page #map #steps #text ul li #title #submit-project a span#arrow3 {
+    width: 17.02128%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 245, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list h2.section_title, section.page #mailing-list h2, section.page #mailing-list #faq h2, #faq section.page #mailing-list h2, section.page #mailing-list #submit-project h2, #submit-project section.page #mailing-list h2, section.page #faq h2.section_title, section.page #faq #mailing-list h2, #mailing-list section.page #faq h2, section.page #faq h2, section.page #faq #submit-project h2, #submit-project section.page #faq h2, section.page #submit-project h2.section_title, section.page #submit-project #mailing-list h2, #mailing-list section.page #submit-project h2, section.page #submit-project #faq h2, #faq section.page #submit-project h2, section.page #submit-project h2 {
+    width: 48.93617%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 248, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list h2, section.page #faq h2, section.page #submit-project h2 {
+    font-size: 1.25em; }
+  /* line 250, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #mailing-list h2 span.hl, section.page #faq h2 span.hl, section.page #submit-project h2 span.hl {
+    display: block; }
+  /* line 259, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map h1.vision {
+    width: 84.21053%;
+    float: left;
+    margin-right: 2.63158%; }
+  /* line 264, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #slides ul li img {
+    margin-left: -380px; }
+  /* line 269, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_right {
+    display: none; }
+  /* line 271, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_left {
+    display: none; }
+  /* line 273, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text {
+    margin-top: 3px; }
+  /* line 275, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden; }
+  /* line 60, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
+    padding-left: 0; }
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li:last-child {
+    padding-right: 0; }
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li.last {
+    padding-right: 0; }
+  /* line 277, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li {
+    width: 28.94737%;
+    float: left;
+    margin-right: 2.63158%;
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    white-space: normal;
+    height: 180px;
+    display: block !important;
+    position: relative;
+    border: 2px white solid; }
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
+    padding-left: 0; }
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li:last-child {
+    padding-right: 0; }
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  section.page #map #steps #text ul li.last {
+    padding-right: 0; }
+  /* line 280, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li:first-child {
+    padding-left: 4px; }
+  /* line 282, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li:last-child {
+    padding-right: 4px; }
+  /* line 289, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 27.27273%; }
+  /* line 296, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li #title {
+    margin-botton: 20px;
+    margin-top: 20px; }
+  /* line 299, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li #title #arrow1 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -671px;
+    width: 31px;
+    height: 49px;
+    margin-right: 1.6875em; }
+  /* line 304, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li #title #arrow2 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -547px;
+    width: 31px;
+    height: 49px;
+    margin-right: 1.6875em; }
+  /* line 309, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li #title #arrow3 {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-position: 0 -498px;
+    width: 31px;
+    height: 49px;
+    margin-right: 1.6875em; }
+  /* line 314, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li #title h4 {
+    display: inline;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  /* line 324, ../../app/stylesheets/partials/_960grid.sass */
+  section.page h1.terms {
+    font-size: 2.1875em;
+    font-family: "miso";
+    color: #ff4874;
+    text-transform: uppercase;
+    font-weight: 400; }
+  /* line 333, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms a {
+    color: black;
+    background-color: yellow; }
+  /* line 339, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section {
+    width: 80.85106%;
+    float: left;
+    margin-right: 2.12766%;
+    font-family: "miso"; }
+  /* line 344, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section #title {
+    font-size: 2.1875em;
+    color: #001fff;
+    text-transform: uppercase;
+    margin-top: 1.25em;
+    font-weight: 400; }
+  /* line 350, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section #subtitle {
+    font-size: 1.875em;
+    color: #ff4874;
+    margin-top: 0.3125em;
+    font-weight: 400; }
+  /* line 355, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section p {
+    color: black;
+    font-family: "source sans pro";
+    width: 76.31579%;
+    float: left;
+    margin-right: 2.63158%;
+    font-size: 0.9375em;
+    line-height: 1.125em; }
+  /* line 361, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section ol {
+    font-family: "source sans pro";
+    color: #001fff;
+    width: 52.63158%;
+    float: left;
+    margin-right: 2.63158%;
+    margin-left: 6.38298%;
+    font-size: 0.9375em;
+    line-height: 1.25em; }
+  /* line 368, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #terms #section ol li {
+    margin-bottom: 10px; } }
+@media (min-width: 66.25em) {
+  /* line 372, ../../app/stylesheets/partials/_960grid.sass */
+  section.page {
+    margin-left: 11.32075%; } }
+/* line 1, ../../app/stylesheets/partials/_map.sass */
+#map {
+  clear: both;
+  border-bottom: 1px #001fff dashed;
+  padding-bottom: 1.5em; }
+/* line 5, ../../app/stylesheets/partials/_map.sass */
+#map #slides {
+  min-height: 190px;
+  margin-bottom: 1px; }
+/* line 8, ../../app/stylesheets/partials/_map.sass */
+#map #slides ul {
+  list-style: none; }
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#map #slides ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0; }
+/* line 11, ../../app/stylesheets/partials/_map.sass */
+#map #slides ul li {
+  display: none;
+  position: absolute; }
+/* line 18, ../../app/stylesheets/partials/_map.sass */
+#map #steps {
+  margin-top: 10px;
+  min-height: 3em;
+  margin-bottom: 1.5em; }
+/* line 22, ../../app/stylesheets/partials/_map.sass */
+#map #steps #arrow_left {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3275px;
+  width: 20px;
+  height: 32px; }
+/* line 26, ../../app/stylesheets/partials/_map.sass */
+#map #steps #arrow_right {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3155px;
+  width: 20px;
+  height: 32px; }
+/* line 30, ../../app/stylesheets/partials/_map.sass */
+#map #steps #text {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 1px; }
+/* line 35, ../../app/stylesheets/partials/_map.sass */
+#map #steps #text ul li {
+  position: absolute;
+  font-family: "miso";
+  font-weight: 400;
+  white-space: normal;
+  padding: 0px; }
+/* line 41, ../../app/stylesheets/partials/_map.sass */
+#map #steps #text ul li p {
+  color: #001fff;
+  font-size: 0.75em;
+  line-height: 0.9375em;
+  text-transform: uppercase;
+  width: 70%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  whitespace: nowrap; }
+/* line 49, ../../app/stylesheets/partials/_map.sass */
+#map #steps #text ul li #title #arrow1, #map #steps #text ul li #title #arrow2, #map #steps #text ul li #title #arrow3 {
+  display: none; }
+/* line 52, ../../app/stylesheets/partials/_map.sass */
+#map #steps #text ul li #title h4 {
+  display: inline;
+  color: #ff4874;
+  font-size: 1.1875em;
+  text-transform: uppercase;
+  letter-spacing: 0.05263em;
+  line-height: 0.89474em; }
+
+/* line 2, ../../app/stylesheets/partials/_explanation.sass */
+#explanation ul {
+  list-style: none; }
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#explanation ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0; }
+/* line 6, ../../app/stylesheets/partials/_explanation.sass */
+#explanation ul li h2 {
+  margin-top: 1.5em;
+  text-transform: uppercase;
+  font-family: "source sans pro";
+  font-size: 1.25em;
+  line-height: 0.9em;
+  color: #001fff;
+  font-weight: 600; }
+/* line 14, ../../app/stylesheets/partials/_explanation.sass */
+#explanation ul li h2 span {
+  color: #ff4874; }
+/* line 16, ../../app/stylesheets/partials/_explanation.sass */
+#explanation ul li p {
+  font-family: "source sans pro";
+  font-size: 0.75em;
+  color: #6045ff;
+  line-height: 1.33333em; }
+
+/* line 38, ../../app/stylesheets/application.sass */
+*:focus {
+  outline-style: none;
+  outline-width: 0px; }
+
+/* line 42, ../../app/stylesheets/application.sass */
+header {
+  overflow: hidden;
+  *zoom: 1; }
+/* line 44, ../../app/stylesheets/application.sass */
+header #logo {
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: left; }
+/* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  display: inline;
+  float: left; }
+/* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span .num, header #logo span span.sone, header #logo span span.stwo, header #logo span span.sthree, header #logo span span.sfour, header #logo span span.zero, header #logo span span.one, header #logo span span.two, header #logo span span.three, header #logo span span.four, header #logo span span.five, header #logo span span.six, header #logo span span.seven, header #logo span span.eight, header #logo span span.nine {
+  margin-top: 3px; }
+/* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.sone {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3684px;
+  width: 8px;
+  height: 44px; }
+/* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.stwo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3772px;
+  width: 8px;
+  height: 44px; }
+/* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.sthree {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3728px;
+  width: 8px;
+  height: 44px; }
+/* line 55, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.sfour {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3816px;
+  width: 8px;
+  height: 44px; }
+/* line 62, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.zero {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3187px;
+  width: 16px;
+  height: 44px; }
+/* line 68, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.one {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3565px;
+  width: 10px;
+  height: 43px; }
+/* line 74, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.two {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3067px;
+  width: 16px;
+  height: 44px; }
+/* line 80, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.three {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3307px;
+  width: 16px;
+  height: 44px; }
+/* line 86, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.four {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -2965px;
+  width: 16px;
+  height: 44px; }
+/* line 92, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.five {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -2851px;
+  width: 16px;
+  height: 44px; }
+/* line 98, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.six {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3231px;
+  width: 16px;
+  height: 44px; }
+/* line 104, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.seven {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -2895px;
+  width: 16px;
+  height: 44px; }
+/* line 110, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.eight {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3351px;
+  width: 16px;
+  height: 44px; }
+/* line 116, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.nine {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3111px;
+  width: 16px;
+  height: 44px; }
+/* line 122, ../../app/stylesheets/partials/_custom_mixins.sass */
+header #logo span.logo_text {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -149px;
+  width: 79px;
+  height: 48px;
+  margin-left: 18px; }
+/* line 49, ../../app/stylesheets/application.sass */
+header #number {
+  height: 50px;
+  width: 75px;
+  background-color: #001fff;
+  display: inline;
+  float: left;
+  margin: 10px; }
+/* line 56, ../../app/stylesheets/application.sass */
+header nav-header {
+  clear: both;
+  display: block;
+  padding-top: 1.5em; }
+/* line 61, ../../app/stylesheets/application.sass */
+header nav-header ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+/* line 63, ../../app/stylesheets/application.sass */
+header nav-header ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: url('/images/assets/dashed.png') repeat-y right top;
+  min-height: 1.84615em;
+  width: 25%;
+  margin-top: 4px; }
+/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header nav-header ul li:first-child, header nav-header ul li.first {
+  padding-left: 0; }
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header nav-header ul li:last-child {
+  padding-right: 0; }
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header nav-header ul li.last {
+  padding-right: 0; }
+/* line 69, ../../app/stylesheets/application.sass */
+header nav-header ul li:last-child {
+  background: none; }
+/* line 71, ../../app/stylesheets/application.sass */
+header nav-header ul li.nopadding {
+  padding-left: 0; }
+/* line 74, ../../app/stylesheets/application.sass */
+header nav-header ul li a {
+  font-family: "miso";
+  color: black;
+  background-color: yellow;
+  font-size: 0.75em;
+  line-height: 1.08333em;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  font-weight: 400;
+  white-space: normal; }
+/* line 86, ../../app/stylesheets/application.sass */
+header #paper {
+  margin-top: 10px;
+  margin-left: 15%;
+  display: inline;
+  float: left; }
+/* line 91, ../../app/stylesheets/application.sass */
+header #paper span.pdf_icon {
+  background-image: url('/images/assets-sed62263819.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -1981px;
+  width: 51px;
+  height: 66px;
+  display: inline;
+  float: left; }
+/* line 95, ../../app/stylesheets/application.sass */
+header #paper a {
+  display: inline;
+  float: left;
+  font-family: "miso";
+  color: black;
+  background-color: yellow;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 10px; }
+/* line 107, ../../app/stylesheets/application.sass */
+header #social {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  *zoom: 1; }
+/* line 110, ../../app/stylesheets/application.sass */
+header #social .facebook {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: inline;
+  float: left;
+  background-color: yellow; }
+/* line 116, ../../app/stylesheets/application.sass */
+header #social .twitter {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: inline;
+  float: left;
+  background-color: yellow; }
+
+/* line 124, ../../app/stylesheets/application.sass */
+section.page #description {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+/* line 129, ../../app/stylesheets/application.sass */
+section.page footer {
+  clear: both;
+  border-bottom: none; }
+/* line 133, ../../app/stylesheets/application.sass */
+section.page footer ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 1px;
+  padding: 0 10px 0 10px; }
+/* line 137, ../../app/stylesheets/application.sass */
+section.page footer ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  margin-top: 3px; }
+/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer ul li:first-child, section.page footer ul li.first {
+  padding-left: 0; }
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer ul li:last-child {
+  padding-right: 0; }
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer ul li.last {
+  padding-right: 0; }
+/* line 146, ../../app/stylesheets/application.sass */
+section.page footer ul li p {
+  display: inline;
+  color: #001fff; }
+/* line 149, ../../app/stylesheets/application.sass */
+section.page footer ul li a {
+  background-color: yellow;
+  color: black; }
+/* line 156, ../../app/stylesheets/application.sass */
+section.page footer .rights {
+  font-size: 0.8125em;
+  line-height: 1em;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  text-transform: uppercase;
+  margin: 3px 10px 10px 10px; }
+/* line 165, ../../app/stylesheets/application.sass */
+section.page footer .rights p {
+  margin: 3px 0; }
+/* line 167, ../../app/stylesheets/application.sass */
+section.page footer .rights a {
+  background-color: yellow;
+  color: black; }
+
+/* line 171, ../../app/stylesheets/application.sass */
+hr.footer {
+  border-top: 1px #001fff solid;
+  margin-top: 0px; }
