@@ -29,7 +29,7 @@ class Localactors < Padrino::Application
     require 'newrelic_rpm'
     register Padrino::Cache
     enable :caching
-    disable :asset_stamp
+    enable :asset_stamp
      
   end
   
