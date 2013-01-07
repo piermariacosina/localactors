@@ -10,7 +10,7 @@
       "jquery.scrollTo": "github:flesler/jquery.scrollTo/1.4.4",
       "enquire": "github:WickyNilliams/enquire.js/master",
       "response": "github:ryanve/response.js/master",
-      "Respond": "github:scottjehl/Respond/1.2.0"
+      "Respond": "github:scottjehl/Respond/1.2.0",
     }
   }
 }
