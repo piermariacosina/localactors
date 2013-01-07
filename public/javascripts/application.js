@@ -12,7 +12,7 @@ load: [ basicURl+'jquery.js',
 			{
 				test: Modernizr.mq('all and (max-width: 980px)'),
 				yep: [basicURl+'toe/dist/toe.min.js','javascripts/320.js'],
-				nope: ['javascripts/960.js'],
+				nope: ['javascripts/960.js']
 			}	
 			]);
 		}
