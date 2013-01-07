@@ -2,7 +2,7 @@ source :rubygems
 
 # Server requirements
 #gem 'thin'
-gem "puma"
+#gem "puma"
 # or mongrel
 # gem 'trinidad', :platform => 'jruby'
 
@@ -21,7 +21,7 @@ gem 'haml'
 gem 'susy'
 
 # gem 'gibbon'
-gem 'rdiscount'
+#gem 'rdiscount'
 
 
 group :production do
@@ -54,7 +54,7 @@ gem 'padrino-contrib'
 group :development do
 	gem 'annotate'
 	gem 'awesome_print'
-	gem 'oily_png'
+#	gem 'oily_png'
 end
 
 # Or Padrino Edge

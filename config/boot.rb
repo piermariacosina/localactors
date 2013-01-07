@@ -8,7 +8,7 @@ require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
 # require 'gibbon'
-require 'rdiscount'
+#require 'rdiscount'
 require 'sinatra/cross_origin'
 
 
