@@ -276,7 +276,7 @@ body {
   border: 1px #001fff solid; }
 
 /* line 27, ../../app/stylesheets/partials/_general.sass */
-.hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, header nav-header ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
+.hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, header nav.navigation ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
 
@@ -886,7 +886,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {
   /* line 3, ../../app/stylesheets/partials/_960grid.sass */
-  .hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, section.page header nav-header ul li a:hover, section.page #terms a:hover, header nav-header ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
+  .hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, section.page header nav.navigation ul li a:hover, section.page #terms a:hover, header nav.navigation ul li a:hover, header #paper a:hover, section.page footer ul li a:hover, section.page footer .rights a:hover {
     color: #6045ff;
     background-color: #81ffd0; }
 
@@ -1142,13 +1142,13 @@ section.page #submit-project .submit #icon-number3 {
     height: 73px;
     margin-left: 18px; }
   /* line 74, ../../app/stylesheets/partials/_960grid.sass */
-  section.page header nav-header {
+  section.page header nav.navigation {
     margin-left: 19.14894%;
     clear: none;
     float: left;
     padding-top: 0; }
   /* line 80, ../../app/stylesheets/partials/_960grid.sass */
-  section.page header nav-header ul li {
+  section.page header nav.navigation ul li {
     margin-top: 0px;
     display: block;
     float: none;
@@ -1157,7 +1157,7 @@ section.page #submit-project .submit #icon-number3 {
     min-height: 1.25em;
     padding-left: 0; }
   /* line 88, ../../app/stylesheets/partials/_960grid.sass */
-  section.page header nav-header ul li a {
+  section.page header nav.navigation ul li a {
     font-size: 0.875em;
     font-weight: 400; }
   /* line 92, ../../app/stylesheets/partials/_960grid.sass */
@@ -1849,19 +1849,19 @@ header #number {
   float: left;
   margin: 10px; }
 /* line 57, ../../app/stylesheets/application.sass */
-header nav-header {
+header nav.navigation {
   clear: both;
   display: block;
   padding-top: 1.5em; }
 /* line 62, ../../app/stylesheets/application.sass */
-header nav-header ul {
+header nav.navigation ul {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1; }
 /* line 64, ../../app/stylesheets/application.sass */
-header nav-header ul li {
+header nav.navigation ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -1875,22 +1875,22 @@ header nav-header ul li {
   width: 25%;
   margin-top: 4px; }
 /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav-header ul li:first-child, header nav-header ul li.first {
+header nav.navigation ul li:first-child, header nav.navigation ul li.first {
   padding-left: 0; }
 /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav-header ul li:last-child {
+header nav.navigation ul li:last-child {
   padding-right: 0; }
 /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav-header ul li.last {
+header nav.navigation ul li.last {
   padding-right: 0; }
 /* line 70, ../../app/stylesheets/application.sass */
-header nav-header ul li:last-child {
+header nav.navigation ul li:last-child {
   background: none; }
 /* line 72, ../../app/stylesheets/application.sass */
-header nav-header ul li.nopadding {
+header nav.navigation ul li.nopadding {
   padding-left: 0; }
 /* line 75, ../../app/stylesheets/application.sass */
-header nav-header ul li a {
+header nav.navigation ul li a {
   font-family: "miso";
   color: black;
   background-color: yellow;
