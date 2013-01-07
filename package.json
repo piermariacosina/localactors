@@ -11,6 +11,7 @@
       "enquire": "github:WickyNilliams/enquire.js/master",
       "response": "github:ryanve/response.js/master",
       "Respond": "github:scottjehl/Respond/1.2.0",
+      "html5shiv": "github:aFarkas/html5shiv/3.6.1"
     }
   }
 }
