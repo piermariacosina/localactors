@@ -2,12 +2,15 @@
 /[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
 /[if IE 7] <html class="no-js lt-ie9 lt-ie8">
 /[if IE 8] <html class="no-js lt-ie9">
+
    
 %html.no-js
   %head
     %title= [@title, "Local Actors"].compact.join(" | ")
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    /[if lt IE 9] 
+      %script{:src => 'javascripts/vendor/html5shiv/dist/html5shiv'}
     <!-- VIEWPORT -->
     
     <!-- optimised for mobile -->
