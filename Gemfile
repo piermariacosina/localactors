@@ -28,7 +28,7 @@ gem 'susy'
 
 group :production do
 	gem 'yui-compressor', :require => 'yui/compressor'
-	
+	gem "puma"
 end
 
 
