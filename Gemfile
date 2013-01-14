@@ -1,7 +1,7 @@
 source :rubygems
 
 # Server requirements
-#gem 'thin'
+gem 'thin'
 #gem "puma"
 # or mongrel
 # gem 'trinidad', :platform => 'jruby'
@@ -28,7 +28,6 @@ gem 'susy'
 
 group :production do
 	gem 'yui-compressor', :require => 'yui/compressor'
-	gem "puma"
 end
 
 
