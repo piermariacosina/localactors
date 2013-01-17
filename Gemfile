@@ -1,7 +1,7 @@
 source :rubygems
 
 # Server requirements
-#gem 'thin'
+gem 'thin'
 #gem "puma"
 # or mongrel
 # gem 'trinidad', :platform => 'jruby'
@@ -20,13 +20,14 @@ gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
 
+
+
 # gem 'gibbon'
 #gem 'rdiscount'
 
 
 group :production do
 	gem 'yui-compressor', :require => 'yui/compressor'
-	gem 'newrelic_rpm'
 end
 
 
@@ -49,6 +50,7 @@ end
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
 gem 'padrino-contrib'
+gem 'padrino-rpm'
 
 
 group :development do
