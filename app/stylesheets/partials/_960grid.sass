@@ -95,11 +95,18 @@
 				margin-top: 0
 	
 		footer
-			@extend .wide !optional
-			@extend .borded !optional
-			margin-top: 20px
-			li.nline
-				float: none
+			#logo
+				+clearfix
+				+logo($assets,"web")
+				
+			
+			.blue
+				@extend .wide !optional
+				@extend .borded !optional
+				margin-top: 20px
+
+				li.nline
+					float: none
 			
 		hr.footer
 			@extend .borded !optional
@@ -134,9 +141,9 @@
 				
 			a
 				span.icon
-					+sprite($assets, "mail", true)
+					+sprite($assets, "icon_subscribe", true)
 					&:hover
-						+sprite($assets, "mail_inverted", true)
+						+sprite($assets, "icon_subscribe_hover", true)
 						+span-columns(3,$break)	
 			.mailing_list  
 				#icon
@@ -165,15 +172,44 @@
 			a
 				span.icon
 					+assign-sprite-background($assets)
-					+sprite($assets, "bubble", true)
+					+sprite($assets, "icon_question", true)
 					&:hover
-						+sprite($assets, "bubble_inverted", true)
+						+sprite($assets, "icon_question_hover", true)
 						+span-columns(3,$break)
 			.buttons
 				width: 56%
 				text-align: center
 				a
 					padding: 10px 20px 10px 20px
+		
+		#think,#publish
+			section
+				+span-columns(11,13)
+				+pre(3,13)
+			.buttons
+				+float-left
+				
+			
+		
+			#spiegazione
+				+span-columns(8,11)
+				+pre(0)
+		#think
+			a
+				span.icon
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_think", true)
+					&:hover
+						+sprite($assets, "icon_think_hover", true)
+						+span-columns(3,$break)
+		#publish
+			a
+				span.icon
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_publish", true)
+					&:hover
+						+sprite($assets, "icon_publish_hover", true)
+						+span-columns(3,$break)	
 			
 						
 		#submit-project
@@ -183,9 +219,9 @@
 			a
 				span.icon
 					+assign-sprite-background($assets)
-					+sprite($assets, "pointer", true)
+					+sprite($assets, "icon_submit", true)
 					&:hover
-						+sprite($assets, "pointer_inverted", true)
+						+sprite($assets, "icon_submit_hover", true)
 						+span-columns(3,$break)
 			div
 				a
@@ -239,7 +275,7 @@
 				a
 					padding: 10px 20px 10px 20px
 													
-		#mailing-list,#faq,#submit-project
+		#mailing-list,#faq,#submit-project,#think,#publish
 			@extend .wide !optional
 			a span.icon
 				+span-columns(3,$break)

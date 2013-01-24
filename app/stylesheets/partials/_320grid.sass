@@ -59,18 +59,22 @@ section.page
 
 					
 	footer
-		@extend .full !optional
-		ul
-			li.nline
-				width: columns($total-columns)
-			li.nopadding
-				padding-left: 0
+		#logo
+			+logo($assets,"mobile")			
+		
+		.blue
+			@extend .full !optional
+			ul
+				li.nline
+					width: columns($total-columns)
+				li.nopadding
+					padding-left: 0
 				
 	#mailing-list
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "mail-mobile", true)
+				+sprite($assets, "mobile_icon_subscribe", true)
 		
 		#mail_form
 			overflow: visible
@@ -134,7 +138,7 @@ section.page
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "bubble-mobile", true)
+				+sprite($assets, "mobile_icon_question", true)
 		ul.questions
 			list-style: none
 			+pre(1)
@@ -174,12 +178,37 @@ section.page
 		.buttons
 			a
 				+pre(2)
+				
+	#think
+		a
+			span.icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "mobile_icon_question", true)
+	#publish
+		opacity: 0.4
+		a
+			span.icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "mobile_icon_publish", true)			
+	#think,#publish                                      	
+		#spiegazione
+			+float-left
+			+span-columns(5)
+			+pre(2)
+			p
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				font-size: px-to-em(14px)
+		.buttons
+			+pre(2)
 						 
 	#submit-project
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "pointer-mobile", true)
+				+sprite($assets, "mobile_icon_submit", true)
 		.submit
 			#spiegazione
 				+span-columns(5)
@@ -256,7 +285,7 @@ section.page
 				+span-columns(1)
 			
 			
-#mailing-list,#faq,#submit-project
+#mailing-list,#faq,#submit-project,#think,#publish
 	@extend .full !optional
 	@extend .spined !optional
 	+clearfix

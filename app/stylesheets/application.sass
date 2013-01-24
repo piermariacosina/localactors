@@ -83,6 +83,8 @@ header
           text-transform: uppercase
           font-weight: 400
           white-space: normal
+        .publish
+          opacity: 0.4
 
   #paper
     margin-top: 10px
@@ -129,46 +131,48 @@ section.page
   
   footer
     clear: both
-    @extend .borded !optional
-    border-bottom: none
-    ul
-      @include horizontal-list-container
-      margin-top: 1px
-      padding: 0 10px 0 10px
-      li
-        @include horizontal-list-item
+    .blue
+      clear: both
+      @extend .borded !optional
+      border-bottom: none
+      ul
+        @include horizontal-list-container
+        margin-top: 1px
+        padding: 0 10px 0 10px
+        li
+          @include horizontal-list-item
+          font-family: "miso"
+          font-weight: 400       
+          color: $blue
+          font-size: px-to-em(14px)
+          text-transform: uppercase
+          margin-top: 3px
+          
+          p
+            display: inline
+            color: $blue
+          a
+            background-color: yellow
+            color: black
+            @extend .hover !optional
+            
+          .selected
+            @extend .borded !optional
+      .rights
+        font-size: px-to-em(13px)
+        line-height: px-to-em(16px)
+        clear:both
         font-family: "miso"
         font-weight: 400       
         color: $blue
-        font-size: px-to-em(14px)
         text-transform: uppercase
-        margin-top: 3px
-        
+        margin: 3px 10px 10px 10px
         p
-          display: inline
-          color: $blue
+          margin: 3px 0
         a
           background-color: yellow
           color: black
           @extend .hover !optional
-          
-        .selected
-          @extend .borded !optional
-    .rights
-      font-size: px-to-em(13px)
-      line-height: px-to-em(16px)
-      clear:both
-      font-family: "miso"
-      font-weight: 400       
-      color: $blue
-      text-transform: uppercase
-      margin: 3px 10px 10px 10px
-      p
-        margin: 3px 0
-      a
-        background-color: yellow
-        color: black
-        @extend .hover !optional
 hr.footer
   border-top: 1px $blue solid
   margin-top: 0px
