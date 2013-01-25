@@ -95,9 +95,38 @@
 				margin-top: 0
 	
 		footer
-			#logo
-				+clearfix
-				+logo($assets,"web")
+			#prefooter
+				border-top: 1px $blue dashed
+				@extend .wide !optional
+				.box
+					+pre(1)
+					border: 1px $blue solid			
+					+span-columns(4)
+					color: $blue
+					font-family: "miso"
+					text-transform: uppercase
+					margin-top: 50px							
+					padding-right: 20px
+					padding-left: 20px
+				.local
+					border-left: 1px $blue dashed
+					width: 50%
+					+float-right						
+					.number
+						+logo($assets,"web")
+						+clearfix
+						margin-top: 20px							
+						margin-left: 20px
+						+float-right							
+					.spiegazione
+						width: 40%
+						+float-right
+						+pre(1)
+						font-family: "miso"
+						h2
+							color: $rose
+						p
+							color: $blue
 				
 			
 			.blue

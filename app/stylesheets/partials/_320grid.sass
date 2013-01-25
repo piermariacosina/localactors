@@ -57,11 +57,30 @@ section.page
 						+hyphenation
 						display: none
 
-					
 	footer
-		#logo
-			+logo($assets,"mobile")			
-		
+		#prefooter
+			.box
+				border: 1px $blue solid			
+				color: $blue
+				font-family: "miso"
+				text-transform: uppercase						
+				padding-right: 20px
+				padding-left: 20px
+			.local
+				.number
+					+logo($assets,"mobile")
+					+clearfix
+					+float-right
+					margin-top: 20px							
+				.spiegazione
+					+float-right
+					+span-columns(3)
+					font-family: "miso"
+					h2
+						color: $rose
+					p
+						color: $blue			
+	
 		.blue
 			@extend .full !optional
 			ul
