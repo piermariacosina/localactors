@@ -570,7 +570,7 @@ section.page #map #steps #text ul li {
   -moz-hyphens: auto;
   hyphens: auto;
   display: none; }
-/* line 63, ../../app/stylesheets/partials/_320grid.sass */
+/* line 62, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .box {
   border: 1px #001fff solid;
   color: #001fff;
@@ -578,7 +578,7 @@ section.page footer #prefooter .box {
   text-transform: uppercase;
   padding-right: 20px;
   padding-left: 20px; }
-/* line 71, ../../app/stylesheets/partials/_320grid.sass */
+/* line 70, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .number {
   overflow: hidden;
   *zoom: 1;
@@ -716,7 +716,7 @@ section.page footer #prefooter .local .number span.logo_text {
   width: 79px;
   height: 48px;
   margin-left: 18px; }
-/* line 76, ../../app/stylesheets/partials/_320grid.sass */
+/* line 75, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione {
   display: inline;
   float: right;
@@ -725,19 +725,19 @@ section.page footer #prefooter .local .spiegazione {
   margin-right: 5%;
   display: inline;
   font-family: "miso"; }
-/* line 80, ../../app/stylesheets/partials/_320grid.sass */
+/* line 79, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione h2 {
   color: #ff4874; }
-/* line 82, ../../app/stylesheets/partials/_320grid.sass */
+/* line 81, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione p {
   color: #001fff; }
-/* line 88, ../../app/stylesheets/partials/_320grid.sass */
+/* line 87, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nline {
   width: 100%; }
-/* line 90, ../../app/stylesheets/partials/_320grid.sass */
+/* line 89, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
-/* line 95, ../../app/stylesheets/partials/_320grid.sass */
+/* line 94, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -748,10 +748,10 @@ section.page #mailing-list a span.icon {
 /* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #mailing-list a span.icon:hover, section.page #mailing-list a span.icon.mobile_icon_subscribe_hover, section.page #mailing-list a span.icon.mobile_icon_subscribe-hover {
   background-position: 0 -258px; }
-/* line 99, ../../app/stylesheets/partials/_320grid.sass */
+/* line 98, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_form {
   overflow: visible; }
-/* line 103, ../../app/stylesheets/partials/_320grid.sass */
+/* line 102, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -760,7 +760,7 @@ section.page #mailing-list .mailing_list #icon {
   height: 20px;
   width: 125px;
   margin-left: 30%; }
-/* line 109, ../../app/stylesheets/partials/_320grid.sass */
+/* line 108, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione {
   display: inline;
   float: left;
@@ -769,14 +769,14 @@ section.page #mailing-list .mailing_list #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 113, ../../app/stylesheets/partials/_320grid.sass */
+/* line 112, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
   font-weight: 400;
   color: #001fff;
   font-size: 0.875em; }
-/* line 120, ../../app/stylesheets/partials/_320grid.sass */
+/* line 119, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset {
   width: 70%;
   float: left;
@@ -785,28 +785,28 @@ section.page #mailing-list fieldset {
   margin-left: 30%;
   border: none;
   padding: 0; }
-/* line 125, ../../app/stylesheets/partials/_320grid.sass */
+/* line 124, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p {
   margin: 0;
   padding: 0; }
-/* line 128, ../../app/stylesheets/partials/_320grid.sass */
+/* line 127, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p label {
   display: none; }
-/* line 130, ../../app/stylesheets/partials/_320grid.sass */
+/* line 129, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input {
   width: 100%;
   border: 2px solid #001fff;
   padding: 0.625em;
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 136, ../../app/stylesheets/partials/_320grid.sass */
+/* line 135, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input::-webkit-input-placeholder {
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 140, ../../app/stylesheets/partials/_320grid.sass */
+/* line 139, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .buttons input {
   float: right; }
-/* line 143, ../../app/stylesheets/partials/_320grid.sass */
+/* line 142, ../../app/stylesheets/partials/_320grid.sass */
 section.page .buttons input, section.page .buttons a {
   background-color: yellow;
   color: black;
@@ -818,11 +818,11 @@ section.page .buttons input, section.page .buttons a {
   margin-bottom: 10px;
   font-size: 1em !important;
   padding: 5px 10px 5px 10px; }
-/* line 154, ../../app/stylesheets/partials/_320grid.sass */
+/* line 153, ../../app/stylesheets/partials/_320grid.sass */
 section.page .buttons input:hover, section.page .buttons a:hover {
   text-decoration: underline;
   background-color: yellow; }
-/* line 159, ../../app/stylesheets/partials/_320grid.sass */
+/* line 158, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq a span.icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -833,7 +833,7 @@ section.page #faq a span.icon {
 /* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #faq a span.icon:hover, section.page #faq a span.icon.mobile_icon_question_hover, section.page #faq a span.icon.mobile_icon_question-hover {
   background-position: 0 -729px; }
-/* line 162, ../../app/stylesheets/partials/_320grid.sass */
+/* line 161, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions {
   list-style: none;
   margin-left: 15%;
@@ -842,14 +842,14 @@ section.page #faq ul.questions {
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 167, ../../app/stylesheets/partials/_320grid.sass */
+/* line 166, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 {
   font-family: "source sans pro";
   font-weight: 600;
   font-size: 1em;
   line-height: 1.66667em;
   color: black; }
-/* line 174, ../../app/stylesheets/partials/_320grid.sass */
+/* line 173, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
   display: inline;
@@ -861,17 +861,17 @@ section.page #faq ul.questions li h3 i {
   background-position: 0 -3811px;
   height: 18px;
   width: 9px; }
-/* line 183, ../../app/stylesheets/partials/_320grid.sass */
+/* line 182, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3.ui-accordion-header-active i {
   margin-left: -45px;
   background-position: 0 -834px;
   height: 58px;
   width: 30px; }
-/* line 187, ../../app/stylesheets/partials/_320grid.sass */
+/* line 186, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 190, ../../app/stylesheets/partials/_320grid.sass */
+/* line 189, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li p {
   clear: both;
   font-family: "source sans pro";
@@ -880,10 +880,10 @@ section.page #faq ul.questions li p {
   font-size: 0.75em;
   line-height: 1.25em;
   color: #6045ff; }
-/* line 199, ../../app/stylesheets/partials/_320grid.sass */
+/* line 198, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq .buttons a {
   margin-left: 30%; }
-/* line 204, ../../app/stylesheets/partials/_320grid.sass */
+/* line 203, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think a span.icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -894,10 +894,10 @@ section.page #think a span.icon {
 /* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #think a span.icon:hover, section.page #think a span.icon.mobile_icon_question_hover, section.page #think a span.icon.mobile_icon_question-hover {
   background-position: 0 -729px; }
-/* line 207, ../../app/stylesheets/partials/_320grid.sass */
+/* line 206, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish {
   opacity: 0.4; }
-/* line 210, ../../app/stylesheets/partials/_320grid.sass */
+/* line 209, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish a span.icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -908,7 +908,7 @@ section.page #publish a span.icon {
 /* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #publish a span.icon:hover, section.page #publish a span.icon.mobile_icon_publish_hover, section.page #publish a span.icon.mobile_icon_publish-hover {
   background-position: 0 -2320px; }
-/* line 214, ../../app/stylesheets/partials/_320grid.sass */
+/* line 213, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione, section.page #publish #spiegazione {
   display: inline;
   float: left;
@@ -917,17 +917,17 @@ section.page #think #spiegazione, section.page #publish #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 218, ../../app/stylesheets/partials/_320grid.sass */
+/* line 217, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p, section.page #publish #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
   font-weight: 400;
   color: #001fff;
   font-size: 0.875em; }
-/* line 224, ../../app/stylesheets/partials/_320grid.sass */
+/* line 223, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think .buttons, section.page #publish .buttons {
   margin-left: 30%; }
-/* line 229, ../../app/stylesheets/partials/_320grid.sass */
+/* line 228, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project a span.icon {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -938,7 +938,7 @@ section.page #submit-project a span.icon {
 /* line 43, ../../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #submit-project a span.icon:hover, section.page #submit-project a span.icon.mobile_icon_submit_hover, section.page #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1210px; }
-/* line 233, ../../app/stylesheets/partials/_320grid.sass */
+/* line 232, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione {
   width: 70%;
   float: left;
@@ -946,7 +946,7 @@ section.page #submit-project .submit #spiegazione {
   display: inline;
   margin-left: 30%;
   margin-top: -35; }
-/* line 237, ../../app/stylesheets/partials/_320grid.sass */
+/* line 236, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -954,7 +954,7 @@ section.page #submit-project .submit #spiegazione p {
   color: #001fff;
   font-size: 0.875em;
   line-height: 1.25em; }
-/* line 244, ../../app/stylesheets/partials/_320grid.sass */
+/* line 243, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione h4 {
   display: inline;
   text-transform: uppercase;
@@ -962,7 +962,7 @@ section.page #submit-project .submit #spiegazione h4 {
   font-weight: 400;
   color: #ff4874;
   font-size: 1.25em; }
-/* line 252, ../../app/stylesheets/partials/_320grid.sass */
+/* line 251, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc1 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -971,7 +971,7 @@ section.page #submit-project .submit #spiegazione #icon-doc1 {
   height: 87px;
   width: 120px;
   margin-top: 10px; }
-/* line 258, ../../app/stylesheets/partials/_320grid.sass */
+/* line 257, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc2 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -981,7 +981,7 @@ section.page #submit-project .submit #spiegazione #icon-doc2 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 15px; }
-/* line 267, ../../app/stylesheets/partials/_320grid.sass */
+/* line 266, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc3 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -991,7 +991,7 @@ section.page #submit-project .submit #spiegazione #icon-doc3 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 10px; }
-/* line 273, ../../app/stylesheets/partials/_320grid.sass */
+/* line 272, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed {
   height: 1px;
   width: 100%;
@@ -1001,7 +1001,7 @@ section.page #submit-project .submit .border-dashed {
   border-top: 1px dashed #001fff;
   margin-top: 40px;
   margin-bottom: 30px; }
-/* line 280, ../../app/stylesheets/partials/_320grid.sass */
+/* line 279, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus1 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -1011,7 +1011,7 @@ section.page #submit-project .submit .border-dashed #icon-plus1 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 285, ../../app/stylesheets/partials/_320grid.sass */
+/* line 284, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus2 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -1021,7 +1021,7 @@ section.page #submit-project .submit .border-dashed #icon-plus2 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 290, ../../app/stylesheets/partials/_320grid.sass */
+/* line 289, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number1 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -1034,7 +1034,7 @@ section.page #submit-project .submit #icon-number1 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 296, ../../app/stylesheets/partials/_320grid.sass */
+/* line 295, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number2 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -1047,7 +1047,7 @@ section.page #submit-project .submit #icon-number2 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 301, ../../app/stylesheets/partials/_320grid.sass */
+/* line 300, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number3 {
   background-image: url('/images/assets-s633a2cd2f8.png');
   background-repeat: no-repeat;
@@ -1061,25 +1061,25 @@ section.page #submit-project .submit #icon-number3 {
   margin-right: 5%;
   display: inline; }
 
-/* line 308, ../../app/stylesheets/partials/_320grid.sass */
+/* line 307, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list, #faq, #submit-project, #think, #publish {
   overflow: hidden;
   *zoom: 1; }
-/* line 312, ../../app/stylesheets/partials/_320grid.sass */
+/* line 311, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header, #faq header, #submit-project header, #think header, #publish header {
   padding-top: 10px; }
-/* line 317, ../../app/stylesheets/partials/_320grid.sass */
+/* line 316, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span, #think header.ui-state-hover h2 span, #think header.ui-accordion-header-active h2 span, #publish header.ui-state-hover h2 span, #publish header.ui-accordion-header-active h2 span {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 321, ../../app/stylesheets/partials/_320grid.sass */
+/* line 320, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon, #think a span.icon, #publish a span.icon {
   margin-left: 20px;
   width: 10.6383%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
-/* line 324, ../../app/stylesheets/partials/_320grid.sass */
+/* line 323, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   width: 70%;
   float: right;
@@ -1087,7 +1087,7 @@ section.page #submit-project .submit #icon-number3 {
   #margin-left: -1.25em;
   display: inline;
   margin-top: 0; }
-/* line 331, ../../app/stylesheets/partials/_320grid.sass */
+/* line 330, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list section, #faq section, #submit-project section, #think section, #publish section {
   width: 100%;
   float: left;
@@ -1095,7 +1095,7 @@ section.page #submit-project .submit #icon-number3 {
   display: inline; }
 
 @media (min-width: 36.25em) {
-  /* line 337, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 336, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {
