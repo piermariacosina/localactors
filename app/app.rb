@@ -41,8 +41,8 @@ class Localactors < Padrino::Application
   
   
   get '/' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.views', 1)
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.views', 1)
     check = params[:newsletter]
     if check == "success"
       
@@ -62,16 +62,16 @@ class Localactors < Padrino::Application
   end
   
   
-  get '/callforprojects' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.callforproject', 1)
+  get '/call_for_projects' do
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.callforproject', 1)
     render "call_for_projects"
   end
    
-  get '/whoweare' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.whoweare', 1)
-    render "who_we_are"
+  get '/our_approach' do
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.whoweare', 1)
+    render "our_approach"
   end
    
   # get '/subscribe', :provides => [:html, :json] do

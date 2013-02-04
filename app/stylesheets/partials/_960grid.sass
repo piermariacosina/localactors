@@ -58,8 +58,12 @@
 		
 	section.page
 		.buttons
-			+pre(0)
-			float:left
+			text-align: center
+			display:block
+			clear:both
+			a
+				padding: 10px 20px 10px 20px
+
 			input, a
 				width: 100%
 				height: 35px
@@ -205,18 +209,12 @@
 					&:hover
 						+sprite($assets, "icon_question_hover", true)
 						+span-columns(3,$break)
-			.buttons
-				width: 56%
-				text-align: center
-				a
-					padding: 10px 20px 10px 20px
+						
 		
 		#think,#publish
 			section
 				+span-columns(11,13)
 				+pre(3,13)
-			.buttons
-				+float-left
 				
 			
 		
@@ -299,10 +297,7 @@
 						@include sprite($assets, "plus2", true)
 						margin-top: -15px
 			
-			.buttons
-				width: 68%
-				a
-					padding: 10px 20px 10px 20px
+			
 													
 		#mailing-list,#faq,#submit-project,#think,#publish
 			@extend .wide !optional
