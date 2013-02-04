@@ -110,34 +110,52 @@ section.page
 						left: 50%
 
 		#steps
-			+clearfix
+			
 			margin: 0
 			background: grey
+			+clearfix
 			#arrow_left
 				+span-columns(1)
 			#arrow_right
 				+span-columns(1 omega)
 			#text
+				+span-columns(5,7)
+				+clearfix
+				
 				ul
 					list-style-type: none
+					
+					
+					display: block
 					li
-						+span-columns(5,7)
+						
 						+hyphenation
 						display: none
 						background: yellow
-						h4
-							font-weight: 400
-							font-size: px-to-em(19px)
-							line-height: px-to-em(17px,19px)
-						p
-							font-size: px-to-em(12px)
-							line-height: px-to-em(15px,12px)
-							letter-spacing: px-to-em(1.6px)
-							margin: 5px 0 0 0
-							+span-columns(5,7)
-							width: auto
-							height: auto
-							background: cyan
+						#arrow1,#arrow2,#arrow3
+							display: none
+							+span-columns(1)
+						#title
+							+span-columns(5)
+							p
+								color: $blue
+								text-transform: uppercase
+								whitespace: nowrap
+								//max-width: px-to-em(400px)
+								font-size: px-to-em(12px)
+								line-height: px-to-em(15px,12px)
+								letter-spacing: px-to-em(1.6px)
+								width: auto
+								height: auto
+								background: cyan
+								
+							h4
+								display: inline
+								color: $rose
+								text-transform: uppercase
+								font-weight: 400
+								font-size: px-to-em(19px)
+								line-height: px-to-em(17px,19px)
 
 	.banner-call
 		+span-columns(5,7)

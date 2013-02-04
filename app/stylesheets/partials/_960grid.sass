@@ -375,7 +375,7 @@
 				
 
 		#map
-			@extend .wide !optional
+			+span-columns(16)
 			h1.vision
 				+span-columns(11,13)
 			#slides
@@ -392,11 +392,12 @@
 				#arrow_left
 					display: none	
 				#text	
-					margin-top: 3px		
+					margin-top: 3px
+					+span-columns(16)		
 					ul				
 						+horizontal-list
 						li
-							+span-columns(4,13)
+							+span-columns(4)
 							+horizontal-list-item
 							&:first-child
 								padding-left: 4px
@@ -407,37 +408,41 @@
 							display: block !important
 							position: relative
 							border: 2px white solid
-							p
-								font-size: 14px
-								text-transform: uppercase
+							
 
-								+pre(1,4)
+								
+							#arrow1, #arrow2, #arrow3
+								+span-columns(1,4)
+							#arrow1
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow1")
+								
+							#arrow2
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow2")
+								
+							#arrow3
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow3")
 								
 									
 							#title
 								margin-botton: 20px
 								margin-top: 20px
-								#arrow1
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow1")
-									margin-right: px-to-em(27px)
-								#arrow2
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow2")
-									margin-right: px-to-em(27px)
-								#arrow3
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow3")
-									margin-right: px-to-em(27px)
+								+span-columns(3,4)
+								
 								h4
 									display: inline
 									font-size: 24px
 									text-transform: uppercase
 									letter-spacing: 2px
-
+								
+								p
+									font-size: 14px
+									text-transform: uppercase
 								
 							&:hover,&.selected
 								@extend .borded !optional
