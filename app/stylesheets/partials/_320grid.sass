@@ -260,6 +260,21 @@ section.page
 					width: columns($total-columns)
 				li.nopadding
 					padding-left: 0
+
+	
+	#mailing-list, #think, #submit-project, #publish
+		#spiegazione
+			+float-left
+			+span-columns(5)
+			+pre(2)
+			p
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				font-size: px-to-em(12px)
+				line-height: px-to-em(15px,12px)
+				letter-spacing: px-to-em(2px)
 				
 	#mailing-list
 		a
@@ -286,7 +301,10 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size: px-to-em(14px)
+					font-size: px-to-em(12px)
+					line-height: px-to-em(15px,12px)
+					letter-spacing: px-to-em(2px)
+					
 		
 		fieldset
 			+span-columns(5)
