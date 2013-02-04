@@ -964,24 +964,6 @@ section.page footer .blue ul li.nline {
 /* line 261, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
-/* line 266, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list #spiegazione, section.page #think #spiegazione, section.page #submit-project #spiegazione, section.page #publish #spiegazione {
-  display: inline;
-  float: left;
-  width: 70%;
-  float: left;
-  margin-right: 5%;
-  display: inline;
-  margin-left: 30%; }
-/* line 270, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p {
-  text-transform: uppercase;
-  font-family: "miso";
-  font-weight: 400;
-  color: #001fff;
-  font-size: 0.75em;
-  line-height: 1.25em;
-  letter-spacing: 0.125em; }
 /* line 281, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
@@ -1099,6 +1081,7 @@ section.page #faq ul.questions li h3 {
 /* line 363, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
+  position: relative;
   display: inline;
   float: left;
   margin-left: -24px;
@@ -1170,11 +1153,16 @@ section.page #think #spiegazione p, section.page #publish #spiegazione p {
   font-family: "miso";
   font-weight: 400;
   color: #001fff;
-  font-size: 0.875em; }
-/* line 413, ../../app/stylesheets/partials/_320grid.sass */
+  font-size: 0.75em;
+  line-height: 1.25em;
+  letter-spacing: 0.125em; }
+/* line 415, ../../app/stylesheets/partials/_320grid.sass */
+section.page #think #spiegazione p i, section.page #publish #spiegazione p i {
+  letter-spacing: normal; }
+/* line 417, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think .buttons, section.page #publish .buttons {
   margin-left: 30%; }
-/* line 418, ../../app/stylesheets/partials/_320grid.sass */
+/* line 422, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1185,7 +1173,7 @@ section.page #submit-project a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #submit-project a span.icon:hover, section.page #submit-project a span.icon.mobile_icon_submit_hover, section.page #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1210px; }
-/* line 422, ../../app/stylesheets/partials/_320grid.sass */
+/* line 426, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione {
   width: 70%;
   float: left;
@@ -1193,15 +1181,19 @@ section.page #submit-project .submit #spiegazione {
   display: inline;
   margin-left: 30%;
   margin-top: -35; }
-/* line 426, ../../app/stylesheets/partials/_320grid.sass */
+/* line 430, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
   font-weight: 400;
   color: #001fff;
-  font-size: 0.875em;
-  line-height: 1.25em; }
-/* line 433, ../../app/stylesheets/partials/_320grid.sass */
+  font-size: 0.75em;
+  line-height: 1.25em;
+  letter-spacing: 0.125em; }
+/* line 438, ../../app/stylesheets/partials/_320grid.sass */
+section.page #submit-project .submit #spiegazione p i {
+  letter-spacing: normal; }
+/* line 440, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione h4 {
   display: inline;
   text-transform: uppercase;
@@ -1209,7 +1201,7 @@ section.page #submit-project .submit #spiegazione h4 {
   font-weight: 400;
   color: #ff4874;
   font-size: 1.25em; }
-/* line 441, ../../app/stylesheets/partials/_320grid.sass */
+/* line 448, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1218,7 +1210,7 @@ section.page #submit-project .submit #spiegazione #icon-doc1 {
   height: 87px;
   width: 120px;
   margin-top: 10px; }
-/* line 447, ../../app/stylesheets/partials/_320grid.sass */
+/* line 454, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1228,7 +1220,7 @@ section.page #submit-project .submit #spiegazione #icon-doc2 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 15px; }
-/* line 456, ../../app/stylesheets/partials/_320grid.sass */
+/* line 463, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc3 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1238,17 +1230,18 @@ section.page #submit-project .submit #spiegazione #icon-doc3 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 10px; }
-/* line 462, ../../app/stylesheets/partials/_320grid.sass */
+/* line 469, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed {
   height: 1px;
   width: 100%;
   float: left;
   margin-right: 5%;
   display: inline;
+  overflow: visible;
   border-top: 1px dashed #001fff;
   margin-top: 40px;
   margin-bottom: 30px; }
-/* line 469, ../../app/stylesheets/partials/_320grid.sass */
+/* line 476, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1258,7 +1251,7 @@ section.page #submit-project .submit .border-dashed #icon-plus1 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 474, ../../app/stylesheets/partials/_320grid.sass */
+/* line 481, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1268,7 +1261,7 @@ section.page #submit-project .submit .border-dashed #icon-plus2 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 479, ../../app/stylesheets/partials/_320grid.sass */
+/* line 486, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1281,7 +1274,7 @@ section.page #submit-project .submit #icon-number1 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 485, ../../app/stylesheets/partials/_320grid.sass */
+/* line 492, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1294,7 +1287,7 @@ section.page #submit-project .submit #icon-number2 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 490, ../../app/stylesheets/partials/_320grid.sass */
+/* line 497, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number3 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1308,25 +1301,25 @@ section.page #submit-project .submit #icon-number3 {
   margin-right: 5%;
   display: inline; }
 
-/* line 497, ../../app/stylesheets/partials/_320grid.sass */
+/* line 504, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list, #faq, #submit-project, #think, #publish {
   overflow: hidden;
   *zoom: 1; }
-/* line 501, ../../app/stylesheets/partials/_320grid.sass */
+/* line 508, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header, #faq header, #submit-project header, #think header, #publish header {
   padding-top: 10px; }
-/* line 506, ../../app/stylesheets/partials/_320grid.sass */
+/* line 513, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span, #think header.ui-state-hover h2 span, #think header.ui-accordion-header-active h2 span, #publish header.ui-state-hover h2 span, #publish header.ui-accordion-header-active h2 span {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 510, ../../app/stylesheets/partials/_320grid.sass */
+/* line 517, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon, #think a span.icon, #publish a span.icon {
   margin-left: 20px;
   width: 10.6383%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
-/* line 513, ../../app/stylesheets/partials/_320grid.sass */
+/* line 520, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   width: 70%;
   float: right;
@@ -1334,7 +1327,7 @@ section.page #submit-project .submit #icon-number3 {
   #margin-left: -1.25em;
   display: inline;
   margin-top: 0; }
-/* line 520, ../../app/stylesheets/partials/_320grid.sass */
+/* line 527, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list section, #faq section, #submit-project section, #think section, #publish section {
   width: 100%;
   float: left;
@@ -1342,7 +1335,7 @@ section.page #submit-project .submit #icon-number3 {
   display: inline; }
 
 @media (min-width: 36.25em) {
-  /* line 526, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 533, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {

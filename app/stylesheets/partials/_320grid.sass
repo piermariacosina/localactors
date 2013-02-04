@@ -262,19 +262,19 @@ section.page
 					padding-left: 0
 
 	
-	#mailing-list, #think, #submit-project, #publish
-		#spiegazione
-			+float-left
-			+span-columns(5)
-			+pre(2)
-			p
-				text-transform: uppercase
-				font-family: "miso"
-				font-weight: 400       
-				color: $blue
-				font-size: px-to-em(12px)
-				line-height: px-to-em(15px,12px)
-				letter-spacing: px-to-em(2px)
+	//	#mailing-list, #think, #submit-project, #publish
+	//		#spiegazione
+	//			+float-left
+	//			+span-columns(5)
+	//			+pre(2)
+	//			p
+	//				text-transform: uppercase
+	//				font-family: "miso"
+	//				font-weight: 400       
+	//				color: $blue
+	//				font-size: px-to-em(12px)
+	//				line-height: px-to-em(15px,12px)
+	//				letter-spacing: px-to-em(2px)
 				
 	#mailing-list
 		a
@@ -362,7 +362,7 @@ section.page
 					
 					i
 						margin-top: 3px
-						position:relative
+						position: relative
 						+float-left
 						margin-left: -(sprite-height($assets,"questionmark")+6px)
 						+assign-sprite-background($assets)
@@ -409,7 +409,11 @@ section.page
 				font-family: "miso"
 				font-weight: 400       
 				color: $blue
-				font-size: px-to-em(14px)
+				font-size: px-to-em(12px)
+				line-height: px-to-em(15px,12px)
+				letter-spacing: px-to-em(2px)
+				i
+					letter-spacing: normal
 		.buttons
 			+pre(2)
 						 
@@ -428,8 +432,11 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size:  px-to-em(14px)
-					line-height: px-to-em(20px)
+					font-size: px-to-em(12px)
+					line-height: px-to-em(15px,12px)
+					letter-spacing: px-to-em(2px)
+					i
+						letter-spacing: normal	
 				h4
 					display: inline
 					text-transform: uppercase
@@ -462,7 +469,7 @@ section.page
 			.border-dashed
 				height: 1px
 				+span-columns(7,7)
-				overflow:visible
+				overflow: visible
 				border-top: 1px dashed $blue
 				margin-top: 40px
 				margin-bottom: 30px
