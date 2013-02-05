@@ -91,13 +91,16 @@ submit.click(function(event) {
 	$( "#sections_accordion" ).accordion('activate' , 2);
 });
 
-
-function changeLanguage (arLanguages,i)
+var i=0;
+function changeLanguage (arLanguages)
 {
-	if(arLanguages.length == i) i=0;
-	arLanguages[i].fadeIn('slow');
-	
-	i++
+	$(arLanguages).hide();
+	if(arLanguages.length == i){
+		i=0;
+	};
+	var item = arLanguages[i];
+	$(item).fadeIn();
+	i++;
 }
 
 function fitMap() {
@@ -128,9 +131,10 @@ $(document).ready(function() {
 	
 	var current = 0
 	
-	var arLanguages =  $('header .banner-call ul li');
-	var i=0;
-	setInterval ( "changeLanguage(arLanguages,i)", 5000 );
+	var objLanguages =  $('#map .banner-call ul li')
+	var arLanguages = $.makeArray(objLanguages);
+	
+	setInterval (function() { changeLanguage(arLanguages)}, 5000 );
 	
 	
 	
