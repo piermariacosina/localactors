@@ -92,6 +92,13 @@ submit.click(function(event) {
 });
 
 
+function changeLanguage (arLanguages,i)
+{
+	if(arLanguages.length == i) i=0;
+	arLanguages[i].fadeIn('slow');
+	
+	i++
+}
 
 function fitMap() {
 	var slides_width =  $('#slides').css("width");
@@ -120,6 +127,13 @@ $(document).ready(function() {
 	var left_arrow = $( "#arrow_left" );
 	
 	var current = 0
+	
+	var arLanguages =  $('header .banner-call ul li');
+	var i=0;
+	setInterval ( "changeLanguage(arLanguages,i)", 5000 );
+	
+	
+	
 	
 	fitMap();
 	showCurrentSlide(current);
