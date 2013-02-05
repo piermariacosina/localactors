@@ -98,11 +98,7 @@
 				display: block
 				margin-top: 0
 			
-		#mailing-list, #think, #submit-project, #publish, #faq
-			h2
-				span.hl
-					span.ul
-				span.subtitle
+
 				
 		.banner-call
 			+span-columns(7,16)
@@ -368,15 +364,18 @@
 			@extend .wide !optional
 			a span.icon
 				+span-columns(3,$break)
-			h2.section_title
-				+span-columns(8,$break)
-			
 			h2
-				font-size: px-to-em(20px)
+				+span-columns(8,$break)
+				font-size: px-to-em(32px,21px)
+				span
+					
+					line-height: px-to-em(40px,32px)
 				span.hl
 					display: block
-			
-					
+					span.ul
+						
+						
+				span.subtitle		
 			
 				
 
@@ -504,5 +503,6 @@
 +at-breakpoint(18)
 	section.page
 		+pre(2)						
+
 
 				
