@@ -406,6 +406,7 @@
 					ul				
 						+horizontal-list
 						li
+							margin: 0 !important
 							+span-columns(4)
 							+horizontal-list-item
 							&:first-child
@@ -422,6 +423,7 @@
 								
 							#arrow1, #arrow2, #arrow3
 								+span-columns(1,4)
+								margin-top: 20px  
 							#arrow1
 								@extend .arrow !optional
 								@extend .icon
@@ -441,20 +443,27 @@
 							#title
 								margin-botton: 20px
 								margin-top: 20px
-								+span-columns(3,4)
+								+span-columns(3 omega,4)
 								
 								h4
 									display: inline
 									font-size: 24px
 									text-transform: uppercase
 									letter-spacing: 2px
+									background: white
 								
 								p
 									font-size: 14px
 									text-transform: uppercase
-								
-							&:hover,&.selected
+									background: white
+									margin-top: 10px !important
+							
+							&:hover
+								background: $yellow
+							&.selected
 								@extend .borded !optional
+							
+							
 	
 		h1.terms
 			
