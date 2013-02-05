@@ -271,7 +271,24 @@ section.page
 				li.nopadding
 					padding-left: 0
 
-	
+	.buttons
+		input, a
+			background-color: $yellow
+			color: $black
+			border: 2px solid $blue
+			margin-top: 4px	
+			text-transform: uppercase !important
+			font-family: "miso"
+			font-weight: 200 !important
+			text-decoration: none
+			margin-bottom: 10px
+			font-size: px-to-em(21px) !important
+			line-height: px-to-em(19px,21px) !important
+			padding: 5px 10px 5px 10px
+		input:hover, a:hover
+			text-decoration: underline
+			background-color: yellow
+			
 	#mailing-list, #think, #submit-project, #publish, #faq
 		h2
 			letter-spacing: px-to-em(1px)
@@ -371,9 +388,11 @@ section.page
 			margin-top: 4px	
 			text-transform: uppercase !important
 			font-family: "miso"
+			font-weight: 200
 			text-decoration: none
 			margin-bottom: 10px
-			font-size: px-to-em(16px) !important
+			font-size: px-to-em(21px) !important
+			line-height: px-to-em(19px,21px) !important
 			padding: 5px 10px 5px 10px
 		input:hover, a:hover
 			text-decoration: underline
@@ -429,7 +448,7 @@ section.page
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_question", true)
+				+sprite($assets, "mobile_icon_think", true)
 	#publish
 		opacity: 0.4
 		a
