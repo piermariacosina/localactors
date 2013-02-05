@@ -272,19 +272,36 @@ section.page
 					padding-left: 0
 
 	
-	//	#mailing-list, #think, #submit-project, #publish
-	//		#spiegazione
-	//			+float-left
-	//			+span-columns(5)
-	//			+pre(2)
-	//			p
-	//				text-transform: uppercase
-	//				font-family: "miso"
-	//				font-weight: 400       
-	//				color: $blue
-	//				font-size: px-to-em(12px)
-	//				line-height: px-to-em(15px,12px)
-	//				letter-spacing: px-to-em(2px)
+	#mailing-list, #think, #submit-project, #publish
+		h2
+			letter-spacing: px-to-em(1px)
+			span.hl
+				span.ul
+					line-height: px-to-em(27px, 21px)
+			span.subtitle
+				display: block
+				margin-left: 25px
+				line-height: px-to-em(19px, 19px)
+		#spiegazione
+			+float-left
+			+span-columns(5)
+			+pre(2)
+			p
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				font-size: px-to-em(12px)
+				line-height: px-to-em(15px,12px)
+				letter-spacing: px-to-em(2px)
+				margin: 0 0 10px 0
+			p.i
+				margin: 0 0 10px 0
+				letter-spacing: normal
+				font-style: italic
+				font-family: "source sans pro"
+				text-transform: none
+				
 				
 	#mailing-list
 		a
@@ -409,11 +426,6 @@ section.page
 			span.icon
 				+assign-sprite-background($assets)
 				+sprite($assets, "mobile_icon_publish", true)
-		h2
-			span.hl
-			span.subtitle
-				display: block
-				margin-left: 23px
 					
 						
 	#think,#publish                                      	
