@@ -57,8 +57,12 @@
 	section.page
 		+susy-grid-background
 		.buttons
-			+pre(0)
-			float:left
+			text-align: center
+			display:block
+			clear:both
+			a
+				padding: 10px 20px 10px 20px
+
 			input, a
 				width: 100%
 				height: 35px
@@ -154,11 +158,47 @@
 				background-color: $acqua
 	
 		footer
-			@extend .wide !optional
-			@extend .borded !optional
-			margin-top: 20px
-			li.nline
-				float: none
+			#prefooter
+				border-top: 1px $blue dashed
+				@extend .wide !optional
+				.box
+					+pre(1)
+					border: 1px $blue solid			
+					+span-columns(4)
+					color: $blue
+					font-family: "miso"
+					text-transform: uppercase
+					margin-top: 20px							
+					padding-right: 20px
+					padding-left: 20px
+				.local
+					border-left: 1px $blue dashed
+					width: 50%
+					+float-right						
+					.number
+						+logo($assets,"web")
+						+clearfix
+						margin-top: 20px							
+						margin-left: 20px
+						+float-right							
+					.spiegazione
+						width: 40%
+						+float-right
+						+pre(1)
+						font-family: "miso"
+						h2
+							color: $rose
+						p
+							color: $blue
+				
+			
+			.blue
+				@extend .wide !optional
+				@extend .borded !optional
+				margin-top: 20px
+
+				li.nline
+					float: none
 			
 		hr.footer
 			@extend .borded !optional
@@ -168,7 +208,7 @@
 			+span-columns(11, $break)
 		h1.vision
 			font-size: px-to-em(30px)
-			
+			margin: 40px 0		
 
 		#explanation
 			+span-columns(10, $break)
@@ -193,9 +233,9 @@
 				
 			a
 				span.icon
-					+sprite($assets, "mail", true)
+					+sprite($assets, "icon_subscribe", true)
 					&:hover
-						+sprite($assets, "mail_inverted", true)
+						+sprite($assets, "icon_subscribe_hover", true)
 						+span-columns(3,$break)	
 			.mailing_list  
 				#icon
@@ -224,15 +264,38 @@
 			a
 				span.icon
 					+assign-sprite-background($assets)
-					+sprite($assets, "bubble", true)
+					+sprite($assets, "icon_question", true)
 					&:hover
-						+sprite($assets, "bubble_inverted", true)
+						+sprite($assets, "icon_question_hover", true)
 						+span-columns(3,$break)
-			.buttons
-				width: 56%
-				text-align: center
-				a
-					padding: 10px 20px 10px 20px
+						
+		
+		#think,#publish
+			section
+				+span-columns(11,13)
+				+pre(3,13)
+				
+			
+		
+			#spiegazione
+				+span-columns(8,11)
+				+pre(0)
+		#think
+			a
+				span.icon
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_think", true)
+					&:hover
+						+sprite($assets, "icon_think_hover", true)
+						+span-columns(3,$break)
+		#publish
+			a
+				span.icon
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_publish", true)
+					&:hover
+						+sprite($assets, "icon_publish_hover", true)
+						+span-columns(3,$break)	
 			
 						
 		#submit-project
@@ -242,9 +305,9 @@
 			a
 				span.icon
 					+assign-sprite-background($assets)
-					+sprite($assets, "pointer", true)
+					+sprite($assets, "icon_submit", true)
 					&:hover
-						+sprite($assets, "pointer_inverted", true)
+						+sprite($assets, "icon_submit_hover", true)
 						+span-columns(3,$break)
 			div
 				a
@@ -293,12 +356,9 @@
 						@include sprite($assets, "plus2", true)
 						margin-top: -15px
 			
-			.buttons
-				width: 68%
-				a
-					padding: 10px 20px 10px 20px
+			
 													
-		#mailing-list,#faq,#submit-project
+		#mailing-list,#faq,#submit-project,#think,#publish
 			@extend .wide !optional
 			a span.icon
 				+span-columns(3,$break)
@@ -315,10 +375,11 @@
 				
 
 		#map
-			@extend .wide !optional
+			+span-columns(16)
 			h1.vision
-				+span-columns(11,13)
+				+span-columns(11,16)
 			#slides
+				+span-columns(13,16)
 				height: image-height("world1.png")
 				ul
 					li
@@ -326,17 +387,18 @@
 							margin-left: -(0.5*image-width("world1.png"))
 
 			#steps
-				
+				+span-columns(16)	
 				#arrow_right
 					display: none
 				#arrow_left
 					display: none	
 				#text	
-					margin-top: 3px		
+					margin-top: 5px
+					+span-columns(16)		
 					ul				
 						+horizontal-list
 						li
-							+span-columns(4,13)
+							+span-columns(4)
 							+horizontal-list-item
 							&:first-child
 								padding-left: 4px
@@ -347,37 +409,41 @@
 							display: block !important
 							position: relative
 							border: 2px white solid
-							p
-								font-size: 14px
-								text-transform: uppercase
+							
 
-								+pre(1,4)
+								
+							#arrow1, #arrow2, #arrow3
+								+span-columns(1,4)
+							#arrow1
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow1")
+								
+							#arrow2
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow2")
+								
+							#arrow3
+								@extend .arrow !optional
+								@extend .icon
+								+replace-with-sprite($assets,"arrow3")
 								
 									
 							#title
 								margin-botton: 20px
 								margin-top: 20px
-								#arrow1
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow1")
-									margin-right: px-to-em(27px)
-								#arrow2
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow2")
-									margin-right: px-to-em(27px)
-								#arrow3
-									@extend .arrow !optional
-									@extend .icon
-									+replace-with-sprite($assets,"arrow3")
-									margin-right: px-to-em(27px)
+								+span-columns(3,4)
+								
 								h4
 									display: inline
 									font-size: 24px
 									text-transform: uppercase
 									letter-spacing: 2px
-
+								
+								p
+									font-size: 14px
+									text-transform: uppercase
 								
 							&:hover,&.selected
 								@extend .borded !optional

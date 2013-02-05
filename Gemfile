@@ -21,7 +21,6 @@ gem 'haml'
 gem 'susy'
 
 
-
 # gem 'gibbon'
 #gem 'rdiscount'
 

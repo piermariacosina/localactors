@@ -14,9 +14,18 @@ section.page
 	+pre(1)
 	+container($total-columns, $break)
 	margin-left: 0
-	
+
 	header
 		margin-top: $grid-padding
+		.logo_text
+			margin: 0 !important
+		.navigation
+			margin: 15px 0 !important
+			padding: 0
+			
+			ul
+				li
+					a
 		#paper
 			display: none
 		.banner-call
@@ -77,7 +86,7 @@ section.page
 			a:hover
 				color: $purple
 				background-color: $acqua
-	
+
 
 	h1.vision
 		+leader(1)
@@ -87,6 +96,7 @@ section.page
 		line-height: px-to-em(20.2px,16px)
 		font-weight: 400
 		letter-spacing: px-to-em(1.6px)
+		margin: 20px 0
 
 	#map
 		@extend .full !optional
@@ -100,43 +110,197 @@ section.page
 						left: 50%
 
 		#steps
+
+			margin: 0
 			+clearfix
+			#arrow_left, #arrow_right
+				margin-top: 23px
 			#arrow_left
 				+span-columns(1)
 			#arrow_right
 				+span-columns(1 omega)
 			#text
+				+span-columns(5,7)
+				+clearfix
+				margin-top: 18px
 				ul
+					list-style-type: none
+					display: block
 					li
-						+span-columns(4, $total-columns)
+						+span-columns(5,5)
 						+hyphenation
 						display: none
+						#arrow1,#arrow2,#arrow3
+							display: none
+							+span-columns(1)
+						#title
+							+span-columns(5,5)
+							margin: 0
+							p
+								+span-columns(5,5)
+								color: $blue
+								text-transform: uppercase
+								whitespace: nowrap
+								font-size: px-to-em(12px)
+								line-height: px-to-em(15px,12px)
+								letter-spacing: px-to-em(1.6px)
+								margin-top: 0
+								margin-bottom: 0
+								margin-right: 0
 
-					
-	footer
-		@extend .full !optional
+							h4
+								display: inline
+								color: $rose
+								text-transform: uppercase
+								font-weight: 400
+								font-size: px-to-em(19px)
+								line-height: px-to-em(17px,19px)
+								letter-spacing: px-to-em(1.6px)
+								margin-bottom: 3px
+
+	.banner-call
+		+span-columns(5,7)
+		+pre(1)
+		position: relative
+		padding: 16px
+		margin-top: 60px
+		margin-bottom: 40px
+		.border1, .border2
+			width: 270px
+			height: 130px
+			border: 2px solid $blue
+			background: white
+			position: absolute
+		.border1
+			top: -3px
+			left: -3px
+		.border2
+			top: 0
+			left: 0
+		.bg-dash
+			width: 240px
+			height: 140px
+			$image: image-url("textures/dash_blue.png")
+			background: $image repeat left top
+			position: absolute
+			top: -20px
+			left: -20px
+		.bg-white
+			width: 230px
+			height: 95px
+			background: white
+			position: absolute
+			top: 10px
+			left: 10px
+		.icon
+			width: 101px
+			height: 67px
+			+assign-sprite-background($assets)
+			+sprite($assets, "icon_call4projects", true)
+			position: absolute
+			z-index: 12
+			top: -31px
+			right: 0
+		a
+			+span-columns(5,7)
+			font-family: "miso"
+			color: $black
+			background-color: $yellow
+			font-size: px-to-em(24px)
+			line-height: px-to-em(26px,24px)
+			letter-spacing: px-to-em(2px)
+			text-transform: uppercase
+			font-weight: 200
+			white-space: normal
+			text-decoration: underline
+			z-index: 9
+			position: relative
+		a:hover
+			color: $purple
+			background-color: $acqua
+
+	#explanation
+		background: cyan
 		ul
-			li.nline
-				width: columns($total-columns)
-			li.nopadding
-				padding-left: 0
-				
+			li
+				h2
+					margin-top: 0
+					margin-bottom: 10px
+				p
+					margin: 0 0 20px 0
+	footer
+		#prefooter
+			.box
+				border: 1px $blue solid			
+				color: $blue
+				font-family: "miso"
+				text-transform: uppercase						
+				padding-right: 20px
+				padding-left: 20px
+			.local
+				.number
+					+logo($assets,"mobile")
+					+clearfix
+					+float-right
+					margin-top: 20px							
+				.spiegazione
+					+float-right
+					+span-columns(3)
+					font-family: "miso"
+					h2
+						color: $rose
+						font-weight: 400
+						font-size: px-to-em(19px)
+						line-height: px-to-em(17px,19px)
+					p
+						color: $blue
+						text-transform: uppercase
+						font-family: "miso"
+						font-weight: 400       
+						color: $blue
+						font-size: px-to-em(12px)
+						line-height: px-to-em(15px,12px)
+						letter-spacing: px-to-em(2px)
+
+		.blue
+			@extend .full !optional
+			ul
+				li.nline
+					width: columns($total-columns)
+				li.nopadding
+					padding-left: 0
+
+
+	//	#mailing-list, #think, #submit-project, #publish
+	//		#spiegazione
+	//			+float-left
+	//			+span-columns(5)
+	//			+pre(2)
+	//			p
+	//				text-transform: uppercase
+	//				font-family: "miso"
+	//				font-weight: 400       
+	//				color: $blue
+	//				font-size: px-to-em(12px)
+	//				line-height: px-to-em(15px,12px)
+	//				letter-spacing: px-to-em(2px)
+
 	#mailing-list
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "mail-mobile", true)
-		
+				+sprite($assets, "mobile_icon_subscribe", true)
+
 		#mail_form
 			overflow: visible
-		
+
 		.mailing_list
 			#icon
 				+assign-sprite-background($assets)
 				+sprite($assets, "subscribe-mobile", true)
 				+pre(2)
-				
-				
+
+
 			#spiegazione
 				+float-left
 				+span-columns(5)
@@ -146,8 +310,11 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size: px-to-em(14px)
-		
+					font-size: px-to-em(12px)
+					line-height: px-to-em(15px,12px)
+					letter-spacing: px-to-em(2px)
+
+
 		fieldset
 			+span-columns(5)
 			+pre(2)
@@ -189,7 +356,7 @@ section.page
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "bubble-mobile", true)
+				+sprite($assets, "mobile_icon_question", true)
 		ul.questions
 			list-style: none
 			+pre(1)
@@ -201,20 +368,20 @@ section.page
 					font-size: px-to-em(16px)
 					line-height: px-to-em(40px,24px)
 					color: $black
-					
+
 					i
 						margin-top: 3px
-						position:relative
+						position: relative
 						+float-left
 						margin-left: -(sprite-height($assets,"questionmark")+6px)
 						+assign-sprite-background($assets)
 						+sprite($assets, "questionmark", true)
-					
+
 					&.ui-accordion-header-active
 						i
 							margin-left: 13px -(sprite-height($assets,"questionmark_color"))
 							+sprite($assets, "questionmark_color", true)
-					
+
 					span:hover
 						color: $purple
 						background-color: $acqua 
@@ -229,12 +396,41 @@ section.page
 		.buttons
 			a
 				+pre(2)
-						 
+
+	#think
+		a
+			span.icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "mobile_icon_question", true)
+	#publish
+		opacity: 0.4
+		a
+			span.icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "mobile_icon_publish", true)			
+	#think,#publish                                      	
+		#spiegazione
+			+float-left
+			+span-columns(5)
+			+pre(2)
+			p
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				font-size: px-to-em(12px)
+				line-height: px-to-em(15px,12px)
+				letter-spacing: px-to-em(2px)
+				i
+					letter-spacing: normal
+		.buttons
+			+pre(2)
+
 	#submit-project
 		a
 			span.icon
 				+assign-sprite-background($assets)
-				+sprite($assets, "pointer-mobile", true)
+				+sprite($assets, "mobile_icon_submit", true)
 		.submit
 			#spiegazione
 				+span-columns(5)
@@ -245,8 +441,11 @@ section.page
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size:  px-to-em(14px)
-					line-height: px-to-em(20px)
+					font-size: px-to-em(12px)
+					line-height: px-to-em(15px,12px)
+					letter-spacing: px-to-em(2px)
+					i
+						letter-spacing: normal	
 				h4
 					display: inline
 					text-transform: uppercase
@@ -254,7 +453,7 @@ section.page
 					font-weight: 400       
 					color: $rose
 					font-size:  px-to-em(20px)
-			
+
 				#icon-doc1
 					+assign-sprite-background($assets)	
 					+sprite($assets, "doc1-mobile", true)
@@ -268,8 +467,8 @@ section.page
 					margin-top: 10px
 					margin-bottom: 15px
 
-					
-			
+
+
 				#icon-doc3
 					+assign-sprite-background($assets)	
 					+sprite($assets, "doc3-mobile", true)
@@ -279,7 +478,7 @@ section.page
 			.border-dashed
 				height: 1px
 				+span-columns(7,7)
-				overflow:visible
+				overflow: visible
 				border-top: 1px dashed $blue
 				margin-top: 40px
 				margin-bottom: 30px
@@ -309,9 +508,9 @@ section.page
 				+sprite($assets, "three-mobile", true)
 				+pre(1)
 				+span-columns(1)
-			
-			
-#mailing-list,#faq,#submit-project
+
+
+#mailing-list,#faq,#submit-project,#think,#publish
 	@extend .full !optional
 	@extend .spined !optional
 	+clearfix
@@ -323,7 +522,7 @@ section.page
 				span
 					color: $purple
 					background-color: $acqua
-		
+
 	a span.icon
 		margin-left: 20px
 		+span-columns(2,$break)

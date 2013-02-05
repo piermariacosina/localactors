@@ -102,20 +102,14 @@ $(document).ready(function() {
 		}
 	});
 	
-	
-	
-
-	
-
-	
 	function fitMap() {
 		var slides_width =  $('#slides').css("width");
 		$('#slides ul li').css("width",slides_width);
-		var slides_height =  $('#slides ul li:first-child').css("height");
+		var slides_height =  341
 		$('#slides').css('height',slides_height);
 	}
 
-	fitMap();
+	fitMap()
 	showFirst();
 
 	for (var i=0;i<arSteps.length;i++){
