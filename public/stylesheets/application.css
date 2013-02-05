@@ -522,8 +522,7 @@ section.page header .logo_text {
 /* line 22, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .navigation {
   margin: 15px 0 !important;
-  padding: 0;
-  background: grey; }
+  padding: 0; }
 /* line 29, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #paper {
   display: none; }
@@ -718,24 +717,23 @@ section.page .banner-call {
   position: relative;
   padding: 16px;
   margin-top: 60px;
-  margin-bottom: 40px;
-  background: green; }
-/* line 169, ../../app/stylesheets/partials/_320grid.sass */
+  margin-bottom: 40px; }
+/* line 168, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border1, section.page .banner-call .border2 {
   width: 270px;
   height: 130px;
   border: 2px solid #001fff;
   background: white;
   position: absolute; }
-/* line 175, ../../app/stylesheets/partials/_320grid.sass */
+/* line 174, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border1 {
   top: -3px;
   left: -3px; }
-/* line 178, ../../app/stylesheets/partials/_320grid.sass */
+/* line 177, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border2 {
   top: 0;
   left: 0; }
-/* line 181, ../../app/stylesheets/partials/_320grid.sass */
+/* line 180, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .bg-dash {
   width: 240px;
   height: 140px;
@@ -743,7 +741,7 @@ section.page .banner-call .bg-dash {
   position: absolute;
   top: -20px;
   left: -20px; }
-/* line 189, ../../app/stylesheets/partials/_320grid.sass */
+/* line 188, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .bg-white {
   width: 230px;
   height: 95px;
@@ -751,7 +749,7 @@ section.page .banner-call .bg-white {
   position: absolute;
   top: 10px;
   left: 10px; }
-/* line 196, ../../app/stylesheets/partials/_320grid.sass */
+/* line 195, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .icon {
   width: 101px;
   height: 67px;
@@ -765,7 +763,7 @@ section.page .banner-call .icon {
   z-index: 12;
   top: -31px;
   right: 0; }
-/* line 205, ../../app/stylesheets/partials/_320grid.sass */
+/* line 204, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call a {
   width: 70%;
   float: left;
@@ -783,21 +781,21 @@ section.page .banner-call a {
   text-decoration: underline;
   z-index: 9;
   position: relative; }
-/* line 219, ../../app/stylesheets/partials/_320grid.sass */
+/* line 218, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 223, ../../app/stylesheets/partials/_320grid.sass */
+/* line 222, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation {
   background: cyan; }
-/* line 227, ../../app/stylesheets/partials/_320grid.sass */
+/* line 226, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li h2 {
   margin-top: 0;
   margin-bottom: 10px; }
-/* line 230, ../../app/stylesheets/partials/_320grid.sass */
+/* line 229, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li p {
   margin: 0 0 20px 0; }
-/* line 234, ../../app/stylesheets/partials/_320grid.sass */
+/* line 233, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .box {
   border: 1px #001fff solid;
   color: #001fff;
@@ -805,7 +803,7 @@ section.page footer #prefooter .box {
   text-transform: uppercase;
   padding-right: 20px;
   padding-left: 20px; }
-/* line 242, ../../app/stylesheets/partials/_320grid.sass */
+/* line 241, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .number {
   overflow: hidden;
   *zoom: 1;
@@ -943,7 +941,7 @@ section.page footer #prefooter .local .number span.logo_text {
   width: 124px;
   height: 104px;
   margin-left: 18px; }
-/* line 247, ../../app/stylesheets/partials/_320grid.sass */
+/* line 246, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione {
   display: inline;
   float: right;
@@ -952,13 +950,13 @@ section.page footer #prefooter .local .spiegazione {
   margin-right: 5%;
   display: inline;
   font-family: "miso"; }
-/* line 251, ../../app/stylesheets/partials/_320grid.sass */
+/* line 250, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione h2 {
   color: #ff4874;
   font-weight: 400;
   font-size: 1.1875em;
   line-height: 0.89474em; }
-/* line 256, ../../app/stylesheets/partials/_320grid.sass */
+/* line 255, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione p {
   color: #001fff;
   text-transform: uppercase;
@@ -968,13 +966,13 @@ section.page footer #prefooter .local .spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 269, ../../app/stylesheets/partials/_320grid.sass */
+/* line 268, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nline {
   width: 100%; }
-/* line 271, ../../app/stylesheets/partials/_320grid.sass */
+/* line 270, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
-/* line 291, ../../app/stylesheets/partials/_320grid.sass */
+/* line 290, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -985,10 +983,10 @@ section.page #mailing-list a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #mailing-list a span.icon:hover, section.page #mailing-list a span.icon.mobile_icon_subscribe_hover, section.page #mailing-list a span.icon.mobile_icon_subscribe-hover {
   background-position: 0 -204px; }
-/* line 295, ../../app/stylesheets/partials/_320grid.sass */
+/* line 294, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_form {
   overflow: visible; }
-/* line 299, ../../app/stylesheets/partials/_320grid.sass */
+/* line 298, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -997,7 +995,7 @@ section.page #mailing-list .mailing_list #icon {
   height: 20px;
   width: 167px;
   margin-left: 30%; }
-/* line 305, ../../app/stylesheets/partials/_320grid.sass */
+/* line 304, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione {
   display: inline;
   float: left;
@@ -1006,7 +1004,7 @@ section.page #mailing-list .mailing_list #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 309, ../../app/stylesheets/partials/_320grid.sass */
+/* line 308, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1015,7 +1013,7 @@ section.page #mailing-list .mailing_list #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 319, ../../app/stylesheets/partials/_320grid.sass */
+/* line 318, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset {
   width: 70%;
   float: left;
@@ -1024,28 +1022,28 @@ section.page #mailing-list fieldset {
   margin-left: 30%;
   border: none;
   padding: 0; }
-/* line 324, ../../app/stylesheets/partials/_320grid.sass */
+/* line 323, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p {
   margin: 0;
   padding: 0; }
-/* line 327, ../../app/stylesheets/partials/_320grid.sass */
+/* line 326, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p label {
   display: none; }
-/* line 329, ../../app/stylesheets/partials/_320grid.sass */
+/* line 328, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input {
   width: 100%;
   border: 2px solid #001fff;
   padding: 0.625em;
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 335, ../../app/stylesheets/partials/_320grid.sass */
+/* line 334, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input::-webkit-input-placeholder {
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 339, ../../app/stylesheets/partials/_320grid.sass */
+/* line 338, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .buttons input {
   float: right; }
-/* line 342, ../../app/stylesheets/partials/_320grid.sass */
+/* line 341, ../../app/stylesheets/partials/_320grid.sass */
 section.page .buttons input, section.page .buttons a {
   background-color: yellow;
   color: black;
@@ -1057,11 +1055,11 @@ section.page .buttons input, section.page .buttons a {
   margin-bottom: 10px;
   font-size: 1em !important;
   padding: 5px 10px 5px 10px; }
-/* line 353, ../../app/stylesheets/partials/_320grid.sass */
+/* line 352, ../../app/stylesheets/partials/_320grid.sass */
 section.page .buttons input:hover, section.page .buttons a:hover {
   text-decoration: underline;
   background-color: yellow; }
-/* line 358, ../../app/stylesheets/partials/_320grid.sass */
+/* line 357, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1072,7 +1070,7 @@ section.page #faq a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #faq a span.icon:hover, section.page #faq a span.icon.mobile_icon_question_hover, section.page #faq a span.icon.mobile_icon_question-hover {
   background-position: 0 -732px; }
-/* line 361, ../../app/stylesheets/partials/_320grid.sass */
+/* line 360, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions {
   list-style: none;
   margin-left: 15%;
@@ -1081,14 +1079,14 @@ section.page #faq ul.questions {
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 366, ../../app/stylesheets/partials/_320grid.sass */
+/* line 365, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 {
   font-family: "source sans pro";
   font-weight: 600;
   font-size: 1em;
   line-height: 1.66667em;
   color: black; }
-/* line 373, ../../app/stylesheets/partials/_320grid.sass */
+/* line 372, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
   position: relative;
@@ -1101,17 +1099,17 @@ section.page #faq ul.questions li h3 i {
   background-position: 0 -4003px;
   height: 18px;
   width: 9px; }
-/* line 382, ../../app/stylesheets/partials/_320grid.sass */
+/* line 381, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3.ui-accordion-header-active i {
   margin-left: -46px;
   background-position: 0 -3446px;
   height: 59px;
   width: 32px; }
-/* line 386, ../../app/stylesheets/partials/_320grid.sass */
+/* line 385, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 389, ../../app/stylesheets/partials/_320grid.sass */
+/* line 388, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li p {
   clear: both;
   font-family: "source sans pro";
@@ -1120,10 +1118,10 @@ section.page #faq ul.questions li p {
   font-size: 0.75em;
   line-height: 1.25em;
   color: #6045ff; }
-/* line 398, ../../app/stylesheets/partials/_320grid.sass */
+/* line 397, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq .buttons a {
   margin-left: 30%; }
-/* line 403, ../../app/stylesheets/partials/_320grid.sass */
+/* line 402, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1134,10 +1132,10 @@ section.page #think a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #think a span.icon:hover, section.page #think a span.icon.mobile_icon_question_hover, section.page #think a span.icon.mobile_icon_question-hover {
   background-position: 0 -732px; }
-/* line 406, ../../app/stylesheets/partials/_320grid.sass */
+/* line 405, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish {
   opacity: 0.4; }
-/* line 409, ../../app/stylesheets/partials/_320grid.sass */
+/* line 408, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1148,7 +1146,7 @@ section.page #publish a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #publish a span.icon:hover, section.page #publish a span.icon.mobile_icon_publish_hover, section.page #publish a span.icon.mobile_icon_publish-hover {
   background-position: 0 -2320px; }
-/* line 413, ../../app/stylesheets/partials/_320grid.sass */
+/* line 412, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione, section.page #publish #spiegazione {
   display: inline;
   float: left;
@@ -1157,7 +1155,7 @@ section.page #think #spiegazione, section.page #publish #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 417, ../../app/stylesheets/partials/_320grid.sass */
+/* line 416, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p, section.page #publish #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1166,13 +1164,13 @@ section.page #think #spiegazione p, section.page #publish #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 425, ../../app/stylesheets/partials/_320grid.sass */
+/* line 424, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p i, section.page #publish #spiegazione p i {
   letter-spacing: normal; }
-/* line 427, ../../app/stylesheets/partials/_320grid.sass */
+/* line 426, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think .buttons, section.page #publish .buttons {
   margin-left: 30%; }
-/* line 432, ../../app/stylesheets/partials/_320grid.sass */
+/* line 431, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1183,7 +1181,7 @@ section.page #submit-project a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #submit-project a span.icon:hover, section.page #submit-project a span.icon.mobile_icon_submit_hover, section.page #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1210px; }
-/* line 436, ../../app/stylesheets/partials/_320grid.sass */
+/* line 435, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione {
   width: 70%;
   float: left;
@@ -1191,7 +1189,7 @@ section.page #submit-project .submit #spiegazione {
   display: inline;
   margin-left: 30%;
   margin-top: -35; }
-/* line 440, ../../app/stylesheets/partials/_320grid.sass */
+/* line 439, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1200,10 +1198,10 @@ section.page #submit-project .submit #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 448, ../../app/stylesheets/partials/_320grid.sass */
+/* line 447, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p i {
   letter-spacing: normal; }
-/* line 450, ../../app/stylesheets/partials/_320grid.sass */
+/* line 449, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione h4 {
   display: inline;
   text-transform: uppercase;
@@ -1211,7 +1209,7 @@ section.page #submit-project .submit #spiegazione h4 {
   font-weight: 400;
   color: #ff4874;
   font-size: 1.25em; }
-/* line 458, ../../app/stylesheets/partials/_320grid.sass */
+/* line 457, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1220,7 +1218,7 @@ section.page #submit-project .submit #spiegazione #icon-doc1 {
   height: 87px;
   width: 120px;
   margin-top: 10px; }
-/* line 464, ../../app/stylesheets/partials/_320grid.sass */
+/* line 463, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1230,7 +1228,7 @@ section.page #submit-project .submit #spiegazione #icon-doc2 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 15px; }
-/* line 473, ../../app/stylesheets/partials/_320grid.sass */
+/* line 472, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc3 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1240,7 +1238,7 @@ section.page #submit-project .submit #spiegazione #icon-doc3 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 10px; }
-/* line 479, ../../app/stylesheets/partials/_320grid.sass */
+/* line 478, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed {
   height: 1px;
   width: 100%;
@@ -1251,7 +1249,7 @@ section.page #submit-project .submit .border-dashed {
   border-top: 1px dashed #001fff;
   margin-top: 40px;
   margin-bottom: 30px; }
-/* line 486, ../../app/stylesheets/partials/_320grid.sass */
+/* line 485, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1261,7 +1259,7 @@ section.page #submit-project .submit .border-dashed #icon-plus1 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 491, ../../app/stylesheets/partials/_320grid.sass */
+/* line 490, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1271,7 +1269,7 @@ section.page #submit-project .submit .border-dashed #icon-plus2 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 496, ../../app/stylesheets/partials/_320grid.sass */
+/* line 495, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number1 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1284,7 +1282,7 @@ section.page #submit-project .submit #icon-number1 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 502, ../../app/stylesheets/partials/_320grid.sass */
+/* line 501, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number2 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1297,7 +1295,7 @@ section.page #submit-project .submit #icon-number2 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 507, ../../app/stylesheets/partials/_320grid.sass */
+/* line 506, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number3 {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
   background-repeat: no-repeat;
@@ -1311,25 +1309,25 @@ section.page #submit-project .submit #icon-number3 {
   margin-right: 5%;
   display: inline; }
 
-/* line 514, ../../app/stylesheets/partials/_320grid.sass */
+/* line 513, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list, #faq, #submit-project, #think, #publish {
   overflow: hidden;
   *zoom: 1; }
-/* line 518, ../../app/stylesheets/partials/_320grid.sass */
+/* line 517, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header, #faq header, #submit-project header, #think header, #publish header {
   padding-top: 10px; }
-/* line 523, ../../app/stylesheets/partials/_320grid.sass */
+/* line 522, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span, #think header.ui-state-hover h2 span, #think header.ui-accordion-header-active h2 span, #publish header.ui-state-hover h2 span, #publish header.ui-accordion-header-active h2 span {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 527, ../../app/stylesheets/partials/_320grid.sass */
+/* line 526, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon, #think a span.icon, #publish a span.icon {
   margin-left: 20px;
   width: 10.6383%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
-/* line 530, ../../app/stylesheets/partials/_320grid.sass */
+/* line 529, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   width: 70%;
   float: right;
@@ -1337,7 +1335,7 @@ section.page #submit-project .submit #icon-number3 {
   #margin-left: -1.25em;
   display: inline;
   margin-top: 0; }
-/* line 537, ../../app/stylesheets/partials/_320grid.sass */
+/* line 536, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list section, #faq section, #submit-project section, #think section, #publish section {
   width: 100%;
   float: left;
@@ -1345,7 +1343,7 @@ section.page #submit-project .submit #icon-number3 {
   display: inline; }
 
 @media (min-width: 36.25em) {
-  /* line 543, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 542, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {
@@ -1718,7 +1716,7 @@ section.page #submit-project .submit #icon-number3 {
     color: #001fff;
     font-family: "miso";
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px; }
   /* line 174, ../../app/stylesheets/partials/_960grid.sass */
@@ -2179,28 +2177,36 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.12766%; }
   /* line 379, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map h1.vision {
-    width: 84.21053%;
+    width: 68.08511%;
     float: left;
-    margin-right: 2.63158%; }
+    margin-right: 2.12766%; }
   /* line 381, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides {
+    width: 80.85106%;
+    float: left;
+    margin-right: 2.12766%;
     height: 334px; }
-  /* line 385, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 386, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides ul li img {
     margin-left: -380px; }
-  /* line 390, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #arrow_right {
-    display: none; }
-  /* line 392, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #arrow_left {
-    display: none; }
-  /* line 394, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #text {
-    margin-top: 3px;
+  /* line 389, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps {
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 397, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 391, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_right {
+    display: none; }
+  /* line 393, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_left {
+    display: none; }
+  /* line 395, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 398, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul {
     margin: 0;
     padding: 0;
@@ -2225,7 +2231,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 399, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 400, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li {
     width: 23.40426%;
     float: left;
@@ -2252,18 +2258,18 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 402, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 403, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:first-child {
     padding-left: 4px; }
-  /* line 404, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 405, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:last-child {
     padding-right: 4px; }
-  /* line 414, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 415, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
     width: 18.18182%;
     float: left;
     margin-right: 9.09091%; }
-  /* line 416, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 417, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2271,7 +2277,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3334px;
     width: 32px;
     height: 50px; }
-  /* line 421, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 422, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow2 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2279,7 +2285,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3505px;
     width: 32px;
     height: 50px; }
-  /* line 426, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 427, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow3 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2287,54 +2293,54 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3555px;
     width: 32px;
     height: 50px; }
-  /* line 432, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 433, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title {
     margin-botton: 20px;
     margin-top: 20px;
     width: 72.72727%;
     float: left;
     margin-right: 9.09091%; }
-  /* line 437, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 438, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title h4 {
     display: inline;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px; }
-  /* line 443, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 444, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title p {
     font-size: 14px;
     text-transform: uppercase; }
-  /* line 450, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 451, ../../app/stylesheets/partials/_960grid.sass */
   section.page h1.terms {
     font-size: 2.1875em;
     font-family: "miso";
     color: #ff4874;
     text-transform: uppercase;
     font-weight: 400; }
-  /* line 459, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 460, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms a {
     color: black;
     background-color: yellow; }
-  /* line 465, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 466, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     font-family: "miso"; }
-  /* line 470, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 471, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #title {
     font-size: 2.1875em;
     color: #001fff;
     text-transform: uppercase;
     margin-top: 1.25em;
     font-weight: 400; }
-  /* line 476, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 477, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #subtitle {
     font-size: 1.875em;
     color: #ff4874;
     margin-top: 0.3125em;
     font-weight: 400; }
-  /* line 481, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 482, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section p {
     color: black;
     font-family: "source sans pro";
@@ -2343,7 +2349,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.63158%;
     font-size: 0.9375em;
     line-height: 1.125em; }
-  /* line 487, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 488, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol {
     font-family: "source sans pro";
     color: #001fff;
@@ -2353,11 +2359,11 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 6.38298%;
     font-size: 0.9375em;
     line-height: 1.25em; }
-  /* line 494, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 495, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol li {
     margin-bottom: 10px; } }
 @media (min-width: 66.25em) {
-  /* line 498, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 499, ../../app/stylesheets/partials/_960grid.sass */
   section.page {
     margin-left: 11.32075%; } }
 /* line 1, ../../app/stylesheets/partials/_map.sass */

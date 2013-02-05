@@ -168,7 +168,7 @@
 					color: $blue
 					font-family: "miso"
 					text-transform: uppercase
-					margin-top: 50px							
+					margin-top: 20px							
 					padding-right: 20px
 					padding-left: 20px
 				.local
@@ -377,8 +377,9 @@
 		#map
 			+span-columns(16)
 			h1.vision
-				+span-columns(11,13)
+				+span-columns(11,16)
 			#slides
+				+span-columns(13,16)
 				height: image-height("world1.png")
 				ul
 					li
@@ -386,13 +387,13 @@
 							margin-left: -(0.5*image-width("world1.png"))
 
 			#steps
-				
+				+span-columns(16)	
 				#arrow_right
 					display: none
 				#arrow_left
 					display: none	
 				#text	
-					margin-top: 3px
+					margin-top: 5px
 					+span-columns(16)		
 					ul				
 						+horizontal-list
