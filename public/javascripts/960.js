@@ -102,12 +102,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	
-	
-
-	
-
-	
 	function fitMap() {
 		var slides_width =  $('#slides').css("width");
 		$('#slides ul li').css("width",slides_width);
@@ -115,8 +109,11 @@ $(document).ready(function() {
 		$('#slides').css('height',slides_height);
 	}
 
-	fitMap();
-	showFirst();
+	setTimeout( appear() ,1000 );
+	function appear(){
+		fitMap()
+		showFirst();
+	}
 
 	for (var i=0;i<arSteps.length;i++){
 		(function(slide,step) {
