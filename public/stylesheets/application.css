@@ -1006,11 +1006,11 @@ section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, s
   margin: 0 0 10px 0; }
 /* line 298, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i, section.page #faq #spiegazione p.i {
-  margin: 0 0 10px 0;
-  letter-spacing: normal;
+  margin: 0 0 20px 0 !important;
+  letter-spacing: normal !important;
   font-style: italic;
-  font-family: "source sans pro";
-  text-transform: none; }
+  font-family: "source sans pro" !important;
+  text-transform: none !important; }
 /* line 308, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
   background-image: url('/images/assets-sdc6b3bb5f2.png');
@@ -1131,7 +1131,7 @@ section.page #faq ul.questions li h3 {
 /* line 393, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
-  position: relative;
+  position: absolute;
   display: inline;
   float: left;
   margin-left: -24px;
@@ -1158,9 +1158,9 @@ section.page #faq ul.questions li p {
   font-weight: 400;
   font-style: italic;
   font-size: 0.75em;
-  line-height: 1.25em;
+  line-height: 1.33333em;
   color: #6045ff;
-  background: red; }
+  margin: 0; }
 /* line 419, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq .buttons a {
   margin-left: 30%; }
@@ -1764,7 +1764,7 @@ section.page #submit-project .submit #icon-number3 {
     color: #001fff;
     font-family: "miso";
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px; }
   /* line 174, ../../app/stylesheets/partials/_960grid.sass */
@@ -2225,28 +2225,36 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.12766%; }
   /* line 379, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map h1.vision {
-    width: 84.21053%;
+    width: 68.08511%;
     float: left;
-    margin-right: 2.63158%; }
+    margin-right: 2.12766%; }
   /* line 381, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides {
+    width: 80.85106%;
+    float: left;
+    margin-right: 2.12766%;
     height: 334px; }
-  /* line 385, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 386, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides ul li img {
     margin-left: -380px; }
-  /* line 390, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #arrow_right {
-    display: none; }
-  /* line 392, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #arrow_left {
-    display: none; }
-  /* line 394, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #map #steps #text {
-    margin-top: 3px;
+  /* line 389, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps {
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 397, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 391, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_right {
+    display: none; }
+  /* line 393, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #arrow_left {
+    display: none; }
+  /* line 395, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text {
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    margin-right: 2.12766%; }
+  /* line 398, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul {
     margin: 0;
     padding: 0;
@@ -2271,7 +2279,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 399, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 400, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li {
     width: 23.40426%;
     float: left;
@@ -2298,18 +2306,18 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 402, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 403, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:first-child {
     padding-left: 4px; }
-  /* line 404, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 405, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:last-child {
     padding-right: 4px; }
-  /* line 414, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 415, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
     width: 18.18182%;
     float: left;
     margin-right: 9.09091%; }
-  /* line 416, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 417, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2317,7 +2325,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3334px;
     width: 32px;
     height: 50px; }
-  /* line 421, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 422, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow2 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2325,7 +2333,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3505px;
     width: 32px;
     height: 50px; }
-  /* line 426, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 427, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow3 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2333,54 +2341,54 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3555px;
     width: 32px;
     height: 50px; }
-  /* line 432, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 433, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title {
     margin-botton: 20px;
     margin-top: 20px;
     width: 72.72727%;
     float: left;
     margin-right: 9.09091%; }
-  /* line 437, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 438, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title h4 {
     display: inline;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px; }
-  /* line 443, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 444, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title p {
     font-size: 14px;
     text-transform: uppercase; }
-  /* line 450, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 451, ../../app/stylesheets/partials/_960grid.sass */
   section.page h1.terms {
     font-size: 2.1875em;
     font-family: "miso";
     color: #ff4874;
     text-transform: uppercase;
     font-weight: 400; }
-  /* line 459, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 460, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms a {
     color: black;
     background-color: yellow; }
-  /* line 465, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 466, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     font-family: "miso"; }
-  /* line 470, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 471, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #title {
     font-size: 2.1875em;
     color: #001fff;
     text-transform: uppercase;
     margin-top: 1.25em;
     font-weight: 400; }
-  /* line 476, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 477, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #subtitle {
     font-size: 1.875em;
     color: #ff4874;
     margin-top: 0.3125em;
     font-weight: 400; }
-  /* line 481, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 482, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section p {
     color: black;
     font-family: "source sans pro";
@@ -2389,7 +2397,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.63158%;
     font-size: 0.9375em;
     line-height: 1.125em; }
-  /* line 487, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 488, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol {
     font-family: "source sans pro";
     color: #001fff;
@@ -2399,11 +2407,11 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 6.38298%;
     font-size: 0.9375em;
     line-height: 1.25em; }
-  /* line 494, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 495, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol li {
     margin-bottom: 10px; } }
 @media (min-width: 66.25em) {
-  /* line 498, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 499, ../../app/stylesheets/partials/_960grid.sass */
   section.page {
     margin-left: 11.32075%; } }
 /* line 1, ../../app/stylesheets/partials/_map.sass */

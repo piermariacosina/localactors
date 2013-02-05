@@ -296,11 +296,11 @@ section.page
 				letter-spacing: px-to-em(2px)
 				margin: 0 0 10px 0
 			p.i
-				margin: 0 0 10px 0
-				letter-spacing: normal
+				margin: 0 0 20px 0 !important
+				letter-spacing: normal !important
 				font-style: italic
-				font-family: "source sans pro"
-				text-transform: none
+				font-family: "source sans pro" !important
+				text-transform: none !important
 				
 				
 	#mailing-list
@@ -392,7 +392,7 @@ section.page
 					
 					i
 						margin-top: 3px
-						position: relative
+						position: absolute
 						+float-left
 						margin-left: -(sprite-height($assets,"questionmark")+6px)
 						+assign-sprite-background($assets)
@@ -412,9 +412,9 @@ section.page
 					font-weight: 400
 					font-style: italic
 					font-size: px-to-em(12px)
-					line-height: px-to-em(20px)
+					line-height: px-to-em(16px,12px)
 					color: $purple
-					background: red
+					margin: 0
 		.buttons
 			a
 				+pre(2)
