@@ -1,259 +1,247 @@
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
-/* line 39, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 39, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
 
-/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 55, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 55, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 69, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 69, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 82, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 82, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html, button, input, select, textarea {
   font-family: sans-serif; }
 
-/* line 88, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 88, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 body {
   margin: 0; }
 
-/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:focus {
   outline: thin dotted; }
 
-/* line 109, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 109, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:active, a:hover {
   outline: 0; }
 
-/* line 122, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 122, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 127, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 127, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-/* line 132, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 132, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
 
-/* line 137, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 137, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-/* line 142, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 142, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0; }
 
-/* line 153, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 153, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 159, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 159, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 b, strong {
   font-weight: bold; }
 
-/* line 163, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 163, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 blockquote {
   margin: 1em 40px; }
 
-/* line 168, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 168, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dfn {
   font-style: italic; }
 
-/* line 173, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 173, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 180, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 180, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 p, pre {
   margin: 1em 0; }
 
-/* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em; }
 
-/* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-/* line 202, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 202, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q {
   quotes: none; }
 
-/* line 208, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 208, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 214, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 214, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 small {
   font-size: 80%; }
 
-/* line 220, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 220, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 227, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 227, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 231, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 231, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 245, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 245, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dl, menu, ol, ul {
   margin: 1em 0; }
 
-/* line 249, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 249, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dd {
   margin: 0 0 0 40px; }
 
-/* line 256, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 256, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 menu, ol, ul {
   padding: 0 0 0 40px; }
 
-/* line 268, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 268, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 img {
   border: 0;
   /* 1 */
   -ms-interpolation-mode: bicubic;
   /* 2 */ }
 
-/* line 274, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 274, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 285, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 285, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 figure {
   margin: 0; }
 
-/* line 296, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 296, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 form {
   margin: 0; }
 
-/* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 310, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 310, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
   *margin-left: -7px; }
 
-/* line 323, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 323, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input, select, textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle; }
 
-/* line 333, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 333, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button, input {
   line-height: normal; }
 
-/* line 347, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 347, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
   *overflow: visible; }
 
-/* line 355, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 355, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button[disabled], input[disabled] {
   cursor: default; }
 
-/* line 364, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 364, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
   *height: 13px;
   *width: 13px; }
 
-/* line 374, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 374, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 384, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 384, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 390, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 390, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 397, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 397, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-/* line 409, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 409, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%; }
 
-/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em; }
 
-/* line 1, ../../app/stylesheets/partials/_general.sass */
-body {
-  -webkit-font-smoothing: antialiased; }
-
 /* line 3, ../../app/stylesheets/partials/_general.sass */
-.ul {
-  text-decoration: underline; }
-
-/* line 5, ../../app/stylesheets/partials/_general.sass */
-.hl {
-  background-color: yellow; }
-
-/* line 8, ../../app/stylesheets/partials/_general.sass */
 .section_title, #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   font-family: "miso";
   font-weight: 200;
@@ -261,49 +249,49 @@ body {
   color: black;
   font-size: 1.0625em;
   line-height: 0.94118em; }
-/* line 15, ../../app/stylesheets/partials/_general.sass */
+/* line 10, ../../app/stylesheets/partials/_general.sass */
 .section_title span, #mailing-list h2 span, #faq h2 span, #submit-project h2 span, #think h2 span, #publish h2 span {
   font-size: 1.11765em;
   line-height: 1.05882em; }
 
-/* line 19, ../../app/stylesheets/partials/_general.sass */
+/* line 14, ../../app/stylesheets/partials/_general.sass */
 .noindent, #mailing-list section ul, #faq section ul, #submit-project section ul, #think section ul, #publish section ul, #map #slides ul, #map #steps #text ul, #explanation ul {
   padding: 0;
   margin: 0; }
 
-/* line 23, ../../app/stylesheets/partials/_general.sass */
-.borded, section.page footer .blue, #map #slides ul li, section.page footer .blue ul li .selected {
+/* line 18, ../../app/stylesheets/partials/_general.sass */
+.borded, section.page footer .blue, section.page footer .blue ul li .selected, #map #slides ul li {
   border: 1px #001fff solid; }
 
-/* line 27, ../../app/stylesheets/partials/_general.sass */
-.hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, header nav.navigation ul li a:hover, header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover {
+/* line 22, ../../app/stylesheets/partials/_general.sass */
+.hover:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
 
-/* line 31, ../../app/stylesheets/partials/_general.sass */
+/* line 26, ../../app/stylesheets/partials/_general.sass */
 i {
   font-style: italic;
   font-family: "source sans pro";
   text-transform: none; }
 
-/* line 36, ../../app/stylesheets/partials/_general.sass */
+/* line 31, ../../app/stylesheets/partials/_general.sass */
 .spined, #mailing-list, #faq, #submit-project, #think, #publish {
   background: url('/images/textures/spined.png') repeat-x left top; }
 
-/* line 40, ../../app/stylesheets/partials/_general.sass */
+/* line 35, ../../app/stylesheets/partials/_general.sass */
 .arrow {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   display: inline;
   float: left;
   margin-right: 15px; }
 
-/* line 45, ../../app/stylesheets/partials/_general.sass */
+/* line 40, ../../app/stylesheets/partials/_general.sass */
 .pointer, #mailing-list header, #faq header, #submit-project header, #think header, #publish header, #map #steps #arrow_left, #map #steps #arrow_right {
   cursor: pointer; }
 
-/* line 50, ../../app/stylesheets/partials/_general.sass */
+/* line 45, ../../app/stylesheets/partials/_general.sass */
 div.success {
   background: url('/images/textures/dash_green.png') repeat left top;
   margin: 20px 0;
@@ -313,11 +301,11 @@ div.success {
   #margin-left: -1em;
   display: inline;
   margin-left: 30%; }
-/* line 57, ../../app/stylesheets/partials/_general.sass */
+/* line 52, ../../app/stylesheets/partials/_general.sass */
 div.success div.box {
   border: 3px solid #00ff80;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 63, ../../app/stylesheets/partials/_general.sass */
+/* line 58, ../../app/stylesheets/partials/_general.sass */
 div.success div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -329,16 +317,16 @@ div.success div.box span.msg {
   display: inline-block;
   margin-left: 10px;
   width: 85%; }
-/* line 74, ../../app/stylesheets/partials/_general.sass */
+/* line 69, ../../app/stylesheets/partials/_general.sass */
 div.success div.box span.symbol {
   border: 3px solid #00ff80;
   padding: 10px 3px;
   margin-left: -25.6px;
   display: inline-block;
   background-color: white; }
-/* line 80, ../../app/stylesheets/partials/_general.sass */
+/* line 75, ../../app/stylesheets/partials/_general.sass */
 div.success div.box span.symbol i {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   text-indent: -119988px;
@@ -348,7 +336,7 @@ div.success div.box span.symbol i {
   width: 32px;
   height: 26px; }
 
-/* line 84, ../../app/stylesheets/partials/_general.sass */
+/* line 79, ../../app/stylesheets/partials/_general.sass */
 div.error {
   background: url('/images/textures/dash_red.png') repeat left top;
   margin: 20px 0;
@@ -358,11 +346,11 @@ div.error {
   #margin-left: -1em;
   display: inline;
   margin-left: 30%; }
-/* line 92, ../../app/stylesheets/partials/_general.sass */
+/* line 87, ../../app/stylesheets/partials/_general.sass */
 div.error div.box {
   border: 3px solid #ff4874;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 98, ../../app/stylesheets/partials/_general.sass */
+/* line 93, ../../app/stylesheets/partials/_general.sass */
 div.error div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -374,16 +362,16 @@ div.error div.box span.msg {
   display: inline-block;
   margin-left: 10px;
   width: 85%; }
-/* line 109, ../../app/stylesheets/partials/_general.sass */
+/* line 104, ../../app/stylesheets/partials/_general.sass */
 div.error div.box span.symbol {
   border: 3px solid #ff4874;
   padding: 10px 20px;
   margin-left: -40px;
   display: inline-block;
   background-color: white; }
-/* line 115, ../../app/stylesheets/partials/_general.sass */
+/* line 110, ../../app/stylesheets/partials/_general.sass */
 div.error div.box span.symbol i {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   text-indent: -119988px;
@@ -393,7 +381,7 @@ div.error div.box span.symbol i {
   width: 8px;
   height: 44px; }
 
-/* line 119, ../../app/stylesheets/partials/_general.sass */
+/* line 114, ../../app/stylesheets/partials/_general.sass */
 div.notice {
   background: url('/images/textures/dash_red.png') repeat left top;
   margin: 20px 0;
@@ -403,11 +391,11 @@ div.notice {
   #margin-left: -1em;
   display: inline;
   margin-left: 30%; }
-/* line 126, ../../app/stylesheets/partials/_general.sass */
+/* line 121, ../../app/stylesheets/partials/_general.sass */
 div.notice div.box {
   border: 3px solid #ff4874;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 132, ../../app/stylesheets/partials/_general.sass */
+/* line 127, ../../app/stylesheets/partials/_general.sass */
 div.notice div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -418,16 +406,16 @@ div.notice div.box span.msg {
   padding: 3px 10px;
   display: inline-block;
   margin-left: 10px; }
-/* line 143, ../../app/stylesheets/partials/_general.sass */
+/* line 138, ../../app/stylesheets/partials/_general.sass */
 div.notice div.box span.symbol {
   border: 3px solid #ff4874;
   padding: 10px 20px;
   margin-left: -40px;
   display: inline-block;
   background-color: white; }
-/* line 149, ../../app/stylesheets/partials/_general.sass */
+/* line 144, ../../app/stylesheets/partials/_general.sass */
 div.notice div.box span.symbol i {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   text-indent: -119988px;
@@ -480,6 +468,259 @@ div.notice div.box span.symbol i {
   font-style: normal; }
 
 /* line 12, ../../app/stylesheets/partials/_320grid.sass */
+body {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 14, ../../app/stylesheets/partials/_320grid.sass */
+.ul {
+  text-decoration: underline; }
+
+/* line 16, ../../app/stylesheets/partials/_320grid.sass */
+.hl {
+  background-color: yellow; }
+
+/* line 18, ../../app/stylesheets/partials/_320grid.sass */
+.section_title, #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
+  font-family: "miso";
+  font-weight: 200;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.0625em;
+  line-height: 0.94118em; }
+/* line 25, ../../app/stylesheets/partials/_320grid.sass */
+.section_title span, #mailing-list h2 span, #faq h2 span, #submit-project h2 span, #think h2 span, #publish h2 span {
+  font-size: 1.11765em;
+  line-height: 1.05882em; }
+
+/* line 28, ../../app/stylesheets/partials/_320grid.sass */
+.noindent, #mailing-list section ul, #faq section ul, #submit-project section ul, #think section ul, #publish section ul, #map #slides ul, #map #steps #text ul, #explanation ul {
+  padding: 0;
+  margin: 0; }
+
+/* line 32, ../../app/stylesheets/partials/_320grid.sass */
+.borded, section.page footer .blue, section.page footer .blue ul li .selected, #map #slides ul li {
+  border: 1px #001fff solid; }
+
+/* line 36, ../../app/stylesheets/partials/_320grid.sass */
+.hover:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover {
+  color: #6045ff;
+  background-color: #81ffd0; }
+
+/* line 40, ../../app/stylesheets/partials/_320grid.sass */
+i {
+  font-style: italic;
+  font-family: "source sans pro";
+  text-transform: none; }
+
+/* line 45, ../../app/stylesheets/partials/_320grid.sass */
+.spined, #mailing-list, #faq, #submit-project, #think, #publish {
+  background: url('/images/textures/spined.png') repeat-x left top; }
+
+/* line 49, ../../app/stylesheets/partials/_320grid.sass */
+.arrow {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  display: inline;
+  float: left;
+  margin-right: 15px; }
+
+/* line 54, ../../app/stylesheets/partials/_320grid.sass */
+.button_container {
+  display: block;
+  overflow: visible;
+  position: relative;
+  clear: both;
+  background: cyan;
+  width: auto;
+  margin-bottom: 20px; }
+/* line 62, ../../app/stylesheets/partials/_320grid.sass */
+.button_container .corner_left {
+  position: absolute;
+  width: 5px;
+  height: 35px;
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4790px;
+  width: 5px;
+  height: 35px; }
+/* line 68, ../../app/stylesheets/partials/_320grid.sass */
+.button_container .corner_right {
+  right: 0;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4874px;
+  width: 3px;
+  height: 3px; }
+/* line 75, ../../app/stylesheets/partials/_320grid.sass */
+.button_container .buttons {
+  margin: 0; }
+/* line 78, ../../app/stylesheets/partials/_320grid.sass */
+.button_container .yellow_button a {
+  display: inline-block;
+  background: yellow;
+  border: 1px solid white;
+  outline: 2px solid #001fff;
+  color: black;
+  margin-top: 4px;
+  text-transform: uppercase !important;
+  font-family: "miso";
+  font-weight: 200 !important;
+  text-decoration: none;
+  font-size: 1.3125em !important;
+  line-height: 0.90476em !important;
+  padding: 5px 10px 5px 10px; }
+
+/* line 94, ../../app/stylesheets/partials/_320grid.sass */
+.pointer, #mailing-list header, #faq header, #submit-project header, #think header, #publish header, #map #steps #arrow_left, #map #steps #arrow_right {
+  cursor: pointer; }
+
+/* line 96, ../../app/stylesheets/partials/_320grid.sass */
+div.success {
+  background: url('/images/textures/dash_green.png') repeat left top;
+  margin: 20px 0;
+  width: 70%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  margin-left: 30%; }
+/* line 102, ../../app/stylesheets/partials/_320grid.sass */
+div.success div.box {
+  border: 3px solid #00ff80;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 105, ../../app/stylesheets/partials/_320grid.sass */
+div.success div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #00ff80;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 85%; }
+/* line 116, ../../app/stylesheets/partials/_320grid.sass */
+div.success div.box span.symbol {
+  border: 3px solid #00ff80;
+  padding: 10px 3px;
+  margin-left: -25.6px;
+  display: inline-block;
+  background-color: white; }
+/* line 122, ../../app/stylesheets/partials/_320grid.sass */
+div.success div.box span.symbol i {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3933px;
+  width: 32px;
+  height: 26px; }
+
+/* line 125, ../../app/stylesheets/partials/_320grid.sass */
+div.error {
+  background: url('/images/textures/dash_red.png') repeat left top;
+  margin: 20px 0;
+  width: 70%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  margin-left: 30%; }
+/* line 131, ../../app/stylesheets/partials/_320grid.sass */
+div.error div.box {
+  border: 3px solid #ff4874;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 134, ../../app/stylesheets/partials/_320grid.sass */
+div.error div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #ff4874;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 0 0 5px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 85%; }
+/* line 145, ../../app/stylesheets/partials/_320grid.sass */
+div.error div.box span.symbol {
+  border: 3px solid #ff4874;
+  padding: 10px 20px;
+  margin-left: -40px;
+  display: inline-block;
+  background-color: white; }
+/* line 151, ../../app/stylesheets/partials/_320grid.sass */
+div.error div.box span.symbol i {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4614px;
+  width: 8px;
+  height: 44px; }
+
+/* line 154, ../../app/stylesheets/partials/_320grid.sass */
+div.notice {
+  background: url('/images/textures/dash_red.png') repeat left top;
+  margin: 20px 0;
+  width: 70%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  margin-left: 30%; }
+/* line 160, ../../app/stylesheets/partials/_320grid.sass */
+div.notice div.box {
+  border: 3px solid #ff4874;
+  padding: 0.625em 1.875em 0.625em 0; }
+/* line 163, ../../app/stylesheets/partials/_320grid.sass */
+div.notice div.box span.msg {
+  text-transform: uppercase;
+  font-family: "miso";
+  font-weight: 400;
+  color: #ff4874;
+  font-size: 1.75em;
+  background-color: white;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-left: 10px; }
+/* line 173, ../../app/stylesheets/partials/_320grid.sass */
+div.notice div.box span.symbol {
+  border: 3px solid #ff4874;
+  padding: 10px 20px;
+  margin-left: -40px;
+  display: inline-block;
+  background-color: white; }
+/* line 179, ../../app/stylesheets/partials/_320grid.sass */
+div.notice div.box span.symbol i {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4614px;
+  width: 8px;
+  height: 44px; }
+
+/* line 183, ../../app/stylesheets/partials/_320grid.sass */
 section.page {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
@@ -504,30 +745,288 @@ section.page {
   margin-left: auto;
   margin-right: auto;
   margin-left: 0; }
-/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 section.page:after {
   content: "";
   display: table;
   clear: both; }
 @media (min-width: 58.75em) {
-  /* line 12, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 183, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     max-width: 58.75em; } }
-/* line 18, ../../app/stylesheets/partials/_320grid.sass */
+/* line 188, ../../app/stylesheets/partials/_320grid.sass */
+section.page #description {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+/* line 191, ../../app/stylesheets/partials/_320grid.sass */
 section.page header {
+  overflow: hidden;
+  *zoom: 1;
   margin-top: 0.625em; }
-/* line 20, ../../app/stylesheets/partials/_320grid.sass */
-section.page header .logo_text {
+/* line 194, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #logo {
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: left; }
+/* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  display: inline;
+  float: left; }
+/* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span .num, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine, section.page header #logo span footer #prefooter .local .number span.sone, section.page footer #prefooter .local .number header #logo span span.sone, section.page header #logo span footer #prefooter .local .number span.stwo, section.page footer #prefooter .local .number header #logo span span.stwo, section.page header #logo span footer #prefooter .local .number span.sthree, section.page footer #prefooter .local .number header #logo span span.sthree, section.page header #logo span footer #prefooter .local .number span.sfour, section.page footer #prefooter .local .number header #logo span span.sfour, section.page header #logo span footer #prefooter .local .number span.zero, section.page footer #prefooter .local .number header #logo span span.zero, section.page header #logo span footer #prefooter .local .number span.one, section.page footer #prefooter .local .number header #logo span span.one, section.page header #logo span footer #prefooter .local .number span.two, section.page footer #prefooter .local .number header #logo span span.two, section.page header #logo span footer #prefooter .local .number span.three, section.page footer #prefooter .local .number header #logo span span.three, section.page header #logo span footer #prefooter .local .number span.four, section.page footer #prefooter .local .number header #logo span span.four, section.page header #logo span footer #prefooter .local .number span.five, section.page footer #prefooter .local .number header #logo span span.five, section.page header #logo span footer #prefooter .local .number span.six, section.page footer #prefooter .local .number header #logo span span.six, section.page header #logo span footer #prefooter .local .number span.seven, section.page footer #prefooter .local .number header #logo span span.seven, section.page header #logo span footer #prefooter .local .number span.eight, section.page footer #prefooter .local .number header #logo span span.eight, section.page header #logo span footer #prefooter .local .number span.nine, section.page footer #prefooter .local .number header #logo span span.nine {
+  margin-top: 3px; }
+/* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.sone {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4658px;
+  width: 8px;
+  height: 44px; }
+/* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.stwo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4746px;
+  width: 8px;
+  height: 44px; }
+/* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.sthree {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4702px;
+  width: 8px;
+  height: 44px; }
+/* line 55, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.sfour {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4825px;
+  width: 8px;
+  height: 44px; }
+/* line 62, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.zero {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4161px;
+  width: 16px;
+  height: 44px; }
+/* line 68, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.one {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4539px;
+  width: 10px;
+  height: 43px; }
+/* line 74, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.two {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4041px;
+  width: 16px;
+  height: 44px; }
+/* line 80, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.three {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4281px;
+  width: 16px;
+  height: 44px; }
+/* line 86, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.four {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3959px;
+  width: 16px;
+  height: 44px; }
+/* line 92, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.five {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3845px;
+  width: 16px;
+  height: 44px; }
+/* line 98, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.six {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4237px;
+  width: 16px;
+  height: 44px; }
+/* line 104, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.seven {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -3889px;
+  width: 16px;
+  height: 44px; }
+/* line 110, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.eight {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4325px;
+  width: 16px;
+  height: 44px; }
+/* line 116, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.nine {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -4085px;
+  width: 16px;
+  height: 44px; }
+/* line 122, ../../app/stylesheets/partials/_custom_mixins.sass */
+section.page header #logo span.logo_text {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -788px;
+  width: 124px;
+  height: 104px;
+  margin-left: 18px; }
+/* line 198, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #logo .logo_text {
   margin: 0 !important; }
-/* line 22, ../../app/stylesheets/partials/_320grid.sass */
-section.page header .navigation {
+/* line 200, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #number {
+  height: 50px;
+  width: 75px;
+  background-color: #001fff;
+  display: inline;
+  float: left;
+  margin: 10px; }
+/* line 206, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation {
   margin: 15px 0 !important;
   padding: 0;
-  background: grey; }
-/* line 29, ../../app/stylesheets/partials/_320grid.sass */
+  background: grey;
+  clear: both;
+  display: block;
+  padding-top: 1.5em; }
+/* line 214, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+/* line 216, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: url('/images/assets/dashed.png') repeat-y right top;
+  min-height: 1.84615em;
+  width: 25%;
+  margin-top: 4px; }
+/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page header nav.navigation ul li:first-child, section.page header nav.navigation ul li.first {
+  padding-left: 0; }
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page header nav.navigation ul li:last-child {
+  padding-right: 0; }
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page header nav.navigation ul li.last {
+  padding-right: 0; }
+/* line 222, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul li:last-child {
+  background: none; }
+/* line 224, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul li.nopadding {
+  padding-left: 0; }
+/* line 226, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul li a {
+  font-family: "miso";
+  color: black;
+  background-color: yellow;
+  font-size: 0.75em;
+  line-height: 1.08333em;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  font-weight: 400;
+  white-space: normal; }
+/* line 237, ../../app/stylesheets/partials/_320grid.sass */
+section.page header nav.navigation ul li .publish {
+  opacity: 0.4; }
+/* line 239, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #paper {
-  display: none; }
-/* line 31, ../../app/stylesheets/partials/_320grid.sass */
+  display: none;
+  margin-top: 10px;
+  margin-left: 15%;
+  display: inline;
+  float: left; }
+/* line 245, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #paper span.pdf_icon {
+  background-image: url('/images/assets-sebf4dd9d4b.png');
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-position: 0 -2674px;
+  width: 51px;
+  height: 66px;
+  display: inline;
+  float: left; }
+/* line 249, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #paper a {
+  display: inline;
+  float: left;
+  font-family: "miso";
+  color: black;
+  background-color: yellow;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 10px; }
+/* line 260, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #social {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  *zoom: 1; }
+/* line 263, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #social .facebook {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: inline;
+  float: left;
+  background-color: yellow; }
+/* line 269, ../../app/stylesheets/partials/_320grid.sass */
+section.page header #social .twitter {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  display: inline;
+  float: left;
+  background-color: yellow; }
+/* line 276, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call {
   width: 42.55319%;
   float: left;
@@ -537,22 +1036,22 @@ section.page header .banner-call {
   padding: 16px;
   margin-top: 40px;
   display: none; }
-/* line 37, ../../app/stylesheets/partials/_320grid.sass */
+/* line 282, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .border1, section.page header .banner-call .border2 {
   width: 370px;
   height: 130px;
   border: 2px solid #001fff;
   background: white;
   position: absolute; }
-/* line 43, ../../app/stylesheets/partials/_320grid.sass */
+/* line 288, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .border1 {
   top: -3px;
   left: -3px; }
-/* line 46, ../../app/stylesheets/partials/_320grid.sass */
+/* line 291, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .border2 {
   top: 0;
   left: 0; }
-/* line 49, ../../app/stylesheets/partials/_320grid.sass */
+/* line 294, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .bg-dash {
   width: 340px;
   height: 140px;
@@ -560,7 +1059,7 @@ section.page header .banner-call .bg-dash {
   position: absolute;
   top: -20px;
   left: -20px; }
-/* line 57, ../../app/stylesheets/partials/_320grid.sass */
+/* line 302, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .bg-white {
   width: 330px;
   height: 95px;
@@ -568,11 +1067,11 @@ section.page header .banner-call .bg-white {
   position: absolute;
   top: 10px;
   left: 10px; }
-/* line 64, ../../app/stylesheets/partials/_320grid.sass */
+/* line 309, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call .icon {
   width: 101px;
   height: 67px;
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 0;
@@ -582,7 +1081,7 @@ section.page header .banner-call .icon {
   z-index: 12;
   top: -31px;
   right: 72px; }
-/* line 73, ../../app/stylesheets/partials/_320grid.sass */
+/* line 318, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call a {
   width: 61.70213%;
   float: left;
@@ -600,11 +1099,11 @@ section.page header .banner-call a {
   text-decoration: underline;
   z-index: 9;
   position: relative; }
-/* line 87, ../../app/stylesheets/partials/_320grid.sass */
+/* line 332, ../../app/stylesheets/partials/_320grid.sass */
 section.page header .banner-call a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 92, ../../app/stylesheets/partials/_320grid.sass */
+/* line 337, ../../app/stylesheets/partials/_320grid.sass */
 section.page h1.vision {
   margin-top: 1.5em;
   font-family: "miso";
@@ -614,37 +1113,37 @@ section.page h1.vision {
   font-weight: 400;
   letter-spacing: 0.1em;
   margin: 20px 0; }
-/* line 106, ../../app/stylesheets/partials/_320grid.sass */
+/* line 351, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #slides ul li {
   overflow: hidden;
   *zoom: 1; }
-/* line 108, ../../app/stylesheets/partials/_320grid.sass */
+/* line 353, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #slides ul li img {
   position: relative;
   margin-left: -199px;
   left: 50%; }
-/* line 113, ../../app/stylesheets/partials/_320grid.sass */
+/* line 358, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps {
   margin: 0;
   overflow: hidden;
   *zoom: 1; }
-/* line 117, ../../app/stylesheets/partials/_320grid.sass */
+/* line 362, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_left, section.page #map #steps #arrow_right {
   margin-top: 23px; }
-/* line 119, ../../app/stylesheets/partials/_320grid.sass */
+/* line 364, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_left {
   width: 10%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 121, ../../app/stylesheets/partials/_320grid.sass */
+/* line 366, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_right {
   width: 10%;
   float: right;
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 123, ../../app/stylesheets/partials/_320grid.sass */
+/* line 368, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text {
   width: 70%;
   float: left;
@@ -653,11 +1152,11 @@ section.page #map #steps #text {
   overflow: hidden;
   *zoom: 1;
   margin-top: 18px; }
-/* line 127, ../../app/stylesheets/partials/_320grid.sass */
+/* line 372, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul {
   list-style-type: none;
   display: block; }
-/* line 130, ../../app/stylesheets/partials/_320grid.sass */
+/* line 375, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li {
   width: 100%;
   float: left;
@@ -670,21 +1169,21 @@ section.page #map #steps #text ul li {
   -moz-hyphens: auto;
   hyphens: auto;
   display: none; }
-/* line 134, ../../app/stylesheets/partials/_320grid.sass */
+/* line 379, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
   display: none;
   width: 10%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 137, ../../app/stylesheets/partials/_320grid.sass */
+/* line 382, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title {
   width: 100%;
   float: left;
   margin-right: 7.14286%;
   display: inline;
   margin: 0; }
-/* line 140, ../../app/stylesheets/partials/_320grid.sass */
+/* line 385, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title p {
   width: 100%;
   float: left;
@@ -699,7 +1198,7 @@ section.page #map #steps #text ul li #title p {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0; }
-/* line 152, ../../app/stylesheets/partials/_320grid.sass */
+/* line 397, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title h4 {
   display: inline;
   color: #ff4874;
@@ -709,7 +1208,7 @@ section.page #map #steps #text ul li #title h4 {
   line-height: 0.89474em;
   letter-spacing: 0.1em;
   margin-bottom: 3px; }
-/* line 162, ../../app/stylesheets/partials/_320grid.sass */
+/* line 407, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call {
   width: 70%;
   float: left;
@@ -720,25 +1219,25 @@ section.page .banner-call {
   padding: 16px;
   margin-top: 60px;
   margin-bottom: 40px; }
-/* line 170, ../../app/stylesheets/partials/_320grid.sass */
+/* line 415, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call ul li {
   display: none; }
-/* line 172, ../../app/stylesheets/partials/_320grid.sass */
+/* line 417, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border1, section.page .banner-call .border2 {
   width: 270px;
   height: 130px;
   border: 2px solid #001fff;
   background: white;
   position: absolute; }
-/* line 178, ../../app/stylesheets/partials/_320grid.sass */
+/* line 423, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border1 {
   top: -3px;
   left: -3px; }
-/* line 181, ../../app/stylesheets/partials/_320grid.sass */
+/* line 426, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .border2 {
   top: 0;
   left: 0; }
-/* line 184, ../../app/stylesheets/partials/_320grid.sass */
+/* line 429, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .bg-dash {
   width: 240px;
   height: 140px;
@@ -746,7 +1245,7 @@ section.page .banner-call .bg-dash {
   position: absolute;
   top: -20px;
   left: -20px; }
-/* line 192, ../../app/stylesheets/partials/_320grid.sass */
+/* line 437, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .bg-white {
   width: 230px;
   height: 95px;
@@ -754,11 +1253,11 @@ section.page .banner-call .bg-white {
   position: absolute;
   top: 10px;
   left: 10px; }
-/* line 199, ../../app/stylesheets/partials/_320grid.sass */
+/* line 444, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call .icon {
   width: 101px;
   height: 67px;
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 0;
@@ -768,7 +1267,7 @@ section.page .banner-call .icon {
   z-index: 12;
   top: -31px;
   right: 0; }
-/* line 208, ../../app/stylesheets/partials/_320grid.sass */
+/* line 453, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call a {
   width: 70%;
   float: left;
@@ -786,18 +1285,21 @@ section.page .banner-call a {
   text-decoration: underline;
   z-index: 9;
   position: relative; }
-/* line 222, ../../app/stylesheets/partials/_320grid.sass */
+/* line 467, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-call a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 229, ../../app/stylesheets/partials/_320grid.sass */
+/* line 474, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li h2 {
   margin-top: 0;
   margin-bottom: 10px; }
-/* line 232, ../../app/stylesheets/partials/_320grid.sass */
+/* line 477, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li p {
   margin: 0 0 20px 0; }
-/* line 236, ../../app/stylesheets/partials/_320grid.sass */
+/* line 479, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer {
+  clear: both; }
+/* line 482, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .box {
   border: 1px #001fff solid;
   color: #001fff;
@@ -805,7 +1307,7 @@ section.page footer #prefooter .box {
   text-transform: uppercase;
   padding-right: 20px;
   padding-left: 20px; }
-/* line 244, ../../app/stylesheets/partials/_320grid.sass */
+/* line 490, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .number {
   overflow: hidden;
   *zoom: 1;
@@ -814,13 +1316,13 @@ section.page footer #prefooter .local .number {
   margin-top: 20px; }
 /* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
 section.page footer #prefooter .local .number span {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   display: inline;
   float: left; }
 /* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
-section.page footer #prefooter .local .number span .num, section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span span.nine, section.page footer #prefooter .local .number span header #logo span.sone, header #logo section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span header #logo span.stwo, header #logo section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span header #logo span.sthree, header #logo section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span header #logo span.sfour, header #logo section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span header #logo span.zero, header #logo section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span header #logo span.one, header #logo section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span header #logo span.two, header #logo section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span header #logo span.three, header #logo section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span header #logo span.four, header #logo section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span header #logo span.five, header #logo section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span header #logo span.six, header #logo section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span header #logo span.seven, header #logo section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span header #logo span.eight, header #logo section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span header #logo span.nine, header #logo section.page footer #prefooter .local .number span span.nine {
+section.page footer #prefooter .local .number span .num, section.page footer #prefooter .local .number span header #logo span.sone, section.page header #logo footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span header #logo span.stwo, section.page header #logo footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span header #logo span.sthree, section.page header #logo footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span header #logo span.sfour, section.page header #logo footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span header #logo span.zero, section.page header #logo footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span header #logo span.one, section.page header #logo footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span header #logo span.two, section.page header #logo footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span header #logo span.three, section.page header #logo footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span header #logo span.four, section.page header #logo footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span header #logo span.five, section.page header #logo footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span header #logo span.six, section.page header #logo footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span header #logo span.seven, section.page header #logo footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span header #logo span.eight, section.page header #logo footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span header #logo span.nine, section.page header #logo footer #prefooter .local .number span span.nine, section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span span.nine {
   margin-top: 3px; }
 /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
 section.page footer #prefooter .local .number span.sone {
@@ -851,7 +1353,7 @@ section.page footer #prefooter .local .number span.sfour {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-position: 0 -4790px;
+  background-position: 0 -4825px;
   width: 8px;
   height: 44px; }
 /* line 62, ../../app/stylesheets/partials/_custom_mixins.sass */
@@ -943,7 +1445,7 @@ section.page footer #prefooter .local .number span.logo_text {
   width: 124px;
   height: 104px;
   margin-left: 18px; }
-/* line 249, ../../app/stylesheets/partials/_320grid.sass */
+/* line 495, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione {
   display: inline;
   float: right;
@@ -952,13 +1454,13 @@ section.page footer #prefooter .local .spiegazione {
   margin-right: 5%;
   display: inline;
   font-family: "miso"; }
-/* line 253, ../../app/stylesheets/partials/_320grid.sass */
+/* line 499, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione h2 {
   color: #ff4874;
   font-weight: 400;
   font-size: 1.1875em;
   line-height: 0.89474em; }
-/* line 258, ../../app/stylesheets/partials/_320grid.sass */
+/* line 504, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione p {
   color: #001fff;
   text-transform: uppercase;
@@ -968,42 +1470,87 @@ section.page footer #prefooter .local .spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 271, ../../app/stylesheets/partials/_320grid.sass */
+/* line 514, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue {
+  clear: both;
+  border-bottom: none; }
+/* line 519, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 1px;
+  padding: 0 10px 0 10px; }
+/* line 523, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  margin-top: 3px; }
+/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer .blue ul li:first-child, section.page footer .blue ul li.first {
+  padding-left: 0; }
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer .blue ul li:last-child {
+  padding-right: 0; }
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+section.page footer .blue ul li.last {
+  padding-right: 0; }
+/* line 531, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue ul li p {
+  display: inline;
+  color: #001fff; }
+/* line 534, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue ul li a {
+  background-color: yellow;
+  color: black; }
+/* line 540, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nline {
   width: 100%; }
-/* line 273, ../../app/stylesheets/partials/_320grid.sass */
+/* line 542, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
-/* line 277, ../../app/stylesheets/partials/_320grid.sass */
-section.page .buttons input, section.page .buttons a {
-  background-color: yellow;
-  color: black;
-  border: 2px solid #001fff;
-  margin-top: 4px;
-  text-transform: uppercase !important;
+/* line 544, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue .rights {
+  font-size: 0.8125em;
+  line-height: 1em;
+  clear: both;
   font-family: "miso";
-  font-weight: 200 !important;
-  text-decoration: none;
-  margin-bottom: 10px;
-  font-size: 1.3125em !important;
-  line-height: 0.90476em !important;
-  padding: 5px 10px 5px 10px; }
-/* line 290, ../../app/stylesheets/partials/_320grid.sass */
-section.page .buttons input:hover, section.page .buttons a:hover {
-  text-decoration: underline;
-  background-color: yellow; }
-/* line 295, ../../app/stylesheets/partials/_320grid.sass */
+  font-weight: 400;
+  color: #001fff;
+  text-transform: uppercase;
+  margin: 3px 10px 10px 10px; }
+/* line 553, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue .rights p {
+  margin: 3px 0; }
+/* line 555, ../../app/stylesheets/partials/_320grid.sass */
+section.page footer .blue .rights a {
+  background-color: yellow;
+  color: black; }
+/* line 579, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2, section.page #think h2, section.page #submit-project h2, section.page #publish h2, section.page #faq h2 {
   letter-spacing: 0.0625em; }
-/* line 298, ../../app/stylesheets/partials/_320grid.sass */
+/* line 582, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2 span.hl span.ul, section.page #think h2 span.hl span.ul, section.page #submit-project h2 span.hl span.ul, section.page #publish h2 span.hl span.ul, section.page #faq h2 span.hl span.ul {
   line-height: 1.28571em; }
-/* line 300, ../../app/stylesheets/partials/_320grid.sass */
+/* line 584, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2 span.subtitle, section.page #think h2 span.subtitle, section.page #submit-project h2 span.subtitle, section.page #publish h2 span.subtitle, section.page #faq h2 span.subtitle {
   display: block;
   margin-left: 25px;
   line-height: 1em; }
-/* line 304, ../../app/stylesheets/partials/_320grid.sass */
+/* line 588, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione, section.page #think #spiegazione, section.page #submit-project #spiegazione, section.page #publish #spiegazione, section.page #faq #spiegazione {
   display: inline;
   float: left;
@@ -1012,7 +1559,7 @@ section.page #mailing-list #spiegazione, section.page #think #spiegazione, secti
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 308, ../../app/stylesheets/partials/_320grid.sass */
+/* line 592, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p, section.page #faq #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1022,30 +1569,30 @@ section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, s
   line-height: 1.25em;
   letter-spacing: 0.125em;
   margin: 0 0 10px 0; }
-/* line 317, ../../app/stylesheets/partials/_320grid.sass */
+/* line 601, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i, section.page #faq #spiegazione p.i {
   margin: 0 0 20px 0 !important;
   letter-spacing: normal !important;
   font-style: italic;
   font-family: "source sans pro" !important;
   text-transform: none !important; }
-/* line 327, ../../app/stylesheets/partials/_320grid.sass */
+/* line 611, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -892px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #mailing-list a span.icon:hover, section.page #mailing-list a span.icon.mobile_icon_subscribe_hover, section.page #mailing-list a span.icon.mobile_icon_subscribe-hover {
   background-position: 0 -204px; }
-/* line 331, ../../app/stylesheets/partials/_320grid.sass */
+/* line 615, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_form {
   overflow: visible; }
-/* line 335, ../../app/stylesheets/partials/_320grid.sass */
+/* line 619, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -3661px;
@@ -1054,7 +1601,7 @@ section.page #mailing-list .mailing_list #icon {
   margin-left: 30%;
   margin-bottom: 15px;
   margin-top: 5px; }
-/* line 343, ../../app/stylesheets/partials/_320grid.sass */
+/* line 627, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione {
   display: inline;
   float: left;
@@ -1063,7 +1610,7 @@ section.page #mailing-list .mailing_list #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 347, ../../app/stylesheets/partials/_320grid.sass */
+/* line 631, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1072,7 +1619,7 @@ section.page #mailing-list .mailing_list #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 357, ../../app/stylesheets/partials/_320grid.sass */
+/* line 641, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset {
   width: 70%;
   float: left;
@@ -1083,14 +1630,14 @@ section.page #mailing-list fieldset {
   padding: 0;
   margin-top: 10px;
   margin-bottom: 0; }
-/* line 364, ../../app/stylesheets/partials/_320grid.sass */
+/* line 648, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p {
   margin: 0;
   padding: 0; }
-/* line 367, ../../app/stylesheets/partials/_320grid.sass */
+/* line 651, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p label {
   display: none; }
-/* line 369, ../../app/stylesheets/partials/_320grid.sass */
+/* line 653, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input {
   font-weight: 400;
   font-style: italic;
@@ -1101,43 +1648,25 @@ section.page #mailing-list fieldset p input {
   padding: 0.625em;
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 379, ../../app/stylesheets/partials/_320grid.sass */
+/* line 663, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input::-webkit-input-placeholder {
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 383, ../../app/stylesheets/partials/_320grid.sass */
+/* line 667, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .buttons input {
   float: right; }
-/* line 386, ../../app/stylesheets/partials/_320grid.sass */
-section.page .buttons input, section.page .buttons a {
-  background-color: yellow;
-  color: black;
-  border: 2px solid #001fff;
-  margin-top: 4px;
-  text-transform: uppercase !important;
-  font-family: "miso";
-  font-weight: 200;
-  text-decoration: none;
-  margin-bottom: 10px;
-  font-size: 1.3125em !important;
-  line-height: 0.90476em !important;
-  padding: 5px 10px 5px 10px; }
-/* line 399, ../../app/stylesheets/partials/_320grid.sass */
-section.page .buttons input:hover, section.page .buttons a:hover {
-  text-decoration: underline;
-  background-color: yellow; }
-/* line 404, ../../app/stylesheets/partials/_320grid.sass */
+/* line 688, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq a span.icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -1728px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #faq a span.icon:hover, section.page #faq a span.icon.mobile_icon_question_hover, section.page #faq a span.icon.mobile_icon_question-hover {
   background-position: 0 -732px; }
-/* line 407, ../../app/stylesheets/partials/_320grid.sass */
+/* line 691, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions {
   list-style: none;
   margin-left: 15%;
@@ -1146,7 +1675,7 @@ section.page #faq ul.questions {
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 412, ../../app/stylesheets/partials/_320grid.sass */
+/* line 696, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 {
   font-family: "source sans pro";
   font-weight: 600;
@@ -1154,30 +1683,30 @@ section.page #faq ul.questions li h3 {
   line-height: 1.25em;
   color: black;
   margin: 20px 0; }
-/* line 420, ../../app/stylesheets/partials/_320grid.sass */
+/* line 704, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
   position: absolute;
   display: inline;
   float: left;
   margin-left: -24px;
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4003px;
   height: 18px;
   width: 9px; }
-/* line 429, ../../app/stylesheets/partials/_320grid.sass */
+/* line 713, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3.ui-accordion-header-active i {
   margin-left: -46px;
   background-position: 0 -3446px;
   height: 59px;
   width: 32px; }
-/* line 433, ../../app/stylesheets/partials/_320grid.sass */
+/* line 717, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 436, ../../app/stylesheets/partials/_320grid.sass */
+/* line 720, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li p {
   clear: both;
   font-family: "source sans pro";
@@ -1187,35 +1716,35 @@ section.page #faq ul.questions li p {
   line-height: 1.33333em;
   color: #6045ff;
   margin: 0; }
-/* line 446, ../../app/stylesheets/partials/_320grid.sass */
+/* line 730, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq .buttons a {
   margin-left: 30%; }
-/* line 451, ../../app/stylesheets/partials/_320grid.sass */
+/* line 735, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think a span.icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -1266px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #think a span.icon:hover, section.page #think a span.icon.mobile_icon_think_hover, section.page #think a span.icon.mobile_icon_think-hover {
   background-position: 0 -260px; }
-/* line 454, ../../app/stylesheets/partials/_320grid.sass */
+/* line 738, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish {
   opacity: 0.4; }
-/* line 457, ../../app/stylesheets/partials/_320grid.sass */
+/* line 741, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish a span.icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -3605px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #publish a span.icon:hover, section.page #publish a span.icon.mobile_icon_publish_hover, section.page #publish a span.icon.mobile_icon_publish-hover {
   background-position: 0 -2320px; }
-/* line 463, ../../app/stylesheets/partials/_320grid.sass */
+/* line 747, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione, section.page #publish #spiegazione {
   display: inline;
   float: left;
@@ -1224,7 +1753,7 @@ section.page #think #spiegazione, section.page #publish #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 467, ../../app/stylesheets/partials/_320grid.sass */
+/* line 751, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p, section.page #publish #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1234,28 +1763,28 @@ section.page #think #spiegazione p, section.page #publish #spiegazione p {
   line-height: 1.25em;
   letter-spacing: 0.125em;
   margin: 0 0 10px 0; }
-/* line 476, ../../app/stylesheets/partials/_320grid.sass */
+/* line 760, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p.i, section.page #publish #spiegazione p.i {
   margin: 0 0 10px 0;
   letter-spacing: normal;
   font-style: italic;
   font-family: "source sans pro";
   text-transform: none; }
-/* line 483, ../../app/stylesheets/partials/_320grid.sass */
+/* line 767, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think .buttons, section.page #publish .buttons {
   margin-left: 30%; }
-/* line 488, ../../app/stylesheets/partials/_320grid.sass */
+/* line 772, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project a span.icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -2618px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #submit-project a span.icon:hover, section.page #submit-project a span.icon.mobile_icon_submit_hover, section.page #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1210px; }
-/* line 492, ../../app/stylesheets/partials/_320grid.sass */
+/* line 776, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione {
   width: 70%;
   float: left;
@@ -1263,7 +1792,7 @@ section.page #submit-project .submit #spiegazione {
   display: inline;
   margin-left: 30%;
   margin-top: -35; }
-/* line 496, ../../app/stylesheets/partials/_320grid.sass */
+/* line 780, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1272,10 +1801,10 @@ section.page #submit-project .submit #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 504, ../../app/stylesheets/partials/_320grid.sass */
+/* line 788, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p i {
   letter-spacing: normal; }
-/* line 506, ../../app/stylesheets/partials/_320grid.sass */
+/* line 790, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione h4 {
   display: inline;
   text-transform: uppercase;
@@ -1283,18 +1812,18 @@ section.page #submit-project .submit #spiegazione h4 {
   font-weight: 400;
   color: #ff4874;
   font-size: 1.25em; }
-/* line 514, ../../app/stylesheets/partials/_320grid.sass */
+/* line 798, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc1 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -3681px;
   height: 87px;
   width: 120px;
   margin-top: 10px; }
-/* line 520, ../../app/stylesheets/partials/_320grid.sass */
+/* line 804, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc2 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -3160px;
@@ -1302,9 +1831,9 @@ section.page #submit-project .submit #spiegazione #icon-doc2 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 15px; }
-/* line 529, ../../app/stylesheets/partials/_320grid.sass */
+/* line 813, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc3 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -3247px;
@@ -1312,7 +1841,7 @@ section.page #submit-project .submit #spiegazione #icon-doc3 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 10px; }
-/* line 535, ../../app/stylesheets/partials/_320grid.sass */
+/* line 819, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed {
   height: 1px;
   width: 100%;
@@ -1323,9 +1852,9 @@ section.page #submit-project .submit .border-dashed {
   border-top: 1px dashed #001fff;
   margin-top: 40px;
   margin-bottom: 30px; }
-/* line 542, ../../app/stylesheets/partials/_320grid.sass */
+/* line 826, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus1 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4389px;
@@ -1333,9 +1862,9 @@ section.page #submit-project .submit .border-dashed #icon-plus1 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 547, ../../app/stylesheets/partials/_320grid.sass */
+/* line 831, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus2 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4369px;
@@ -1343,9 +1872,9 @@ section.page #submit-project .submit .border-dashed #icon-plus2 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 552, ../../app/stylesheets/partials/_320grid.sass */
+/* line 836, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number1 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4582px;
@@ -1356,9 +1885,9 @@ section.page #submit-project .submit #icon-number1 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 558, ../../app/stylesheets/partials/_320grid.sass */
+/* line 842, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number2 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4441px;
@@ -1369,9 +1898,9 @@ section.page #submit-project .submit #icon-number2 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 563, ../../app/stylesheets/partials/_320grid.sass */
+/* line 847, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number3 {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   background-position: 0 -4409px;
@@ -1383,25 +1912,25 @@ section.page #submit-project .submit #icon-number3 {
   margin-right: 5%;
   display: inline; }
 
-/* line 570, ../../app/stylesheets/partials/_320grid.sass */
+/* line 854, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list, #faq, #submit-project, #think, #publish {
   overflow: hidden;
   *zoom: 1; }
-/* line 574, ../../app/stylesheets/partials/_320grid.sass */
+/* line 858, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header, #faq header, #submit-project header, #think header, #publish header {
   padding-top: 10px; }
-/* line 579, ../../app/stylesheets/partials/_320grid.sass */
+/* line 863, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span, #think header.ui-state-hover h2 span, #think header.ui-accordion-header-active h2 span, #publish header.ui-state-hover h2 span, #publish header.ui-accordion-header-active h2 span {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 583, ../../app/stylesheets/partials/_320grid.sass */
+/* line 867, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon, #think a span.icon, #publish a span.icon {
   margin-left: 20px;
   width: 10.6383%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
-/* line 586, ../../app/stylesheets/partials/_320grid.sass */
+/* line 870, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   width: 70%;
   float: right;
@@ -1409,20 +1938,24 @@ section.page #submit-project .submit #icon-number3 {
   #margin-left: -1.25em;
   display: inline;
   margin-top: 0; }
-/* line 593, ../../app/stylesheets/partials/_320grid.sass */
+/* line 877, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list section, #faq section, #submit-project section, #think section, #publish section {
   width: 100%;
   float: left;
   margin-right: 5%;
   display: inline; }
+/* line 882, ../../app/stylesheets/partials/_320grid.sass */
+#mailing-list hr.footer, #faq hr.footer, #submit-project hr.footer, #think hr.footer, #publish hr.footer {
+  border-top: 1px #001fff solid;
+  margin-top: 0px; }
 
 @media (min-width: 36.25em) {
-  /* line 599, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 887, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {
   /* line 4, ../../app/stylesheets/partials/_960grid.sass */
-  .hover:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, section.page header nav.navigation ul li a:hover, section.page #terms a:hover, header nav.navigation ul li a:hover, header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover {
+  .hover:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, section.page #terms a:hover {
     color: #6045ff;
     background-color: #81ffd0; }
 
@@ -1433,12 +1966,12 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.12766%; }
 
   /* line 9, ../../app/stylesheets/partials/_960grid.sass */
-  .borded, section.page footer .blue, section.page hr.footer, section.page #map #steps #text ul li.selected, #map #slides ul li, section.page footer .blue ul li .selected {
+  .borded, section.page footer .blue, section.page footer .blue ul li .selected, section.page hr.footer, section.page #map #steps #text ul li.selected, #map #slides ul li {
     border: 2px #001fff solid; }
 
   /* line 12, ../../app/stylesheets/partials/_960grid.sass */
   .icon, section.page #submit-project .submit #icon-number1, section.page #submit-project .submit #icon-number2, section.page #submit-project .submit #icon-number3, section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     display: inline;
@@ -1462,7 +1995,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: -38.4px; }
   /* line 29, ../../app/stylesheets/partials/_960grid.sass */
   div.success div.box span.symbol i {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     text-indent: -119988px;
@@ -1483,7 +2016,7 @@ section.page #submit-project .submit #icon-number3 {
     font-size: 1.75em; }
   /* line 41, ../../app/stylesheets/partials/_960grid.sass */
   div.error div.box span.symbol i {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     text-indent: -119988px;
@@ -1504,7 +2037,7 @@ section.page #submit-project .submit #icon-number3 {
     background-color: white; }
   /* line 53, ../../app/stylesheets/partials/_960grid.sass */
   div.notice div.box span.symbol i {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     text-indent: -119988px;
@@ -1551,13 +2084,13 @@ section.page #submit-project .submit #icon-number3 {
     overflow: visible; }
   /* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
   section.page header #logo span {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     display: inline;
     float: left; }
   /* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
-  section.page header #logo span .num, section.page header #logo span footer #prefooter .local .number span.sone, section.page footer #prefooter .local .number header #logo span span.sone, section.page header #logo span footer #prefooter .local .number span.stwo, section.page footer #prefooter .local .number header #logo span span.stwo, section.page header #logo span footer #prefooter .local .number span.sthree, section.page footer #prefooter .local .number header #logo span span.sthree, section.page header #logo span footer #prefooter .local .number span.sfour, section.page footer #prefooter .local .number header #logo span span.sfour, section.page header #logo span footer #prefooter .local .number span.zero, section.page footer #prefooter .local .number header #logo span span.zero, section.page header #logo span footer #prefooter .local .number span.one, section.page footer #prefooter .local .number header #logo span span.one, section.page header #logo span footer #prefooter .local .number span.two, section.page footer #prefooter .local .number header #logo span span.two, section.page header #logo span footer #prefooter .local .number span.three, section.page footer #prefooter .local .number header #logo span span.three, section.page header #logo span footer #prefooter .local .number span.four, section.page footer #prefooter .local .number header #logo span span.four, section.page header #logo span footer #prefooter .local .number span.five, section.page footer #prefooter .local .number header #logo span span.five, section.page header #logo span footer #prefooter .local .number span.six, section.page footer #prefooter .local .number header #logo span span.six, section.page header #logo span footer #prefooter .local .number span.seven, section.page footer #prefooter .local .number header #logo span span.seven, section.page header #logo span footer #prefooter .local .number span.eight, section.page footer #prefooter .local .number header #logo span span.eight, section.page header #logo span footer #prefooter .local .number span.nine, section.page footer #prefooter .local .number header #logo span span.nine, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine {
+  section.page header #logo span .num, section.page header #logo span span.sone, section.page header #logo span span.stwo, section.page header #logo span span.sthree, section.page header #logo span span.sfour, section.page header #logo span span.zero, section.page header #logo span span.one, section.page header #logo span span.two, section.page header #logo span span.three, section.page header #logo span span.four, section.page header #logo span span.five, section.page header #logo span span.six, section.page header #logo span span.seven, section.page header #logo span span.eight, section.page header #logo span span.nine, section.page header #logo span footer #prefooter .local .number span.sone, section.page footer #prefooter .local .number header #logo span span.sone, section.page header #logo span footer #prefooter .local .number span.stwo, section.page footer #prefooter .local .number header #logo span span.stwo, section.page header #logo span footer #prefooter .local .number span.sthree, section.page footer #prefooter .local .number header #logo span span.sthree, section.page header #logo span footer #prefooter .local .number span.sfour, section.page footer #prefooter .local .number header #logo span span.sfour, section.page header #logo span footer #prefooter .local .number span.zero, section.page footer #prefooter .local .number header #logo span span.zero, section.page header #logo span footer #prefooter .local .number span.one, section.page footer #prefooter .local .number header #logo span span.one, section.page header #logo span footer #prefooter .local .number span.two, section.page footer #prefooter .local .number header #logo span span.two, section.page header #logo span footer #prefooter .local .number span.three, section.page footer #prefooter .local .number header #logo span span.three, section.page header #logo span footer #prefooter .local .number span.four, section.page footer #prefooter .local .number header #logo span span.four, section.page header #logo span footer #prefooter .local .number span.five, section.page footer #prefooter .local .number header #logo span span.five, section.page header #logo span footer #prefooter .local .number span.six, section.page footer #prefooter .local .number header #logo span span.six, section.page header #logo span footer #prefooter .local .number span.seven, section.page footer #prefooter .local .number header #logo span span.seven, section.page header #logo span footer #prefooter .local .number span.eight, section.page footer #prefooter .local .number header #logo span span.eight, section.page header #logo span footer #prefooter .local .number span.nine, section.page footer #prefooter .local .number header #logo span span.nine {
     margin-top: 3px; }
   /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
   section.page header #logo span.sone {
@@ -1747,7 +2280,7 @@ section.page #submit-project .submit #icon-number3 {
   section.page header .banner-call .icon, section.page header .banner-call #submit-project .submit #icon-number1, section.page #submit-project .submit header .banner-call #icon-number1, section.page header .banner-call #submit-project .submit #icon-number2, section.page #submit-project .submit header .banner-call #icon-number2, section.page header .banner-call #submit-project .submit #icon-number3, section.page #submit-project .submit header .banner-call #icon-number3, section.page header .banner-call #map #steps #text ul li #arrow1, section.page #map #steps #text ul li header .banner-call #arrow1, section.page header .banner-call #map #steps #text ul li #arrow2, section.page #map #steps #text ul li header .banner-call #arrow2, section.page header .banner-call #map #steps #text ul li #arrow3, section.page #map #steps #text ul li header .banner-call #arrow3 {
     width: 101px;
     height: 67px;
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 0;
@@ -1809,13 +2342,13 @@ section.page #submit-project .submit #icon-number3 {
     float: right; }
   /* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
   section.page footer #prefooter .local .number span {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     display: inline;
     float: left; }
   /* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
-  section.page footer #prefooter .local .number span .num, section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span span.nine, section.page footer #prefooter .local .number span header #logo span.sone, section.page header #logo footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span header #logo span.stwo, section.page header #logo footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span header #logo span.sthree, section.page header #logo footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span header #logo span.sfour, section.page header #logo footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span header #logo span.zero, section.page header #logo footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span header #logo span.one, section.page header #logo footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span header #logo span.two, section.page header #logo footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span header #logo span.three, section.page header #logo footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span header #logo span.four, section.page header #logo footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span header #logo span.five, section.page header #logo footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span header #logo span.six, section.page header #logo footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span header #logo span.seven, section.page header #logo footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span header #logo span.eight, section.page header #logo footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span header #logo span.nine, section.page header #logo footer #prefooter .local .number span span.nine, section.page footer #prefooter .local .number span header #logo span.sone, header #logo section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span header #logo span.stwo, header #logo section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span header #logo span.sthree, header #logo section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span header #logo span.sfour, header #logo section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span header #logo span.zero, header #logo section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span header #logo span.one, header #logo section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span header #logo span.two, header #logo section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span header #logo span.three, header #logo section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span header #logo span.four, header #logo section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span header #logo span.five, header #logo section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span header #logo span.six, header #logo section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span header #logo span.seven, header #logo section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span header #logo span.eight, header #logo section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span header #logo span.nine, header #logo section.page footer #prefooter .local .number span span.nine {
+  section.page footer #prefooter .local .number span .num, section.page footer #prefooter .local .number span header #logo span.sone, section.page header #logo footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span header #logo span.stwo, section.page header #logo footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span header #logo span.sthree, section.page header #logo footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span header #logo span.sfour, section.page header #logo footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span header #logo span.zero, section.page header #logo footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span header #logo span.one, section.page header #logo footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span header #logo span.two, section.page header #logo footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span header #logo span.three, section.page header #logo footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span header #logo span.four, section.page header #logo footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span header #logo span.five, section.page header #logo footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span header #logo span.six, section.page header #logo footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span header #logo span.seven, section.page header #logo footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span header #logo span.eight, section.page header #logo footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span header #logo span.nine, section.page header #logo footer #prefooter .local .number span span.nine, section.page footer #prefooter .local .number span span.sone, section.page footer #prefooter .local .number span span.stwo, section.page footer #prefooter .local .number span span.sthree, section.page footer #prefooter .local .number span span.sfour, section.page footer #prefooter .local .number span span.zero, section.page footer #prefooter .local .number span span.one, section.page footer #prefooter .local .number span span.two, section.page footer #prefooter .local .number span span.three, section.page footer #prefooter .local .number span span.four, section.page footer #prefooter .local .number span span.five, section.page footer #prefooter .local .number span span.six, section.page footer #prefooter .local .number span span.seven, section.page footer #prefooter .local .number span span.eight, section.page footer #prefooter .local .number span span.nine {
     margin-top: 3px; }
   /* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
   section.page footer #prefooter .local .number span.sone {
@@ -2003,7 +2536,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -608px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #mailing-list a span.icon:hover, section.page #mailing-list a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #mailing-list a span#icon-number1:hover, section.page #mailing-list a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #mailing-list a span#icon-number2:hover, section.page #mailing-list a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #mailing-list a span#icon-number3:hover, section.page #mailing-list a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #mailing-list a span#arrow1:hover, section.page #mailing-list a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #mailing-list a span#arrow2:hover, section.page #mailing-list a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #mailing-list a span#arrow3:hover, section.page #mailing-list a span.icon.icon_subscribe_hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow3, section.page #mailing-list a span.icon.icon_subscribe-hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow3 {
     background-position: 0 -67px; }
   /* line 242, ../../app/stylesheets/partials/_960grid.sass */
@@ -2055,13 +2588,13 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 25.53191%; }
   /* line 270, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq a span.icon, section.page #faq a #submit-project .submit span#icon-number1, section.page #submit-project .submit #faq a span#icon-number1, section.page #faq a #submit-project .submit span#icon-number2, section.page #submit-project .submit #faq a span#icon-number2, section.page #faq a #submit-project .submit span#icon-number3, section.page #submit-project .submit #faq a span#icon-number3, section.page #faq a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #faq a span#arrow1, section.page #faq a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #faq a span#arrow2, section.page #faq a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #faq a span#arrow3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -1666px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #faq a span.icon:hover, section.page #faq a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #faq a span#icon-number1:hover, section.page #faq a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #faq a span#icon-number2:hover, section.page #faq a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #faq a span#icon-number3:hover, section.page #faq a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #faq a span#arrow1:hover, section.page #faq a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #faq a span#arrow2:hover, section.page #faq a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #faq a span#arrow3:hover, section.page #faq a span.icon.icon_question_hover, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow3, section.page #faq a span.icon.icon_question-hover, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow3 {
     background-position: 0 -670px; }
   /* line 273, ../../app/stylesheets/partials/_960grid.sass */
@@ -2086,13 +2619,13 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 0%; }
   /* line 290, ../../app/stylesheets/partials/_960grid.sass */
   section.page #think a span.icon, section.page #think a #submit-project .submit span#icon-number1, section.page #submit-project .submit #think a span#icon-number1, section.page #think a #submit-project .submit span#icon-number2, section.page #submit-project .submit #think a span#icon-number2, section.page #think a #submit-project .submit span#icon-number3, section.page #submit-project .submit #think a span#icon-number3, section.page #think a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #think a span#arrow1, section.page #think a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #think a span#arrow2, section.page #think a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #think a span#arrow3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -1322px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #think a span.icon:hover, section.page #think a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #think a span#icon-number1:hover, section.page #think a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #think a span#icon-number2:hover, section.page #think a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #think a span#icon-number3:hover, section.page #think a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #think a span#arrow1:hover, section.page #think a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #think a span#arrow2:hover, section.page #think a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #think a span#arrow3:hover, section.page #think a span.icon.icon_think_hover, section.page #think a #submit-project .submit span.icon_think_hover#icon-number1, section.page #submit-project .submit #think a span.icon_think_hover#icon-number1, section.page #think a #submit-project .submit span.icon_think_hover#icon-number2, section.page #submit-project .submit #think a span.icon_think_hover#icon-number2, section.page #think a #submit-project .submit span.icon_think_hover#icon-number3, section.page #submit-project .submit #think a span.icon_think_hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow3, section.page #think a span.icon.icon_think-hover, section.page #think a #submit-project .submit span.icon_think-hover#icon-number1, section.page #submit-project .submit #think a span.icon_think-hover#icon-number1, section.page #think a #submit-project .submit span.icon_think-hover#icon-number2, section.page #submit-project .submit #think a span.icon_think-hover#icon-number2, section.page #think a #submit-project .submit span.icon_think-hover#icon-number3, section.page #submit-project .submit #think a span.icon_think-hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow3 {
     background-position: 0 -316px; }
   /* line 293, ../../app/stylesheets/partials/_960grid.sass */
@@ -2105,13 +2638,13 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.12766%; }
   /* line 298, ../../app/stylesheets/partials/_960grid.sass */
   section.page #publish a span.icon, section.page #publish a #submit-project .submit span#icon-number1, section.page #submit-project .submit #publish a span#icon-number1, section.page #publish a #submit-project .submit span#icon-number2, section.page #submit-project .submit #publish a span#icon-number2, section.page #publish a #submit-project .submit span#icon-number3, section.page #submit-project .submit #publish a span#icon-number3, section.page #publish a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #publish a span#arrow1, section.page #publish a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #publish a span#arrow2, section.page #publish a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #publish a span#arrow3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -3384px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #publish a span.icon:hover, section.page #publish a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #publish a span#icon-number1:hover, section.page #publish a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #publish a span#icon-number2:hover, section.page #publish a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #publish a span#icon-number3:hover, section.page #publish a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #publish a span#arrow1:hover, section.page #publish a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #publish a span#arrow2:hover, section.page #publish a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #publish a span#arrow3:hover, section.page #publish a span.icon.icon_publish_hover, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow3, section.page #publish a span.icon.icon_publish-hover, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow3 {
     background-position: 0 -1964px; }
   /* line 301, ../../app/stylesheets/partials/_960grid.sass */
@@ -2129,13 +2662,13 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.63158%; }
   /* line 311, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project a span.icon, section.page #submit-project a .submit span#icon-number1, section.page #submit-project .submit a span#icon-number1, section.page #submit-project a .submit span#icon-number2, section.page #submit-project .submit a span#icon-number2, section.page #submit-project a .submit span#icon-number3, section.page #submit-project .submit a span#icon-number3, section.page #submit-project a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #submit-project a span#arrow1, section.page #submit-project a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #submit-project a span#arrow2, section.page #submit-project a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #submit-project a span#arrow3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -2556px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #submit-project a span.icon:hover, section.page #submit-project a .submit span#icon-number1:hover, section.page #submit-project .submit a span#icon-number1:hover, section.page #submit-project a .submit span#icon-number2:hover, section.page #submit-project .submit a span#icon-number2:hover, section.page #submit-project a .submit span#icon-number3:hover, section.page #submit-project .submit a span#icon-number3:hover, section.page #submit-project a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #submit-project a span#arrow1:hover, section.page #submit-project a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #submit-project a span#arrow2:hover, section.page #submit-project a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #submit-project a span#arrow3:hover, section.page #submit-project a span.icon.icon_submit_hover, section.page #submit-project a .submit span.icon_submit_hover#icon-number1, section.page #submit-project .submit a span.icon_submit_hover#icon-number1, section.page #submit-project a .submit span.icon_submit_hover#icon-number2, section.page #submit-project .submit a span.icon_submit_hover#icon-number2, section.page #submit-project a .submit span.icon_submit_hover#icon-number3, section.page #submit-project .submit a span.icon_submit_hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow3, section.page #submit-project a span.icon.icon_submit-hover, section.page #submit-project a .submit span.icon_submit-hover#icon-number1, section.page #submit-project .submit a span.icon_submit-hover#icon-number1, section.page #submit-project a .submit span.icon_submit-hover#icon-number2, section.page #submit-project .submit a span.icon_submit-hover#icon-number2, section.page #submit-project a .submit span.icon_submit-hover#icon-number3, section.page #submit-project .submit a span.icon_submit-hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow3 {
     background-position: 0 -948px; }
   /* line 314, ../../app/stylesheets/partials/_960grid.sass */
@@ -2193,7 +2726,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: 0; }
   /* line 344, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc1 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -1498px;
@@ -2201,7 +2734,7 @@ section.page #submit-project .submit #icon-number3 {
     width: 140px; }
   /* line 347, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc2 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -1110px;
@@ -2210,7 +2743,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-bottom: 20px; }
   /* line 351, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc3 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -1010px;
@@ -2218,7 +2751,7 @@ section.page #submit-project .submit #icon-number3 {
     width: 150px; }
   /* line 355, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit .border-dashed #icon-plus1 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -2806px;
@@ -2227,7 +2760,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: -15px; }
   /* line 359, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit .border-dashed #icon-plus2 {
-    background-image: url('/images/assets-sdc6b3bb5f2.png');
+    background-image: url('/images/assets-sebf4dd9d4b.png');
     background-repeat: no-repeat;
     display: block;
     background-position: 0 -2836px;
@@ -2293,7 +2826,7 @@ section.page #submit-project .submit #icon-number3 {
     padding: 0;
     border: 0;
     overflow: hidden; }
-  /* line 60, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 60, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li {
     list-style-image: none;
     list-style-type: none;
@@ -2303,13 +2836,13 @@ section.page #submit-project .submit #icon-number3 {
     float: left;
     padding-left: 4px;
     padding-right: 4px; }
-  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
     padding-left: 0; }
-  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:last-child {
     padding-right: 0; }
-  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
   /* line 408, ../../app/stylesheets/partials/_960grid.sass */
@@ -2331,13 +2864,13 @@ section.page #submit-project .submit #icon-number3 {
     display: block !important;
     position: relative;
     border: 2px white solid; }
-  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
     padding-left: 0; }
-  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:last-child {
     padding-right: 0; }
-  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
   /* line 412, ../../app/stylesheets/partials/_960grid.sass */
@@ -2467,7 +3000,7 @@ section.page #submit-project .submit #icon-number3 {
 /* line 8, ../../app/stylesheets/partials/_map.sass */
 #map #slides ul {
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 #map #slides ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2483,7 +3016,7 @@ section.page #submit-project .submit #icon-number3 {
   margin-bottom: 1.5em; }
 /* line 22, ../../app/stylesheets/partials/_map.sass */
 #map #steps #arrow_left {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   text-indent: -119988px;
@@ -2494,7 +3027,7 @@ section.page #submit-project .submit #icon-number3 {
   height: 32px; }
 /* line 26, ../../app/stylesheets/partials/_map.sass */
 #map #steps #arrow_right {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
+  background-image: url('/images/assets-sebf4dd9d4b.png');
   background-repeat: no-repeat;
   display: block;
   text-indent: -119988px;
@@ -2518,7 +3051,7 @@ section.page #submit-project .submit #icon-number3 {
 /* line 2, ../../app/stylesheets/partials/_explanation.sass */
 #explanation ul {
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 #explanation ul li {
   list-style-image: none;
   list-style-type: none;
@@ -2546,339 +3079,3 @@ section.page #submit-project .submit #icon-number3 {
 *:focus {
   outline-style: none;
   outline-width: 0px; }
-
-/* line 43, ../../app/stylesheets/application.sass */
-header {
-  overflow: hidden;
-  *zoom: 1; }
-/* line 45, ../../app/stylesheets/application.sass */
-header #logo {
-  overflow: hidden;
-  *zoom: 1;
-  display: inline;
-  float: left; }
-/* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
-  background-repeat: no-repeat;
-  display: block;
-  display: inline;
-  float: left; }
-/* line 34, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span .num, header #logo span section.page footer #prefooter .local .number span.sone, section.page footer #prefooter .local .number header #logo span span.sone, header #logo span section.page footer #prefooter .local .number span.stwo, section.page footer #prefooter .local .number header #logo span span.stwo, header #logo span section.page footer #prefooter .local .number span.sthree, section.page footer #prefooter .local .number header #logo span span.sthree, header #logo span section.page footer #prefooter .local .number span.sfour, section.page footer #prefooter .local .number header #logo span span.sfour, header #logo span section.page footer #prefooter .local .number span.zero, section.page footer #prefooter .local .number header #logo span span.zero, header #logo span section.page footer #prefooter .local .number span.one, section.page footer #prefooter .local .number header #logo span span.one, header #logo span section.page footer #prefooter .local .number span.two, section.page footer #prefooter .local .number header #logo span span.two, header #logo span section.page footer #prefooter .local .number span.three, section.page footer #prefooter .local .number header #logo span span.three, header #logo span section.page footer #prefooter .local .number span.four, section.page footer #prefooter .local .number header #logo span span.four, header #logo span section.page footer #prefooter .local .number span.five, section.page footer #prefooter .local .number header #logo span span.five, header #logo span section.page footer #prefooter .local .number span.six, section.page footer #prefooter .local .number header #logo span span.six, header #logo span section.page footer #prefooter .local .number span.seven, section.page footer #prefooter .local .number header #logo span span.seven, header #logo span section.page footer #prefooter .local .number span.eight, section.page footer #prefooter .local .number header #logo span span.eight, header #logo span section.page footer #prefooter .local .number span.nine, section.page footer #prefooter .local .number header #logo span span.nine, header #logo span span.sone, header #logo span span.stwo, header #logo span span.sthree, header #logo span span.sfour, header #logo span span.zero, header #logo span span.one, header #logo span span.two, header #logo span span.three, header #logo span span.four, header #logo span span.five, header #logo span span.six, header #logo span span.seven, header #logo span span.eight, header #logo span span.nine {
-  margin-top: 3px; }
-/* line 37, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.sone {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4658px;
-  width: 8px;
-  height: 44px; }
-/* line 43, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.stwo {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4746px;
-  width: 8px;
-  height: 44px; }
-/* line 49, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.sthree {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4702px;
-  width: 8px;
-  height: 44px; }
-/* line 55, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.sfour {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4790px;
-  width: 8px;
-  height: 44px; }
-/* line 62, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.zero {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4161px;
-  width: 16px;
-  height: 44px; }
-/* line 68, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.one {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4539px;
-  width: 10px;
-  height: 43px; }
-/* line 74, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.two {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4041px;
-  width: 16px;
-  height: 44px; }
-/* line 80, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.three {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4281px;
-  width: 16px;
-  height: 44px; }
-/* line 86, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.four {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -3959px;
-  width: 16px;
-  height: 44px; }
-/* line 92, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.five {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -3845px;
-  width: 16px;
-  height: 44px; }
-/* line 98, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.six {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4237px;
-  width: 16px;
-  height: 44px; }
-/* line 104, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.seven {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -3889px;
-  width: 16px;
-  height: 44px; }
-/* line 110, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.eight {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4325px;
-  width: 16px;
-  height: 44px; }
-/* line 116, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.nine {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -4085px;
-  width: 16px;
-  height: 44px; }
-/* line 122, ../../app/stylesheets/partials/_custom_mixins.sass */
-header #logo span.logo_text {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -788px;
-  width: 124px;
-  height: 104px;
-  margin-left: 18px; }
-/* line 50, ../../app/stylesheets/application.sass */
-header #number {
-  height: 50px;
-  width: 75px;
-  background-color: #001fff;
-  display: inline;
-  float: left;
-  margin: 10px; }
-/* line 57, ../../app/stylesheets/application.sass */
-header nav.navigation {
-  clear: both;
-  display: block;
-  padding-top: 1.5em; }
-/* line 62, ../../app/stylesheets/application.sass */
-header nav.navigation ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1; }
-/* line 64, ../../app/stylesheets/application.sass */
-header nav.navigation ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 14px;
-  padding-right: 14px;
-  background: url('/images/assets/dashed.png') repeat-y right top;
-  min-height: 1.84615em;
-  width: 25%;
-  margin-top: 4px; }
-/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav.navigation ul li:first-child, header nav.navigation ul li.first {
-  padding-left: 0; }
-/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav.navigation ul li:last-child {
-  padding-right: 0; }
-/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-header nav.navigation ul li.last {
-  padding-right: 0; }
-/* line 70, ../../app/stylesheets/application.sass */
-header nav.navigation ul li:last-child {
-  background: none; }
-/* line 72, ../../app/stylesheets/application.sass */
-header nav.navigation ul li.nopadding {
-  padding-left: 0; }
-/* line 75, ../../app/stylesheets/application.sass */
-header nav.navigation ul li a {
-  font-family: "miso";
-  color: black;
-  background-color: yellow;
-  font-size: 0.75em;
-  line-height: 1.08333em;
-  letter-spacing: 0.125em;
-  text-transform: uppercase;
-  font-weight: 400;
-  white-space: normal; }
-/* line 86, ../../app/stylesheets/application.sass */
-header nav.navigation ul li .publish {
-  opacity: 0.4; }
-/* line 89, ../../app/stylesheets/application.sass */
-header #paper {
-  margin-top: 10px;
-  margin-left: 15%;
-  display: inline;
-  float: left; }
-/* line 94, ../../app/stylesheets/application.sass */
-header #paper span.pdf_icon {
-  background-image: url('/images/assets-sdc6b3bb5f2.png');
-  background-repeat: no-repeat;
-  display: block;
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  background-position: 0 -2674px;
-  width: 51px;
-  height: 66px;
-  display: inline;
-  float: left; }
-/* line 98, ../../app/stylesheets/application.sass */
-header #paper a {
-  display: inline;
-  float: left;
-  font-family: "miso";
-  color: black;
-  background-color: yellow;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-left: 10px; }
-/* line 110, ../../app/stylesheets/application.sass */
-header #social {
-  display: inline;
-  float: left;
-  overflow: hidden;
-  *zoom: 1; }
-/* line 113, ../../app/stylesheets/application.sass */
-header #social .facebook {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  display: inline;
-  float: left;
-  background-color: yellow; }
-/* line 119, ../../app/stylesheets/application.sass */
-header #social .twitter {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  display: inline;
-  float: left;
-  background-color: yellow; }
-
-/* line 127, ../../app/stylesheets/application.sass */
-section.page #description {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
-/* line 132, ../../app/stylesheets/application.sass */
-section.page footer {
-  clear: both; }
-/* line 135, ../../app/stylesheets/application.sass */
-section.page footer .blue {
-  clear: both;
-  border-bottom: none; }
-/* line 139, ../../app/stylesheets/application.sass */
-section.page footer .blue ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: 1px;
-  padding: 0 10px 0 10px; }
-/* line 143, ../../app/stylesheets/application.sass */
-section.page footer .blue ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-  font-family: "miso";
-  font-weight: 400;
-  color: #001fff;
-  font-size: 0.875em;
-  text-transform: uppercase;
-  margin-top: 3px; }
-/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-section.page footer .blue ul li:first-child, section.page footer .blue ul li.first {
-  padding-left: 0; }
-/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-section.page footer .blue ul li:last-child {
-  padding-right: 0; }
-/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-section.page footer .blue ul li.last {
-  padding-right: 0; }
-/* line 152, ../../app/stylesheets/application.sass */
-section.page footer .blue ul li p {
-  display: inline;
-  color: #001fff; }
-/* line 155, ../../app/stylesheets/application.sass */
-section.page footer .blue ul li a {
-  background-color: yellow;
-  color: black; }
-/* line 162, ../../app/stylesheets/application.sass */
-section.page footer .blue .rights {
-  font-size: 0.8125em;
-  line-height: 1em;
-  font-family: "miso";
-  font-weight: 400;
-  color: #001fff;
-  text-transform: uppercase;
-  margin: 3px 10px 10px 10px; }
-/* line 171, ../../app/stylesheets/application.sass */
-section.page footer .blue .rights p {
-  margin: 3px 0; }
-/* line 173, ../../app/stylesheets/application.sass */
-section.page footer .blue .rights a {
-  background-color: yellow;
-  color: black; }
-
-/* line 177, ../../app/stylesheets/application.sass */
-hr.footer {
-  border-top: 1px #001fff solid;
-  margin-top: 0px; }

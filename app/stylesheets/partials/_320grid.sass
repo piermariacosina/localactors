@@ -50,6 +50,46 @@ i
 	@include assign-sprite-background($assets)
 	@include float-left
 	margin-right: 15px
+	
+.button_container
+	display: block
+	overflow: visible
+	position: relative
+	clear: both
+	background: cyan
+	width: auto
+	margin-bottom: 20px
+	.corner_left
+		position: absolute
+		width: 5px
+		height: 35px
+		@include assign-sprite-background($assets)
+		@include replace-with-sprite($assets,"button_corner_left")
+	.corner_right
+		right: 0
+		position: absolute
+		width: 3px
+		height: 3px
+		@include assign-sprite-background($assets)
+		@include replace-with-sprite($assets,"button_corner_right")
+	.buttons
+		margin: 0
+	.yellow_button
+		a
+			display: inline-block
+			background: $yellow
+			border: 1px solid white
+			outline: 2px solid $blue
+			
+			color: $black
+			margin-top: 4px	
+			text-transform: uppercase !important
+			font-family: "miso"
+			font-weight: 200 !important
+			text-decoration: none
+			font-size: px-to-em(21px) !important
+			line-height: px-to-em(19px,21px) !important
+			padding: 5px 10px 5px 10px
 
 .pointer
 	cursor: pointer
@@ -519,21 +559,21 @@ section.page
 
 	.buttons
 		input, a
-			background-color: $yellow
-			color: $black
-			border: 2px solid $blue
-			margin-top: 4px	
-			text-transform: uppercase !important
-			font-family: "miso"
-			font-weight: 200 !important
-			text-decoration: none
-			margin-bottom: 10px
-			font-size: px-to-em(21px) !important
-			line-height: px-to-em(19px,21px) !important
-			padding: 5px 10px 5px 10px
+			//background-color: $yellow
+			//color: $black
+			//border: 2px solid $blue
+			//margin-top: 4px	
+			//text-transform: uppercase !important
+			//font-family: "miso"
+			//font-weight: 200 !important
+			//text-decoration: none
+			//margin-bottom: 10px
+			//font-size: px-to-em(21px) !important
+			//line-height: px-to-em(19px,21px) !important
+			//padding: 5px 10px 5px 10px
 		input:hover, a:hover
-			text-decoration: underline
-			background-color: yellow
+			//text-decoration: underline
+			//background-color: yellow
 			
 	#mailing-list, #think, #submit-project, #publish, #faq
 		h2
@@ -628,21 +668,21 @@ section.page
 				float: right
 	.buttons
 		input, a
-			background-color: $yellow
-			color: $black
-			border: 2px solid $blue
-			margin-top: 4px	
-			text-transform: uppercase !important
-			font-family: "miso"
-			font-weight: 200
-			text-decoration: none
-			margin-bottom: 10px
-			font-size: px-to-em(21px) !important
-			line-height: px-to-em(19px,21px) !important
-			padding: 5px 10px 5px 10px
+			//background-color: $yellow
+			//color: $black
+			//border: 2px solid $blue
+			//margin-top: 4px	
+			//text-transform: uppercase !important
+			//font-family: "miso"
+			//font-weight: 200
+			//text-decoration: none
+			//margin-bottom: 10px
+			//font-size: px-to-em(21px) !important
+			//line-height: px-to-em(19px,21px) !important
+			//padding: 5px 10px 5px 10px
 		input:hover, a:hover
-			text-decoration: underline
-			background-color: yellow			
+			//text-decoration: underline
+			//background-color: yellow			
 	#faq
 		a
 			span.icon
