@@ -975,18 +975,18 @@ section.page footer .blue ul li.nline {
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
 /* line 276, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list h2, section.page #think h2, section.page #submit-project h2, section.page #publish h2 {
+section.page #mailing-list h2, section.page #think h2, section.page #submit-project h2, section.page #publish h2, section.page #faq h2 {
   letter-spacing: 0.0625em; }
 /* line 279, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list h2 span.hl span.ul, section.page #think h2 span.hl span.ul, section.page #submit-project h2 span.hl span.ul, section.page #publish h2 span.hl span.ul {
+section.page #mailing-list h2 span.hl span.ul, section.page #think h2 span.hl span.ul, section.page #submit-project h2 span.hl span.ul, section.page #publish h2 span.hl span.ul, section.page #faq h2 span.hl span.ul {
   line-height: 1.28571em; }
 /* line 281, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list h2 span.subtitle, section.page #think h2 span.subtitle, section.page #submit-project h2 span.subtitle, section.page #publish h2 span.subtitle {
+section.page #mailing-list h2 span.subtitle, section.page #think h2 span.subtitle, section.page #submit-project h2 span.subtitle, section.page #publish h2 span.subtitle, section.page #faq h2 span.subtitle {
   display: block;
   margin-left: 25px;
   line-height: 1em; }
 /* line 285, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list #spiegazione, section.page #think #spiegazione, section.page #submit-project #spiegazione, section.page #publish #spiegazione {
+section.page #mailing-list #spiegazione, section.page #think #spiegazione, section.page #submit-project #spiegazione, section.page #publish #spiegazione, section.page #faq #spiegazione {
   display: inline;
   float: left;
   width: 70%;
@@ -995,7 +995,7 @@ section.page #mailing-list #spiegazione, section.page #think #spiegazione, secti
   display: inline;
   margin-left: 30%; }
 /* line 289, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p {
+section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p, section.page #faq #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
   font-weight: 400;
@@ -1005,7 +1005,7 @@ section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, s
   letter-spacing: 0.125em;
   margin: 0 0 10px 0; }
 /* line 298, ../../app/stylesheets/partials/_320grid.sass */
-section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i {
+section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i, section.page #faq #spiegazione p.i {
   margin: 0 0 10px 0;
   letter-spacing: normal;
   font-style: italic;
