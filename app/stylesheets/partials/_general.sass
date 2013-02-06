@@ -1,148 +1,148 @@
 
 
-.section_title
-	font-family: "miso"
-	font-weight: 200	
-	text-transform: uppercase
-	color: $black
-	font-size: px-to-em(17px,16px)
-	line-height: px-to-em(16px,17px)
-	span
-		font-size: px-to-em(19px,17px)
-		line-height: px-to-em(18px,17px)	
-
-.noindent 
-	padding: 0
-	margin: 0
-
-.borded
-	border: 1px $blue solid
-
-.hover
-	&:hover
-		color: $purple
-		background-color: $acqua
-		
-i
-	font-style: italic
-	font-family: "source sans pro"
-	text-transform: none
-	
-.spined
-	$image: image-url("textures/spined.png")
-	background: $image repeat-x left top
-	
-.arrow
-	@include assign-sprite-background($assets)
-	@include float-left
-	margin-right: 15px
-
-.pointer
-	cursor: pointer
-
-
-
-div.success
-	$image: image-url("textures/dash_green.png")
-	background: $image repeat left top
-	margin: 20px 0
-	+span-columns(5 omega,7)
-	margin-left: 30%
-	
-	div.box
-		border: 3px solid $green
-		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
-		
-		
-		
-		span.msg
-			text-transform: uppercase
-			font-family: "miso"
-			font-weight: 400	 
-			color: $green
-			font-size: px-to-em(28px)
-			background-color: white
-			padding: 3px 10px
-			display: inline-block
-			margin-left: 10px
-			width: 85%
-		span.symbol
-			border: 3px solid $green
-			padding: 10px 3px
-			margin-left: -(image-width("assets/check-mobile.png")*.8)
-			display: inline-block
-			background-color: white
-			i
-				@include assign-sprite-background($assets)
-				@include replace-with-sprite($assets,"check-mobile")
-
-div.error
-	$image: image-url("textures/dash_red.png")
-	background: $image repeat left top
-	margin: 20px 0
-	+span-columns(5 omega,7)
-	margin-left: 30%
-	
-	
-	div.box
-		border: 3px solid $rose
-		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
-		
-		
-		
-		span.msg
-			text-transform: uppercase
-			font-family: "miso"
-			font-weight: 400	 
-			color: $rose
-			font-size: px-to-em(28px)
-			background-color: white
-			padding: 3px 0 0 5px
-			display: inline-block
-			margin-left: 10px
-			width: 85%
-		span.symbol
-			border: 3px solid $rose
-			padding: 10px 20px
-			margin-left: -40px
-			display: inline-block
-			background-color: white
-			i
-				@include assign-sprite-background($assets)
-				@include replace-with-sprite($assets,"exclamation-mobile")
-				
-div.notice
-	$image: image-url("textures/dash_red.png")
-	background: $image repeat left top
-	margin: 20px 0
-	+span-columns(5 omega,7)
-	margin-left: 30%
-	
-	div.box
-		border: 3px solid $rose
-		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
-		
-		
-		
-		span.msg
-			text-transform: uppercase
-			font-family: "miso"
-			font-weight: 400	 
-			color: $rose
-			font-size: px-to-em(28px)
-			background-color: white
-			padding: 3px 10px
-			display: inline-block
-			margin-left: 10px
-			
-		span.symbol
-			border: 3px solid $rose
-			padding: 10px 20px
-			margin-left: -40px
-			display: inline-block
-			background-color: white
-			i
-				@include assign-sprite-background($assets)
-				@include replace-with-sprite($assets,"exclamation-mobile")
+//.section_title
+//	font-family: "miso"
+//	font-weight: 200	
+//	text-transform: uppercase
+//	color: $black
+//	font-size: px-to-em(17px,16px)
+//	line-height: px-to-em(16px,17px)
+//	span
+//		font-size: px-to-em(19px,17px)
+//		line-height: px-to-em(18px,17px)	
+//
+//.noindent 
+//	padding: 0
+//	margin: 0
+//
+//.borded
+//	border: 1px $blue solid
+//
+//.hover
+//	&:hover
+//		color: $purple
+//		background-color: $acqua
+//		
+//i
+//	font-style: italic
+//	font-family: "source sans pro"
+//	text-transform: none
+//	
+//.spined
+//	$image: image-url("textures/spined.png")
+//	background: $image repeat-x left top
+//	
+//.arrow
+//	@include assign-sprite-background($assets)
+//	@include float-left
+//	margin-right: 15px
+//
+//.pointer
+//	cursor: pointer
+//
+//
+//
+//div.success
+//	$image: image-url("textures/dash_green.png")
+//	background: $image repeat left top
+//	margin: 20px 0
+//	+span-columns(5 omega,7)
+//	margin-left: 30%
+//	
+//	div.box
+//		border: 3px solid $green
+//		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+//		
+//		
+//		
+//		span.msg
+//			text-transform: uppercase
+//			font-family: "miso"
+//			font-weight: 400	 
+//			color: $green
+//			font-size: px-to-em(28px)
+//			background-color: white
+//			padding: 3px 10px
+//			display: inline-block
+//			margin-left: 10px
+//			width: 85%
+//		span.symbol
+//			border: 3px solid $green
+//			padding: 10px 3px
+//			margin-left: -(image-width("assets/check-mobile.png")*.8)
+//			display: inline-block
+//			background-color: white
+//			i
+//				@include assign-sprite-background($assets)
+//				@include replace-with-sprite($assets,"check-mobile")
+//
+//div.error
+//	$image: image-url("textures/dash_red.png")
+//	background: $image repeat left top
+//	margin: 20px 0
+//	+span-columns(5 omega,7)
+//	margin-left: 30%
+//	
+//	
+//	div.box
+//		border: 3px solid $rose
+//		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+//		
+//		
+//		
+//		span.msg
+//			text-transform: uppercase
+//			font-family: "miso"
+//			font-weight: 400	 
+//			color: $rose
+//			font-size: px-to-em(28px)
+//			background-color: white
+//			padding: 3px 0 0 5px
+//			display: inline-block
+//			margin-left: 10px
+//			width: 85%
+//		span.symbol
+//			border: 3px solid $rose
+//			padding: 10px 20px
+//			margin-left: -40px
+//			display: inline-block
+//			background-color: white
+//			i
+//				@include assign-sprite-background($assets)
+//				@include replace-with-sprite($assets,"exclamation-mobile")
+//				
+//div.notice
+//	$image: image-url("textures/dash_red.png")
+//	background: $image repeat left top
+//	margin: 20px 0
+//	+span-columns(5 omega,7)
+//	margin-left: 30%
+//	
+//	div.box
+//		border: 3px solid $rose
+//		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+//		
+//		
+//		
+//		span.msg
+//			text-transform: uppercase
+//			font-family: "miso"
+//			font-weight: 400	 
+//			color: $rose
+//			font-size: px-to-em(28px)
+//			background-color: white
+//			padding: 3px 10px
+//			display: inline-block
+//			margin-left: 10px
+//			
+//		span.symbol
+//			border: 3px solid $rose
+//			padding: 10px 20px
+//			margin-left: -40px
+//			display: inline-block
+//			background-color: white
+//			i
+//				@include assign-sprite-background($assets)
+//				@include replace-with-sprite($assets,"exclamation-mobile")
 				
 			
