@@ -71,7 +71,7 @@ i
 		@include assign-sprite-background($assets)
 		@include replace-with-sprite($assets,"button_corner_left")
 	.corner_right
-		right: -4px
+		right: -3px
 		position: relative
 		z-index: 9
 		float: right
@@ -582,23 +582,6 @@ section.page
 					color: black
 					@extend .hover !optional
 
-	.buttons
-		input, a
-			//background-color: $yellow
-			//color: $black
-			//border: 2px solid $blue
-			//margin-top: 4px	
-			//text-transform: uppercase !important
-			//font-family: "miso"
-			//font-weight: 200 !important
-			//text-decoration: none
-			//margin-bottom: 10px
-			//font-size: px-to-em(21px) !important
-			//line-height: px-to-em(19px,21px) !important
-			//padding: 5px 10px 5px 10px
-		input:hover, a:hover
-			//text-decoration: underline
-			//background-color: yellow
 			
 	#mailing-list, #think, #submit-project, #publish, #faq
 		h2
@@ -632,6 +615,23 @@ section.page
 				
 				
 	#mailing-list
+		#mail_submit
+			background-color: $yellow
+			border: none
+			padding: 4px 10px
+			border: 1px solid white
+			outline: 2px solid $blue
+			color: $black
+			text-transform: uppercase !important
+			font-family: "miso"
+			font-weight: 200 !important
+			text-decoration: none
+			font-size: px-to-em(21px) !important
+			line-height: px-to-em(19px,21px) !important
+			&:hover
+				text-decoration: underline
+			
+
 		a
 			span.icon
 				+assign-sprite-background($assets)
@@ -688,26 +688,7 @@ section.page
 				input::-webkit-input-placeholder
 					color: $blue
 					font-family: "source sans pro"
-		.buttons
-			input
-				//float: right
-	.buttons
-		input, a
-			//background-color: $yellow
-			//color: $black
-			//border: 2px solid $blue
-			//margin-top: 4px	
-			//text-transform: uppercase !important
-			//font-family: "miso"
-			//font-weight: 200
-			//text-decoration: none
-			//margin-bottom: 10px
-			//font-size: px-to-em(21px) !important
-			//line-height: px-to-em(19px,21px) !important
-			//padding: 5px 10px 5px 10px
-		input:hover, a:hover
-			//text-decoration: underline
-			//background-color: yellow			
+
 	#faq
 		a
 			span.icon

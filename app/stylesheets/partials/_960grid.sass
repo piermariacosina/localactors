@@ -203,6 +203,22 @@
 		hr.footer
 			@extend .borded !optional
 
+		#mailing-list, #think, #submit-project, #publish, #faq
+			h2
+				span.hl
+					span.ul
+				span.subtitle
+					background: cyan
+			#spiegazione
+				p
+					font-size: px-to-em(14px) !important
+					line-height: px-to-em(17px,14px) !important
+					letter-spacing: px-to-em(2px)
+					margin: 0 0 10px 0
+				p.i
+					margin: 0 0 20px 0 !important
+					letter-spacing: normal !important
+
 
 		#description
 			+span-columns(11, $break)
