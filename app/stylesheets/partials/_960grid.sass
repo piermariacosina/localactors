@@ -421,7 +421,9 @@
 							margin-left: -(0.5*image-width("world1.png"))
 
 			#steps
-				+span-columns(16)	
+				height: auto
+				+span-columns(16)
+				overflow: visible
 				#arrow_right
 					display: none
 				#arrow_left
@@ -487,7 +489,7 @@
 							&:hover
 								background: $yellow
 							&.selected
-								@extend .borded !optional
+								border: 2px $blue solid
 							
 							
 	

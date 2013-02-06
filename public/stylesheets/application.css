@@ -969,6 +969,7 @@ section.page #map #slides ul li img {
   left: 50%; }
 /* line 383, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps {
+  height: 86px;
   margin: 0;
   overflow: hidden;
   *zoom: 1; }
@@ -1819,7 +1820,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.12766%; }
 
   /* line 9, ../../app/stylesheets/partials/_960grid.sass */
-  .borded, section.page footer .blue, section.page footer .blue ul li .selected, section.page hr.footer, section.page #map #steps #text ul li.selected, #map #slides ul li {
+  .borded, section.page footer .blue, section.page footer .blue ul li .selected, section.page hr.footer, #map #slides ul li {
     border: 2px #001fff solid; }
 
   /* line 12, ../../app/stylesheets/partials/_960grid.sass */
@@ -2678,22 +2679,24 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: -380px; }
   /* line 423, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps {
+    height: auto;
     width: 100%;
     float: left;
-    margin-right: 2.12766%; }
-  /* line 425, ../../app/stylesheets/partials/_960grid.sass */
+    margin-right: 2.12766%;
+    overflow: visible; }
+  /* line 427, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_right {
     display: none; }
-  /* line 427, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 429, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_left {
     display: none; }
-  /* line 429, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 431, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text {
     margin-top: 5px;
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 432, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 434, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul {
     margin: 0;
     padding: 0;
@@ -2718,7 +2721,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 434, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 436, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li {
     margin: 0 !important;
     width: 23.40426%;
@@ -2746,19 +2749,19 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 438, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 440, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:first-child {
     padding-left: 4px; }
-  /* line 440, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 442, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:last-child {
     padding-right: 4px; }
-  /* line 450, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 452, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
     width: 18.18182%;
     float: left;
     margin-right: 9.09091%;
     margin-top: 20px; }
-  /* line 453, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 455, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2766,7 +2769,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3334px;
     width: 32px;
     height: 50px; }
-  /* line 458, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 460, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow2 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2774,7 +2777,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3505px;
     width: 32px;
     height: 50px; }
-  /* line 463, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 465, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow3 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2782,60 +2785,63 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3555px;
     width: 32px;
     height: 50px; }
-  /* line 469, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 471, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title {
     margin-botton: 20px;
     margin-top: 20px;
     width: 72.72727%;
     float: right;
     margin-right: 0; }
-  /* line 474, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 476, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title h4 {
     display: inline;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
     background: white; }
-  /* line 481, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 483, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title p {
     font-size: 14px;
     text-transform: uppercase;
     background: white;
     margin-top: 10px !important; }
-  /* line 487, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 489, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:hover {
     background: yellow; }
-  /* line 494, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 491, ../../app/stylesheets/partials/_960grid.sass */
+  section.page #map #steps #text ul li.selected {
+    border: 2px #001fff solid; }
+  /* line 496, ../../app/stylesheets/partials/_960grid.sass */
   section.page h1.terms {
     font-size: 2.1875em;
     font-family: "miso";
     color: #ff4874;
     text-transform: uppercase;
     font-weight: 400; }
-  /* line 503, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 505, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms a {
     color: black;
     background-color: yellow; }
-  /* line 509, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 511, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     font-family: "miso"; }
-  /* line 514, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 516, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #title {
     font-size: 2.1875em;
     color: #001fff;
     text-transform: uppercase;
     margin-top: 1.25em;
     font-weight: 400; }
-  /* line 520, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 522, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #subtitle {
     font-size: 1.875em;
     color: #ff4874;
     margin-top: 0.3125em;
     font-weight: 400; }
-  /* line 525, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 527, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section p {
     color: black;
     font-family: "source sans pro";
@@ -2844,7 +2850,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.63158%;
     font-size: 0.9375em;
     line-height: 1.125em; }
-  /* line 531, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 533, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol {
     font-family: "source sans pro";
     color: #001fff;
@@ -2854,11 +2860,11 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 6.38298%;
     font-size: 0.9375em;
     line-height: 1.25em; }
-  /* line 538, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 540, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol li {
     margin-bottom: 10px; } }
 @media (min-width: 66.25em) {
-  /* line 542, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 544, ../../app/stylesheets/partials/_960grid.sass */
   section.page {
     margin-left: 11.32075%; } }
 /* line 1, ../../app/stylesheets/partials/_map.sass */
