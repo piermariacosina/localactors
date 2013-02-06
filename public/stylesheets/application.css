@@ -1902,14 +1902,14 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 0%; }
   /* line 59, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons {
-    text-align: center; }
+    text-align: center;
+    display: block;
+    clear: both; }
   /* line 63, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons a {
-    padding: 10px 20px 10px 20px; }
+    padding: 4px 10px; }
   /* line 66, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons input, section.page .buttons a {
-    width: 100%;
-    height: 35px;
     font-size: 1.25em !important; }
   /* line 70, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons a:hover {
@@ -2408,11 +2408,6 @@ section.page #submit-project .submit #icon-number3 {
     float: left;
     margin-right: 4.34783%;
     margin-left: 0%; }
-  /* line 259, ../../app/stylesheets/partials/_960grid.sass */
-  section.page #mailing-list .mailing_list form .buttons {
-    width: 21.73913%;
-    float: left;
-    margin-right: 4.34783%; }
   /* line 264, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq section {
     width: 84.21053%;
