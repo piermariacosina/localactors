@@ -9,25 +9,270 @@ $container-style: magic
 
 $break: 16
 
+body
+	-webkit-font-smoothing: antialiased
+.ul
+	text-decoration: underline
+.hl
+	background-color: $yellow
+.section_title
+	font-family: "miso"
+	font-weight: 200	
+	text-transform: uppercase
+	color: $black
+	font-size: px-to-em(17px,16px)
+	line-height: px-to-em(16px,17px)
+	span
+		font-size: px-to-em(19px,17px)
+		line-height: px-to-em(18px,17px)
+.noindent 
+	padding: 0
+	margin: 0
+
+.borded
+	border: 1px $blue solid
+
+.hover
+	&:hover
+		color: $purple
+		background-color: $acqua
+		
+i
+	font-style: italic
+	font-family: "source sans pro"
+	text-transform: none
+	
+.spined
+	$image: image-url("textures/spined.png")
+	background: $image repeat-x left top
+	
+.arrow
+	@include assign-sprite-background($assets)
+	@include float-left
+	margin-right: 15px
+	
+.button_container
+	display: block
+	overflow: visible
+	position: relative
+	clear: both
+	background: cyan
+	width: auto
+	margin-bottom: 20px
+	.corner_left
+		position: absolute
+		width: 5px
+		height: 35px
+		@include assign-sprite-background($assets)
+		@include replace-with-sprite($assets,"button_corner_left")
+	.corner_right
+		right: 0
+		position: absolute
+		width: 3px
+		height: 3px
+		@include assign-sprite-background($assets)
+		@include replace-with-sprite($assets,"button_corner_right")
+	.buttons
+		margin: 0
+	.yellow_button
+		a
+			display: inline-block
+			background: $yellow
+			border: 1px solid white
+			outline: 2px solid $blue
+			
+			color: $black
+			margin-top: 4px	
+			text-transform: uppercase !important
+			font-family: "miso"
+			font-weight: 200 !important
+			text-decoration: none
+			font-size: px-to-em(21px) !important
+			line-height: px-to-em(19px,21px) !important
+			padding: 5px 10px 5px 10px
+
+.pointer
+	cursor: pointer
+div.success
+	$image: image-url("textures/dash_green.png")
+	background: $image repeat left top
+	margin: 20px 0
+	+span-columns(5 omega,7)
+	margin-left: 30%
+	div.box
+		border: 3px solid $green
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $green
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 10px
+			display: inline-block
+			margin-left: 10px
+			width: 85%
+		span.symbol
+			border: 3px solid $green
+			padding: 10px 3px
+			margin-left: -(image-width("assets/check-mobile.png")*.8)
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"check-mobile")
+div.error
+	$image: image-url("textures/dash_red.png")
+	background: $image repeat left top
+	margin: 20px 0
+	+span-columns(5 omega,7)
+	margin-left: 30%
+	div.box
+		border: 3px solid $rose
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $rose
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 0 0 5px
+			display: inline-block
+			margin-left: 10px
+			width: 85%
+		span.symbol
+			border: 3px solid $rose
+			padding: 10px 20px
+			margin-left: -40px
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"exclamation-mobile")
+div.notice
+	$image: image-url("textures/dash_red.png")
+	background: $image repeat left top
+	margin: 20px 0
+	+span-columns(5 omega,7)
+	margin-left: 30%
+	div.box
+		border: 3px solid $rose
+		padding: px-to-em(10px) px-to-em(30px) px-to-em(10px) 0
+		span.msg
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400	 
+			color: $rose
+			font-size: px-to-em(28px)
+			background-color: white
+			padding: 3px 10px
+			display: inline-block
+			margin-left: 10px
+		span.symbol
+			border: 3px solid $rose
+			padding: 10px 20px
+			margin-left: -40px
+			display: inline-block
+			background-color: white
+			i
+				@include assign-sprite-background($assets)
+				@include replace-with-sprite($assets,"exclamation-mobile")
+
 section.page
 	+susy-grid-background
 	+pre(1)
 	+container($total-columns, $break)
 	margin-left: 0
+	#description
+		+hyphenation
 	
 	header
+		@include clearfix
 		margin-top: $grid-padding
-		.logo_text
-			margin: 0 !important
-		.navigation
+		#logo
+			@include clearfix
+			@include float-left
+			@include logo($assets,"mobile")
+			.logo_text
+				margin: 0 !important
+		#number
+			height: 50px
+			width: 75px
+			background-color: $blue
+			@include float-left
+			margin: 10px
+		nav.navigation
 			margin: 15px 0 !important
 			padding: 0
 			background: grey
+			clear: both
+			@extend .full !optional
+			display: block
+			+padding-leader(1)
 			ul
+				+horizontal-list-container
 				li
+					+horizontal-list-item(14px)
+					background: image-url("assets/dashed.png") repeat-y right top
+					min-height: rhythm(1,13px)   
+					width: columns(2)
+					margin-top: 4px
+					&:last-child
+						background: none
+					&.nopadding
+						padding-left: 0
 					a
+						@extend .hover !optional
+						font-family: "miso"
+						color: $black
+						background-color: $yellow
+						font-size: px-to-em(12px)
+						line-height: px-to-em(13px,12px)
+						letter-spacing: px-to-em(2px)
+						text-transform: uppercase
+						font-weight: 400
+						white-space: normal
+					.publish
+						opacity: 0.4
 		#paper
 			display: none
+			margin-top: 10px
+			@include pre(1)
+			@include float-left
+			span
+				&.pdf_icon
+					@include assign-sprite-background($assets)
+					@include replace-with-sprite($assets,"pdf_icon")
+					@include float-left
+			a
+				@extend .hover !optional
+				@include float-left
+				font-family: "miso"
+				color: $black
+				background-color: $yellow
+				font-size: 14px
+				text-transform: uppercase
+				font-weight: 400
+				margin-left: 10px
+				
+		#social
+			@include float-left
+			@include clearfix
+			.facebook
+				width: 20px
+				height: 20px
+				margin: 10px
+				@include float-left  
+				background-color: $yellow
+			.twitter
+				width: 20px
+				height: 20px
+				margin: 10px
+				@include float-left
+				background-color: $yellow
+				
 		.banner-call
 			+span-columns(7,16)
 			position: relative
@@ -232,6 +477,7 @@ section.page
 				p
 					margin: 0 0 20px 0
 	footer
+		clear: both
 		#prefooter
 			.box
 				border: 1px $blue solid			
@@ -267,29 +513,67 @@ section.page
 	
 		.blue
 			@extend .full !optional
+			clear: both
+			@extend .borded !optional
+			border-bottom: none
 			ul
+				@include horizontal-list-container
+				margin-top: 1px
+				padding: 0 10px 0 10px
+				li
+					@include horizontal-list-item
+					font-family: "miso"
+					font-weight: 400       
+					color: $blue
+					font-size: px-to-em(14px)
+					text-transform: uppercase
+					margin-top: 3px
+					p
+						display: inline
+						color: $blue
+					a
+						background-color: yellow
+						color: black
+						@extend .hover !optional
+					.selected
+						@extend .borded !optional
 				li.nline
 					width: columns($total-columns)
 				li.nopadding
 					padding-left: 0
+			.rights
+				font-size: px-to-em(13px)
+				line-height: px-to-em(16px)
+				clear: both
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				text-transform: uppercase
+				margin: 3px 10px 10px 10px
+				p
+					margin: 3px 0
+				a
+					background-color: yellow
+					color: black
+					@extend .hover !optional
 
 	.buttons
 		input, a
-			background-color: $yellow
-			color: $black
-			border: 2px solid $blue
-			margin-top: 4px	
-			text-transform: uppercase !important
-			font-family: "miso"
-			font-weight: 200 !important
-			text-decoration: none
-			margin-bottom: 10px
-			font-size: px-to-em(21px) !important
-			line-height: px-to-em(19px,21px) !important
-			padding: 5px 10px 5px 10px
+			//background-color: $yellow
+			//color: $black
+			//border: 2px solid $blue
+			//margin-top: 4px	
+			//text-transform: uppercase !important
+			//font-family: "miso"
+			//font-weight: 200 !important
+			//text-decoration: none
+			//margin-bottom: 10px
+			//font-size: px-to-em(21px) !important
+			//line-height: px-to-em(19px,21px) !important
+			//padding: 5px 10px 5px 10px
 		input:hover, a:hover
-			text-decoration: underline
-			background-color: yellow
+			//text-decoration: underline
+			//background-color: yellow
 			
 	#mailing-list, #think, #submit-project, #publish, #faq
 		h2
@@ -384,21 +668,21 @@ section.page
 				float: right
 	.buttons
 		input, a
-			background-color: $yellow
-			color: $black
-			border: 2px solid $blue
-			margin-top: 4px	
-			text-transform: uppercase !important
-			font-family: "miso"
-			font-weight: 200
-			text-decoration: none
-			margin-bottom: 10px
-			font-size: px-to-em(21px) !important
-			line-height: px-to-em(19px,21px) !important
-			padding: 5px 10px 5px 10px
+			//background-color: $yellow
+			//color: $black
+			//border: 2px solid $blue
+			//margin-top: 4px	
+			//text-transform: uppercase !important
+			//font-family: "miso"
+			//font-weight: 200
+			//text-decoration: none
+			//margin-bottom: 10px
+			//font-size: px-to-em(21px) !important
+			//line-height: px-to-em(19px,21px) !important
+			//padding: 5px 10px 5px 10px
 		input:hover, a:hover
-			text-decoration: underline
-			background-color: yellow			
+			//text-decoration: underline
+			//background-color: yellow			
 	#faq
 		a
 			span.icon
@@ -594,6 +878,10 @@ section.page
 		+span-columns($total-columns)
 		ul
 			@extend .noindent !optional
+			
+	hr.footer
+		border-top: 1px $blue solid
+		margin-top: 0px
 
 +at-breakpoint(10)
 	section.page
