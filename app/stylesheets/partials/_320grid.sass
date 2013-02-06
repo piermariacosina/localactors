@@ -55,13 +55,14 @@ i
 	clear: both	
 .button_container
 	+pre(2)
-	display: block
+	display: inline-block
 	position: relative
-	background: cyan
+	$image: image-url("textures/button_middle_bg.png")
+	background: $image repeat-x left top
 	width: auto
 	height: 35px
 	margin-bottom: 20px
-	@include clearfix
+	overflow: visible
 	.corner_left
 		position: absolute
 		z-index: 10
@@ -70,7 +71,7 @@ i
 		@include assign-sprite-background($assets)
 		@include replace-with-sprite($assets,"button_corner_left")
 	.corner_right
-		right: 0
+		right: -4px
 		position: relative
 		z-index: 9
 		float: right
@@ -84,7 +85,7 @@ i
 		position: relative
 		float: left
 		top: 5px
-		left: 6px
+		left: 5px
 		a
 			position: relative
 			display: inline-block
@@ -101,6 +102,10 @@ i
 			line-height: px-to-em(19px,21px) !important
 			padding: 4px 10px
 .button_container:hover
+	.yellow_button
+		a 
+			text-decoration: underline
+.button_container:active
 	.corner_left
 		display: none
 	.corner_right
@@ -108,8 +113,6 @@ i
 	.yellow_button
 		top: 2px
 		left: 2px
-		a 
-			text-decoration: underline
 			
 			
 
