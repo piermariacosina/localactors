@@ -274,24 +274,14 @@
 						+pre(0)	
 					.buttons
 						//+span-columns(2,8)
-					
-			
+							
+		
 		#faq
 			section
 				+span-columns(11,13)
 			ul.questions
 				float: left
-				+pre(4)	
-			a
-				span.icon
-					+assign-sprite-background($assets)
-					+sprite($assets, "icon_question", true)
-					&:hover
-						+sprite($assets, "icon_question_hover", true)
-						+span-columns(3,$break)
-		
-		#faq
-			ul.questions
+				+pre(4)
 				li
 					h3
 						font-size: px-to-em(16px)
@@ -302,6 +292,13 @@
 					p
 						font-size: px-to-em(16px)
 						line-height: px-to-em(20px,16px)
+			a
+				span.icon
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_question", true)
+					&:hover
+						+sprite($assets, "icon_question_hover", true)
+						+span-columns(3,$break)
 						
 		
 		#think,#publish
