@@ -54,6 +54,19 @@
 				i
 					@include assign-sprite-background($assets)
 					@include replace-with-sprite($assets,"exclamation")
+	
+	.button_container
+		margin-top: 10px
+		
+	.faq
+		.button_container
+			+pre(3,11)
+	.think
+		.button_container
+			+pre(0)
+	.mailing-list
+		.button_container
+			+pre(0,11)
 		
 	section.page
 		+susy-grid-background
