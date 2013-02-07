@@ -304,65 +304,66 @@ section.page
 				@include float-left
 				background-color: $yellow
 				
-		.banner-call
-			+span-columns(7,16)
-			position: relative
-			padding: 16px
-			margin-top: 40px
+		.banner-container
 			display: none
-			.border1, .border2
-				width: 370px
-				height: 130px
-				border: 2px solid $blue
-				background: white
-				position: absolute
-			.border1
-				top: -3px
-				left: -3px
-			.border2
-				top: 0
-				left: 0
-			.bg-dash
-				width: 340px
-				height: 140px
-				$image: image-url("textures/dash_blue.png")
-				background: $image repeat left top
-				position: absolute
-				top: -20px
-				left: -20px
-			.bg-white
-				width: 330px
-				height: 95px
-				background: white
-				position: absolute
-				top: 10px
-				left: 10px
-			.icon
-				width: 101px
-				height: 67px
-				+assign-sprite-background($assets)
-				+sprite($assets, "icon_call4projects", true)
-				position: absolute
-				z-index: 12
-				top: -31px
-				right: 72px
-			a
-				+span-columns(10,16)
-				font-family: "miso"
-				color: $black
-				background-color: $yellow
-				font-size: px-to-em(30px)
-				line-height: px-to-em(32px,30px)
-				letter-spacing: px-to-em(2px)
-				text-transform: uppercase
-				font-weight: 200
-				white-space: normal
-				text-decoration: underline
-				z-index: 9
+			.banner-call
+				+span-columns(7,16)
 				position: relative
-			a:hover
-				color: $purple
-				background-color: $acqua
+				padding: 16px
+				margin-top: 40px
+				.border1, .border2
+					width: 370px
+					height: 130px
+					border: 2px solid $blue
+					background: white
+					position: absolute
+				.border1
+					top: -3px
+					left: -3px
+				.border2
+					top: 0
+					left: 0
+				.bg-dash
+					width: 340px
+					height: 140px
+					$image: image-url("textures/dash_blue.png")
+					background: $image repeat left top
+					position: absolute
+					top: -20px
+					left: -20px
+				.bg-white
+					width: 330px
+					height: 95px
+					background: white
+					position: absolute
+					top: 10px
+					left: 10px
+				.icon
+					width: 101px
+					height: 67px
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_call4projects", true)
+					position: absolute
+					z-index: 12
+					top: -31px
+					right: 72px
+				a
+					+span-columns(10,16)
+					font-family: "miso"
+					color: $black
+					background-color: $yellow
+					font-size: px-to-em(30px)
+					line-height: px-to-em(32px,30px)
+					letter-spacing: px-to-em(2px)
+					text-transform: uppercase
+					font-weight: 200
+					white-space: normal
+					text-decoration: underline
+					z-index: 9
+					position: relative
+				a:hover
+					color: $purple
+					background-color: $acqua
 	
 
 	h1.vision
@@ -376,6 +377,7 @@ section.page
 		margin: 20px 0
 
 	#map
+		padding: 0
 		@extend .full !optional
 		#slides
 			ul
@@ -434,72 +436,76 @@ section.page
 								line-height: px-to-em(17px,19px)
 								letter-spacing: px-to-em(1.6px)
 								margin-bottom: 3px
-
-	.banner-call
-		+span-columns(5,7)
-		+pre(1)
-		position: relative
-		padding: 16px
-		margin-top: 60px
-		margin-bottom: 40px
-		ul
-			li
-				display: none
-		.border1, .border2
-			width: 270px
-			height: 130px
-			border: 2px solid $blue
-			background: white
-			position: absolute
-		.border1
-			top: -3px
-			left: -3px
-		.border2
-			top: 0
-			left: 0
-		.bg-dash
-			width: 240px
-			height: 140px
-			$image: image-url("textures/dash_blue.png")
-			background: $image repeat left top
-			position: absolute
-			top: -20px
-			left: -20px
-		.bg-white
-			width: 230px
-			height: 95px
-			background: white
-			position: absolute
-			top: 10px
-			left: 10px
-		.icon
-			width: 101px
-			height: 67px
-			+assign-sprite-background($assets)
-			+sprite($assets, "icon_call4projects", true)
-			position: absolute
-			z-index: 12
-			top: -31px
-			right: 0
-		a
+								
+								
+	.banner-container
+		height: 240px
+		.banner-call
 			+span-columns(5,7)
-			font-family: "miso"
-			color: $black
-			background-color: $yellow
-			font-size: px-to-em(24px)
-			line-height: px-to-em(26px,24px)
-			letter-spacing: px-to-em(2px)
-			text-transform: uppercase
-			font-weight: 200
-			white-space: normal
-			text-decoration: underline
-			z-index: 9
+			+pre(1)
 			position: relative
-		a:hover
-			color: $purple
-			background-color: $acqua
+			padding: 16px
+			margin-top: 60px
+			margin-bottom: 40px
+			ul
+				li
+					display: none
+			.border1, .border2
+				width: 270px
+				height: 130px
+				border: 2px solid $blue
+				background: white
+				position: absolute
+			.border1
+				top: -3px
+				left: -3px
+			.border2
+				top: 0
+				left: 0
+			.bg-dash
+				width: 240px
+				height: 140px
+				$image: image-url("textures/dash_blue.png")
+				background: $image repeat left top
+				position: absolute
+				top: -20px
+				left: -20px
+			.bg-white
+				width: 230px
+				height: 95px
+				background: white
+				position: absolute
+				top: 10px
+				left: 10px
+			.icon
+				width: 101px
+				height: 67px
+				+assign-sprite-background($assets)
+				+sprite($assets, "icon_call4projects", true)
+				position: absolute
+				z-index: 12
+				top: -31px
+				right: 0
+			a
+				+span-columns(5,7)
+				font-family: "miso"
+				color: $black
+				background-color: $yellow
+				font-size: px-to-em(24px)
+				line-height: px-to-em(26px,24px)
+				letter-spacing: px-to-em(2px)
+				text-transform: uppercase
+				font-weight: 200
+				white-space: normal
+				text-decoration: underline
+				z-index: 9
+				position: relative
+			a:hover
+				color: $purple
+				background-color: $acqua
 			
 	#explanation
+		padding-top: 10px
 		ul
 			li
 				h2
