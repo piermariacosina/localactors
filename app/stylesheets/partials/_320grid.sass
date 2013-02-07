@@ -230,44 +230,39 @@ section.page
 			@include float-left
 			margin: 10px
 		nav.navigation
-			//margin: 15px 0 !important
 			padding: 0
-			background: grey
 			clear: both
-			//@extend .full !optional
 			display: block
-			//+padding-leader(1)
 			ul
-				//+horizontal-list-container
 				list-style-type: none
+				position: relative
+				float: left
 				margin: 0
 				padding: 0
+				width: 33%
+				&:first-child
+					li 
+						padding: 0 10px 0 0
+				&:last-child
+					li 
+						background: none
 				li
-					//+horizontal-list-item(14px)
 					background: image-url("assets/dashed.png") repeat-y right top
-					//min-height: rhythm(1,13px)   
-					width: columns(2)
-					padding: 0 !important
-					margin: 0 !important
-					//margin-top: 4px
-					&:last-child
-						//background: none
-					&.nopadding
-						padding-left: 0
+					padding: 0 10px
+					margin: 0
 					a
-						margin: 0 !important
-						padding: 0 !important
+						margin: 0
+						padding: 0
 						@extend .hover !optional
 						display: inline-block
 						font-family: "miso"
 						color: $black
 						background-color: $yellow
-						font-size: px-to-em(12px) !important
-						line-height: px-to-em(13px,12px) !important
+						font-size: px-to-em(12px)
+						line-height: px-to-em(13px,12px)
 						letter-spacing: px-to-em(2px)
 						text-transform: uppercase
 						font-weight: 400
-						white-space: normal
 					.publish
 						opacity: 0.4
 		#paper
