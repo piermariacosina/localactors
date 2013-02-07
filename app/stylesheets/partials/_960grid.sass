@@ -7,6 +7,7 @@
 	.wide
 		+span-columns(13, $break)
 	.borded
+		//@include border-box-sizing()
 		border: 2px $blue solid
 	
 	.icon
@@ -101,7 +102,7 @@
 				position: relative
 				padding: 16px
 				margin-top: 40px
-				+span-columns(7,16)
+				+span-columns(7 omega,16)
 				display: inline
 				.border1, .border2
 					width: 370px
