@@ -77,7 +77,11 @@
 			overflow: visible
 			#logo
 				+logo($assets,"web")
+				position: absolute
 			nav.navigation
+				position: relative
+				top: 25px
+				+pre(6)
 				ul
 					float: none
 					li
@@ -87,29 +91,7 @@
 							display: inline-block
 							font-size: px-to-em(14px)
 							line-height: px-to-em(17px,14px)
-				
-				
-				
-				
-				
-			//nav.navigation
-				//+pre(3)
-				//clear: none
-				//float: left
-				//padding-top: 0
-				//ul
-					//li 
-						//margin-top: 0px
-						//display: block
-						//float: none
-						//background: none
-						//width: 100%
-						//min-height: px-to-em(20px)
-						//padding-left: 0
-						//a
-							//@extend .hover !optional
-							//font-size: px-to-em(14px)
-							//font-weight: 400
+							
 			#paper
 				display: block
 				margin-top: 0
