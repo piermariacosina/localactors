@@ -78,7 +78,9 @@
 			+span-columns(8,13)
 			position: relative
 			float: left
-			//border-right: 1px dashed $blue
+			padding-right: 10px
+			margin-right: 10px
+			border-right: 1px dashed $blue
 			h1.title-project, h2.subtitle
 				margin: 0
 				font-family: "miso"
@@ -100,6 +102,16 @@
 				font-size: px-to-em(36px)
 				line-height: px-to-em(35px,36px)
 				text-indent: 20px
+			p 
+				font-family: "source sans pro"
+				font-weight: 400
+				color: $purple
+				font-size: px-to-em(15px)
+				line-height: px-to-em(20px,15px)
+				margin-top: 8px
+				margin-bottom: 13px
+				&:last-child
+					margin-bottom: 25px
 		.container-right
 			margin-left: -12px
 			padding-left: 10px
@@ -119,7 +131,7 @@
 				text-transform: uppercase
 				span
 					color: $rose
-			p
+			p, ul
 				font-family: "source sans pro"
 				font-weight: 400
 				color: $purple
@@ -129,6 +141,17 @@
 				margin-bottom: 5px
 				&:last-child
 					margin-bottom: 25px
+			ul
+				padding: 0
+				list-style-type: none
+				li 
+					margin-bottom: 5px
+					span
+						color: $rose
+						font-weight: 800
+						font-size: px-to-em(20px,12px)
+						padding-right: 3px
+					
 	
 	
 	
