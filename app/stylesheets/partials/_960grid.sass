@@ -81,27 +81,46 @@
 			padding-right: 10px
 			margin-right: 10px
 			border-right: 1px dashed $blue
-			h1.title-project, h2.subtitle
+			h1.title, h2.subtitle
 				margin: 0
 				font-family: "miso"
 				text-transform: uppercase
 				font-weight: 400
-			h1.title-project
+			h1.title
 				margin-top: 4px
 				margin-bottom: 8px
 				font-size: px-to-em(60px)
 				line-height: px-to-em(52px,60px)
-				color: $rose					
-			.icon
+				color: $rose
+			.icon-where, .icon-time
+				float: left
+				position: relative
+				margin-top: 6px				
+			.icon-where
 				+assign-sprite-background($assets)
 				+sprite($assets, "small_icon_where", true)
-				margin-top: 6px
+			.icon-time
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_time", true)
+			ul
+				list-style-type: none
+				padding: 0
+				&:last-child
+					margin-bottom: 25px
+				li 
+					h2.subtitle
+						margin-bottom: 7px
+			
 			h2.subtitle
 				margin-bottom: 25px
 				color: $purple
 				font-size: px-to-em(36px)
 				line-height: px-to-em(35px,36px)
-				text-indent: 20px
+				text-indent: 7px
+				span
+					text-transform: none
+					font-size: px-to-em(25px,36px)
+					line-height: px-to-em(28px,25px)
 			p 
 				font-family: "source sans pro"
 				font-weight: 400
