@@ -78,6 +78,7 @@
 			+span-columns(8,13)
 			position: relative
 			float: left
+			//border-right: 1px dashed $blue
 			h1.title-project, h2.subtitle
 				margin: 0
 				font-family: "miso"
@@ -100,21 +101,34 @@
 				line-height: px-to-em(35px,36px)
 				text-indent: 20px
 		.container-right
+			margin-left: -12px
+			padding-left: 10px
 			+span-columns(5 omega,13)
 			position: relative
 			float: left
 			background: $light-yellow
+			border-left: 1px dashed $blue
 			h3
 				font-family: "source sans pro"
 				font-weight: 800
 				color: $blue
 				font-size: px-to-em(20px)
 				line-height: px-to-em(18px,20px)
+				margin-top: 8px
 				margin-bottom: 10px
 				text-transform: uppercase
 				span
-			ul
-				li 
+					color: $rose
+			p
+				font-family: "source sans pro"
+				font-weight: 400
+				color: $purple
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px)
+				margin: 0
+				margin-bottom: 5px
+				&:last-child
+					margin-bottom: 25px
 	
 	
 	
