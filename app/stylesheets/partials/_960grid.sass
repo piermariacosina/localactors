@@ -69,15 +69,19 @@
 			+pre(0,11)
 	
 	
+	
+	
+	
 	.guidelines-container
 		+span-columns(13,16)
 		$image: image-url("textures/dash_blue.png")
 		border-top: 1px dashed $blue
-		border-bottom: 1px dashed $blue
+		//border-bottom: 1px dashed $blue
 		.container-left
 			+span-columns(8,13)
 			position: relative
 			float: left
+			z-index: -2
 			padding-right: 10px
 			margin-right: 10px
 			border-right: 1px dashed $blue
@@ -92,7 +96,7 @@
 				font-size: px-to-em(60px)
 				line-height: px-to-em(52px,60px)
 				color: $rose
-			.icon-where, .icon-time
+			.icon-where, .icon-time, .icon-cost
 				float: left
 				position: relative
 				margin-top: 6px				
@@ -102,15 +106,23 @@
 			.icon-time
 				+assign-sprite-background($assets)
 				+sprite($assets, "small_icon_time", true)
+			.icon-cost
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_cost", true)
 			ul
 				list-style-type: none
 				padding: 0
+				padding-top: 10px
 				&:last-child
 					margin-bottom: 25px
 				li 
 					h2.subtitle
 						margin-bottom: 7px
-			
+				li.cost
+					h2.subtitle
+						text-decoration: underline
+					.total
+						color: $rose
 			h2.subtitle
 				margin-bottom: 25px
 				color: $purple
@@ -136,6 +148,7 @@
 			padding-left: 10px
 			+span-columns(5 omega,13)
 			position: relative
+			z-index: -1
 			float: left
 			background: $light-yellow
 			border-left: 1px dashed $blue
@@ -171,6 +184,7 @@
 						font-size: px-to-em(20px,12px)
 						padding-right: 3px
 					
+	
 	
 	
 	
