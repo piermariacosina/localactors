@@ -62,13 +62,13 @@ class Localactors < Padrino::Application
   end
   
   
-  get '/call_for_projects' do
+  get '/callforprojects' do
     #c = CockpitoDataSender.new
     #c.increment('localactors.callforproject', 1)
     render "call_for_projects"
   end
    
-  get '/our_approach' do
+  get '/ourapproach' do
     #c = CockpitoDataSender.new
     #c.increment('localactors.whoweare', 1)
     render "our_approach"

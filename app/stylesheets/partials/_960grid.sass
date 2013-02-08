@@ -67,6 +67,57 @@
 	.mailing-list
 		.button_container
 			+pre(0,11)
+	
+	
+	.guidelines-container
+		+span-columns(13,16)
+		$image: image-url("textures/dash_blue.png")
+		border-top: 1px dashed $blue
+		border-bottom: 1px dashed $blue
+		.container-left
+			+span-columns(8,13)
+			position: relative
+			float: left
+			h1.title-project, h2.subtitle
+				margin: 0
+				font-family: "miso"
+				text-transform: uppercase
+				font-weight: 400
+			h1.title-project
+				margin-top: 4px
+				margin-bottom: 8px
+				font-size: px-to-em(60px)
+				line-height: px-to-em(52px,60px)
+				color: $rose					
+			.icon
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_where", true)
+				margin-top: 6px
+			h2.subtitle
+				margin-bottom: 25px
+				color: $purple
+				font-size: px-to-em(36px)
+				line-height: px-to-em(35px,36px)
+				text-indent: 20px
+		.container-right
+			+span-columns(5 omega,13)
+			position: relative
+			float: left
+			background: $light-yellow
+			h3
+				font-family: "source sans pro"
+				font-weight: 800
+				color: $blue
+				font-size: px-to-em(20px)
+				line-height: px-to-em(18px,20px)
+				margin-bottom: 10px
+				text-transform: uppercase
+				span
+			ul
+				li 
+	
+	
+	
 		
 	section.page
 		+susy-grid-background

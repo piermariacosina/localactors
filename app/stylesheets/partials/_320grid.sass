@@ -512,6 +512,7 @@ section.page
 		ul
 			li
 				h2
+					font-weight: 800
 					margin-top: 0
 					margin-bottom: 10px
 				p
@@ -559,10 +560,13 @@ section.page
 			clear: both
 			@extend .borded !optional
 			border-bottom: none
+			letter-spacing: px-to-em(1px)
+			
 			ul
 				@include horizontal-list-container
-				margin-top: 1px
+				margin-top: 3px
 				padding: 0 10px 0 10px
+				margin-bottom: 10px
 				li
 					@include horizontal-list-item
 					font-family: "miso"
@@ -594,7 +598,7 @@ section.page
 				text-transform: uppercase
 				margin: 3px 10px 10px 10px
 				p
-					margin: 3px 0
+					margin: 7px 0
 				a
 					background-color: yellow
 					color: black
