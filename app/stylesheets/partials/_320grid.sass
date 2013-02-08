@@ -440,6 +440,7 @@ section.page
 								
 	.banner-container
 		height: 240px
+		margin-top: -25px
 		.banner-call
 			+span-columns(5,7)
 			+pre(1)
@@ -448,6 +449,8 @@ section.page
 			margin-top: 60px
 			margin-bottom: 40px
 			ul
+				padding: 0 0 0 10px
+				margin: 7px 0 0 0
 				li
 					display: none
 			.border1, .border2
@@ -517,6 +520,7 @@ section.page
 		clear: both
 		#prefooter
 			.box
+				margin: 10px 0
 				border: 1px $blue solid			
 				color: $blue
 				font-family: "miso"
@@ -524,6 +528,8 @@ section.page
 				padding-right: 20px
 				padding-left: 20px
 			.local
+				@include clearfix
+				margin-bottom: 10px
 				.number
 					+logo($assets,"mobile")
 					+clearfix

@@ -109,7 +109,13 @@
 				display: block
 				margin-top: 0
 			.banner-container
-				display: visible !important
+				float: right
+				display: block
+				position: relative
+				top: -181px
+				right: 324px
+				margin-bottom: -220px
+				margin-top: 0
 				.banner-call
 					position: relative
 					padding: 16px
@@ -151,7 +157,7 @@
 						position: absolute
 						z-index: 12
 						top: -31px
-						right: 72px
+						left: 255px
 					a
 						+span-columns(10,16)
 						font-family: "miso"
@@ -185,6 +191,7 @@
 					padding-right: 20px
 					padding-left: 20px
 				.local
+					margin-bottom: 0
 					border-left: 1px $blue dashed
 					width: 50%
 					+float-right						
@@ -221,7 +228,6 @@
 				span.hl
 					span.ul
 				span.subtitle
-					background: cyan
 			#spiegazione
 				p
 					font-size: px-to-em(14px) !important
