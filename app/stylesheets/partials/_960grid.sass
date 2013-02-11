@@ -72,16 +72,62 @@
 	
 
 	.call
+		overflow: visible
 		+span-columns(11, $break)
-		margin-top: 40px
+		margin-top: 20px
 		margin-bottom: 20px
 		padding-top: 0
 		.button_container
 			margin: 0
 		.call-container
 			margin-bottom: 15px
+			position: relative
+			
+			#icon-top
+				position: absolute
+				top: -20px
+				right: -116px
+				width: 318px
+				height: 80px
+				$image: image-url("textures/dash_red.png")
+				background: $image repeat left top
+				.icon-call
+					position: relative
+					float: left
+					top: -5px
+					left: 40px
+					width: 101px
+					height: 67px
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_call4projects", true)
+					z-index: 1
+				.icon-top-bg, .icon-top-bg2
+					position: relative
+					background: white
+				.icon-top-bg
+					top: 9px
+					left: 30px
+					width: 300px
+					height: 28px
+				.icon-top-bg2
+					top: 24px
+					left: 30px
+					width: 200px
+					height: 110px
+			.icon-bg
+				position: absolute
+				top: 21px
+				right: -49px
+				width: 322px
+				height: 135px
+				$image: image-url("textures/dash_green.png")
+				background: $image repeat left top
+
+					
 			h1, h2, p
 				font-family: "source sans pro"
+				position: relative
+				z-index: 6
 			h1, h2
 				font-weight: 800
 				text-transform: uppercase
@@ -93,6 +139,8 @@
 				margin: 20px 0 40px 0
 				border-top: 1px dashed $blue
 				padding-top: 5px
+				position: relative
+				z-index: 2
 			h2
 				color: $rose
 				font-size: px-to-em(24px)
