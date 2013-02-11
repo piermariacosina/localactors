@@ -341,6 +341,7 @@
 		+pre(0)
 		header
 			overflow: visible
+			+span-columns(16)
 			#logo
 				+logo($assets,"web")
 				position: absolute
@@ -348,12 +349,15 @@
 				position: relative
 				top: 25px
 				+pre(6)
+				+span-columns(3,16)
 				ul
 					float: none
+					+span-columns(3 omega,3)
 					li
 						background: none
 						padding: 0
 						a
+							+span-columns(3 omega,3)
 							display: inline-block
 							font-size: px-to-em(14px)
 							line-height: px-to-em(17px,14px)
@@ -362,18 +366,14 @@
 				display: block
 				margin-top: 0
 			.banner-container
-				float: right
-				display: block
-				position: relative
-				top: -181px
-				right: 324px
-				margin-bottom: -220px
-				margin-top: 0
+				+span-columns(7 omega,16)
+				margin-top: -10px
 				.banner-call
 					position: relative
 					padding: 16px
 					margin-top: 40px
-					+span-columns(7 omega,16)
+					+span-columns(7,7)
+					margin-left: 20px
 					display: inline
 					.border1, .border2
 						width: 370px
@@ -411,8 +411,10 @@
 						z-index: 12
 						top: -31px
 						left: 255px
+					ul
+						+no-bullets
 					a
-						+span-columns(10,16)
+						+span-columns(4,7)
 						font-family: "miso"
 						color: $black
 						background-color: $yellow

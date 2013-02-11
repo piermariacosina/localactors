@@ -304,67 +304,7 @@ section.page
 				@include float-left
 				background-color: $yellow
 				
-		.banner-container
-			display: none
-			.banner-call
-				+span-columns(7,16)
-				position: relative
-				padding: 16px
-				margin-top: 40px
-				.border1, .border2
-					width: 370px
-					height: 130px
-					border: 2px solid $blue
-					background: white
-					position: absolute
-				.border1
-					top: -3px
-					left: -3px
-				.border2
-					top: 0
-					left: 0
-				.bg-dash
-					width: 340px
-					height: 140px
-					$image: image-url("textures/dash_blue.png")
-					background: $image repeat left top
-					position: absolute
-					top: -20px
-					left: -20px
-				.bg-white
-					width: 330px
-					height: 95px
-					background: white
-					position: absolute
-					top: 10px
-					left: 10px
-				.icon
-					width: 101px
-					height: 67px
-					+assign-sprite-background($assets)
-					+sprite($assets, "icon_call4projects", true)
-					position: absolute
-					z-index: 12
-					top: -31px
-					right: 72px
-				a
-					+span-columns(10,16)
-					font-family: "miso"
-					color: $black
-					background-color: $yellow
-					font-size: px-to-em(30px)
-					line-height: px-to-em(32px,30px)
-					letter-spacing: px-to-em(2px)
-					text-transform: uppercase
-					font-weight: 200
-					white-space: normal
-					text-decoration: underline
-					z-index: 9
-					position: relative
-				a:hover
-					color: $purple
-					background-color: $acqua
-	
+			
 
 	h1.vision
 		+leader(1)
@@ -439,7 +379,7 @@ section.page
 								
 								
 	.banner-container
-		height: 240px
+		height: 175px
 		margin-top: -25px
 		.banner-call
 			+span-columns(5,7)
@@ -451,6 +391,7 @@ section.page
 			ul
 				padding: 0 0 0 10px
 				margin: 7px 0 0 0
+				+no-bullets
 				li
 					display: none
 			.border1, .border2
