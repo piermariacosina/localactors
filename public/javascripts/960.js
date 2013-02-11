@@ -1,6 +1,24 @@
+var i=0;
+function changeLanguage (arLanguages)
+{
+	$(arLanguages).hide();
+	if(arLanguages.length == i){
+		i=0;
+	};
+	var item = arLanguages[i];
+	$(item).fadeIn();
+	i++;
+}
+
 $(document).ready(function() {
 	$( "#sections_accordion" ).accordion({ header: "header", collapsible: true, heightStyle: "content", active: false  });
 	$( "#faq_accordion" ).accordion({ header: "h3", collapsible: true, heightStyle: "content", active: false  });
+
+	var objLanguages =  $('.banner-container .banner-call ul li');
+
+	var arLanguages = $.makeArray(objLanguages);
+	changeLanguage (arLanguages);
+	setInterval (function() { changeLanguage(arLanguages)}, 3000 );
 
 	var step1 = $( "li.step1" );
 	var step2 = $( "li.step2" );

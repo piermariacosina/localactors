@@ -134,7 +134,7 @@ $(document).ready(function() {
 	var objLanguages =  $('#map .banner-call ul li')
 	var arLanguages = $.makeArray(objLanguages);
 	changeLanguage (arLanguages);
-	setInterval (function() { changeLanguage(arLanguages)}, 5000 );
+	setInterval (function() { changeLanguage(arLanguages)}, 3000 );
 	
 	
 	
