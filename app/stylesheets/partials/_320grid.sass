@@ -29,6 +29,9 @@ body
 	padding: 0
 	margin: 0
 
+.clear
+	clear: both
+
 .borded
 	//@include border-box-sizing
 	border: 1px $blue solid
@@ -51,6 +54,77 @@ i
 	@include assign-sprite-background($assets)
 	@include float-left
 	margin-right: 15px
+
+
+
+.call
+	overflow: visible
+	+span-columns(7,7)
+	margin-top: 20px
+	margin-bottom: 20px
+	padding-top: 0
+	.button_container
+		margin: 0
+	.call-container
+		margin-bottom: 15px
+		position: relative
+		.main-title
+			//+post(3)
+		h1, h2, p
+			font-family: "source sans pro"
+			position: relative
+			z-index: 6
+		h1, h2
+			font-weight: 800
+			text-transform: uppercase
+			text-decoration: underline
+		h1
+			color: $blue
+			font-size: px-to-em(30px)
+			line-height: px-to-em(28px,30px)
+			margin: 20px 0 40px 0
+			border-top: 1px dashed $blue
+			padding-top: 5px
+			position: relative
+			z-index: 2
+		h2
+			color: $rose
+			font-size: px-to-em(20px)
+			line-height: px-to-em(18px,20px)
+			margin: 0
+			margin-bottom: 10px
+		p
+			color: $purple
+			font-size: px-to-em(12px)
+			line-height: px-to-em(16px,12px)
+			margin: 0
+			margin-bottom: 20px
+		ul
+			list-style-type: circle
+			padding-left: px-to-em(35px)
+			margin: 0
+			li 
+				font-family: "source sans pro"
+				color: $purple
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px)
+		ol
+			padding-left: px-to-em(35px)
+			margin: 0
+			li 
+				font-family: "source sans pro"
+				color: $purple
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px)
+
+
+
+
+
+
+
+
+
 
 .clear-box
 	clear: both	
