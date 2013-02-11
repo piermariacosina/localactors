@@ -18,6 +18,8 @@
 		$image: image-url("textures/spined.png")
 		background: $image repeat-x left top
 		
+	.clear
+		clear: both
 		
 	div.success
 		+span-columns(8,11)
@@ -74,6 +76,8 @@
 	.last
 		$image: image-url("textures/dash_blue.png")
 		border-bottom: 1px dashed $blue
+		.icon-arrow-down
+			margin-top: 8px
 	.guidelines-container
 		+span-columns(13,16)
 		$image: image-url("textures/dash_blue.png")
@@ -81,6 +85,21 @@
 		background: $light-yellow
 		.first
 			height: 155px
+		h3
+			font-family: "source sans pro"
+			font-weight: 800
+			color: $blue
+			font-size: px-to-em(20px)
+			line-height: px-to-em(18px,20px)
+			margin-top: 8px
+			margin-bottom: 10px
+			text-transform: uppercase
+		.icon-arrow-down
+			width: 50px
+			height: 32px
+			+assign-sprite-background($assets)
+			+sprite($assets, "arrow_down", true)
+			margin-bottom: 25px
 		.container-left
 			background: white
 			+span-columns(8,13)
