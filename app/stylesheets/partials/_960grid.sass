@@ -70,39 +70,67 @@
 		.button_container
 			+pre(0,11)
 	
-	
+
 	.call
 		+span-columns(11, $break)
-		margin-top: 10px
-		margin-bottom: 10px
+		margin-top: 40px
+		margin-bottom: 20px
 		padding-top: 0
+		.button_container
+			margin: 0
 		.call-container
 			margin-bottom: 15px
-			h2, p
+			h1, h2, p
 				font-family: "source sans pro"
-			h2
-				color: $rose
+			h1, h2
 				font-weight: 800
-				font-size: px-to-em(24px)
-				line-height: px-to-em(21px,24px)
 				text-transform: uppercase
 				text-decoration: underline
+			h1
+				color: $blue
+				font-size: px-to-em(30px)
+				line-height: px-to-em(28px,30px)
+				margin: 20px 0 40px 0
+				border-top: 1px dashed $blue
+				padding-top: 5px
+			h2
+				color: $rose
+				font-size: px-to-em(24px)
+				line-height: px-to-em(21px,24px)
 				display: inline
-			p 
+			p
 				color: $purple
 				display: inline
-				margin-left: 5px
 				font-size: px-to-em(18px)
 				line-height: px-to-em(24px,18px)
+				margin-left: 5px
+			ul
+				list-style-type: circle
+				padding-left: px-to-em(35px)
+				margin: 0
+				margin-top: 15px
+				li 
+					font-family: "source sans pro"
+					color: $purple
+					font-size: px-to-em(18px)
+					line-height: px-to-em(24px,18px)
+			ol
+				padding-left: px-to-em(35px)
+				margin: 0
+				margin-top: 15px
+				li 
+					font-family: "source sans pro"
+					color: $purple
+					font-size: px-to-em(18px)
+					line-height: px-to-em(24px,18px)
+					
 	
 	.last
-		$image: image-url("textures/dash_blue.png")
 		border-bottom: 1px dashed $blue
 		.icon-arrow-down
 			margin-top: 8px
 	.guidelines-container
 		+span-columns(13,16)
-		$image: image-url("textures/dash_blue.png")
 		border-top: 1px dashed $blue
 		background: $light-yellow
 		.first

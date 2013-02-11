@@ -1935,50 +1935,86 @@ section.page #submit-project .submit #icon-number3 {
     width: 68.08511%;
     float: left;
     margin-right: 2.12766%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     padding-top: 0; }
   /* line 79, ../../app/stylesheets/partials/_960grid.sass */
+  .call .button_container {
+    margin: 0; }
+  /* line 81, ../../app/stylesheets/partials/_960grid.sass */
   .call .call-container {
     margin-bottom: 15px; }
-  /* line 81, ../../app/stylesheets/partials/_960grid.sass */
-  .call .call-container h2, .call .call-container p {
-    font-family: "source sans pro"; }
   /* line 83, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container h1, .call .call-container h2, .call .call-container p {
+    font-family: "source sans pro"; }
+  /* line 85, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container h1, .call .call-container h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline; }
+  /* line 89, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container h1 {
+    color: #001fff;
+    font-size: 1.875em;
+    line-height: 0.93333em;
+    margin: 20px 0 40px 0;
+    border-top: 1px dashed #001fff;
+    padding-top: 5px; }
+  /* line 96, ../../app/stylesheets/partials/_960grid.sass */
   .call .call-container h2 {
     color: #ff4874;
-    font-weight: 800;
     font-size: 1.5em;
     line-height: 0.875em;
-    text-transform: uppercase;
-    text-decoration: underline;
     display: inline; }
-  /* line 91, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 101, ../../app/stylesheets/partials/_960grid.sass */
   .call .call-container p {
     color: #6045ff;
     display: inline;
-    margin-left: 5px;
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    margin-left: 5px; }
+  /* line 107, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container ul {
+    list-style-type: circle;
+    padding-left: 2.1875em;
+    margin: 0;
+    margin-top: 15px; }
+  /* line 112, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container ul li {
+    font-family: "source sans pro";
+    color: #6045ff;
+    font-size: 1.125em;
+    line-height: 1.33333em; }
+  /* line 117, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container ol {
+    padding-left: 2.1875em;
+    margin: 0;
+    margin-top: 15px; }
+  /* line 121, ../../app/stylesheets/partials/_960grid.sass */
+  .call .call-container ol li {
+    font-family: "source sans pro";
+    color: #6045ff;
     font-size: 1.125em;
     line-height: 1.33333em; }
 
-  /* line 98, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 128, ../../app/stylesheets/partials/_960grid.sass */
   .last {
     border-bottom: 1px dashed #001fff; }
-  /* line 101, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 130, ../../app/stylesheets/partials/_960grid.sass */
   .last .icon-arrow-down {
     margin-top: 8px; }
 
-  /* line 103, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 132, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     border-top: 1px dashed #001fff;
     background: #fffed9; }
-  /* line 108, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 136, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .first {
     height: 155px; }
-  /* line 110, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 138, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container h3 {
     font-family: "source sans pro";
     font-weight: 800;
@@ -1988,7 +2024,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: 8px;
     margin-bottom: 10px;
     text-transform: uppercase; }
-  /* line 119, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 147, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .icon-arrow-down {
     width: 50px;
     height: 32px;
@@ -1999,7 +2035,7 @@ section.page #submit-project .submit #icon-number3 {
     height: 32px;
     width: 50px;
     margin-bottom: 25px; }
-  /* line 125, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 153, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left {
     background: white;
     width: 60.52632%;
@@ -2011,34 +2047,34 @@ section.page #submit-project .submit #icon-number3 {
     padding-right: 10px;
     margin-right: 10px;
     border-right: 1px dashed #001fff; }
-  /* line 134, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 162, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left img {
     margin: 0;
     margin-top: 25px;
     padding: 0; }
-  /* line 138, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 166, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left img:last-child {
     margin-bottom: 25px; }
-  /* line 140, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 168, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left h1.title, .guidelines-container .container-left h2.subtitle {
     margin: 0;
     font-family: "miso";
     text-transform: uppercase;
     font-weight: 400; }
-  /* line 145, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 173, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left h1.title {
     margin-top: 4px;
     margin-bottom: 8px;
     font-size: 3.75em;
     line-height: 0.86667em;
     color: #ff4874; }
-  /* line 151, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 179, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left .icon-where, .guidelines-container .container-left .icon-time, .guidelines-container .container-left .icon-cost {
     float: left;
     position: relative;
     margin-top: 6px;
     margin-right: 7px; }
-  /* line 156, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 184, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left .icon-where {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2046,7 +2082,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3842px;
     height: 21px;
     width: 17px; }
-  /* line 159, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 187, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left .icon-time {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2054,7 +2090,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3355px;
     height: 21px;
     width: 17px; }
-  /* line 162, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 190, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left .icon-cost {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2062,35 +2098,35 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -2740px;
     height: 21px;
     width: 17px; }
-  /* line 165, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 193, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left ul {
     list-style-type: none;
     padding: 0;
     padding-top: 10px; }
-  /* line 169, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 197, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left ul:last-child {
     margin-bottom: 25px; }
-  /* line 172, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 200, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left ul li h2.subtitle {
     margin-bottom: 7px; }
-  /* line 175, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 203, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left ul li.cost h2.subtitle {
     text-decoration: underline; }
-  /* line 177, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 205, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left ul li.cost .total {
     color: #ff4874; }
-  /* line 179, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 207, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left h2.subtitle {
     margin-bottom: 25px;
     color: #6045ff;
     font-size: 2.25em;
     line-height: 0.97222em; }
-  /* line 185, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 213, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left h2.subtitle span {
     text-transform: none;
     font-size: 0.69444em;
     line-height: 1.12em; }
-  /* line 189, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 217, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left p {
     font-family: "source sans pro";
     font-weight: 400;
@@ -2099,10 +2135,10 @@ section.page #submit-project .submit #icon-number3 {
     line-height: 1.33333em;
     margin-top: 8px;
     margin-bottom: 13px; }
-  /* line 197, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 225, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-left p:last-child {
     margin-bottom: 25px; }
-  /* line 199, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 227, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right {
     margin-left: -12px;
     padding-left: 10px;
@@ -2113,7 +2149,7 @@ section.page #submit-project .submit #icon-number3 {
     z-index: 2;
     float: left;
     border-left: 1px dashed #001fff; }
-  /* line 208, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 236, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right h3, .guidelines-container .container-right h4 {
     font-family: "source sans pro";
     font-weight: 800;
@@ -2123,14 +2159,14 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: 8px;
     margin-bottom: 10px;
     text-transform: uppercase; }
-  /* line 217, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 245, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right h3 span, .guidelines-container .container-right h4 span {
     color: #ff4874; }
-  /* line 219, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 247, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right h4 {
     color: #ff4874;
     text-transform: none; }
-  /* line 222, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 250, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right p, .guidelines-container .container-right ul {
     font-family: "source sans pro";
     font-weight: 400;
@@ -2139,24 +2175,24 @@ section.page #submit-project .submit #icon-number3 {
     line-height: 1.33333em;
     margin: 0;
     margin-bottom: 5px; }
-  /* line 230, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 258, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right p:last-child, .guidelines-container .container-right ul:last-child {
     margin-bottom: 25px; }
-  /* line 232, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 260, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right ul {
     padding: 0;
     list-style-type: none; }
-  /* line 235, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 263, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right ul li {
     margin-bottom: 5px; }
-  /* line 237, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 265, ../../app/stylesheets/partials/_960grid.sass */
   .guidelines-container .container-right ul li span {
     color: #ff4874;
     font-weight: 800;
     font-size: 1.66667em;
     padding-right: 3px; }
 
-  /* line 248, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 276, ../../app/stylesheets/partials/_960grid.sass */
   section.page {
     background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(100, 100, 225, 0.25)), color-stop(4.25532%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(0, 0, 0, 0)), color-stop(6.38298%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(100, 100, 225, 0.25)), color-stop(10.6383%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(0, 0, 0, 0)), color-stop(12.76596%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(100, 100, 225, 0.25)), color-stop(17.02128%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(0, 0, 0, 0)), color-stop(19.14894%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(100, 100, 225, 0.25)), color-stop(23.40426%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(0, 0, 0, 0)), color-stop(25.53191%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(100, 100, 225, 0.25)), color-stop(29.78723%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(0, 0, 0, 0)), color-stop(31.91489%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(100, 100, 225, 0.25)), color-stop(36.17021%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(0, 0, 0, 0)), color-stop(38.29787%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(100, 100, 225, 0.25)), color-stop(42.55319%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(0, 0, 0, 0)), color-stop(44.68085%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(100, 100, 225, 0.25)), color-stop(48.93617%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(0, 0, 0, 0)), color-stop(51.06383%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(100, 100, 225, 0.25)), color-stop(55.31915%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(0, 0, 0, 0)), color-stop(57.44681%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(100, 100, 225, 0.25)), color-stop(61.70213%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(0, 0, 0, 0)), color-stop(63.82979%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(100, 100, 225, 0.25)), color-stop(68.08511%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(0, 0, 0, 0)), color-stop(70.21277%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(100, 100, 225, 0.25)), color-stop(74.46809%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(0, 0, 0, 0)), color-stop(76.59574%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(100, 100, 225, 0.25)), color-stop(80.85106%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(0, 0, 0, 0)), color-stop(82.97872%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(100, 100, 225, 0.25)), color-stop(87.23404%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(0, 0, 0, 0)), color-stop(89.3617%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(100, 100, 225, 0.25)), color-stop(93.61702%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(0, 0, 0, 0)), color-stop(95.74468%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 4.25532%, rgba(0, 0, 0, 0) 4.25532%, rgba(0, 0, 0, 0) 6.38298%, rgba(100, 100, 225, 0.25) 6.38298%, rgba(100, 100, 225, 0.25) 10.6383%, rgba(0, 0, 0, 0) 10.6383%, rgba(0, 0, 0, 0) 12.76596%, rgba(100, 100, 225, 0.25) 12.76596%, rgba(100, 100, 225, 0.25) 17.02128%, rgba(0, 0, 0, 0) 17.02128%, rgba(0, 0, 0, 0) 19.14894%, rgba(100, 100, 225, 0.25) 19.14894%, rgba(100, 100, 225, 0.25) 23.40426%, rgba(0, 0, 0, 0) 23.40426%, rgba(0, 0, 0, 0) 25.53191%, rgba(100, 100, 225, 0.25) 25.53191%, rgba(100, 100, 225, 0.25) 29.78723%, rgba(0, 0, 0, 0) 29.78723%, rgba(0, 0, 0, 0) 31.91489%, rgba(100, 100, 225, 0.25) 31.91489%, rgba(100, 100, 225, 0.25) 36.17021%, rgba(0, 0, 0, 0) 36.17021%, rgba(0, 0, 0, 0) 38.29787%, rgba(100, 100, 225, 0.25) 38.29787%, rgba(100, 100, 225, 0.25) 42.55319%, rgba(0, 0, 0, 0) 42.55319%, rgba(0, 0, 0, 0) 44.68085%, rgba(100, 100, 225, 0.25) 44.68085%, rgba(100, 100, 225, 0.25) 48.93617%, rgba(0, 0, 0, 0) 48.93617%, rgba(0, 0, 0, 0) 51.06383%, rgba(100, 100, 225, 0.25) 51.06383%, rgba(100, 100, 225, 0.25) 55.31915%, rgba(0, 0, 0, 0) 55.31915%, rgba(0, 0, 0, 0) 57.44681%, rgba(100, 100, 225, 0.25) 57.44681%, rgba(100, 100, 225, 0.25) 61.70213%, rgba(0, 0, 0, 0) 61.70213%, rgba(0, 0, 0, 0) 63.82979%, rgba(100, 100, 225, 0.25) 63.82979%, rgba(100, 100, 225, 0.25) 68.08511%, rgba(0, 0, 0, 0) 68.08511%, rgba(0, 0, 0, 0) 70.21277%, rgba(100, 100, 225, 0.25) 70.21277%, rgba(100, 100, 225, 0.25) 74.46809%, rgba(0, 0, 0, 0) 74.46809%, rgba(0, 0, 0, 0) 76.59574%, rgba(100, 100, 225, 0.25) 76.59574%, rgba(100, 100, 225, 0.25) 80.85106%, rgba(0, 0, 0, 0) 80.85106%, rgba(0, 0, 0, 0) 82.97872%, rgba(100, 100, 225, 0.25) 82.97872%, rgba(100, 100, 225, 0.25) 87.23404%, rgba(0, 0, 0, 0) 87.23404%, rgba(0, 0, 0, 0) 89.3617%, rgba(100, 100, 225, 0.25) 89.3617%, rgba(100, 100, 225, 0.25) 93.61702%, rgba(0, 0, 0, 0) 93.61702%, rgba(0, 0, 0, 0) 95.74468%, rgba(100, 100, 225, 0.25) 95.74468%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
@@ -2173,25 +2209,25 @@ section.page #submit-project .submit #icon-number3 {
     -moz-background-clip: content-box;
     background-clip: content-box;
     margin-left: 0%; }
-  /* line 250, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 278, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons {
     text-align: center;
     display: block;
     clear: both; }
-  /* line 254, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 282, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons a {
     padding: 4px 10px; }
-  /* line 257, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 285, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons input, section.page .buttons a {
     font-size: 1.25em !important; }
-  /* line 261, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 289, ../../app/stylesheets/partials/_960grid.sass */
   section.page .buttons a:hover {
     background-color: yellow !important;
     color: black !important; }
-  /* line 266, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 294, ../../app/stylesheets/partials/_960grid.sass */
   section.page header {
     overflow: visible; }
-  /* line 268, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 296, ../../app/stylesheets/partials/_960grid.sass */
   section.page header #logo {
     position: absolute; }
   /* line 30, ../../app/stylesheets/partials/_custom_mixins.sass */
@@ -2325,28 +2361,28 @@ section.page #submit-project .submit #icon-number3 {
     width: 185px;
     height: 155px;
     margin-left: 18px; }
-  /* line 271, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 299, ../../app/stylesheets/partials/_960grid.sass */
   section.page header nav.navigation {
     position: relative;
     top: 25px;
     margin-left: 38.29787%; }
-  /* line 275, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 303, ../../app/stylesheets/partials/_960grid.sass */
   section.page header nav.navigation ul {
     float: none; }
-  /* line 277, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 305, ../../app/stylesheets/partials/_960grid.sass */
   section.page header nav.navigation ul li {
     background: none;
     padding: 0; }
-  /* line 280, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 308, ../../app/stylesheets/partials/_960grid.sass */
   section.page header nav.navigation ul li a {
     display: inline-block;
     font-size: 0.875em;
     line-height: 1.21429em; }
-  /* line 285, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 313, ../../app/stylesheets/partials/_960grid.sass */
   section.page header #paper {
     display: block;
     margin-top: 0; }
-  /* line 288, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 316, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container {
     float: right;
     display: block;
@@ -2355,7 +2391,7 @@ section.page #submit-project .submit #icon-number3 {
     right: 324px;
     margin-bottom: -220px;
     margin-top: 0; }
-  /* line 296, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 324, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call {
     position: relative;
     padding: 16px;
@@ -2364,22 +2400,22 @@ section.page #submit-project .submit #icon-number3 {
     float: right;
     margin-right: 0;
     display: inline; }
-  /* line 302, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 330, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .border1, section.page header .banner-container .banner-call .border2 {
     width: 370px;
     height: 130px;
     border: 2px solid #001fff;
     background: white;
     position: absolute; }
-  /* line 308, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 336, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .border1 {
     top: -3px;
     left: -3px; }
-  /* line 311, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 339, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .border2 {
     top: 0;
     left: 0; }
-  /* line 314, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 342, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .bg-dash {
     width: 340px;
     height: 140px;
@@ -2387,7 +2423,7 @@ section.page #submit-project .submit #icon-number3 {
     position: absolute;
     top: -20px;
     left: -20px; }
-  /* line 322, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 350, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .bg-white {
     width: 330px;
     height: 95px;
@@ -2395,7 +2431,7 @@ section.page #submit-project .submit #icon-number3 {
     position: absolute;
     top: 10px;
     left: 10px; }
-  /* line 329, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 357, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call .icon, section.page header .banner-container .banner-call #submit-project .submit #icon-number1, section.page #submit-project .submit header .banner-container .banner-call #icon-number1, section.page header .banner-container .banner-call #submit-project .submit #icon-number2, section.page #submit-project .submit header .banner-container .banner-call #icon-number2, section.page header .banner-container .banner-call #submit-project .submit #icon-number3, section.page #submit-project .submit header .banner-container .banner-call #icon-number3, section.page header .banner-container .banner-call #map #steps #text ul li #arrow1, section.page #map #steps #text ul li header .banner-container .banner-call #arrow1, section.page header .banner-container .banner-call #map #steps #text ul li #arrow2, section.page #map #steps #text ul li header .banner-container .banner-call #arrow2, section.page header .banner-container .banner-call #map #steps #text ul li #arrow3, section.page #map #steps #text ul li header .banner-container .banner-call #arrow3 {
     width: 101px;
     height: 67px;
@@ -2409,7 +2445,7 @@ section.page #submit-project .submit #icon-number3 {
     z-index: 12;
     top: -31px;
     left: 255px; }
-  /* line 338, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 366, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call a {
     width: 61.70213%;
     float: left;
@@ -2426,14 +2462,14 @@ section.page #submit-project .submit #icon-number3 {
     text-decoration: underline;
     z-index: 9;
     position: relative; }
-  /* line 352, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 380, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call a:hover {
     color: #6045ff;
     background-color: #81ffd0; }
-  /* line 357, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 385, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter {
     border-top: 1px #001fff dashed; }
-  /* line 360, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 388, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .box {
     margin-left: 6.38298%;
     border: 1px #001fff solid;
@@ -2446,14 +2482,14 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: 20px;
     padding-right: 20px;
     padding-left: 20px; }
-  /* line 370, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 398, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .local {
     margin-bottom: 0;
     border-left: 1px #001fff dashed;
     width: 50%;
     display: inline;
     float: right; }
-  /* line 375, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 403, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .local .number {
     overflow: hidden;
     margin-top: 20px;
@@ -2591,50 +2627,50 @@ section.page #submit-project .submit #icon-number3 {
     width: 185px;
     height: 155px;
     margin-left: 18px; }
-  /* line 381, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 409, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .local .spiegazione {
     width: 40%;
     display: inline;
     float: right;
     margin-left: 6.38298%;
     font-family: "miso"; }
-  /* line 386, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 414, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .local .spiegazione h2 {
     color: #ff4874; }
-  /* line 388, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 416, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer #prefooter .local .spiegazione p {
     color: #001fff; }
-  /* line 392, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 420, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer .blue {
     margin-top: 20px; }
-  /* line 397, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 425, ../../app/stylesheets/partials/_960grid.sass */
   section.page footer .blue li.nline {
     float: none; }
-  /* line 409, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 437, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p, section.page #faq #spiegazione p {
     font-size: 0.875em !important;
     line-height: 1.21429em !important;
     letter-spacing: 0.125em;
     margin: 0 0 10px 0; }
-  /* line 414, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 442, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i, section.page #faq #spiegazione p.i {
     margin: 0 0 20px 0 !important;
     letter-spacing: normal !important; }
-  /* line 419, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 447, ../../app/stylesheets/partials/_960grid.sass */
   section.page #description {
     width: 68.08511%;
     float: left;
     margin-right: 2.12766%;
     clear: both; }
-  /* line 422, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 450, ../../app/stylesheets/partials/_960grid.sass */
   section.page h1.vision {
     font-size: 1.875em;
     margin: 40px 0;
     clear: both; }
-  /* line 429, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 457, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map .banner-container .banner-call {
     display: none; }
-  /* line 431, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 459, ../../app/stylesheets/partials/_960grid.sass */
   section.page #explanation {
     width: 68.08511%;
     float: left;
@@ -2642,29 +2678,29 @@ section.page #submit-project .submit #icon-number3 {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 0; }
-  /* line 437, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 465, ../../app/stylesheets/partials/_960grid.sass */
   section.page #explanation ul li {
     margin-top: 0.9375em;
     margin-bottom: 0.9375em; }
-  /* line 440, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 468, ../../app/stylesheets/partials/_960grid.sass */
   section.page #explanation ul li h2 {
     font-size: 1.5em;
     display: inline;
     text-decoration: underline; }
-  /* line 444, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 472, ../../app/stylesheets/partials/_960grid.sass */
   section.page #explanation ul li h2 span {
     text-decoration: underline; }
-  /* line 446, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 474, ../../app/stylesheets/partials/_960grid.sass */
   section.page #explanation ul li p {
     display: inline;
     font-size: 1.125em; }
-  /* line 451, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 479, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list section {
     margin-left: 23.68421%;
     width: 84.21053%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 456, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 484, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list a span.icon, section.page #mailing-list a #submit-project .submit span#icon-number1, section.page #submit-project .submit #mailing-list a span#icon-number1, section.page #mailing-list a #submit-project .submit span#icon-number2, section.page #submit-project .submit #mailing-list a span#icon-number2, section.page #mailing-list a #submit-project .submit span#icon-number3, section.page #submit-project .submit #mailing-list a span#icon-number3, section.page #mailing-list a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #mailing-list a span#arrow1, section.page #mailing-list a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #mailing-list a span#arrow2, section.page #mailing-list a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #mailing-list a span#arrow3 {
     background-position: 0 -608px;
     height: 62px;
@@ -2672,7 +2708,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #mailing-list a span.icon:hover, section.page #mailing-list a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #mailing-list a span#icon-number1:hover, section.page #mailing-list a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #mailing-list a span#icon-number2:hover, section.page #mailing-list a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #mailing-list a span#icon-number3:hover, section.page #mailing-list a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #mailing-list a span#arrow1:hover, section.page #mailing-list a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #mailing-list a span#arrow2:hover, section.page #mailing-list a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #mailing-list a span#arrow3:hover, section.page #mailing-list a span.icon.icon_subscribe_hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow3, section.page #mailing-list a span.icon.icon_subscribe-hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow3 {
     background-position: 0 -67px; }
-  /* line 458, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 486, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list a span.icon:hover, section.page #mailing-list a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #mailing-list a span#icon-number1:hover, section.page #mailing-list a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #mailing-list a span#icon-number2:hover, section.page #mailing-list a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #mailing-list a span#icon-number3:hover, section.page #mailing-list a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #mailing-list a span#arrow1:hover, section.page #mailing-list a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #mailing-list a span#arrow2:hover, section.page #mailing-list a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #mailing-list a span#arrow3:hover {
     background-position: 0 -67px;
     height: 62px;
@@ -2680,53 +2716,53 @@ section.page #submit-project .submit #icon-number3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 462, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 490, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list .mailing_list #icon {
     background-position: 0 -3085px;
     height: 30px;
     width: 399px;
     margin-left: 0%; }
-  /* line 465, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 493, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list .mailing_list #spiegazione {
     width: 71.875%;
     float: left;
     margin-right: 3.125%;
     margin-left: 0%; }
-  /* line 468, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 496, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list .mailing_list form {
     overflow: hidden;
     width: 71.875%;
     float: left;
     margin-right: 3.125%;
     margin-left: 0%; }
-  /* line 472, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 500, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list .mailing_list form fieldset {
     width: 60.86957%;
     float: left;
     margin-right: 4.34783%;
     margin-left: 0%; }
-  /* line 480, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 508, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq section {
     width: 84.21053%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 482, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 510, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq ul.questions {
     float: left;
     margin-left: 25.53191%; }
-  /* line 486, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 514, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq ul.questions li h3 {
     font-size: 1em;
     line-height: 1.25em;
     margin: 20px 0; }
-  /* line 490, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 518, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq ul.questions li h3 i {
     margin-top: 3px; }
-  /* line 492, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 520, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq ul.questions li p {
     font-size: 1em;
     line-height: 1.25em; }
-  /* line 496, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 524, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq a span.icon, section.page #faq a #submit-project .submit span#icon-number1, section.page #submit-project .submit #faq a span#icon-number1, section.page #faq a #submit-project .submit span#icon-number2, section.page #submit-project .submit #faq a span#icon-number2, section.page #faq a #submit-project .submit span#icon-number3, section.page #submit-project .submit #faq a span#icon-number3, section.page #faq a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #faq a span#arrow1, section.page #faq a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #faq a span#arrow2, section.page #faq a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #faq a span#arrow3 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2737,7 +2773,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #faq a span.icon:hover, section.page #faq a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #faq a span#icon-number1:hover, section.page #faq a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #faq a span#icon-number2:hover, section.page #faq a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #faq a span#icon-number3:hover, section.page #faq a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #faq a span#arrow1:hover, section.page #faq a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #faq a span#arrow2:hover, section.page #faq a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #faq a span#arrow3:hover, section.page #faq a span.icon.icon_question_hover, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow3, section.page #faq a span.icon.icon_question-hover, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow3 {
     background-position: 0 -670px; }
-  /* line 499, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 527, ../../app/stylesheets/partials/_960grid.sass */
   section.page #faq a span.icon:hover, section.page #faq a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #faq a span#icon-number1:hover, section.page #faq a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #faq a span#icon-number2:hover, section.page #faq a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #faq a span#icon-number3:hover, section.page #faq a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #faq a span#arrow1:hover, section.page #faq a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #faq a span#arrow2:hover, section.page #faq a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #faq a span#arrow3:hover {
     background-position: 0 -670px;
     height: 62px;
@@ -2745,19 +2781,19 @@ section.page #submit-project .submit #icon-number3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 505, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 533, ../../app/stylesheets/partials/_960grid.sass */
   section.page #think section, section.page #publish section {
     width: 84.21053%;
     float: left;
     margin-right: 2.63158%;
     margin-left: 23.68421%; }
-  /* line 511, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 539, ../../app/stylesheets/partials/_960grid.sass */
   section.page #think #spiegazione, section.page #publish #spiegazione {
     width: 71.875%;
     float: left;
     margin-right: 3.125%;
     margin-left: 0%; }
-  /* line 516, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 544, ../../app/stylesheets/partials/_960grid.sass */
   section.page #think a span.icon, section.page #think a #submit-project .submit span#icon-number1, section.page #submit-project .submit #think a span#icon-number1, section.page #think a #submit-project .submit span#icon-number2, section.page #submit-project .submit #think a span#icon-number2, section.page #think a #submit-project .submit span#icon-number3, section.page #submit-project .submit #think a span#icon-number3, section.page #think a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #think a span#arrow1, section.page #think a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #think a span#arrow2, section.page #think a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #think a span#arrow3 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2768,7 +2804,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #think a span.icon:hover, section.page #think a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #think a span#icon-number1:hover, section.page #think a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #think a span#icon-number2:hover, section.page #think a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #think a span#icon-number3:hover, section.page #think a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #think a span#arrow1:hover, section.page #think a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #think a span#arrow2:hover, section.page #think a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #think a span#arrow3:hover, section.page #think a span.icon.icon_think_hover, section.page #think a #submit-project .submit span.icon_think_hover#icon-number1, section.page #submit-project .submit #think a span.icon_think_hover#icon-number1, section.page #think a #submit-project .submit span.icon_think_hover#icon-number2, section.page #submit-project .submit #think a span.icon_think_hover#icon-number2, section.page #think a #submit-project .submit span.icon_think_hover#icon-number3, section.page #submit-project .submit #think a span.icon_think_hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow3, section.page #think a span.icon.icon_think-hover, section.page #think a #submit-project .submit span.icon_think-hover#icon-number1, section.page #submit-project .submit #think a span.icon_think-hover#icon-number1, section.page #think a #submit-project .submit span.icon_think-hover#icon-number2, section.page #submit-project .submit #think a span.icon_think-hover#icon-number2, section.page #think a #submit-project .submit span.icon_think-hover#icon-number3, section.page #submit-project .submit #think a span.icon_think-hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow3 {
     background-position: 0 -316px; }
-  /* line 519, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 547, ../../app/stylesheets/partials/_960grid.sass */
   section.page #think a span.icon:hover, section.page #think a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #think a span#icon-number1:hover, section.page #think a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #think a span#icon-number2:hover, section.page #think a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #think a span#icon-number3:hover, section.page #think a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #think a span#arrow1:hover, section.page #think a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #think a span#arrow2:hover, section.page #think a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #think a span#arrow3:hover {
     background-position: 0 -316px;
     height: 62px;
@@ -2776,7 +2812,7 @@ section.page #submit-project .submit #icon-number3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 524, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 552, ../../app/stylesheets/partials/_960grid.sass */
   section.page #publish a span.icon, section.page #publish a #submit-project .submit span#icon-number1, section.page #submit-project .submit #publish a span#icon-number1, section.page #publish a #submit-project .submit span#icon-number2, section.page #submit-project .submit #publish a span#icon-number2, section.page #publish a #submit-project .submit span#icon-number3, section.page #submit-project .submit #publish a span#icon-number3, section.page #publish a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #publish a span#arrow1, section.page #publish a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #publish a span#arrow2, section.page #publish a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #publish a span#arrow3 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2787,7 +2823,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #publish a span.icon:hover, section.page #publish a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #publish a span#icon-number1:hover, section.page #publish a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #publish a span#icon-number2:hover, section.page #publish a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #publish a span#icon-number3:hover, section.page #publish a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #publish a span#arrow1:hover, section.page #publish a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #publish a span#arrow2:hover, section.page #publish a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #publish a span#arrow3:hover, section.page #publish a span.icon.icon_publish_hover, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow3, section.page #publish a span.icon.icon_publish-hover, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow3 {
     background-position: 0 -1964px; }
-  /* line 527, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 555, ../../app/stylesheets/partials/_960grid.sass */
   section.page #publish a span.icon:hover, section.page #publish a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #publish a span#icon-number1:hover, section.page #publish a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #publish a span#icon-number2:hover, section.page #publish a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #publish a span#icon-number3:hover, section.page #publish a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #publish a span#arrow1:hover, section.page #publish a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #publish a span#arrow2:hover, section.page #publish a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #publish a span#arrow3:hover {
     background-position: 0 -1964px;
     height: 62px;
@@ -2795,12 +2831,12 @@ section.page #submit-project .submit #icon-number3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 533, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 561, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project section {
     width: 84.21053%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 537, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 565, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project a span.icon, section.page #submit-project a .submit span#icon-number1, section.page #submit-project .submit a span#icon-number1, section.page #submit-project a .submit span#icon-number2, section.page #submit-project .submit a span#icon-number2, section.page #submit-project a .submit span#icon-number3, section.page #submit-project .submit a span#icon-number3, section.page #submit-project a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #submit-project a span#arrow1, section.page #submit-project a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #submit-project a span#arrow2, section.page #submit-project a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #submit-project a span#arrow3 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2811,7 +2847,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #submit-project a span.icon:hover, section.page #submit-project a .submit span#icon-number1:hover, section.page #submit-project .submit a span#icon-number1:hover, section.page #submit-project a .submit span#icon-number2:hover, section.page #submit-project .submit a span#icon-number2:hover, section.page #submit-project a .submit span#icon-number3:hover, section.page #submit-project .submit a span#icon-number3:hover, section.page #submit-project a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #submit-project a span#arrow1:hover, section.page #submit-project a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #submit-project a span#arrow2:hover, section.page #submit-project a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #submit-project a span#arrow3:hover, section.page #submit-project a span.icon.icon_submit_hover, section.page #submit-project a .submit span.icon_submit_hover#icon-number1, section.page #submit-project .submit a span.icon_submit_hover#icon-number1, section.page #submit-project a .submit span.icon_submit_hover#icon-number2, section.page #submit-project .submit a span.icon_submit_hover#icon-number2, section.page #submit-project a .submit span.icon_submit_hover#icon-number3, section.page #submit-project .submit a span.icon_submit_hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow3, section.page #submit-project a span.icon.icon_submit-hover, section.page #submit-project a .submit span.icon_submit-hover#icon-number1, section.page #submit-project .submit a span.icon_submit-hover#icon-number1, section.page #submit-project a .submit span.icon_submit-hover#icon-number2, section.page #submit-project .submit a span.icon_submit-hover#icon-number2, section.page #submit-project a .submit span.icon_submit-hover#icon-number3, section.page #submit-project .submit a span.icon_submit-hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow3 {
     background-position: 0 -948px; }
-  /* line 540, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 568, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project a span.icon:hover, section.page #submit-project a .submit span#icon-number1:hover, section.page #submit-project .submit a span#icon-number1:hover, section.page #submit-project a .submit span#icon-number2:hover, section.page #submit-project .submit a span#icon-number2:hover, section.page #submit-project a .submit span#icon-number3:hover, section.page #submit-project .submit a span#icon-number3:hover, section.page #submit-project a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #submit-project a span#arrow1:hover, section.page #submit-project a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #submit-project a span#arrow2:hover, section.page #submit-project a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #submit-project a span#arrow3:hover {
     background-position: 0 -948px;
     height: 62px;
@@ -2819,18 +2855,18 @@ section.page #submit-project .submit #icon-number3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 544, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 572, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project div a {
     background-color: yellow;
     color: black; }
-  /* line 547, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 575, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project div a:hover {
     color: #6045ff;
     background-color: #81ffd0; }
-  /* line 552, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 580, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #documenti {
     clear: both; }
-  /* line 554, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 582, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #icon-number1 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2839,7 +2875,7 @@ section.page #submit-project .submit #icon-number3 {
     width: 21px;
     height: 48px;
     margin-left: 18.75%; }
-  /* line 558, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 586, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #icon-number2 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2848,7 +2884,7 @@ section.page #submit-project .submit #icon-number3 {
     width: 30px;
     height: 48px;
     margin-left: 18.75%; }
-  /* line 562, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 590, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #icon-number3 {
     text-indent: -119988px;
     overflow: hidden;
@@ -2857,14 +2893,14 @@ section.page #submit-project .submit #icon-number3 {
     width: 30px;
     height: 48px;
     margin-left: 18.75%; }
-  /* line 566, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 594, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione {
     width: 71.875%;
     float: right;
     margin-right: 0;
     margin-left: 0%;
     margin-top: 0; }
-  /* line 570, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 598, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc1 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2872,7 +2908,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -1498px;
     height: 102px;
     width: 140px; }
-  /* line 573, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 601, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc2 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2881,7 +2917,7 @@ section.page #submit-project .submit #icon-number3 {
     height: 100px;
     width: 140px;
     margin-bottom: 20px; }
-  /* line 577, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 605, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit #spiegazione #icon-doc3 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2889,7 +2925,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -1010px;
     height: 100px;
     width: 150px; }
-  /* line 581, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 609, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit .border-dashed #icon-plus1 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2898,7 +2934,7 @@ section.page #submit-project .submit #icon-number3 {
     height: 30px;
     width: 30px;
     margin-top: -15px; }
-  /* line 585, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 613, ../../app/stylesheets/partials/_960grid.sass */
   section.page #submit-project .submit .border-dashed #icon-plus2 {
     background-image: url('/images/assets-s24ca6ab572.png');
     background-repeat: no-repeat;
@@ -2907,62 +2943,62 @@ section.page #submit-project .submit #icon-number3 {
     height: 30px;
     width: 30px;
     margin-top: -15px; }
-  /* line 594, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 622, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list a span.icon, section.page #mailing-list a #submit-project .submit span#icon-number1, section.page #submit-project .submit #mailing-list a span#icon-number1, section.page #mailing-list a #submit-project .submit span#icon-number2, section.page #submit-project .submit #mailing-list a span#icon-number2, section.page #mailing-list a #submit-project .submit span#icon-number3, section.page #submit-project .submit #mailing-list a span#icon-number3, section.page #mailing-list a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #mailing-list a span#arrow1, section.page #mailing-list a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #mailing-list a span#arrow2, section.page #mailing-list a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #mailing-list a span#arrow3, section.page #faq a span.icon, section.page #faq a #submit-project .submit span#icon-number1, section.page #submit-project .submit #faq a span#icon-number1, section.page #faq a #submit-project .submit span#icon-number2, section.page #submit-project .submit #faq a span#icon-number2, section.page #faq a #submit-project .submit span#icon-number3, section.page #submit-project .submit #faq a span#icon-number3, section.page #faq a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #faq a span#arrow1, section.page #faq a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #faq a span#arrow2, section.page #faq a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #faq a span#arrow3, section.page #submit-project a span.icon, section.page #submit-project a .submit span#icon-number1, section.page #submit-project .submit a span#icon-number1, section.page #submit-project a .submit span#icon-number2, section.page #submit-project .submit a span#icon-number2, section.page #submit-project a .submit span#icon-number3, section.page #submit-project .submit a span#icon-number3, section.page #submit-project a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #submit-project a span#arrow1, section.page #submit-project a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #submit-project a span#arrow2, section.page #submit-project a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #submit-project a span#arrow3, section.page #think a span.icon, section.page #think a #submit-project .submit span#icon-number1, section.page #submit-project .submit #think a span#icon-number1, section.page #think a #submit-project .submit span#icon-number2, section.page #submit-project .submit #think a span#icon-number2, section.page #think a #submit-project .submit span#icon-number3, section.page #submit-project .submit #think a span#icon-number3, section.page #think a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #think a span#arrow1, section.page #think a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #think a span#arrow2, section.page #think a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #think a span#arrow3, section.page #publish a span.icon, section.page #publish a #submit-project .submit span#icon-number1, section.page #submit-project .submit #publish a span#icon-number1, section.page #publish a #submit-project .submit span#icon-number2, section.page #submit-project .submit #publish a span#icon-number2, section.page #publish a #submit-project .submit span#icon-number3, section.page #submit-project .submit #publish a span#icon-number3, section.page #publish a #map #steps #text ul li span#arrow1, section.page #map #steps #text ul li #publish a span#arrow1, section.page #publish a #map #steps #text ul li span#arrow2, section.page #map #steps #text ul li #publish a span#arrow2, section.page #publish a #map #steps #text ul li span#arrow3, section.page #map #steps #text ul li #publish a span#arrow3 {
     width: 17.02128%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 596, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 624, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list h2, section.page #faq h2, section.page #submit-project h2, section.page #think h2, section.page #publish h2 {
     width: 48.93617%;
     float: left;
     margin-right: 2.12766%;
     font-size: 1.52381em; }
-  /* line 599, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 627, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list h2 span, section.page #faq h2 span, section.page #submit-project h2 span, section.page #think h2 span, section.page #publish h2 span {
     line-height: 1.25em; }
-  /* line 602, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 630, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list h2 span.hl, section.page #faq h2 span.hl, section.page #submit-project h2 span.hl, section.page #think h2 span.hl, section.page #publish h2 span.hl {
     display: block; }
-  /* line 611, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 639, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map {
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 613, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 641, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map h1.vision {
     width: 68.08511%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 615, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 643, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     height: 334px; }
-  /* line 620, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 648, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides ul li img {
     margin-left: -380px; }
-  /* line 623, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 651, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps {
     height: auto;
     width: 100%;
     float: left;
     margin-right: 2.12766%;
     overflow: visible; }
-  /* line 627, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 655, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_right {
     display: none; }
-  /* line 629, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 657, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_left {
     display: none; }
-  /* line 631, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 659, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text {
     margin-top: 5px;
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 634, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 662, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul {
     margin: 0;
     padding: 0;
@@ -2987,7 +3023,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 636, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 664, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li {
     margin: 0 !important;
     width: 23.40426%;
@@ -3015,19 +3051,19 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 640, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 668, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:first-child {
     padding-left: 4px; }
-  /* line 642, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 670, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:last-child {
     padding-right: 4px; }
-  /* line 652, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 680, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
     width: 18.18182%;
     float: left;
     margin-right: 9.09091%;
     margin-top: 20px; }
-  /* line 655, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 683, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow1 {
     text-indent: -119988px;
     overflow: hidden;
@@ -3035,7 +3071,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3376px;
     width: 32px;
     height: 50px; }
-  /* line 660, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 688, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow2 {
     text-indent: -119988px;
     overflow: hidden;
@@ -3043,7 +3079,7 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3579px;
     width: 32px;
     height: 50px; }
-  /* line 665, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 693, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #arrow3 {
     text-indent: -119988px;
     overflow: hidden;
@@ -3051,63 +3087,63 @@ section.page #submit-project .submit #icon-number3 {
     background-position: 0 -3629px;
     width: 32px;
     height: 50px; }
-  /* line 671, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 699, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title {
     margin-botton: 20px;
     margin-top: 20px;
     width: 72.72727%;
     float: right;
     margin-right: 0; }
-  /* line 676, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 704, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title h4 {
     display: inline;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
     background: white; }
-  /* line 683, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 711, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li #title p {
     font-size: 14px;
     text-transform: uppercase;
     background: white;
     margin-top: 10px !important; }
-  /* line 689, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 717, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li:hover {
     background: yellow; }
-  /* line 691, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 719, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li.selected {
     border: 2px #001fff solid; }
-  /* line 696, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 724, ../../app/stylesheets/partials/_960grid.sass */
   section.page h1.terms {
     font-size: 2.1875em;
     font-family: "miso";
     color: #ff4874;
     text-transform: uppercase;
     font-weight: 400; }
-  /* line 705, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 733, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms a {
     color: black;
     background-color: yellow; }
-  /* line 711, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 739, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     font-family: "miso"; }
-  /* line 716, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 744, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #title {
     font-size: 2.1875em;
     color: #001fff;
     text-transform: uppercase;
     margin-top: 1.25em;
     font-weight: 400; }
-  /* line 722, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 750, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section #subtitle {
     font-size: 1.875em;
     color: #ff4874;
     margin-top: 0.3125em;
     font-weight: 400; }
-  /* line 727, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 755, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section p {
     color: black;
     font-family: "source sans pro";
@@ -3116,7 +3152,7 @@ section.page #submit-project .submit #icon-number3 {
     margin-right: 2.63158%;
     font-size: 0.9375em;
     line-height: 1.125em; }
-  /* line 733, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 761, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol {
     font-family: "source sans pro";
     color: #001fff;
@@ -3126,11 +3162,11 @@ section.page #submit-project .submit #icon-number3 {
     margin-left: 6.38298%;
     font-size: 0.9375em;
     line-height: 1.25em; }
-  /* line 740, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 768, ../../app/stylesheets/partials/_960grid.sass */
   section.page #terms #section ol li {
     margin-bottom: 10px; } }
 @media (min-width: 66.25em) {
-  /* line 744, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 772, ../../app/stylesheets/partials/_960grid.sass */
   section.page {
     margin-left: 11.32075%; } }
 /* line 1, ../../app/stylesheets/partials/_map.sass */
