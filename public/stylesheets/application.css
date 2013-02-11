@@ -314,25 +314,29 @@ body {
   margin: 0; }
 
 /* line 32, ../../app/stylesheets/partials/_320grid.sass */
+.clear {
+  clear: both; }
+
+/* line 35, ../../app/stylesheets/partials/_320grid.sass */
 .borded, section.page footer .blue, section.page footer .blue ul li .selected, #map #slides ul li {
   border: 1px #001fff solid; }
 
-/* line 37, ../../app/stylesheets/partials/_320grid.sass */
+/* line 40, ../../app/stylesheets/partials/_320grid.sass */
 .hover:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, section.page footer .blue ul li a:hover, section.page footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
 
-/* line 41, ../../app/stylesheets/partials/_320grid.sass */
+/* line 44, ../../app/stylesheets/partials/_320grid.sass */
 i {
   font-style: italic;
   font-family: "source sans pro";
   text-transform: none; }
 
-/* line 46, ../../app/stylesheets/partials/_320grid.sass */
+/* line 49, ../../app/stylesheets/partials/_320grid.sass */
 .spined, #mailing-list, #faq, #submit-project, #think, #publish {
   background: url('/images/textures/spined.png') repeat-x left top; }
 
-/* line 50, ../../app/stylesheets/partials/_320grid.sass */
+/* line 53, ../../app/stylesheets/partials/_320grid.sass */
 .arrow {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -341,11 +345,283 @@ i {
   float: left;
   margin-right: 15px; }
 
-/* line 55, ../../app/stylesheets/partials/_320grid.sass */
+/* line 60, ../../app/stylesheets/partials/_320grid.sass */
+.call {
+  overflow: visible;
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 0; }
+/* line 66, ../../app/stylesheets/partials/_320grid.sass */
+.call .button_container {
+  margin: 0; }
+/* line 68, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container {
+  margin-bottom: 15px;
+  position: relative; }
+/* line 73, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container h1, .call .call-container h2, .call .call-container p {
+  font-family: "source sans pro";
+  position: relative;
+  z-index: 6; }
+/* line 77, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container h1, .call .call-container h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline; }
+/* line 81, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container h1 {
+  color: #001fff;
+  font-size: 1.875em;
+  line-height: 0.93333em;
+  margin: 20px 0 40px 0;
+  border-top: 1px dashed #001fff;
+  padding-top: 5px;
+  position: relative;
+  z-index: 2; }
+/* line 90, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container h2 {
+  color: #ff4874;
+  font-size: 1.25em;
+  line-height: 0.9em;
+  margin: 0;
+  margin-bottom: 10px; }
+/* line 96, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container p {
+  color: #6045ff;
+  font-size: 0.75em;
+  line-height: 1.33333em;
+  margin: 0;
+  margin-bottom: 20px; }
+/* line 102, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container ul {
+  list-style-type: circle;
+  padding-left: 2.1875em;
+  margin: 0; }
+/* line 106, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container ul li {
+  font-family: "source sans pro";
+  color: #6045ff;
+  font-size: 0.75em;
+  line-height: 1.33333em; }
+/* line 111, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container ol {
+  padding-left: 2.1875em;
+  margin: 0; }
+/* line 114, ../../app/stylesheets/partials/_320grid.sass */
+.call .call-container ol li {
+  font-family: "source sans pro";
+  color: #6045ff;
+  font-size: 0.75em;
+  line-height: 1.33333em; }
+
+/* line 120, ../../app/stylesheets/partials/_320grid.sass */
+.last {
+  border-bottom: 1px dashed #001fff; }
+/* line 122, ../../app/stylesheets/partials/_320grid.sass */
+.last .icon-arrow-down {
+  margin-top: 8px; }
+
+/* line 124, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container {
+  width: 80.85106%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  border-top: 1px dashed #001fff;
+  background: #fffed9; }
+/* line 128, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .first {
+  height: 155px; }
+/* line 130, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container h3 {
+  font-family: "source sans pro";
+  font-weight: 800;
+  color: #001fff;
+  font-size: 1.25em;
+  line-height: 0.9em;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-transform: uppercase; }
+/* line 139, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .icon-arrow-down {
+  width: 50px;
+  height: 32px;
+  background-image: url('/images/assets-s24ca6ab572.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3426px;
+  height: 32px;
+  width: 50px;
+  margin-bottom: 25px; }
+/* line 145, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left {
+  background: white;
+  width: 60.52632%;
+  float: left;
+  margin-right: 2.63158%;
+  display: inline;
+  position: relative;
+  float: left;
+  z-index: 3;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px dashed #001fff; }
+/* line 154, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left img {
+  margin: 0;
+  margin-top: 25px;
+  padding: 0; }
+/* line 158, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left img:last-child {
+  margin-bottom: 25px; }
+/* line 160, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left h1.title, .guidelines-container .container-left h2.subtitle {
+  margin: 0;
+  font-family: "miso";
+  text-transform: uppercase;
+  font-weight: 400; }
+/* line 165, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left h1.title {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: 3.75em;
+  line-height: 0.86667em;
+  color: #ff4874; }
+/* line 171, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left .icon-where, .guidelines-container .container-left .icon-time, .guidelines-container .container-left .icon-cost {
+  float: left;
+  position: relative;
+  margin-top: 6px;
+  margin-right: 7px; }
+/* line 176, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left .icon-where {
+  background-image: url('/images/assets-s24ca6ab572.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3842px;
+  height: 21px;
+  width: 17px; }
+/* line 179, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left .icon-time {
+  background-image: url('/images/assets-s24ca6ab572.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -3355px;
+  height: 21px;
+  width: 17px; }
+/* line 182, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left .icon-cost {
+  background-image: url('/images/assets-s24ca6ab572.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -2740px;
+  height: 21px;
+  width: 17px; }
+/* line 185, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left ul {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 10px; }
+/* line 189, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left ul:last-child {
+  margin-bottom: 25px; }
+/* line 192, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left ul li h2.subtitle {
+  margin-bottom: 7px; }
+/* line 195, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left ul li.cost h2.subtitle {
+  text-decoration: underline; }
+/* line 197, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left ul li.cost .total {
+  color: #ff4874; }
+/* line 199, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left h2.subtitle {
+  margin-bottom: 25px;
+  color: #6045ff;
+  font-size: 2.25em;
+  line-height: 0.97222em; }
+/* line 205, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left h2.subtitle span {
+  text-transform: none;
+  font-size: 0.69444em;
+  line-height: 1.12em; }
+/* line 209, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left p {
+  font-family: "source sans pro";
+  font-weight: 400;
+  color: #6045ff;
+  font-size: 0.9375em;
+  line-height: 1.33333em;
+  margin-top: 8px;
+  margin-bottom: 13px; }
+/* line 217, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-left p:last-child {
+  margin-bottom: 25px; }
+/* line 219, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right {
+  margin-left: -12px;
+  padding-left: 10px;
+  width: 36.84211%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  position: relative;
+  z-index: 2;
+  float: left;
+  border-left: 1px dashed #001fff; }
+/* line 228, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right h3, .guidelines-container .container-right h4 {
+  font-family: "source sans pro";
+  font-weight: 800;
+  color: #001fff;
+  font-size: 1.25em;
+  line-height: 0.9em;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-transform: uppercase; }
+/* line 237, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right h3 span, .guidelines-container .container-right h4 span {
+  color: #ff4874; }
+/* line 239, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right h4 {
+  color: #ff4874;
+  text-transform: none; }
+/* line 242, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right p, .guidelines-container .container-right ul {
+  font-family: "source sans pro";
+  font-weight: 400;
+  color: #6045ff;
+  font-size: 0.75em;
+  line-height: 1.33333em;
+  margin: 0;
+  margin-bottom: 5px; }
+/* line 250, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right p:last-child, .guidelines-container .container-right ul:last-child {
+  margin-bottom: 25px; }
+/* line 252, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right ul {
+  padding: 0;
+  list-style-type: none; }
+/* line 255, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right ul li {
+  margin-bottom: 5px; }
+/* line 257, ../../app/stylesheets/partials/_320grid.sass */
+.guidelines-container .container-right ul li span {
+  color: #ff4874;
+  font-weight: 800;
+  font-size: 1.66667em;
+  padding-right: 3px; }
+
+/* line 270, ../../app/stylesheets/partials/_320grid.sass */
 .clear-box {
   clear: both; }
 
-/* line 57, ../../app/stylesheets/partials/_320grid.sass */
+/* line 272, ../../app/stylesheets/partials/_320grid.sass */
 .button_container {
   margin-left: 30%;
   display: inline-block;
@@ -355,7 +631,7 @@ i {
   height: 35px;
   margin-bottom: 20px;
   overflow: visible; }
-/* line 67, ../../app/stylesheets/partials/_320grid.sass */
+/* line 282, ../../app/stylesheets/partials/_320grid.sass */
 .button_container .corner_left {
   position: absolute;
   z-index: 10;
@@ -370,7 +646,7 @@ i {
   background-position: 0 -4885px;
   width: 5px;
   height: 35px; }
-/* line 74, ../../app/stylesheets/partials/_320grid.sass */
+/* line 289, ../../app/stylesheets/partials/_320grid.sass */
 .button_container .corner_right {
   right: -3px;
   position: relative;
@@ -387,16 +663,16 @@ i {
   background-position: 0 -4969px;
   width: 3px;
   height: 3px; }
-/* line 83, ../../app/stylesheets/partials/_320grid.sass */
+/* line 298, ../../app/stylesheets/partials/_320grid.sass */
 .button_container .buttons {
   margin: 0; }
-/* line 85, ../../app/stylesheets/partials/_320grid.sass */
+/* line 300, ../../app/stylesheets/partials/_320grid.sass */
 .button_container .yellow_button {
   position: relative;
   float: left;
   top: 5px;
   left: 5px; }
-/* line 90, ../../app/stylesheets/partials/_320grid.sass */
+/* line 305, ../../app/stylesheets/partials/_320grid.sass */
 .button_container .yellow_button a {
   position: relative;
   display: inline-block;
@@ -412,26 +688,26 @@ i {
   line-height: 0.90476em !important;
   padding: 4px 10px; }
 
-/* line 107, ../../app/stylesheets/partials/_320grid.sass */
+/* line 322, ../../app/stylesheets/partials/_320grid.sass */
 .button_container:hover .yellow_button a {
   text-decoration: underline; }
 
-/* line 110, ../../app/stylesheets/partials/_320grid.sass */
+/* line 325, ../../app/stylesheets/partials/_320grid.sass */
 .button_container:active .corner_left {
   display: none; }
-/* line 112, ../../app/stylesheets/partials/_320grid.sass */
+/* line 327, ../../app/stylesheets/partials/_320grid.sass */
 .button_container:active .corner_right {
   display: none; }
-/* line 114, ../../app/stylesheets/partials/_320grid.sass */
+/* line 329, ../../app/stylesheets/partials/_320grid.sass */
 .button_container:active .yellow_button {
   top: 2px;
   left: 2px; }
 
-/* line 120, ../../app/stylesheets/partials/_320grid.sass */
+/* line 335, ../../app/stylesheets/partials/_320grid.sass */
 .pointer, #mailing-list header, #faq header, #submit-project header, #think header, #publish header, #map #steps #arrow_left, #map #steps #arrow_right {
   cursor: pointer; }
 
-/* line 122, ../../app/stylesheets/partials/_320grid.sass */
+/* line 337, ../../app/stylesheets/partials/_320grid.sass */
 div.success {
   background: url('/images/textures/dash_green.png') repeat left top;
   margin: 20px 0;
@@ -441,11 +717,11 @@ div.success {
   #margin-left: -1.25em;
   display: inline;
   margin-left: 30%; }
-/* line 128, ../../app/stylesheets/partials/_320grid.sass */
+/* line 343, ../../app/stylesheets/partials/_320grid.sass */
 div.success div.box {
   border: 3px solid #00ff80;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 131, ../../app/stylesheets/partials/_320grid.sass */
+/* line 346, ../../app/stylesheets/partials/_320grid.sass */
 div.success div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -457,14 +733,14 @@ div.success div.box span.msg {
   display: inline-block;
   margin-left: 10px;
   width: 85%; }
-/* line 142, ../../app/stylesheets/partials/_320grid.sass */
+/* line 357, ../../app/stylesheets/partials/_320grid.sass */
 div.success div.box span.symbol {
   border: 3px solid #00ff80;
   padding: 10px 3px;
   margin-left: -25.6px;
   display: inline-block;
   background-color: white; }
-/* line 148, ../../app/stylesheets/partials/_320grid.sass */
+/* line 363, ../../app/stylesheets/partials/_320grid.sass */
 div.success div.box span.symbol i {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -476,7 +752,7 @@ div.success div.box span.symbol i {
   width: 32px;
   height: 26px; }
 
-/* line 151, ../../app/stylesheets/partials/_320grid.sass */
+/* line 366, ../../app/stylesheets/partials/_320grid.sass */
 div.error {
   background: url('/images/textures/dash_red.png') repeat left top;
   margin: 20px 0;
@@ -486,11 +762,11 @@ div.error {
   #margin-left: -1.25em;
   display: inline;
   margin-left: 30%; }
-/* line 157, ../../app/stylesheets/partials/_320grid.sass */
+/* line 372, ../../app/stylesheets/partials/_320grid.sass */
 div.error div.box {
   border: 3px solid #ff4874;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 160, ../../app/stylesheets/partials/_320grid.sass */
+/* line 375, ../../app/stylesheets/partials/_320grid.sass */
 div.error div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -502,14 +778,14 @@ div.error div.box span.msg {
   display: inline-block;
   margin-left: 10px;
   width: 85%; }
-/* line 171, ../../app/stylesheets/partials/_320grid.sass */
+/* line 386, ../../app/stylesheets/partials/_320grid.sass */
 div.error div.box span.symbol {
   border: 3px solid #ff4874;
   padding: 10px 20px;
   margin-left: -40px;
   display: inline-block;
   background-color: white; }
-/* line 177, ../../app/stylesheets/partials/_320grid.sass */
+/* line 392, ../../app/stylesheets/partials/_320grid.sass */
 div.error div.box span.symbol i {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -521,7 +797,7 @@ div.error div.box span.symbol i {
   width: 8px;
   height: 44px; }
 
-/* line 180, ../../app/stylesheets/partials/_320grid.sass */
+/* line 395, ../../app/stylesheets/partials/_320grid.sass */
 div.notice {
   background: url('/images/textures/dash_red.png') repeat left top;
   margin: 20px 0;
@@ -531,11 +807,11 @@ div.notice {
   #margin-left: -1.25em;
   display: inline;
   margin-left: 30%; }
-/* line 186, ../../app/stylesheets/partials/_320grid.sass */
+/* line 401, ../../app/stylesheets/partials/_320grid.sass */
 div.notice div.box {
   border: 3px solid #ff4874;
   padding: 0.625em 1.875em 0.625em 0; }
-/* line 189, ../../app/stylesheets/partials/_320grid.sass */
+/* line 404, ../../app/stylesheets/partials/_320grid.sass */
 div.notice div.box span.msg {
   text-transform: uppercase;
   font-family: "miso";
@@ -546,14 +822,14 @@ div.notice div.box span.msg {
   padding: 3px 10px;
   display: inline-block;
   margin-left: 10px; }
-/* line 199, ../../app/stylesheets/partials/_320grid.sass */
+/* line 414, ../../app/stylesheets/partials/_320grid.sass */
 div.notice div.box span.symbol {
   border: 3px solid #ff4874;
   padding: 10px 20px;
   margin-left: -40px;
   display: inline-block;
   background-color: white; }
-/* line 205, ../../app/stylesheets/partials/_320grid.sass */
+/* line 420, ../../app/stylesheets/partials/_320grid.sass */
 div.notice div.box span.symbol i {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -565,7 +841,7 @@ div.notice div.box span.symbol i {
   width: 8px;
   height: 44px; }
 
-/* line 209, ../../app/stylesheets/partials/_320grid.sass */
+/* line 424, ../../app/stylesheets/partials/_320grid.sass */
 section.page {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(100, 100, 225, 0.25)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(100, 100, 225, 0.25)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(100, 100, 225, 0.25)), color-stop(55%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(100, 100, 225, 0.25)), color-stop(85%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 15%, rgba(100, 100, 225, 0.25) 15%, rgba(100, 100, 225, 0.25) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 30%, rgba(100, 100, 225, 0.25) 30%, rgba(100, 100, 225, 0.25) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 45%, rgba(100, 100, 225, 0.25) 45%, rgba(100, 100, 225, 0.25) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 60%, rgba(100, 100, 225, 0.25) 60%, rgba(100, 100, 225, 0.25) 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 75%, rgba(100, 100, 225, 0.25) 75%, rgba(100, 100, 225, 0.25) 85%, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0) 90%, rgba(100, 100, 225, 0.25) 90%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
@@ -596,10 +872,10 @@ section.page:after {
   display: table;
   clear: both; }
 @media (min-width: 58.75em) {
-  /* line 209, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 424, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     max-width: 58.75em; } }
-/* line 214, ../../app/stylesheets/partials/_320grid.sass */
+/* line 429, ../../app/stylesheets/partials/_320grid.sass */
 section.page #description {
   -ms-word-break: break-all;
   word-break: break-all;
@@ -607,12 +883,12 @@ section.page #description {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto; }
-/* line 217, ../../app/stylesheets/partials/_320grid.sass */
+/* line 432, ../../app/stylesheets/partials/_320grid.sass */
 section.page header {
   overflow: hidden;
   *zoom: 1;
   margin-top: 0.625em; }
-/* line 220, ../../app/stylesheets/partials/_320grid.sass */
+/* line 435, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #logo {
   margin-bottom: 12px;
   overflow: hidden;
@@ -750,10 +1026,10 @@ section.page header #logo span.logo_text {
   width: 124px;
   height: 104px;
   margin-left: 18px; }
-/* line 225, ../../app/stylesheets/partials/_320grid.sass */
+/* line 440, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #logo .logo_text {
   margin: 0 !important; }
-/* line 227, ../../app/stylesheets/partials/_320grid.sass */
+/* line 442, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #number {
   height: 50px;
   width: 75px;
@@ -761,12 +1037,12 @@ section.page header #number {
   display: inline;
   float: left;
   margin: 10px; }
-/* line 233, ../../app/stylesheets/partials/_320grid.sass */
+/* line 448, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation {
   padding: 0;
   clear: both;
   display: block; }
-/* line 237, ../../app/stylesheets/partials/_320grid.sass */
+/* line 452, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul {
   list-style-type: none;
   position: relative;
@@ -774,18 +1050,18 @@ section.page header nav.navigation ul {
   margin: 0;
   padding: 0;
   width: 33%; }
-/* line 245, ../../app/stylesheets/partials/_320grid.sass */
+/* line 460, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul:first-child li {
   padding: 0 10px 0 0; }
-/* line 248, ../../app/stylesheets/partials/_320grid.sass */
+/* line 463, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul:last-child li {
   background: none; }
-/* line 250, ../../app/stylesheets/partials/_320grid.sass */
+/* line 465, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul li {
   background: url('/images/assets/dashed.png') repeat-y right top;
   padding: 0 10px;
   margin: 0; }
-/* line 254, ../../app/stylesheets/partials/_320grid.sass */
+/* line 469, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul li a {
   margin: 0;
   padding: 0;
@@ -799,17 +1075,17 @@ section.page header nav.navigation ul li a {
   letter-spacing: 0.125em;
   text-transform: uppercase;
   font-weight: 400; }
-/* line 268, ../../app/stylesheets/partials/_320grid.sass */
+/* line 483, ../../app/stylesheets/partials/_320grid.sass */
 section.page header nav.navigation ul li .publish {
   opacity: 0.4; }
-/* line 270, ../../app/stylesheets/partials/_320grid.sass */
+/* line 485, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #paper {
   display: none;
   margin-top: 10px;
   margin-left: 15%;
   display: inline;
   float: left; }
-/* line 276, ../../app/stylesheets/partials/_320grid.sass */
+/* line 491, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #paper span.pdf_icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -822,7 +1098,7 @@ section.page header #paper span.pdf_icon {
   height: 66px;
   display: inline;
   float: left; }
-/* line 280, ../../app/stylesheets/partials/_320grid.sass */
+/* line 495, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #paper a {
   display: inline;
   float: left;
@@ -833,13 +1109,13 @@ section.page header #paper a {
   text-transform: uppercase;
   font-weight: 400;
   margin-left: 10px; }
-/* line 291, ../../app/stylesheets/partials/_320grid.sass */
+/* line 506, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #social {
   display: inline;
   float: left;
   overflow: hidden;
   *zoom: 1; }
-/* line 294, ../../app/stylesheets/partials/_320grid.sass */
+/* line 509, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #social .facebook {
   width: 20px;
   height: 20px;
@@ -847,7 +1123,7 @@ section.page header #social .facebook {
   display: inline;
   float: left;
   background-color: yellow; }
-/* line 300, ../../app/stylesheets/partials/_320grid.sass */
+/* line 515, ../../app/stylesheets/partials/_320grid.sass */
 section.page header #social .twitter {
   width: 20px;
   height: 20px;
@@ -855,7 +1131,7 @@ section.page header #social .twitter {
   display: inline;
   float: left;
   background-color: yellow; }
-/* line 309, ../../app/stylesheets/partials/_320grid.sass */
+/* line 524, ../../app/stylesheets/partials/_320grid.sass */
 section.page h1.vision {
   margin-top: 1.5em;
   font-family: "miso";
@@ -865,41 +1141,41 @@ section.page h1.vision {
   font-weight: 400;
   letter-spacing: 0.1em;
   margin: 20px 0; }
-/* line 319, ../../app/stylesheets/partials/_320grid.sass */
+/* line 534, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map {
   padding: 0; }
-/* line 324, ../../app/stylesheets/partials/_320grid.sass */
+/* line 539, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #slides ul li {
   overflow: hidden;
   *zoom: 1; }
-/* line 326, ../../app/stylesheets/partials/_320grid.sass */
+/* line 541, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #slides ul li img {
   position: relative;
   margin-left: -199px;
   left: 50%; }
-/* line 331, ../../app/stylesheets/partials/_320grid.sass */
+/* line 546, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps {
   height: 86px;
   margin: 0;
   overflow: hidden;
   *zoom: 1; }
-/* line 335, ../../app/stylesheets/partials/_320grid.sass */
+/* line 550, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_left, section.page #map #steps #arrow_right {
   margin-top: 23px; }
-/* line 337, ../../app/stylesheets/partials/_320grid.sass */
+/* line 552, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_left {
   width: 10%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 339, ../../app/stylesheets/partials/_320grid.sass */
+/* line 554, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #arrow_right {
   width: 10%;
   float: right;
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 341, ../../app/stylesheets/partials/_320grid.sass */
+/* line 556, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text {
   width: 70%;
   float: left;
@@ -908,11 +1184,11 @@ section.page #map #steps #text {
   overflow: hidden;
   *zoom: 1;
   margin-top: 18px; }
-/* line 345, ../../app/stylesheets/partials/_320grid.sass */
+/* line 560, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul {
   list-style-type: none;
   display: block; }
-/* line 348, ../../app/stylesheets/partials/_320grid.sass */
+/* line 563, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li {
   width: 100%;
   float: left;
@@ -925,21 +1201,21 @@ section.page #map #steps #text ul li {
   -moz-hyphens: auto;
   hyphens: auto;
   display: none; }
-/* line 352, ../../app/stylesheets/partials/_320grid.sass */
+/* line 567, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #arrow1, section.page #map #steps #text ul li #arrow2, section.page #map #steps #text ul li #arrow3 {
   display: none;
   width: 10%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 355, ../../app/stylesheets/partials/_320grid.sass */
+/* line 570, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title {
   width: 100%;
   float: left;
   margin-right: 7.14286%;
   display: inline;
   margin: 0; }
-/* line 358, ../../app/stylesheets/partials/_320grid.sass */
+/* line 573, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title p {
   width: 100%;
   float: left;
@@ -954,7 +1230,7 @@ section.page #map #steps #text ul li #title p {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0; }
-/* line 370, ../../app/stylesheets/partials/_320grid.sass */
+/* line 585, ../../app/stylesheets/partials/_320grid.sass */
 section.page #map #steps #text ul li #title h4 {
   display: inline;
   color: #ff4874;
@@ -964,11 +1240,11 @@ section.page #map #steps #text ul li #title h4 {
   line-height: 0.89474em;
   letter-spacing: 0.1em;
   margin-bottom: 3px; }
-/* line 381, ../../app/stylesheets/partials/_320grid.sass */
+/* line 596, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container {
   height: 175px;
   margin-top: -25px; }
-/* line 384, ../../app/stylesheets/partials/_320grid.sass */
+/* line 599, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call {
   width: 70%;
   float: left;
@@ -979,35 +1255,35 @@ section.page .banner-container .banner-call {
   padding: 16px;
   margin-top: 60px;
   margin-bottom: 40px; }
-/* line 391, ../../app/stylesheets/partials/_320grid.sass */
+/* line 606, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call ul {
   padding: 0 0 0 10px;
   margin: 7px 0 0 0;
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 section.page .banner-container .banner-call ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0; }
-/* line 395, ../../app/stylesheets/partials/_320grid.sass */
+/* line 610, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call ul li {
   display: none; }
-/* line 397, ../../app/stylesheets/partials/_320grid.sass */
+/* line 612, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .border1, section.page .banner-container .banner-call .border2 {
   width: 270px;
   height: 130px;
   border: 2px solid #001fff;
   background: white;
   position: absolute; }
-/* line 403, ../../app/stylesheets/partials/_320grid.sass */
+/* line 618, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .border1 {
   top: -3px;
   left: -3px; }
-/* line 406, ../../app/stylesheets/partials/_320grid.sass */
+/* line 621, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .border2 {
   top: 0;
   left: 0; }
-/* line 409, ../../app/stylesheets/partials/_320grid.sass */
+/* line 624, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .bg-dash {
   width: 240px;
   height: 140px;
@@ -1015,7 +1291,7 @@ section.page .banner-container .banner-call .bg-dash {
   position: absolute;
   top: -20px;
   left: -20px; }
-/* line 417, ../../app/stylesheets/partials/_320grid.sass */
+/* line 632, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .bg-white {
   width: 230px;
   height: 95px;
@@ -1023,7 +1299,7 @@ section.page .banner-container .banner-call .bg-white {
   position: absolute;
   top: 10px;
   left: 10px; }
-/* line 424, ../../app/stylesheets/partials/_320grid.sass */
+/* line 639, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call .icon {
   width: 101px;
   height: 67px;
@@ -1037,7 +1313,7 @@ section.page .banner-container .banner-call .icon {
   z-index: 12;
   top: -31px;
   right: 0; }
-/* line 433, ../../app/stylesheets/partials/_320grid.sass */
+/* line 648, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call a {
   width: 70%;
   float: left;
@@ -1055,25 +1331,25 @@ section.page .banner-container .banner-call a {
   text-decoration: underline;
   z-index: 9;
   position: relative; }
-/* line 447, ../../app/stylesheets/partials/_320grid.sass */
+/* line 662, ../../app/stylesheets/partials/_320grid.sass */
 section.page .banner-container .banner-call a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 451, ../../app/stylesheets/partials/_320grid.sass */
+/* line 666, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation {
   padding-top: 10px; }
-/* line 455, ../../app/stylesheets/partials/_320grid.sass */
+/* line 670, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li h2 {
   font-weight: 800;
   margin-top: 0;
   margin-bottom: 10px; }
-/* line 459, ../../app/stylesheets/partials/_320grid.sass */
+/* line 674, ../../app/stylesheets/partials/_320grid.sass */
 section.page #explanation ul li p {
   margin: 0 0 20px 0; }
-/* line 461, ../../app/stylesheets/partials/_320grid.sass */
+/* line 676, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer {
   clear: both; }
-/* line 464, ../../app/stylesheets/partials/_320grid.sass */
+/* line 679, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .box {
   margin: 10px 0;
   border: 1px #001fff solid;
@@ -1082,12 +1358,12 @@ section.page footer #prefooter .box {
   text-transform: uppercase;
   padding-right: 20px;
   padding-left: 20px; }
-/* line 472, ../../app/stylesheets/partials/_320grid.sass */
+/* line 687, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 10px; }
-/* line 475, ../../app/stylesheets/partials/_320grid.sass */
+/* line 690, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .number {
   overflow: hidden;
   *zoom: 1;
@@ -1225,7 +1501,7 @@ section.page footer #prefooter .local .number span.logo_text {
   width: 124px;
   height: 104px;
   margin-left: 18px; }
-/* line 480, ../../app/stylesheets/partials/_320grid.sass */
+/* line 695, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione {
   display: inline;
   float: right;
@@ -1234,13 +1510,13 @@ section.page footer #prefooter .local .spiegazione {
   margin-right: 5%;
   display: inline;
   font-family: "miso"; }
-/* line 484, ../../app/stylesheets/partials/_320grid.sass */
+/* line 699, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione h2 {
   color: #ff4874;
   font-weight: 400;
   font-size: 1.1875em;
   line-height: 0.89474em; }
-/* line 489, ../../app/stylesheets/partials/_320grid.sass */
+/* line 704, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer #prefooter .local .spiegazione p {
   color: #001fff;
   text-transform: uppercase;
@@ -1250,12 +1526,12 @@ section.page footer #prefooter .local .spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 499, ../../app/stylesheets/partials/_320grid.sass */
+/* line 714, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue {
   clear: both;
   border-bottom: none;
   letter-spacing: 0.0625em; }
-/* line 506, ../../app/stylesheets/partials/_320grid.sass */
+/* line 721, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul {
   margin: 0;
   padding: 0;
@@ -1265,7 +1541,7 @@ section.page footer .blue ul {
   margin-top: 3px;
   padding: 0 10px 0 10px;
   margin-bottom: 10px; }
-/* line 511, ../../app/stylesheets/partials/_320grid.sass */
+/* line 726, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li {
   list-style-image: none;
   list-style-type: none;
@@ -1290,21 +1566,21 @@ section.page footer .blue ul li:last-child {
 /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 section.page footer .blue ul li.last {
   padding-right: 0; }
-/* line 519, ../../app/stylesheets/partials/_320grid.sass */
+/* line 734, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li p {
   display: inline;
   color: #001fff; }
-/* line 522, ../../app/stylesheets/partials/_320grid.sass */
+/* line 737, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li a {
   background-color: yellow;
   color: black; }
-/* line 528, ../../app/stylesheets/partials/_320grid.sass */
+/* line 743, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nline {
   width: 100%; }
-/* line 530, ../../app/stylesheets/partials/_320grid.sass */
+/* line 745, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue ul li.nopadding {
   padding-left: 0; }
-/* line 532, ../../app/stylesheets/partials/_320grid.sass */
+/* line 747, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue .rights {
   font-size: 0.8125em;
   line-height: 1em;
@@ -1314,25 +1590,25 @@ section.page footer .blue .rights {
   color: #001fff;
   text-transform: uppercase;
   margin: 3px 10px 10px 10px; }
-/* line 541, ../../app/stylesheets/partials/_320grid.sass */
+/* line 756, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue .rights p {
   margin: 7px 0; }
-/* line 543, ../../app/stylesheets/partials/_320grid.sass */
+/* line 758, ../../app/stylesheets/partials/_320grid.sass */
 section.page footer .blue .rights a {
   background-color: yellow;
   color: black; }
-/* line 550, ../../app/stylesheets/partials/_320grid.sass */
+/* line 765, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2, section.page #think h2, section.page #submit-project h2, section.page #publish h2, section.page #faq h2 {
   letter-spacing: 0.0625em; }
-/* line 553, ../../app/stylesheets/partials/_320grid.sass */
+/* line 768, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2 span.hl span.ul, section.page #think h2 span.hl span.ul, section.page #submit-project h2 span.hl span.ul, section.page #publish h2 span.hl span.ul, section.page #faq h2 span.hl span.ul {
   line-height: 1.28571em; }
-/* line 555, ../../app/stylesheets/partials/_320grid.sass */
+/* line 770, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list h2 span.subtitle, section.page #think h2 span.subtitle, section.page #submit-project h2 span.subtitle, section.page #publish h2 span.subtitle, section.page #faq h2 span.subtitle {
   display: block;
   margin-left: 25px;
   line-height: 1em; }
-/* line 559, ../../app/stylesheets/partials/_320grid.sass */
+/* line 774, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione, section.page #think #spiegazione, section.page #submit-project #spiegazione, section.page #publish #spiegazione, section.page #faq #spiegazione {
   display: inline;
   float: left;
@@ -1341,7 +1617,7 @@ section.page #mailing-list #spiegazione, section.page #think #spiegazione, secti
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 563, ../../app/stylesheets/partials/_320grid.sass */
+/* line 778, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, section.page #submit-project #spiegazione p, section.page #publish #spiegazione p, section.page #faq #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1351,14 +1627,14 @@ section.page #mailing-list #spiegazione p, section.page #think #spiegazione p, s
   line-height: 1.25em;
   letter-spacing: 0.125em;
   margin: 0 0 10px 0; }
-/* line 572, ../../app/stylesheets/partials/_320grid.sass */
+/* line 787, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #spiegazione p.i, section.page #think #spiegazione p.i, section.page #submit-project #spiegazione p.i, section.page #publish #spiegazione p.i, section.page #faq #spiegazione p.i {
   margin: 0 0 20px 0 !important;
   letter-spacing: normal !important;
   font-style: italic;
   font-family: "source sans pro" !important;
   text-transform: none !important; }
-/* line 581, ../../app/stylesheets/partials/_320grid.sass */
+/* line 796, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_submit {
   background-color: yellow;
   border: none;
@@ -1372,10 +1648,10 @@ section.page #mailing-list #mail_submit {
   text-decoration: none;
   font-size: 1.3125em !important;
   line-height: 0.90476em !important; }
-/* line 594, ../../app/stylesheets/partials/_320grid.sass */
+/* line 809, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_submit:hover {
   text-decoration: underline; }
-/* line 599, ../../app/stylesheets/partials/_320grid.sass */
+/* line 814, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list a span.icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1386,10 +1662,10 @@ section.page #mailing-list a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #mailing-list a span.icon:hover, section.page #mailing-list a span.icon.mobile_icon_subscribe_hover, section.page #mailing-list a span.icon.mobile_icon_subscribe-hover {
   background-position: 0 -204px; }
-/* line 603, ../../app/stylesheets/partials/_320grid.sass */
+/* line 818, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list #mail_form {
   overflow: visible; }
-/* line 607, ../../app/stylesheets/partials/_320grid.sass */
+/* line 822, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1400,7 +1676,7 @@ section.page #mailing-list .mailing_list #icon {
   margin-left: 30%;
   margin-bottom: 15px;
   margin-top: 5px; }
-/* line 615, ../../app/stylesheets/partials/_320grid.sass */
+/* line 830, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione {
   display: inline;
   float: left;
@@ -1409,7 +1685,7 @@ section.page #mailing-list .mailing_list #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 619, ../../app/stylesheets/partials/_320grid.sass */
+/* line 834, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list .mailing_list #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1418,7 +1694,7 @@ section.page #mailing-list .mailing_list #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 629, ../../app/stylesheets/partials/_320grid.sass */
+/* line 844, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset {
   width: 70%;
   float: left;
@@ -1429,14 +1705,14 @@ section.page #mailing-list fieldset {
   padding: 0;
   margin-top: 10px;
   margin-bottom: 0; }
-/* line 636, ../../app/stylesheets/partials/_320grid.sass */
+/* line 851, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p {
   margin: 0;
   padding: 0; }
-/* line 639, ../../app/stylesheets/partials/_320grid.sass */
+/* line 854, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p label {
   display: none; }
-/* line 641, ../../app/stylesheets/partials/_320grid.sass */
+/* line 856, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input {
   font-weight: 400;
   font-style: italic;
@@ -1447,11 +1723,11 @@ section.page #mailing-list fieldset p input {
   padding: 0.625em;
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 651, ../../app/stylesheets/partials/_320grid.sass */
+/* line 866, ../../app/stylesheets/partials/_320grid.sass */
 section.page #mailing-list fieldset p input::-webkit-input-placeholder {
   color: #001fff;
   font-family: "source sans pro"; }
-/* line 657, ../../app/stylesheets/partials/_320grid.sass */
+/* line 872, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq a span.icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1462,7 +1738,7 @@ section.page #faq a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #faq a span.icon:hover, section.page #faq a span.icon.mobile_icon_question_hover, section.page #faq a span.icon.mobile_icon_question-hover {
   background-position: 0 -732px; }
-/* line 660, ../../app/stylesheets/partials/_320grid.sass */
+/* line 875, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions {
   list-style: none;
   margin-left: 15%;
@@ -1471,7 +1747,7 @@ section.page #faq ul.questions {
   margin-right: 0;
   #margin-left: -1.25em;
   display: inline; }
-/* line 665, ../../app/stylesheets/partials/_320grid.sass */
+/* line 880, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 {
   font-family: "source sans pro";
   font-weight: 600;
@@ -1479,7 +1755,7 @@ section.page #faq ul.questions li h3 {
   line-height: 1.25em;
   color: black;
   margin: 20px 0; }
-/* line 673, ../../app/stylesheets/partials/_320grid.sass */
+/* line 888, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 i {
   margin-top: 3px;
   position: absolute;
@@ -1492,17 +1768,17 @@ section.page #faq ul.questions li h3 i {
   background-position: 0 -4098px;
   height: 18px;
   width: 9px; }
-/* line 682, ../../app/stylesheets/partials/_320grid.sass */
+/* line 897, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3.ui-accordion-header-active i {
   margin-left: -46px;
   background-position: 0 -3520px;
   height: 59px;
   width: 32px; }
-/* line 686, ../../app/stylesheets/partials/_320grid.sass */
+/* line 901, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li h3 span:hover {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 689, ../../app/stylesheets/partials/_320grid.sass */
+/* line 904, ../../app/stylesheets/partials/_320grid.sass */
 section.page #faq ul.questions li p {
   clear: both;
   font-family: "source sans pro";
@@ -1512,7 +1788,7 @@ section.page #faq ul.questions li p {
   line-height: 1.33333em;
   color: #6045ff;
   margin: 0; }
-/* line 702, ../../app/stylesheets/partials/_320grid.sass */
+/* line 917, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think a span.icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1523,10 +1799,10 @@ section.page #think a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #think a span.icon:hover, section.page #think a span.icon.mobile_icon_think_hover, section.page #think a span.icon.mobile_icon_think-hover {
   background-position: 0 -260px; }
-/* line 705, ../../app/stylesheets/partials/_320grid.sass */
+/* line 920, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish {
   opacity: 0.4; }
-/* line 708, ../../app/stylesheets/partials/_320grid.sass */
+/* line 923, ../../app/stylesheets/partials/_320grid.sass */
 section.page #publish a span.icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1537,7 +1813,7 @@ section.page #publish a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #publish a span.icon:hover, section.page #publish a span.icon.mobile_icon_publish_hover, section.page #publish a span.icon.mobile_icon_publish-hover {
   background-position: 0 -2320px; }
-/* line 714, ../../app/stylesheets/partials/_320grid.sass */
+/* line 929, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione, section.page #publish #spiegazione {
   display: inline;
   float: left;
@@ -1546,7 +1822,7 @@ section.page #think #spiegazione, section.page #publish #spiegazione {
   margin-right: 5%;
   display: inline;
   margin-left: 30%; }
-/* line 718, ../../app/stylesheets/partials/_320grid.sass */
+/* line 933, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p, section.page #publish #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1556,14 +1832,14 @@ section.page #think #spiegazione p, section.page #publish #spiegazione p {
   line-height: 1.25em;
   letter-spacing: 0.125em;
   margin: 0 0 10px 0; }
-/* line 727, ../../app/stylesheets/partials/_320grid.sass */
+/* line 942, ../../app/stylesheets/partials/_320grid.sass */
 section.page #think #spiegazione p.i, section.page #publish #spiegazione p.i {
   margin: 0 0 10px 0;
   letter-spacing: normal;
   font-style: italic;
   font-family: "source sans pro";
   text-transform: none; }
-/* line 739, ../../app/stylesheets/partials/_320grid.sass */
+/* line 954, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project a span.icon {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1574,7 +1850,7 @@ section.page #submit-project a span.icon {
 /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 section.page #submit-project a span.icon:hover, section.page #submit-project a span.icon.mobile_icon_submit_hover, section.page #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1210px; }
-/* line 743, ../../app/stylesheets/partials/_320grid.sass */
+/* line 958, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione {
   width: 70%;
   float: left;
@@ -1582,7 +1858,7 @@ section.page #submit-project .submit #spiegazione {
   display: inline;
   margin-left: 30%;
   margin-top: -35; }
-/* line 747, ../../app/stylesheets/partials/_320grid.sass */
+/* line 962, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p {
   text-transform: uppercase;
   font-family: "miso";
@@ -1591,10 +1867,10 @@ section.page #submit-project .submit #spiegazione p {
   font-size: 0.75em;
   line-height: 1.25em;
   letter-spacing: 0.125em; }
-/* line 755, ../../app/stylesheets/partials/_320grid.sass */
+/* line 970, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione p i {
   letter-spacing: normal; }
-/* line 757, ../../app/stylesheets/partials/_320grid.sass */
+/* line 972, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione h4 {
   display: inline;
   text-transform: uppercase;
@@ -1602,7 +1878,7 @@ section.page #submit-project .submit #spiegazione h4 {
   font-weight: 400;
   color: #ff4874;
   font-size: 1.25em; }
-/* line 765, ../../app/stylesheets/partials/_320grid.sass */
+/* line 980, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc1 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1611,7 +1887,7 @@ section.page #submit-project .submit #spiegazione #icon-doc1 {
   height: 87px;
   width: 120px;
   margin-top: 10px; }
-/* line 771, ../../app/stylesheets/partials/_320grid.sass */
+/* line 986, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc2 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1621,7 +1897,7 @@ section.page #submit-project .submit #spiegazione #icon-doc2 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 15px; }
-/* line 780, ../../app/stylesheets/partials/_320grid.sass */
+/* line 995, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #spiegazione #icon-doc3 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1631,7 +1907,7 @@ section.page #submit-project .submit #spiegazione #icon-doc3 {
   width: 120px;
   margin-top: 10px;
   margin-bottom: 10px; }
-/* line 786, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1001, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed {
   height: 1px;
   width: 100%;
@@ -1642,7 +1918,7 @@ section.page #submit-project .submit .border-dashed {
   border-top: 1px dashed #001fff;
   margin-top: 40px;
   margin-bottom: 30px; }
-/* line 793, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1008, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus1 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1652,7 +1928,7 @@ section.page #submit-project .submit .border-dashed #icon-plus1 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 798, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1013, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit .border-dashed #icon-plus2 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1662,7 +1938,7 @@ section.page #submit-project .submit .border-dashed #icon-plus2 {
   width: 32px;
   margin-left: 45%;
   margin-top: -10px; }
-/* line 803, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1018, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number1 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1675,7 +1951,7 @@ section.page #submit-project .submit #icon-number1 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 809, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1024, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number2 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1688,7 +1964,7 @@ section.page #submit-project .submit #icon-number2 {
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 814, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1029, ../../app/stylesheets/partials/_320grid.sass */
 section.page #submit-project .submit #icon-number3 {
   background-image: url('/images/assets-s24ca6ab572.png');
   background-repeat: no-repeat;
@@ -1702,25 +1978,25 @@ section.page #submit-project .submit #icon-number3 {
   margin-right: 5%;
   display: inline; }
 
-/* line 821, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1036, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list, #faq, #submit-project, #think, #publish {
   overflow: hidden;
   *zoom: 1; }
-/* line 825, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1040, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header, #faq header, #submit-project header, #think header, #publish header {
   padding-top: 10px; }
-/* line 830, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1045, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list header.ui-state-hover h2 span, #mailing-list header.ui-accordion-header-active h2 span, #faq header.ui-state-hover h2 span, #faq header.ui-accordion-header-active h2 span, #submit-project header.ui-state-hover h2 span, #submit-project header.ui-accordion-header-active h2 span, #think header.ui-state-hover h2 span, #think header.ui-accordion-header-active h2 span, #publish header.ui-state-hover h2 span, #publish header.ui-accordion-header-active h2 span {
   color: #6045ff;
   background-color: #81ffd0; }
-/* line 834, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1049, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list a span.icon, #faq a span.icon, #submit-project a span.icon, #think a span.icon, #publish a span.icon {
   margin-left: 20px;
   width: 10.6383%;
   float: left;
   margin-right: 2.12766%;
   display: inline; }
-/* line 837, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1052, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list h2, #faq h2, #submit-project h2, #think h2, #publish h2 {
   width: 70%;
   float: right;
@@ -1728,19 +2004,19 @@ section.page #submit-project .submit #icon-number3 {
   #margin-left: -1.25em;
   display: inline;
   margin-top: 0; }
-/* line 844, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1059, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list section, #faq section, #submit-project section, #think section, #publish section {
   width: 100%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 849, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1064, ../../app/stylesheets/partials/_320grid.sass */
 #mailing-list hr.footer, #faq hr.footer, #submit-project hr.footer, #think hr.footer, #publish hr.footer {
   border-top: 1px #001fff solid;
   margin-top: 0px; }
 
 @media (min-width: 36.25em) {
-  /* line 854, ../../app/stylesheets/partials/_320grid.sass */
+  /* line 1069, ../../app/stylesheets/partials/_320grid.sass */
   section.page {
     margin-left: 10.34483%; } }
 @media (min-width: 58.75em) {
@@ -2438,7 +2714,7 @@ section.page #submit-project .submit #icon-number3 {
   /* line 414, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call ul {
     list-style: none; }
-  /* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+  /* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
   section.page header .banner-container .banner-call ul li {
     list-style-image: none;
     list-style-type: none;
