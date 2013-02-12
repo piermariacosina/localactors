@@ -24,6 +24,7 @@
 				= text_field_tag :email, :name => "email", :value => params[:email], :id => 'email', :placeholder=>"Your email address here"
 		- field_set_tag(:class => 'buttons') do
 			= hidden_field_tag  :list, :value => 4, :name => "list", :id => 'mail_list'
+			
 			.button_container			
 				.corner_left
 				= submit_tag "Submit", :name => "submit", :id => 'mail_submit',:class=> "buttons yellow_button"
