@@ -686,7 +686,6 @@
 				span.subtitle		
 			
 				
-
 		#map
 			+span-columns(16)
 			h1.vision
@@ -713,8 +712,9 @@
 					ul				
 						+horizontal-list
 						li
-							margin: 0 !important
+							margin: 0 3px 0 0 !important
 							+span-columns(4)
+							//+span-columns(4,16,$padding:px-to-em(16px))
 							+horizontal-list-item
 							&:first-child
 								padding-left: 4px

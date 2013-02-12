@@ -409,7 +409,7 @@ i {
   line-height: 1.33333em; }
 /* line 110, ../../app/stylesheets/partials/_320grid.sass */
 .call .call-container ol {
-  padding-left: 2.1875em;
+  padding-left: 1.5625em;
   margin: 0; }
 /* line 113, ../../app/stylesheets/partials/_320grid.sass */
 .call .call-container ol li {
@@ -3241,45 +3241,45 @@ section.page #submit-project .submit #icon-number3 {
   /* line 681, ../../app/stylesheets/partials/_960grid.sass */
   section.page #mailing-list h2 span.hl, section.page #faq h2 span.hl, section.page #submit-project h2 span.hl, section.page #think h2 span.hl, section.page #publish h2 span.hl {
     display: block; }
-  /* line 690, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 689, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map {
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 692, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 691, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map h1.vision {
     width: 68.08511%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 694, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 693, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%;
     height: 334px; }
-  /* line 699, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 698, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #slides ul li img {
     margin-left: -380px; }
-  /* line 702, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 701, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps {
     height: auto;
     width: 100%;
     float: left;
     margin-right: 2.12766%;
     overflow: visible; }
-  /* line 706, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 705, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_right {
     display: none; }
-  /* line 708, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 707, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #arrow_left {
     display: none; }
-  /* line 710, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 709, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text {
     margin-top: 5px;
     width: 100%;
     float: left;
     margin-right: 2.12766%; }
-  /* line 713, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 712, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul {
     margin: 0;
     padding: 0;
@@ -3304,9 +3304,9 @@ section.page #submit-project .submit #icon-number3 {
   /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
-  /* line 715, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 714, ../../app/stylesheets/partials/_960grid.sass */
   section.page #map #steps #text ul li {
-    margin: 0 !important;
+    margin: 0 3px 0 0 !important;
     width: 23.40426%;
     float: left;
     margin-right: 2.12766%;
