@@ -418,6 +418,12 @@ i {
   font-size: 0.75em;
   line-height: 1.33333em; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 129, ../../app/stylesheets/partials/_320grid.sass */
+=======
+>>>>>>> call 320
 /* line 120, ../../app/stylesheets/partials/_320grid.sass */
 .last {
   border-bottom: 1px dashed #001fff; }
@@ -427,9 +433,15 @@ i {
 
 /* line 124, ../../app/stylesheets/partials/_320grid.sass */
 .guidelines-container {
+<<<<<<< HEAD
   width: 80.85106%;
   float: left;
   margin-right: 2.12766%;
+=======
+  width: 175%;
+  float: left;
+  margin-right: 5%;
+>>>>>>> call 320
   display: inline;
   border-top: 1px dashed #001fff;
   background: #fffed9; }
@@ -460,9 +472,15 @@ i {
 /* line 145, ../../app/stylesheets/partials/_320grid.sass */
 .guidelines-container .container-left {
   background: white;
+<<<<<<< HEAD
   width: 60.52632%;
   float: left;
   margin-right: 2.63158%;
+=======
+  width: 48.57143%;
+  float: left;
+  margin-right: 2.85714%;
+>>>>>>> call 320
   display: inline;
   position: relative;
   float: left;
@@ -565,7 +583,11 @@ i {
 .guidelines-container .container-right {
   margin-left: -12px;
   padding-left: 10px;
+<<<<<<< HEAD
   width: 36.84211%;
+=======
+  width: 48.57143%;
+>>>>>>> call 320
   float: right;
   margin-right: 0;
   #margin-left: -1.25em;
@@ -618,6 +640,10 @@ i {
   padding-right: 3px; }
 
 /* line 270, ../../app/stylesheets/partials/_320grid.sass */
+<<<<<<< HEAD
+=======
+>>>>>>> call 320
+>>>>>>> call 320
 .clear-box {
   clear: both; }
 
