@@ -226,6 +226,16 @@ i
 			padding: 0
 			&:last-child
 				margin-bottom: 20px
+		.photo-publisher
+			width: 65px
+			height: 65px
+			padding: 0
+			margin: 8px 8px 8px 0
+			position: relative
+			float: left
+		.publisher
+			position: relative
+			float: left
 		h1.title, h2.subtitle
 			margin: 0
 			font-family: "miso"
@@ -276,6 +286,7 @@ i
 				font-size: px-to-em(25px,36px)
 				line-height: px-to-em(28px,25px)
 		p 
+			+span-columns(6,6)
 			font-family: "source sans pro"
 			font-weight: 400
 			color: $purple
