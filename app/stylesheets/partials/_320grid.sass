@@ -341,7 +341,7 @@ i
 .clear-box
 	clear: both	
 .button_container
-	+pre(2)
+	
 	display: inline-block
 	position: relative
 	$image: image-url("textures/button_middle_bg.png")
@@ -801,6 +801,7 @@ section.page
 				
 				
 	#mailing-list
+		
 		#mail_submit
 			background-color: $yellow
 			border: none
@@ -876,6 +877,8 @@ section.page
 					font-family: "source sans pro"
 
 	#faq
+		.button_container
+			+pre(2)
 		a
 			span.icon
 				+assign-sprite-background($assets)
