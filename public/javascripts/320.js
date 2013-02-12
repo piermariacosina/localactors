@@ -95,7 +95,8 @@ var i=0;
 function changeLanguage (arLanguages)
 {
 	$(arLanguages).hide();
-	if(arLanguages.length == i){
+	
+	if(arLanguages.length*.5 == i){
 		i=0;
 	};
 	var item = arLanguages[i];
