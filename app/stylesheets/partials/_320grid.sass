@@ -160,12 +160,21 @@ i
 			line-height: px-to-em(18px,20px)
 			margin: 0
 			margin-bottom: 5px
+		a 
+			color: black
+			text-decoration: underline
+			background: $yellow
+			@extend .hover !optional
 		p
 			color: $purple
 			font-size: px-to-em(12px)
 			line-height: px-to-em(16px,12px)
 			margin: 0
-			margin-bottom: 15px
+			margin-bottom: 5px
+			&:last-child
+				margin-bottom: 15px
+		.highlight
+			font-weight: 600
 		ul
 			list-style-type: circle
 			padding-left: px-to-em(25px)
