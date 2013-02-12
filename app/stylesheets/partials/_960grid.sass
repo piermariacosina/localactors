@@ -59,7 +59,7 @@
 	
 	.button_container
 		margin-top: 10px
-
+	
 	#think,#submit-project,#mailing-list
 		.button_container
 			+pre(0)
@@ -327,6 +327,10 @@
 		
 	section.page
 		+susy-grid-background
+		#faq
+			.button_container
+				+pre(3,11)
+		
 		.buttons
 			text-align: left
 			display: block
@@ -456,7 +460,9 @@
 					width: 50%
 					+float-right						
 					.number
-						+logo($assets,"web")
+						span
+							display: block
+							+replace-text-with-dimensions("giff_logo_footer.gif")	
 						+clearfix
 						margin-top: 20px							
 						margin-left: 20px

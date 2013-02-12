@@ -708,10 +708,13 @@ section.page
 				@include clearfix
 				margin-bottom: 10px
 				.number
-					+logo($assets,"mobile")
 					+clearfix
 					+float-right
-					margin-top: 20px							
+					margin-top: 20px
+					span
+						display: block
+						+replace-text-with-dimensions("giff_logo_footer.gif")		
+												
 				.spiegazione
 					+float-right
 					+span-columns(3)
