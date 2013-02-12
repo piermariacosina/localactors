@@ -182,7 +182,7 @@
 		border-top: 1px dashed $blue
 		background: $light-yellow
 		.first
-			height: 155px
+			height: 171px
 		h3
 			font-family: "source sans pro"
 			font-weight: 800
@@ -208,6 +208,7 @@
 			margin-right: 10px
 			border-right: 1px dashed $blue
 			img
+				max-width: columns(8,8)
 				margin: 0
 				margin-top: 25px
 				padding: 0
@@ -685,7 +686,6 @@
 				span.subtitle		
 			
 				
-
 		#map
 			+span-columns(16)
 			h1.vision
@@ -712,8 +712,9 @@
 					ul				
 						+horizontal-list
 						li
-							margin: 0 !important
+							margin: 0 3px 0 0 !important
 							+span-columns(4)
+							//+span-columns(4,16,$padding:px-to-em(16px))
 							+horizontal-list-item
 							&:first-child
 								padding-left: 4px

@@ -128,8 +128,8 @@ i
 .call
 	overflow: visible
 	+span-columns(7,7)
-	margin-top: 20px
-	margin-bottom: 20px
+	margin-top: 10px
+	margin-bottom: 10px
 	padding-top: 0
 	.button_container
 		margin: 0
@@ -137,7 +137,6 @@ i
 		margin-bottom: 15px
 		position: relative
 		.main-title
-			//+post(3)
 		h1, h2, p
 			font-family: "source sans pro"
 			position: relative
@@ -150,7 +149,7 @@ i
 			color: $blue
 			font-size: px-to-em(30px)
 			line-height: px-to-em(28px,30px)
-			margin: 20px 0 40px 0
+			margin: 10px 0 20px 0
 			border-top: 1px dashed $blue
 			padding-top: 5px
 			position: relative
@@ -160,16 +159,16 @@ i
 			font-size: px-to-em(20px)
 			line-height: px-to-em(18px,20px)
 			margin: 0
-			margin-bottom: 10px
+			margin-bottom: 5px
 		p
 			color: $purple
 			font-size: px-to-em(12px)
 			line-height: px-to-em(16px,12px)
 			margin: 0
-			margin-bottom: 20px
+			margin-bottom: 15px
 		ul
 			list-style-type: circle
-			padding-left: px-to-em(35px)
+			padding-left: px-to-em(25px)
 			margin: 0
 			li 
 				font-family: "source sans pro"
@@ -177,7 +176,7 @@ i
 				font-size: px-to-em(12px)
 				line-height: px-to-em(16px,12px)
 		ol
-			padding-left: px-to-em(35px)
+			padding-left: px-to-em(25px)
 			margin: 0
 			li 
 				font-family: "source sans pro"
@@ -190,11 +189,12 @@ i
 	.icon-arrow-down
 		margin-top: 8px
 .guidelines-container
-	+span-columns(13,16)
+	//opacity: 0.7
+	+span-columns(12,7)
 	border-top: 1px dashed $blue
 	background: $light-yellow
 	.first
-		height: 155px
+		height: 151px
 	h3
 		font-family: "source sans pro"
 		font-weight: 800
@@ -205,14 +205,14 @@ i
 		margin-bottom: 10px
 		text-transform: uppercase
 	.icon-arrow-down
-		width: 50px
-		height: 32px
+		width: 32px
+		height: 20px
 		+assign-sprite-background($assets)
-		+sprite($assets, "arrow_down", true)
-		margin-bottom: 25px
+		+sprite($assets, "arrow_down-mobile", true)
+		margin-bottom: 20px
 	.container-left
 		background: white
-		+span-columns(8,13)
+		+span-columns(6,12)
 		position: relative
 		float: left
 		z-index: 3
@@ -220,27 +220,28 @@ i
 		margin-right: 10px
 		border-right: 1px dashed $blue
 		img
+			max-width: columns(6,6)
 			margin: 0
-			margin-top: 25px
+			margin-top: 20px
 			padding: 0
 			&:last-child
-				margin-bottom: 25px
+				margin-bottom: 20px
 		h1.title, h2.subtitle
 			margin: 0
 			font-family: "miso"
 			text-transform: uppercase
 			font-weight: 400
 		h1.title
-			margin-top: 4px
+			margin-top: 8px
 			margin-bottom: 8px
-			font-size: px-to-em(60px)
-			line-height: px-to-em(52px,60px)
+			font-size: px-to-em(32px)
+			line-height: px-to-em(28px,32px)
 			color: $rose
 		.icon-where, .icon-time, .icon-cost
 			float: left
 			position: relative
-			margin-top: 6px	
-			margin-right: 7px			
+			margin-top: -3px	
+			margin-right: 3px		
 		.icon-where
 			+assign-sprite-background($assets)
 			+sprite($assets, "small_icon_where", true)
@@ -254,8 +255,9 @@ i
 			list-style-type: none
 			padding: 0
 			padding-top: 10px
+			margin: 0
 			&:last-child
-				margin-bottom: 25px
+				margin-bottom: 20px
 			li 
 				h2.subtitle
 					margin-bottom: 7px
@@ -265,11 +267,10 @@ i
 				.total
 					color: $rose
 		h2.subtitle
-			margin-bottom: 25px
+			margin-bottom: 20px
 			color: $purple
-			font-size: px-to-em(36px)
-			line-height: px-to-em(35px,36px)
-			//text-indent: 7px
+			font-size: px-to-em(21px)
+			line-height: px-to-em(16px,21px)
 			span
 				text-transform: none
 				font-size: px-to-em(25px,36px)
@@ -278,20 +279,22 @@ i
 			font-family: "source sans pro"
 			font-weight: 400
 			color: $purple
-			font-size: px-to-em(15px)
-			line-height: px-to-em(20px,15px)
-			margin-top: 8px
-			margin-bottom: 13px
+			font-size: px-to-em(12px)
+			line-height: px-to-em(16px,12px)
+			margin-top: 0
+			margin-bottom: 5px
+			&:first-child
+				margin-top: 8px
 			&:last-child
-				margin-bottom: 25px
+				margin-bottom: 20px
 	.container-right
 		margin-left: -12px
 		padding-left: 10px
-		+span-columns(5 omega,13)
+		//padding-right: 10px
+		+span-columns(6 omega,12)
 		position: relative
 		z-index: 2
 		float: left
-		//background: $light-yellow
 		border-left: 1px dashed $blue
 		h3,h4
 			font-family: "source sans pro"
@@ -316,7 +319,7 @@ i
 			margin: 0
 			margin-bottom: 5px
 			&:last-child
-				margin-bottom: 25px
+				margin-bottom: 20px
 		ul
 			padding: 0
 			list-style-type: none
@@ -494,6 +497,7 @@ section.page
 	+pre(1)
 	+container($total-columns, $break)
 	margin-left: 0
+	overflow: hidden
 	#description
 		+hyphenation
 	
