@@ -448,34 +448,40 @@
 				border-top: 1px $blue dashed
 				@extend .wide !optional
 				.box
-					+pre(1)
 					border: 1px $blue solid			
-					+span-columns(4)
+					+span-columns(5,13)
 					color: $blue
 					font-family: "miso"
 					text-transform: uppercase
 					margin-top: 20px							
-					padding-right: 20px
-					padding-left: 20px
+					padding-right: 28px
+					padding-left: 28px
+					margin-right: 8px
 				.local
+					+span-columns(7 omega,13)
 					margin-bottom: 0
+					margin-right: 0
 					border-left: 1px $blue dashed
-					width: 50%
-					+float-right						
+					height: 146px
+					position: relative
 					.number
+						margin-left: 0 !important
+						position: absolute
+						right: 0
 						span
 							display: block
 							+replace-text-with-dimensions("giff_logo_footer.gif")	
 						+clearfix
 						margin-top: 20px							
-						margin-left: 20px
 						+float-right							
 					.spiegazione
-						width: 40%
-						+float-right
-						+pre(1)
-						font-family: "miso"
+						margin-top: 0
+						padding-top: 20px
+						padding-left: 59px
+						+span-columns(4,7)
 						h2
+							margin: 0
+							padding: 0
 							color: $rose
 						p
 							color: $blue
