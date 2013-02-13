@@ -628,344 +628,242 @@ section.page
 		letter-spacing: px-to-em(1.6px)
 		margin: 20px 0
 
-	#map
-		padding: 0
-		padding-bottom: 15px
-		@extend .full !optional
-		.banner-container
-			margin-bottom: 30px
-		#slides
-			ul
-				li
-					+clearfix
-					img
-						position: relative
-						margin-left: -(0.5*image-width("world1-mobile.png"))
-						left: 50%
-		
-		#steps
-			height: 86px
-			margin: 0
-			+clearfix
-			#arrow_left, #arrow_right
-				margin-top: 23px
-			#arrow_left
-				+span-columns(1)
-			#arrow_right
-				+span-columns(1 omega)
-			#text
-				+span-columns(5,7)
-				+clearfix
-				margin-top: 18px
-				ul
-					list-style-type: none
-					display: block
-					li
-						+span-columns(5,5)
-						+hyphenation
-						display: none
-						#arrow1,#arrow2,#arrow3
-							display: none
-							+span-columns(1)
-						#title
-							+span-columns(5,5)
-							margin: 0
-							p
-								+span-columns(5,5)
-								color: $blue
-								text-transform: uppercase
-								whitespace: nowrap
-								font-size: px-to-em(12px)
-								line-height: px-to-em(15px,12px)
-								letter-spacing: px-to-em(1.6px)
-								margin-top: 0
-								margin-bottom: 0
-								margin-right: 0
-								
-							h4
-								display: inline
-								color: $rose
-								text-transform: uppercase
-								font-weight: 400
-								font-size: px-to-em(19px)
-								line-height: px-to-em(17px,19px)
-								letter-spacing: px-to-em(1.6px)
-								margin-bottom: 3px
-			
-								
-	
-			
-	#explanation
-		padding-top: 10px
+#map
+	padding: 0
+	padding-bottom: 15px
+	@extend .full !optional
+	.banner-container
+		margin-bottom: 30px
+	#slides
 		ul
 			li
-				h2
-					font-weight: 800
-					margin-top: 0
-					margin-bottom: 10px
-				p
-					margin: 0 0 20px 0
-	footer
-		clear: both
-		#prefooter
-			.box
-				margin: 10px 0
-				border: 1px $blue solid			
-				color: $blue
-				font-family: "miso"
-				text-transform: uppercase						
-				padding-right: 20px
-				padding-left: 20px
-			.local
-				@include clearfix
-				margin-bottom: 10px
-				.number
-					+clearfix
-					+float-right
-					margin-top: 20px
-					span
-						display: block
-						+replace-text-with-dimensions("giff_logo_footer.gif")		
-												
-				.spiegazione
-					+float-right
-					+span-columns(3)
-					font-family: "miso"
-					h2
+				+clearfix
+				img
+					position: relative
+					margin-left: -(0.5*image-width("world1-mobile.png"))
+					left: 50%
+		
+#steps
+	height: 86px
+	margin: 0
+	+clearfix
+	#arrow_left, #arrow_right
+		margin-top: 23px
+	#arrow_left
+		+span-columns(1)
+	#arrow_right
+		+span-columns(1 omega)
+	#text
+		+span-columns(5,7)
+		+clearfix
+		margin-top: 18px
+		ul
+			list-style-type: none
+			display: block
+			li
+				+span-columns(5,5)
+				+hyphenation
+				display: none
+				#arrow1,#arrow2,#arrow3
+					display: none
+					+span-columns(1)
+				#title
+					+span-columns(5,5)
+					margin: 0
+					p
+						+span-columns(5,5)
+						color: $blue
+						text-transform: uppercase
+						whitespace: nowrap
+						font-size: px-to-em(12px)
+						line-height: px-to-em(15px,12px)
+						letter-spacing: px-to-em(1.6px)
+						margin-top: 0
+						margin-bottom: 0
+						margin-right: 0
+						
+					h4
+						display: inline
 						color: $rose
+						text-transform: uppercase
 						font-weight: 400
 						font-size: px-to-em(19px)
 						line-height: px-to-em(17px,19px)
-					p
-						color: $blue
-						text-transform: uppercase
-						font-family: "miso"
-						font-weight: 400       
-						color: $blue
-						font-size: px-to-em(12px)
-						line-height: px-to-em(15px,12px)
-						letter-spacing: px-to-em(2px)
-	
-		.blue
-			@extend .full !optional
-			clear: both
-			@extend .borded !optional
-			border-bottom: none
-			letter-spacing: px-to-em(1px)
+						letter-spacing: px-to-em(1.6px)
+						margin-bottom: 3px
 			
-			ul
-				@include horizontal-list-container
-				margin-top: 3px
-				padding: 0 10px 0 10px
+								
+	
+			
+#explanation
+	padding-top: 10px
+	ul
+		li
+			h2
+				font-weight: 800
+				margin-top: 0
 				margin-bottom: 10px
-				li
-					@include horizontal-list-item
+			p
+				margin: 0 0 20px 0
+footer
+	clear: both
+	#prefooter
+		.box
+			margin: 10px 0
+			border: 1px $blue solid			
+			color: $blue
+			font-family: "miso"
+			text-transform: uppercase						
+			padding-right: 20px
+			padding-left: 20px
+		.local
+			@include clearfix
+			margin-bottom: 10px
+			.number
+				+clearfix
+				+float-right
+				margin-top: 20px
+				span
+					display: block
+					+replace-text-with-dimensions("giff_logo_footer.gif")		
+											
+			.spiegazione
+				+float-right
+				+span-columns(3)
+				font-family: "miso"
+				h2
+					color: $rose
+					font-weight: 400
+					font-size: px-to-em(19px)
+					line-height: px-to-em(17px,19px)
+				p
+					color: $blue
+					text-transform: uppercase
 					font-family: "miso"
 					font-weight: 400       
 					color: $blue
-					font-size: px-to-em(14px)
-					text-transform: uppercase
-					margin-top: 3px
-					p
-						display: inline
-						color: $blue
-					a
-						background-color: yellow
-						color: black
-						@extend .hover !optional
-					.selected
-						@extend .borded !optional
-				li.nline
-					width: columns($total-columns)
-				li.nopadding
-					padding-left: 0
-			.rights
-				font-size: px-to-em(13px)
-				line-height: px-to-em(16px)
-				clear: both
+					font-size: px-to-em(12px)
+					line-height: px-to-em(15px,12px)
+					letter-spacing: px-to-em(2px)
+
+	.blue
+		@extend .full !optional
+		clear: both
+		@extend .borded !optional
+		border-bottom: none
+		letter-spacing: px-to-em(1px)
+		
+		ul
+			@include horizontal-list-container
+			margin-top: 3px
+			padding: 0 10px 0 10px
+			margin-bottom: 10px
+			li
+				@include horizontal-list-item
 				font-family: "miso"
 				font-weight: 400       
 				color: $blue
+				font-size: px-to-em(14px)
 				text-transform: uppercase
-				margin: 3px 10px 10px 10px
+				margin-top: 3px
 				p
-					margin: 7px 0
+					display: inline
+					color: $blue
 				a
 					background-color: yellow
 					color: black
 					@extend .hover !optional
-
-			
-	#mailing-list, #think, #submit-project, #publish, #faq
-		h2
-			letter-spacing: px-to-em(1px)
-			span.hl
-				line-height: px-to-em(27px, 21px) !important
-				span.ul
-					line-height: px-to-em(27px, 21px)
-			span.subtitle
-				display: inline-block
-				margin-left: 25px
-				line-height: px-to-em(19px, 19px)
-		#spiegazione
-			+float-left
-			+span-columns(5)
-			+pre(2)
-			p
-				text-transform: uppercase
-				font-family: "miso"
-				font-weight: 400       
-				color: $blue
-				font-size: px-to-em(12px)
-				line-height: px-to-em(15px,12px)
-				letter-spacing: px-to-em(2px)
-				margin: 0 0 10px 0
-			p.i
-				margin: 0 0 20px 0 !important
-				letter-spacing: normal !important
-				font-style: italic
-				font-family: "source sans pro" !important
-				text-transform: none !important
-				
-				
-	#mailing-list
-		
-		#mail_submit
-			background-color: $yellow
-			border: none
-			padding: 4px 10px
-			border: 1px solid white
-			outline: 2px solid $blue
-			color: $black
-			text-transform: uppercase !important
+				.selected
+					@extend .borded !optional
+			li.nline
+				width: columns($total-columns)
+			li.nopadding
+				padding-left: 0
+		.rights
+			font-size: px-to-em(13px)
+			line-height: px-to-em(16px)
+			clear: both
 			font-family: "miso"
-			font-weight: 200 !important
-			text-decoration: none
-			font-size: px-to-em(21px) !important
-			line-height: px-to-em(19px,21px) !important
-			&:hover
-				text-decoration: underline
-			
-
-		a
-			span.icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_subscribe", true)
-		
-		#mail_form
-			overflow: visible
-		
-		.mailing_list
-			#icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "subscribe-mobile", true)
-				+pre(2)
-				margin-bottom: 15px
-				margin-top: 5px
-				
-				
-			#spiegazione
-				+float-left
-				+span-columns(5)
-				+pre(2)
-				p
-					text-transform: uppercase
-					font-family: "miso"
-					font-weight: 400       
-					color: $blue
-					font-size: px-to-em(12px)
-					line-height: px-to-em(15px,12px)
-					letter-spacing: px-to-em(2px)
-					
-		
-		fieldset
-			+span-columns(5)
-			
-			+pre(2)
-			border: none
-			padding: 0
-			margin-top: 10px
-			margin-bottom: 0
+			font-weight: 400       
+			color: $blue
+			text-transform: uppercase
+			margin: 3px 10px 10px 10px
 			p
-				margin: 0
-				padding: 0
-				label
-					display: none
-				input
-					font-weight: 400
-					font-style: italic
-					font-size: px-to-em(12px)
-					line-height: px-to-em(16px,12px) 
-					width: 93%
-					border: 2px solid $blue
-					padding: px-to-em(10px)
-					color: $blue
-					font-family: "source sans pro"
-				input::-webkit-input-placeholder
-					color: $blue
-					font-family: "source sans pro"
+				margin: 7px 0
+			a
+				background-color: yellow
+				color: black
+				@extend .hover !optional
 
-	#faq
-		.button_container
-			+pre(2)
-		a
-			span.icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_question", true)
-		ul.questions
-			list-style: none
-			+pre(1)
-			+span-columns(5 omega)
-			li
-				h3
-					font-family: "source sans pro"
-					font-weight: 600
-					font-size: px-to-em(16px)
-					line-height: px-to-em(20px,16px)
-					color: $black
-					margin: 20px 0
-					
-					i
-						margin-top: 3px
-						position: absolute
-						+float-left
-						margin-left: -(sprite-height($assets,"questionmark")+6px)
-						+assign-sprite-background($assets)
-						+sprite($assets, "questionmark", true)
-					
-					&.ui-accordion-header-active
-						i
-							margin-left: 13px -(sprite-height($assets,"questionmark_color"))
-							+sprite($assets, "questionmark_color", true)
-					
-					span:hover
-						color: $purple
-						background-color: $acqua 
-				p
-					clear: both
-					font-family: "source sans pro"
-					font-weight: 400
-					font-style: italic
-					font-size: px-to-em(12px)
-					line-height: px-to-em(16px,12px)
-					color: $purple
-					margin: 0
-
+			
+#mailing-list, #think, #submit-project, #publish, #faq
+	h2
+		letter-spacing: px-to-em(1px)
+		span.hl
+			line-height: px-to-em(27px, 21px) !important
+			span.ul
+				line-height: px-to-em(27px, 21px)
+		span.subtitle
+			display: inline-block
+			margin-left: 25px
+			line-height: px-to-em(19px, 19px)
+	#spiegazione
+		+float-left
+		+span-columns(5)
+		+pre(2)
+		p
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400       
+			color: $blue
+			font-size: px-to-em(12px)
+			line-height: px-to-em(15px,12px)
+			letter-spacing: px-to-em(2px)
+			margin: 0 0 10px 0
+		p.i
+			margin: 0 0 20px 0 !important
+			letter-spacing: normal !important
+			font-style: italic
+			font-family: "source sans pro" !important
+			text-transform: none !important
 				
-	#think
-		a
-			span.icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_think", true)
-	#publish
-		opacity: 0.4
-		a
-			span.icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_publish", true)
-					
-						
-	#think,#publish                                      	
+				
+#mailing-list
+	
+	#mail_submit
+		background-color: $yellow
+		border: none
+		padding: 4px 10px
+		border: 1px solid white
+		outline: 2px solid $blue
+		color: $black
+		text-transform: uppercase !important
+		font-family: "miso"
+		font-weight: 200 !important
+		text-decoration: none
+		font-size: px-to-em(21px) !important
+		line-height: px-to-em(19px,21px) !important
+		&:hover
+			text-decoration: underline
+		
+
+	a
+		span.icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "mobile_icon_subscribe", true)
+	
+	#mail_form
+		overflow: visible
+	
+	.mailing_list
+		#icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "subscribe-mobile", true)
+			+pre(2)
+			margin-bottom: 15px
+			margin-top: 5px
+			
+			
 		#spiegazione
 			+float-left
 			+span-columns(5)
@@ -978,98 +876,200 @@ section.page
 				font-size: px-to-em(12px)
 				line-height: px-to-em(15px,12px)
 				letter-spacing: px-to-em(2px)
-				margin: 0 0 10px 0
-			p.i
-				margin: 0 0 10px 0
-				letter-spacing: normal
+				
+	
+	fieldset
+		+span-columns(5)
+		
+		+pre(2)
+		border: none
+		padding: 0
+		margin-top: 10px
+		margin-bottom: 0
+		p
+			margin: 0
+			padding: 0
+			label
+				display: none
+			input
+				font-weight: 400
 				font-style: italic
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px) 
+				width: 93%
+				border: 2px solid $blue
+				padding: px-to-em(10px)
+				color: $blue
 				font-family: "source sans pro"
-				text-transform: none
+			input::-webkit-input-placeholder
+				color: $blue
+				font-family: "source sans pro"
+
+#faq
+	.button_container
+		+pre(2)
+	a
+		span.icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "mobile_icon_question", true)
+	ul.questions
+		list-style: none
+		+pre(1)
+		+span-columns(5 omega)
+		li
+			h3
+				font-family: "source sans pro"
+				font-weight: 600
+				font-size: px-to-em(16px)
+				line-height: px-to-em(20px,16px)
+				color: $black
+				margin: 20px 0
+				
+				i
+					margin-top: 3px
+					position: absolute
+					+float-left
+					margin-left: -(sprite-height($assets,"questionmark")+6px)
+					+assign-sprite-background($assets)
+					+sprite($assets, "questionmark", true)
+				
+				&.ui-accordion-header-active
+					i
+						margin-left: 13px -(sprite-height($assets,"questionmark_color"))
+						+sprite($assets, "questionmark_color", true)
+				
+				span:hover
+					color: $purple
+					background-color: $acqua 
+			p
+				clear: both
+				font-family: "source sans pro"
+				font-weight: 400
+				font-style: italic
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px)
+				color: $purple
+				margin: 0
+
+				
+#think
+	a
+		span.icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "mobile_icon_think", true)
+#publish
+	opacity: 0.4
+	a
+		span.icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "mobile_icon_publish", true)
+				
+					
+#think,#publish                                      	
+	#spiegazione
+		+float-left
+		+span-columns(5)
+		+pre(2)
+		p
+			text-transform: uppercase
+			font-family: "miso"
+			font-weight: 400       
+			color: $blue
+			font-size: px-to-em(12px)
+			line-height: px-to-em(15px,12px)
+			letter-spacing: px-to-em(2px)
+			margin: 0 0 10px 0
+		p.i
+			margin: 0 0 10px 0
+			letter-spacing: normal
+			font-style: italic
+			font-family: "source sans pro"
+			text-transform: none
 					
 	
 						 
-	#submit-project
-		a
-			span.icon
-				+assign-sprite-background($assets)
-				+sprite($assets, "mobile_icon_submit", true)
-		.submit
-			#spiegazione
-				+span-columns(5)
-				+pre(2)
-				margin-top: -35
-				p
-					text-transform: uppercase
-					font-family: "miso"
-					font-weight: 400       
-					color: $blue
-					font-size: px-to-em(12px)
-					line-height: px-to-em(15px,12px)
-					letter-spacing: px-to-em(2px)
-					i
-						letter-spacing: normal	
-				h4
-					display: inline
-					text-transform: uppercase
-					font-family: "miso"
-					font-weight: 400       
-					color: $rose
-					
-			
-				#icon-doc1
-					+assign-sprite-background($assets)	
-					+sprite($assets, "doc1-mobile", true)
-
-					margin-top: 10px
-
-				#icon-doc2
-					+assign-sprite-background($assets)	
-					+sprite($assets, "doc2-mobile", true)
-
-					margin-top: 10px
-					margin-bottom: 15px
-
-					
-			
-				#icon-doc3
-					+assign-sprite-background($assets)	
-					+sprite($assets, "doc3-mobile", true)
-
-					margin-top: 10px
-					margin-bottom: 10px
-			.border-dashed
-				height: 1px
-				+span-columns(7,7)
-				overflow: visible
-				border-top: 1px dashed $blue
-				margin-top: 40px
-				margin-bottom: 30px
-				#icon-plus1
-					+assign-sprite-background($assets)	
-					+sprite($assets, "plus1-mobile", true)
-					+pre(3)
-					margin-top: -10px
-				#icon-plus2
-					+assign-sprite-background($assets)	
-					+sprite($assets, "plus2-mobile", true)
-					+pre(3)
-					margin-top: -10px	
-			#icon-number1
+#submit-project
+	a
+		span.icon
+			+assign-sprite-background($assets)
+			+sprite($assets, "mobile_icon_submit", true)
+	.submit
+		#spiegazione
+			+span-columns(5)
+			+pre(2)
+			margin-top: -35
+			p
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $blue
+				font-size: px-to-em(12px)
+				line-height: px-to-em(15px,12px)
+				letter-spacing: px-to-em(2px)
+				i
+					letter-spacing: normal	
+			h4
+				display: inline
+				text-transform: uppercase
+				font-family: "miso"
+				font-weight: 400       
+				color: $rose
+				
+		
+			#icon-doc1
 				+assign-sprite-background($assets)	
-				+sprite($assets, "one-mobile", true)
-				+pre(1)
-				+span-columns(1)
+				+sprite($assets, "doc1-mobile", true)
 
-			#icon-number2
+				margin-top: 10px
+
+			#icon-doc2
 				+assign-sprite-background($assets)	
-				+sprite($assets, "two-mobile", true)
-				+pre(1)
-				+span-columns(1)
-			#icon-number3
+				+sprite($assets, "doc2-mobile", true)
+
+				margin-top: 10px
+				margin-bottom: 15px
+
+				
+		
+			#icon-doc3
 				+assign-sprite-background($assets)	
-				+sprite($assets, "three-mobile", true)
-				+pre(1)
-				+span-columns(1)
+				+sprite($assets, "doc3-mobile", true)
+
+				margin-top: 10px
+				margin-bottom: 10px
+		.border-dashed
+			height: 1px
+			+span-columns(7,7)
+			overflow: visible
+			border-top: 1px dashed $blue
+			margin-top: 40px
+			margin-bottom: 30px
+			#icon-plus1
+				+assign-sprite-background($assets)	
+				+sprite($assets, "plus1-mobile", true)
+				+pre(3)
+				margin-top: -10px
+			#icon-plus2
+				+assign-sprite-background($assets)	
+				+sprite($assets, "plus2-mobile", true)
+				+pre(3)
+				margin-top: -10px	
+		#icon-number1
+			+assign-sprite-background($assets)	
+			+sprite($assets, "one-mobile", true)
+			+pre(1)
+			+span-columns(1)
+
+		#icon-number2
+			+assign-sprite-background($assets)	
+			+sprite($assets, "two-mobile", true)
+			+pre(1)
+			+span-columns(1)
+		#icon-number3
+			+assign-sprite-background($assets)	
+			+sprite($assets, "three-mobile", true)
+			+pre(1)
+			+span-columns(1)
 			
 			
 #mailing-list,#faq,#submit-project,#think,#publish
