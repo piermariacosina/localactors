@@ -55,7 +55,7 @@ gem 'padrino-rpm'
 group :development do
 	gem 'annotate'
 	gem 'awesome_print'
-#	gem 'oily_png'
+	gem 'oily_png'
 end
 
 # Or Padrino Edge
