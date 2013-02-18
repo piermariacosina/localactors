@@ -26,7 +26,7 @@ class Localactors < Padrino::Application
   
   configure :production do
     require 'padrino-contrib/helpers/assets_compressor'
-    require 'pdrino-rpm'
+    require 'padrino-rpm'
     require 'newrelic_rpm'
     register Padrino::Cache
     enable :caching
