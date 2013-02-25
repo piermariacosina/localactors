@@ -7,6 +7,14 @@ require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
+# Setup better_errors
+if Padrino.env == :development
+	require 'better_errors'
+	Padrino::Application.use BetterErrors::Middleware
+	BetterErrors.application_root = PADRINO_ROOT
+	BetterErrors.logger = Padrino.logger
+end
+
 # require 'gibbon'
 #require 'rdiscount'
 require 'sinatra/cross_origin'

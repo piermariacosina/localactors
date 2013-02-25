@@ -1,5 +1,4 @@
 class Localactors < Padrino::Application
-  register AnalyticsInitializer
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
@@ -25,6 +24,7 @@ class Localactors < Padrino::Application
   
   
   configure :production do
+    register AnalyticsInitializer
     require 'padrino-contrib/helpers/assets_compressor'
     require 'padrino-rpm'
     require 'newrelic_rpm'

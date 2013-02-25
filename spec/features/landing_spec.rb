@@ -5,9 +5,11 @@ describe "Landing" do
 
 	describe "Header" do
 
-		it "should have the content 'header'" do
+		it "should have the content 'header'", :js => true do
 			visit '/'
-			page.should have_content('header')
+			fill_in('email', :with => 'jon')
+			click('submit')
+			page.should have_content 'Success'
 		end
 	end
 end

@@ -139,7 +139,7 @@ p, pre {
 /* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em; }
 
 /* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
@@ -209,7 +209,7 @@ form {
 
 /* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
