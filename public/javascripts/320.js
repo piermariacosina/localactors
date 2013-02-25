@@ -91,7 +91,18 @@ submit.click(function(event) {
 	$( "#sections_accordion" ).accordion('activate' , 2);
 });
 
-
+var i=0;
+function changeLanguage (arLanguages)
+{
+	$(arLanguages).hide();
+	
+	if(arLanguages.length*.5 == i){
+		i=0;
+	};
+	var item = arLanguages[i];
+	$(item).fadeIn();
+	i++;
+}
 
 function fitMap() {
 	var slides_width =  $('#slides').css("width");
@@ -120,6 +131,14 @@ $(document).ready(function() {
 	var left_arrow = $( "#arrow_left" );
 	
 	var current = 0
+	
+	var objLanguages =  $('#map .banner-call ul li')
+	var arLanguages = $.makeArray(objLanguages);
+	changeLanguage (arLanguages);
+	setInterval (function() { changeLanguage(arLanguages)}, 3000 );
+	
+	
+	
 	
 	fitMap();
 	showCurrentSlide(current);

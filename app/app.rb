@@ -1,5 +1,4 @@
 class Localactors < Padrino::Application
-  register AnalyticsInitializer
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
@@ -25,6 +24,7 @@ class Localactors < Padrino::Application
   
   
   configure :production do
+    register AnalyticsInitializer
     require 'padrino-contrib/helpers/assets_compressor'
     require 'padrino-rpm'
     require 'newrelic_rpm'
@@ -39,11 +39,9 @@ class Localactors < Padrino::Application
      enable :asset_stamp
   end  
   
-  
-  
   get '/' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.views', 1)
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.views', 1)
     check = params[:newsletter]
     if check == "success"
       
@@ -64,15 +62,15 @@ class Localactors < Padrino::Application
   
   
   get '/callforprojects' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.callforproject', 1)
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.callforproject', 1)
     render "call_for_projects"
   end
    
-  get '/whoweare' do
-    c = CockpitoDataSender.new
-    c.increment('localactors.whoweare', 1)
-    render "who_we_are"
+  get '/ourapproach' do
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.whoweare', 1)
+    render "our_approach"
   end
    
   # get '/subscribe', :provides => [:html, :json] do

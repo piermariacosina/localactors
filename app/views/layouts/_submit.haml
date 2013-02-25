@@ -1,60 +1,21 @@
 %header
-	%a{href: 'c'}
+	%a{href: '/'}
 		%span.icon
 	
 	%h2
 		%span.hl 
-			&rarr;
-			%span.ul SUBMIT A PROJECT
-		<br />HOW? 3 STEPS!
-%section.submit
-	#icon-number1
-	#spiegazione
-		%h4 THINK
-		%p
-			What is your goal? What do you want to achieve and when? How much it
-			will costs and what other support you may need (perhaps, some materials, teachers etc.)?
-			Keep it simple, keep it phased. Plan for a year and say what you achieve
-			in each quarter. Project of 500 EUR will be easier to fund than a project
-			of 2000 EUR. Think through what you need most.<br /><br />
-			%i
-				EXAMPLE: If you want to take 40 kids on a day coach trip, explain why
-				they should go - what they get from the trip, how your choose the 40,
-				when is the trip expected to take place and calculate the price of
-				the trip (coach with the driver or also anything else?)
-		#icon-doc1
-	.border-dashed
-		#icon-plus1
-	#icon-number2
-	#spiegazione
-		%h4 SEND
-		%p
-			Write about your project and yourself, take pictures and send all details to us on ...<br /><br />
-			%i
-				EXAMPLE: Picture of you as the publisher and the group of kids or the school or the
-				club where they are from will make your project specific and will get you more support.
-				Your location will get you on the LocalActors.org map so anybody wishing to support your
-				area will easily find you.
+			&rarr; 
+			%span.ul Submit a project<br />
+		%span.subtitle how
 		
-		#icon-doc2
-		%h4.buttons
-			%a{:href=>"mailto:weare@localactors.org"} Get in contact
-	.border-dashed
-		#icon-plus2
-	#icon-number3
+%section.submit
 	#spiegazione
-		%h4 PUBLISH
 		%p
-			We read, get back to you and will help you to create an attractive
-			page on the localactors.org so you can raise funds, accomplish what you intend and keep
-			others informed about your activities. You publish your project and set a deadline to raise support.<br /><br />
-			%i
-				EXAMPLE: You what to go on a trip on 20 June, you prepare your details in March, publish
-				on 20 April and set a deadline of 30 May to raise funds.
-		#icon-doc3
-	#documenti
-		#icon-doc1
-		#icon-plus1
-		#icon-doc2
-		#icon-plus2
-		#icon-doc3
+			Write about your project and yourself, take pictures and send all details to us on...
+		
+	
+		.button_container			
+			.corner_left
+			%h4.buttons.yellow_button
+				=partial "layouts/submit_email"
+			.corner_right

@@ -11,7 +11,7 @@
 			%span.sfour
 			%span.three
 			%span.stwo
-		
+
 			%span.num.four
 			%span.stripe.four
 			%span.num.five
@@ -24,41 +24,31 @@
 			%span.stripe.two
 			%span.num.nine
 			%span.stripe.four
-		
+
 		%span.logo_text
 %nav.navigation
 	%ul
 		%li
-			%a.who{href: '/whoweare'} Who we are
+			%a.who{href: '/ourapproach'} Our approach
 		%li
 			%a.call{href: '/callforprojects'} Call for projects
 		%li
 			%a.subscribe{href: '/#mailing-list'} Subscribe to mailing list
-		%li.nopadding
+	%ul
+		%li
 			%a.ask{href: '/#faq'} Ask a question
 		%li
 			%a.submit{href: '/#submit'} Submit a project
+	%ul
+		%li
+			%a.publish{href: '/#faq'} Publish
+		/
+			%li
+				%a.paper{href: '/#submit'} Download paper
+			
 /
 	#paper
 		%span.pdf_icon PDF icon
 		%a{href: '#'} Download PDF
 	#socials
-.banner-call
-	.border1
-	.border2
-	.bg-dash
-	.bg-white
-	.icon
-	%ul
-		%li
-			%a{href: '#'}¡En busca de nuevos proyectos!
-		%li 
-			%a{href: '#'}Buscamos novos projetos!
-		%li
-			%a{href: '#'}Yeni projeler arıyoruz!
-		%li
-			%a{href: '#'}Avez vous des nouveaux projets? 
-		%li
-			%a{href: '#'}نحن نبحث عن مشاريع جديدة
-		%li
-			%a{href: '#'}期待合作?
+= partial "layouts/banner"

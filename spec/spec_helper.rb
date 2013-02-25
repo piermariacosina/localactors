@@ -23,6 +23,7 @@ Spork.each_run do
 end
 
 RSpec.configure do |conf|
+  Capybara.javascript_driver = :webkit
   conf.include Rack::Test::Methods
   conf.include RSpec::Padrino # add this
   conf.include Capybara::DSL

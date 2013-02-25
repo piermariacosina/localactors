@@ -30,5 +30,7 @@ Padrino.configure_apps do
   set :session_secret, 'f9615e16d1b4a3bfb157b59142e164940b27fedf643891c5b40df75b7873951f'
 end
 
+
+
 # Mounts the core application for this project
 Padrino.mount("Localactors").to('/')

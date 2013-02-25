@@ -7,6 +7,7 @@
 	.wide
 		+span-columns(13, $break)
 	.borded
+	
 		border: 2px $blue solid
 	
 	.icon
@@ -17,6 +18,8 @@
 		$image: image-url("textures/spined.png")
 		background: $image repeat-x left top
 		
+	.clear
+		clear: both
 		
 	div.success
 		+span-columns(8,11)
@@ -53,140 +56,431 @@
 				i
 					@include assign-sprite-background($assets)
 					@include replace-with-sprite($assets,"exclamation")
+	
+	.button_container
+		margin-top: 10px
+	
+	#think,#submit-project,#mailing-list
+		.button_container
+			+pre(0)
+
+	
+	.top
+		margin-top: 45px !important
+	.call
+		overflow: visible
+		+span-columns(11, $break)
+		margin-top: 20px
+		margin-bottom: 20px
+		padding-top: 0
+		.button_container
+			margin: 0
+		.call-container
+			margin-bottom: 15px
+			position: relative
+			
+			#icon-top
+				position: absolute
+				top: -20px
+				right: -116px
+				width: 318px
+				height: 80px
+				$image: image-url("textures/dash_red.png")
+				background: $image repeat left top
+				.icon-call
+					position: relative
+					float: left
+					top: -5px
+					left: 40px
+					width: 101px
+					height: 67px
+					+assign-sprite-background($assets)
+					+sprite($assets, "icon_call4projects", true)
+					z-index: 1
+				.icon-top-bg, .icon-top-bg2
+					position: relative
+					background: white
+				.icon-top-bg
+					top: 9px
+					left: 30px
+					width: 300px
+					height: 28px
+				.icon-top-bg2
+					top: 24px
+					left: 30px
+					width: 200px
+					height: 110px
+			.icon-bg
+				position: absolute
+				top: 21px
+				right: -49px
+				width: 322px
+				height: 135px
+				$image: image-url("textures/dash_green.png")
+				background: $image repeat left top
+
+					
+			h1, h2, p
+				font-family: "source sans pro"
+				position: relative
+				z-index: 6
+			h1, h2
+				font-weight: 800
+				text-transform: uppercase
+				text-decoration: underline
+			h1
+				color: $blue
+				font-size: px-to-em(30px)
+				line-height: px-to-em(28px,30px)
+				margin: 20px 0 40px 0
+				border-top: 1px dashed $blue
+				padding-top: 5px
+				position: relative
+				z-index: 2
+			h2
+				color: $rose
+				font-size: px-to-em(24px)
+				line-height: px-to-em(21px,24px)
+				display: inline
+			p
+				color: $purple
+				font-size: px-to-em(18px)
+				line-height: px-to-em(24px,18px)
+				margin-left: 5px
+			ul
+				list-style-type: circle
+				padding-left: px-to-em(35px)
+				margin: 0
+				margin-top: 15px
+				li 
+					font-family: "source sans pro"
+					color: $purple
+					font-size: px-to-em(18px)
+					line-height: px-to-em(24px,18px)
+			ol
+				padding-left: px-to-em(35px)
+				margin: 0
+				margin-top: 15px
+				li 
+					font-family: "source sans pro"
+					color: $purple
+					font-size: px-to-em(18px)
+					line-height: px-to-em(24px,18px)
+					
+	
+	.last
+		border-bottom: 1px dashed $blue
+		.icon-arrow-down
+			margin-top: 8px
+	.guidelines-container
+		+span-columns(13,16)
+		border-top: 1px dashed $blue
+		background: $light-yellow
+		.first
+			height: 171px
+		h3
+			font-family: "source sans pro"
+			font-weight: 800
+			color: $blue
+			font-size: px-to-em(20px)
+			line-height: px-to-em(18px,20px)
+			margin-top: 8px
+			margin-bottom: 10px
+			text-transform: uppercase
+		.icon-arrow-down
+			width: 50px
+			height: 32px
+			+assign-sprite-background($assets)
+			+sprite($assets, "arrow_down", true)
+			margin-bottom: 25px
+		.container-left
+			background: white
+			+span-columns(8,13)
+			position: relative
+			float: left
+			z-index: 3
+			padding-right: 10px
+			margin-right: 10px
+			border-right: 1px dashed $blue
+			.photo-publisher
+				width: 100px
+				height: 100px
+				margin: 8px 8px 0 0
+				float: none
+			.publisher
+				float: none
+			img
+				max-width: columns(8,8)
+				margin: 0
+				margin-top: 25px
+				padding: 0
+				&:last-child
+					margin-bottom: 25px
+			h1.title, h2.subtitle
+				margin: 0
+				font-family: "miso"
+				text-transform: uppercase
+				font-weight: 400
+			h1.title
+				margin-top: 4px
+				margin-bottom: 8px
+				font-size: px-to-em(60px)
+				line-height: px-to-em(52px,60px)
+				color: $rose
+			.icon-where, .icon-time, .icon-cost
+				float: left
+				position: relative
+				margin-top: 6px	
+				margin-right: 7px			
+			.icon-where
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_where", true)
+			.icon-time
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_time", true)
+			.icon-cost
+				+assign-sprite-background($assets)
+				+sprite($assets, "small_icon_cost", true)
+			ul
+				list-style-type: none
+				padding: 0
+				padding-top: 10px
+				&:last-child
+					margin-bottom: 25px
+				li 
+					h2.subtitle
+						margin-bottom: 7px
+				li.cost
+					h2.subtitle
+						text-decoration: underline
+					.total
+						color: $rose
+			h2.subtitle
+				margin-bottom: 25px
+				color: $purple
+				font-size: px-to-em(36px)
+				line-height: px-to-em(35px,36px)
+			
+				span
+					text-transform: none
+					font-size: px-to-em(25px,36px)
+					line-height: px-to-em(28px,25px)
+			p 
+				font-family: "source sans pro"
+				font-weight: 400
+				color: $purple
+				font-size: px-to-em(15px)
+				line-height: px-to-em(20px,15px)
+				margin: 0
+				margin-top: 8px
+				margin-bottom: 13px
+				&:last-child
+					margin-bottom: 25px
+		.container-right
+			margin-left: -12px
+			padding-left: 10px
+			+span-columns(5 omega,13)
+			position: relative
+			z-index: 2
+			float: left
+	
+			border-left: 1px dashed $blue
+			h3,h4
+				font-family: "source sans pro"
+				font-weight: 800
+				color: $blue
+				font-size: px-to-em(20px)
+				line-height: px-to-em(18px,20px)
+				margin-top: 8px
+				margin-bottom: 10px
+				text-transform: uppercase
+				span
+					color: $rose
+			h4
+				color: $rose
+				text-transform: none
+			p, ul
+				font-family: "source sans pro"
+				font-weight: 400
+				color: $purple
+				font-size: px-to-em(12px)
+				line-height: px-to-em(16px,12px)
+				margin: 0
+				margin-bottom: 5px
+				&:last-child
+					margin-bottom: 25px
+			ul
+				padding: 0
+				list-style-type: none
+				li 
+					margin-bottom: 5px
+					span
+						color: $rose
+						font-weight: 800
+						font-size: px-to-em(20px,12px)
+						padding-right: 3px
+					
+	
+	
+	
+	
 		
 	section.page
-		+susy-grid-background
+		#faq
+			.button_container
+				+pre(3,11)
+		
 		.buttons
-			text-align: center
-			display:block
-			clear:both
+			text-align: left
+			display: block
+			clear: both
 			a
-				padding: 10px 20px 10px 20px
+				padding: 4px 10px
 
-			input, a
-				width: 100%
-				height: 35px
-				font-size: px-to-em(20px) !important
+			
 			a:hover
 				background-color: yellow !important
 				color: black !important
 				
 		+pre(0)
+
 		header
 			overflow: visible
+			+span-columns(16)
+			
 			#logo
 				+logo($assets,"web")
+				position: absolute
 			nav.navigation
-				+pre(3)
-				clear: none
-				float: left
-				padding-top: 0
+				position: relative
+				top: 25px
+				+pre(6)
+				+span-columns(3,16)
 				ul
-					li 
-						margin-top: 0px
-						display: block
-						float: none
+					float: none
+					+span-columns(3 omega,3)
+					li
 						background: none
-						width: 100%
-						min-height: px-to-em(20px)
-						padding-left: 0
+						padding: 0
+						float: left
+						position: relative
+						clear: both
 						a
-							@extend .hover !optional
+							+span-columns(3 omega,3)
+							display: inline-block
 							font-size: px-to-em(14px)
-							font-weight: 400
+							line-height: px-to-em(17px,14px)
+							margin: 0 0 6px 0
+							
 			#paper
 				display: block
 				margin-top: 0
-				
-		.banner-call
-			+span-columns(7,16)
-			position: relative
-			padding: 16px
-			margin-top: 40px
-			.border1, .border2
-				width: 370px
-				height: 130px
-				border: 2px solid $blue
-				background: white
-				position: absolute
-			.border1
-				top: -3px
-				left: -3px
-			.border2
-				top: 0
-				left: 0
-			.bg-dash
-				width: 340px
-				height: 140px
-				$image: image-url("textures/dash_blue.png")
-				background: $image repeat left top
-				position: absolute
-				top: -20px
-				left: -20px
-			.bg-white
-				width: 330px
-				height: 95px
-				background: white
-				position: absolute
-				top: 10px
-				left: 10px
-			.icon
-				width: 101px
-				height: 67px
-				+assign-sprite-background($assets)
-				+sprite($assets, "icon_call4projects", true)
-				position: absolute
-				z-index: 12
-				top: -31px
-				right: 72px
-			a
-				+span-columns(10,16)
-				font-family: "miso"
-				color: $black
-				background-color: $yellow
-				font-size: px-to-em(30px)
-				line-height: px-to-em(32px,30px)
-				letter-spacing: px-to-em(2px)
-				text-transform: uppercase
-				font-weight: 200
-				white-space: normal
-				text-decoration: underline
-				z-index: 9
-				position: relative
-			a:hover
-				color: $purple
-				background-color: $acqua
+			.banner-container
+				display: block
+				+span-columns(7 omega,16)
+				margin-top: -10px
+				.banner-call
+					position: relative
+					padding: 16px
+					margin-top: 40px
+					+span-columns(7,7)
+					margin-left: 20px
+					display: inline
+					.border1, .border2
+						width: 370px
+						height: 130px
+						border: 2px solid $blue
+						background: white
+						position: absolute
+					.border1
+						top: -3px
+						left: -3px
+					.border2
+						top: 0
+						left: 0
+					.bg-dash
+						width: 340px
+						height: 140px
+						$image: image-url("textures/dash_blue.png")
+						background: $image repeat left top
+						position: absolute
+						top: -20px
+						left: -20px
+					.bg-white
+						width: 330px
+						height: 95px
+						background: white
+						position: absolute
+						top: 10px
+						left: 10px
+					.icon
+						width: 101px
+						height: 67px
+						+assign-sprite-background($assets)
+						+sprite($assets, "icon_call4projects", true)
+						position: absolute
+						z-index: 12
+						top: -31px
+						left: 255px
+					ul
+						+no-bullets
+					a
+						+span-columns(4,7)
+						font-family: "miso"
+						color: $black
+						background-color: $yellow
+						font-size: px-to-em(30px)
+						line-height: px-to-em(32px,30px)
+						letter-spacing: px-to-em(2px)
+						text-transform: uppercase
+						font-weight: 200
+						white-space: normal
+						text-decoration: underline
+						z-index: 9
+						position: relative
+					a:hover
+						color: $purple
+						background-color: $acqua
 	
 		footer
 			#prefooter
 				border-top: 1px $blue dashed
 				@extend .wide !optional
 				.box
-					+pre(1)
 					border: 1px $blue solid			
-					+span-columns(4)
+					+span-columns(5,13)
 					color: $blue
 					font-family: "miso"
 					text-transform: uppercase
 					margin-top: 20px							
-					padding-right: 20px
-					padding-left: 20px
+					padding-right: 28px
+					padding-left: 28px
+					margin-right: 8px
 				.local
+					+span-columns(7 omega,13)
+					margin-bottom: 0
+					margin-right: 0
 					border-left: 1px $blue dashed
-					width: 50%
-					+float-right						
+					height: 146px
+					position: relative
 					.number
-						+logo($assets,"web")
+						margin-left: 0 !important
+						position: absolute
+						right: 0
+						span
+							display: block
+							+replace-text-with-dimensions("giff_logo_footer.gif")	
 						+clearfix
 						margin-top: 20px							
-						margin-left: 20px
 						+float-right							
 					.spiegazione
-						width: 40%
-						+float-right
-						+pre(1)
-						font-family: "miso"
+						margin-top: 0
+						padding-top: 20px
+						padding-left: 59px
+						+span-columns(4,7)
 						h2
+							margin: 0
+							padding: 0
 							color: $rose
 						p
 							color: $blue
@@ -203,15 +497,39 @@
 		hr.footer
 			@extend .borded !optional
 
+		#mailing-list, #think, #submit-project, #publish, #faq
+			h2
+				span.hl
+					span.ul
+				span.subtitle
+			#spiegazione
+				p
+					font-size: px-to-em(14px) !important
+					line-height: px-to-em(17px,14px) !important
+					letter-spacing: px-to-em(2px)
+					margin: 0 0 10px 0
+				p.i
+					margin: 0 0 20px 0 !important
+					letter-spacing: normal !important
+
 
 		#description
 			+span-columns(11, $break)
+			clear: both	
 		h1.vision
 			font-size: px-to-em(30px)
-			margin: 40px 0		
+			margin: 40px 0
+			clear: both	
 
+		#map
+			.banner-container
+				.banner-call
+					display: none
 		#explanation
-			+span-columns(10, $break)
+			+span-columns(11, $break)
+			margin-top: 10px
+			margin-bottom: 10px
+			padding-top: 0
 			ul
 				li
 					margin-top: px-to-em(15px)	
@@ -250,17 +568,28 @@
 					+pre(0)
 					fieldset
 						+span-columns(5,8)
-						+pre(0)	
-					.buttons
-						+span-columns(2,8)
+						+pre(0)
+						input
+							width: 95%
 					
-			
+							
+		
 		#faq
 			section
 				+span-columns(11,13)
 			ul.questions
 				float: left
-				+pre(4)	
+				+pre(4)
+				li
+					h3
+						font-size: px-to-em(16px)
+						line-height: px-to-em(20px,16px)
+						margin: 20px 0
+						i
+							margin-top: 3px
+					p
+						font-size: px-to-em(16px)
+						line-height: px-to-em(20px,16px)
 			a
 				span.icon
 					+assign-sprite-background($assets)
@@ -362,18 +691,20 @@
 			@extend .wide !optional
 			a span.icon
 				+span-columns(3,$break)
-			h2.section_title
-				+span-columns(8,$break)
-			
 			h2
-				font-size: px-to-em(20px)
+				+span-columns(8,$break)
+				font-size: px-to-em(32px,21px)
+				span
+					
+					line-height: px-to-em(40px,32px)
 				span.hl
 					display: block
-			
-					
+					span.ul
+						
+						
+				span.subtitle		
 			
 				
-
 		#map
 			+span-columns(16)
 			h1.vision
@@ -387,7 +718,9 @@
 							margin-left: -(0.5*image-width("world1.png"))
 
 			#steps
-				+span-columns(16)	
+				height: auto
+				+span-columns(16)
+				overflow: visible
 				#arrow_right
 					display: none
 				#arrow_left
@@ -398,14 +731,16 @@
 					ul				
 						+horizontal-list
 						li
+							margin: 0 3px 0 0 !important
 							+span-columns(4)
+							
 							+horizontal-list-item
 							&:first-child
 								padding-left: 4px
 							&:last-child
 								padding-right: 4px
 							white-space: normal
-							height: 180px
+							height: 165px
 							display: block !important
 							position: relative
 							border: 2px white solid
@@ -414,6 +749,7 @@
 								
 							#arrow1, #arrow2, #arrow3
 								+span-columns(1,4)
+								margin-top: 20px  
 							#arrow1
 								@extend .arrow !optional
 								@extend .icon
@@ -433,20 +769,27 @@
 							#title
 								margin-botton: 20px
 								margin-top: 20px
-								+span-columns(3,4)
+								+span-columns(3 omega,4)
 								
 								h4
 									display: inline
 									font-size: 24px
 									text-transform: uppercase
 									letter-spacing: 2px
+									background: white
 								
 								p
 									font-size: 14px
 									text-transform: uppercase
-								
-							&:hover,&.selected
-								@extend .borded !optional
+									background: white
+									margin-top: 10px !important
+							
+							&:hover
+								background: $yellow
+							&.selected
+								border: 2px $blue solid
+							
+							
 	
 		h1.terms
 			
@@ -455,48 +798,49 @@
 			color: $rose					
 			text-transform: uppercase
 			font-weight: 400	
-		#terms
-		
-			a
-				@extend .hover !optional
-				color: $black
-				background-color: $yellow
+	#terms
+	
+		a
+			@extend .hover !optional
+			color: $black
+			background-color: $yellow
 
 
-			#section
-				@extend .spined			
-				+span-columns(13,16)
-				font-family: "miso"
-				
-				#title
-					font-size: px-to-em(35px)
-					color: $blue					
-					text-transform: uppercase
-					margin-top: px-to-em(20px)
-					font-weight: 400
-				#subtitle
-					font-size: px-to-em(30px)
-					color: $rose
-					margin-top: px-to-em(5px)
-					font-weight: 400
-				p
-					color: black
-					font-family: "source sans pro"
-					+span-columns(10,13)
-					font-size: px-to-em(15px)
-					line-height: px-to-em(18px)
-				ol
-					font-family: "source sans pro"
-					color: $blue
-					+span-columns(7,13)
-					+pre(1)
-					font-size: px-to-em(15px)
-					line-height: px-to-em(20px)
-					li
-						margin-bottom: 10px
+		#section
+			@extend .spined			
+			+span-columns(13,16)
+			font-family: "miso"
+			
+			#title
+				font-size: px-to-em(35px)
+				color: $blue					
+				text-transform: uppercase
+				margin-top: px-to-em(20px)
+				font-weight: 400
+			#subtitle
+				font-size: px-to-em(30px)
+				color: $rose
+				margin-top: px-to-em(5px)
+				font-weight: 400
+			p
+				color: black
+				font-family: "source sans pro"
+				+span-columns(10,13)
+				font-size: px-to-em(15px)
+				line-height: px-to-em(18px)
+			ol
+				font-family: "source sans pro"
+				color: $blue
+				+span-columns(7,13)
+				+pre(1)
+				font-size: px-to-em(15px)
+				line-height: px-to-em(20px)
+				li
+					margin-bottom: 10px
 
 +at-breakpoint(18)
 	section.page
 		+pre(2)						
+
 
 				

@@ -1,12 +1,12 @@
 %header
-	%a{ href: 'c'}
+	%a{ href: '/'}
 		%span.icon
 	
 	%h2
 		%span.hl 
 			&rarr; 
-			%span.ul SUBSCRIBE TO MAILING LIST
-		AND BECOME A LOCAL ACTOR
+			%span.ul Subscribe to mailing list<br />
+		%span.subtitle and become a local actor
 
 %section.mailing_list
 	#icon
@@ -24,4 +24,8 @@
 				= text_field_tag :email, :name => "email", :value => params[:email], :id => 'email', :placeholder=>"Your email address here"
 		- field_set_tag(:class => 'buttons') do
 			= hidden_field_tag  :list, :value => 4, :name => "list", :id => 'mail_list'
-			= submit_tag "Submit", :name => "submit", :id => 'mail_submit'
+			
+			.button_container			
+				.corner_left
+				= submit_tag "Submit", :name => "submit", :id => 'mail_submit',:class=> "buttons yellow_button"
+				.corner_right

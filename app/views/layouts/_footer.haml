@@ -1,25 +1,24 @@
 #prefooter
 	.box
 		%p we just started our project,if you think is cool share it
-		.fn-like(data-href="http://localactors.org" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true" data-font="tahoma")
+		%div{:class=>"addthis_toolbox addthis_default_style addthis_32x32_style"}
+			%a{:class=>"addthis_button_facebook"}
+			%a{:class=>"addthis_button_twitter"}
+			%a{:class=>"addthis_button_google_plusone_badge"}
+			%a{:class=>"addthis_counter addthis_bubble_style"}
+		%script{:type=>"text/javascript"}
+			var addthis_config = {"data_track_addressbar":true};
+		%script{:type=>"text/javascript", :src=>"http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-504e04fd25d63caa"}
 	.local
 		.spiegazione
-			%h2 HOW MANY LOCAL ACTORS
-			%p When you succeed, the project gets going and you become local actor
+			%h2 HOW MANY LOCAL ACTORS IN OUR COMMUNITY?
+			%p help us grow, become a local actor!
 		.number
 			%a.logo{href: '/'}
-				%span.sone
-				%span.zero
-				%span.stwo
-				%span.one
-				%span.sthree
-				%span.two
-				%span.sfour
-				%span.three
-				%span.stwo
-
-
-
+				%span
+			
+		
+	
 .blue		
 	%ul 
 		%li.nline
@@ -32,7 +31,7 @@
 			%li
 				%a{href: 'c'} download paper
 				%span /
-
+			
 		%li
 			%a{:href => 'http://www.iubenda.com/privacy-policy/300072', :class => "iubenda-white iubenda-embed", :title => "Privacy Policy"}Privacy Policy
 			%script{:type => "text/javascript"}
@@ -40,7 +39,7 @@
 				tag = d.getElementsByTagName("script")[0]; s.src = "http://cdn.iubenda.com/iubenda.js"; 
 				tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}
 				else if(w.attachEvent){w.attachEvent("unload", loader);}else{w.onload = loader;}})(window, document);
-
+			
 		%li.nline.nopadding
 			%p proudly designed by 
 			%a{href: 'http://thedoersproject.com'} thedoers

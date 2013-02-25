@@ -14,7 +14,7 @@ gem 'sinatra-redirect-with-flash'
 gem 'sinatra-cross_origin'
 
 # Component requirements
-gem 'rack-google-analytics', :require => "rack/google-analytics"
+
 gem 'compass'
 gem 'compass-h5bp'
 gem 'haml'
@@ -22,11 +22,13 @@ gem 'susy'
 
 
 # gem 'gibbon'
-#gem 'rdiscount'
+# gem 'rdiscount'
 
 
 group :production do
 	gem 'yui-compressor', :require => 'yui/compressor'
+	gem 'padrino-rpm'
+	gem 'rack-google-analytics', :require => "rack/google-analytics"
 end
 
 
@@ -37,6 +39,8 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+	gem 'colored'
+	gem 'deadweight', :require => 'deadweight/hijack/rails'
 end
 
 group :test do
@@ -44,18 +48,22 @@ group :test do
 	gem 'rb-fsevent'
 	gem 'terminal-notifier-guard'
 	gem 'rspec-padrino'
+	gem 'capybara-webkit'
 end
 
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
 gem 'padrino-contrib'
-gem 'padrino-rpm'
+
 
 
 group :development do
 	gem 'annotate'
 	gem 'awesome_print'
+	gem 'better_errors'
 	gem 'oily_png'
+	gem 'binding_of_caller'
+	
 end
 
 # Or Padrino Edge
@@ -65,3 +73,4 @@ end
 # %w(core gen helpers cache mailer admin).each do |g|
 #   gem 'padrino-' + g, '0.10.7'
 # end
+
