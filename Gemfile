@@ -20,16 +20,12 @@ gem 'compass-h5bp'
 gem 'haml'
 gem 'susy'
 
+# Padrino Stable Gem
+gem 'padrino', '0.10.7'
+gem 'padrino-contrib'
 
 # gem 'gibbon'
 # gem 'rdiscount'
-
-
-group :production do
-	gem 'yui-compressor', :require => 'yui/compressor'
-	gem 'padrino-rpm'
-	gem 'rack-google-analytics', :require => "rack/google-analytics"
-end
 
 
 # Test requirements
@@ -51,11 +47,13 @@ group :test do
 	gem 'capybara-webkit'
 end
 
-# Padrino Stable Gem
-gem 'padrino', '0.10.7'
-gem 'padrino-contrib'
 
 
+group :production do
+	gem 'yui-compressor', :require => 'yui/compressor'
+	gem 'padrino-rpm'
+	gem 'rack-google-analytics', :require => "rack/google-analytics"
+end
 
 group :development do
 	gem 'annotate'
