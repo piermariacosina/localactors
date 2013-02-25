@@ -39,8 +39,6 @@ class Localactors < Padrino::Application
      enable :asset_stamp
   end  
   
-  
-  
   get '/' do
     #c = CockpitoDataSender.new
     #c.increment('localactors.views', 1)
