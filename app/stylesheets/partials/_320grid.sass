@@ -9,6 +9,11 @@ $container-style: magic
 
 $break: 16
 
+section.page
+	+susy-grid-background
+	+container($total-columns, $break)
+	overflow: hidden
+
 body
 	-webkit-font-smoothing: antialiased
 .ul
@@ -1163,3 +1168,75 @@ footer
 +at-breakpoint(10)
 	section.page
 		+pre(1)
+		
+		
+		
+#projects, #single_project	
+	+span-columns(7)
+	//background: cyan
+	.container-main
+		+span-columns(7)
+		//background: white
+		h1.title, h2.subtitle
+			margin: 0
+			font-family: "miso"
+			text-transform: uppercase
+			font-weight: 400
+		h1.title
+			margin-top: 8px
+			margin-bottom: 8px
+			font-size: px-to-em(32px,16px)
+			line-height: px-to-em(28px,32px)
+			color: $rose
+		.icon-where, .icon-time, .icon-cost
+			float: left
+			position: relative
+			margin-top: -3px	
+			margin-right: 3px		
+		.icon-where
+			+assign-sprite-background($assets)
+			+sprite($assets, "small_icon_where", true)
+		.icon-time
+			+assign-sprite-background($assets)
+			+sprite($assets, "small_icon_time", true)
+		.icon-cost
+			+assign-sprite-background($assets)
+			+sprite($assets, "small_icon_cost", true)
+		ul
+			clear: both
+			list-style-type: none
+			padding: 0
+			padding-top: 10px
+			margin: 0
+			&:last-child
+				margin-bottom: 20px
+			li 
+				h2.subtitle
+					margin-bottom: 7px
+			li.cost
+				h2.subtitle
+					text-decoration: underline
+				.total
+					color: $rose
+		h2.subtitle
+			margin-bottom: 20px
+			color: $purple
+			font-size: px-to-em(21px)
+			line-height: px-to-em(16px,21px)
+			span
+				text-transform: none
+				font-size: px-to-em(25px,36px)
+				line-height: px-to-em(28px,25px)
+		p 
+			//+span-columns(6,6)
+			font-family: "source sans pro"
+			font-weight: 400
+			color: $purple
+			font-size: px-to-em(12px)
+			line-height: px-to-em(16px,12px)
+			margin-top: 0
+			margin-bottom: 5px
+			&:first-child
+				margin-top: 8px
+			&:last-child
+				margin-bottom: 20px

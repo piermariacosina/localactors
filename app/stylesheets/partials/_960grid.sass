@@ -1,5 +1,7 @@
-+at-breakpoint($break)
 
++at-breakpoint($break)
+	section.page
+		+susy-grid-background
 	.hover
 		&:hover
 			color: $purple
@@ -843,4 +845,114 @@
 		+pre(2)						
 
 
+#projects, #single_project
+	+span-columns(13,16)
+	margin-bottom: 60px
+	hr.spine
+		height: 5px
+		$image: image-url("textures/spined.png")
+		background: $image repeat-x left top
+		+span-columns(13,13)
+		border: none
+		margin-top: 60px
+	hr.dotted
+		border-top: 1px $blue dashed
+		@extend .wide !optional
+		+span-columns(13,13)
+	.container-main
+		+span-columns(9,13)
+		img
+			margin: 0
+			padding: 0
+		.photo-container
+			.author-container
+				+span-columns(5,9)
+				background: cyan
+				img
+					position: relative
+					float: left
+				.social
+					background: red
+					position: relative
+					float: left
+					margin-left: 10px
+					margin-bottom: 15px
+					a 
+						z-index: 9
+						margin-right: 3px
+						display: inline-block
+						position: relative
+						float: left
+						margin-right: 3px
+					.twitter
+						+assign-sprite-background($assets)
+						+sprite($assets, "twitter", true)
+					.facebook
+						+assign-sprite-background($assets)
+						+sprite($assets, "facebook", true)
+					.linkedin
+						+assign-sprite-background($assets)
+						+sprite($assets, "linkedin", true)
+				a.sito
+					background-color: yellow
+					color: black
+					@extend .hover !optional
+					font-size: px-to-em(14px,16px)
+					line-height: px-to-em(16px,13px)
+					letter-spacing: px-to-em(2.5px)
+					clear: both
+					font-family: "miso"
+					font-weight: 400
+					position: relative
+					text-decoration: underline
+					margin-left: 10px   
+						
+						
+		h1.title
+			margin-top: 4px
+			font-size: px-to-em(60px)
+			line-height: px-to-em(52px,60px)
+		.icon-where, .icon-time, .icon-cost
+			margin-top: 6px	
+			margin-right: 7px			
+		.icon-where
+		.icon-time
+		.icon-cost
+		ul
+			list-style-type: none
+			padding: 0
+			padding-top: 10px
+			&:first-child
+				margin-top: 20px
+			&:last-child
+				margin-bottom: 25px
+			li 
+				h2.subtitle
+					margin-bottom: 7px
+			li.cost
+				h2.subtitle
+					text-decoration: underline
+				.total
+					color: $rose
+		h2.subtitle
+			margin-bottom: 35px
+			color: $purple
+			font-size: px-to-em(36px)
+			line-height: px-to-em(35px,36px)
+		
+			span
+				text-transform: none
+				font-size: px-to-em(25px,36px)
+				line-height: px-to-em(28px,25px)
+		p 
+			font-family: "source sans pro"
+			font-weight: 400
+			color: $purple
+			font-size: px-to-em(15px)
+			line-height: px-to-em(20px,15px)
+			margin: 0
+			margin-top: 8px
+			margin-bottom: 13px
+			&:last-child
+				margin-bottom: 25px
 				
