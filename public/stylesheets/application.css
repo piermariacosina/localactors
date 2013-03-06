@@ -97,7 +97,7 @@ p, pre {
 /* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em; }
 
 /* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
@@ -167,7 +167,7 @@ form {
 
 /* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -356,7 +356,7 @@ body {
   border: 1px #001fff solid; }
 
 /* line 46, ../../app/stylesheets/partials/_320grid.sass */
-.hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #projects .container-main .photo-container .author-container a.sito:hover, #single_project .container-main .photo-container .author-container a.sito:hover {
+.hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #projects ul.container-team li.team-member a.member:hover, #single_project ul.container-team li.team-member a.member:hover, #projects .container-main .photo-container .author-container a.generic:hover, #single_project .container-main .photo-container .author-container a.generic:hover {
   color: #6045ff;
   background-color: #81ffd0; }
 
@@ -2176,12 +2176,12 @@ footer .blue .rights a {
     background-clip: content-box; }
 
   /* line 6, ../../app/stylesheets/partials/_960grid.sass */
-  .hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #terms a:hover, #projects .container-main .photo-container .author-container a.sito:hover, #single_project .container-main .photo-container .author-container a.sito:hover {
+  .hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #terms a:hover, #projects ul.container-team li.team-member a.member:hover, #single_project ul.container-team li.team-member a.member:hover, #projects .container-main .photo-container .author-container a.generic:hover, #single_project .container-main .photo-container .author-container a.generic:hover {
     color: #6045ff;
     background-color: #81ffd0; }
 
   /* line 9, ../../app/stylesheets/partials/_960grid.sass */
-  .wide, section.page footer #prefooter, section.page footer .blue, section.page #mailing-list, section.page #faq, section.page #submit-project, section.page #think, section.page #publish, #projects hr.dotted, #single_project hr.dotted {
+  .wide, section.page footer #prefooter, section.page footer .blue, section.page #mailing-list, section.page #faq, section.page #submit-project, section.page #think, section.page #publish, #projects hr.dotted, #single_project hr.dotted, #projects .container-main .photo-container .author-container, #single_project .container-main .photo-container .author-container {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%; }
@@ -3506,48 +3506,96 @@ footer .blue .rights a {
   margin-top: 60px; }
 /* line 858, ../../app/stylesheets/partials/_960grid.sass */
 #projects hr.dotted, #single_project hr.dotted {
+  margin: 10px 0 25px 0;
   border-top: 1px #001fff dashed;
   width: 100%;
   float: left;
   margin-right: 2.63158%;
   display: inline; }
-/* line 862, ../../app/stylesheets/partials/_960grid.sass */
+/* line 863, ../../app/stylesheets/partials/_960grid.sass */
+#projects ul.container-team, #single_project ul.container-team {
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+  float: left;
+  margin-right: 2.63158%;
+  display: inline;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  list-style-type: none; }
+/* line 870, ../../app/stylesheets/partials/_960grid.sass */
+#projects ul.container-team li.team-member, #single_project ul.container-team li.team-member {
+  width: 13.15789%;
+  float: left;
+  margin-right: 2.63158%;
+  display: inline; }
+/* line 872, ../../app/stylesheets/partials/_960grid.sass */
+#projects ul.container-team li.team-member img.photo-team, #single_project ul.container-team li.team-member img.photo-team {
+  width: 60px;
+  height: 60px; }
+/* line 875, ../../app/stylesheets/partials/_960grid.sass */
+#projects ul.container-team li.team-member a.member, #single_project ul.container-team li.team-member a.member {
+  position: relative;
+  float: left;
+  display: inline-block;
+  padding: 0 5px 0 2px;
+  font-family: "miso";
+  font-weight: 200;
+  font-size: 0.875em;
+  line-height: 1.14286em;
+  color: black;
+  text-decoration: underline;
+  background: yellow;
+  cursor: pointer; }
+/* line 889, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main, #single_project .container-main {
   width: 68.42105%;
   float: left;
   margin-right: 2.63158%;
   display: inline; }
-/* line 864, ../../app/stylesheets/partials/_960grid.sass */
+/* line 891, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main img, #single_project .container-main img {
   margin: 0;
   padding: 0; }
-/* line 868, ../../app/stylesheets/partials/_960grid.sass */
+/* line 894, ../../app/stylesheets/partials/_960grid.sass */
+#projects .container-main .photo-container, #single_project .container-main .photo-container {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 10px; }
+/* line 897, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container, #single_project .container-main .photo-container .author-container {
   width: 53.84615%;
   float: left;
   margin-right: 3.84615%;
   display: inline;
-  background: cyan; }
-/* line 871, ../../app/stylesheets/partials/_960grid.sass */
+  overflow: hidden;
+  *zoom: 1;
+  padding-right: 9px;
+  border-right: 1px #001fff dashed; }
+/* line 903, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container img, #single_project .container-main .photo-container .author-container img {
   position: relative;
   float: left; }
-/* line 874, ../../app/stylesheets/partials/_960grid.sass */
+/* line 906, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container .social, #single_project .container-main .photo-container .author-container .social {
-  background: red;
   position: relative;
   float: left;
   margin-left: 10px;
-  margin-bottom: 15px; }
-/* line 880, ../../app/stylesheets/partials/_960grid.sass */
+  margin-bottom: 12px; }
+/* line 911, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container .social a, #single_project .container-main .photo-container .author-container .social a {
   z-index: 9;
   margin-right: 3px;
   display: inline-block;
   position: relative;
   float: left;
-  margin-right: 3px; }
-/* line 887, ../../app/stylesheets/partials/_960grid.sass */
+  margin-right: 3px;
+  cursor: pointer; }
+/* line 919, ../../app/stylesheets/partials/_960grid.sass */
+#projects .container-main .photo-container .author-container .social a:hover, #single_project .container-main .photo-container .author-container .social a:hover {
+  opacity: 0.8; }
+/* line 921, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container .social .twitter, #single_project .container-main .photo-container .author-container .social .twitter {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -3555,7 +3603,7 @@ footer .blue .rights a {
   background-position: 0 -129px;
   height: 32px;
   width: 32px; }
-/* line 890, ../../app/stylesheets/partials/_960grid.sass */
+/* line 924, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container .social .facebook, #single_project .container-main .photo-container .author-container .social .facebook {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -3563,7 +3611,7 @@ footer .blue .rights a {
   background-position: 0 -292px;
   height: 32px;
   width: 32px; }
-/* line 893, ../../app/stylesheets/partials/_960grid.sass */
+/* line 927, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container .author-container .social .linkedin, #single_project .container-main .photo-container .author-container .social .linkedin {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -3571,60 +3619,66 @@ footer .blue .rights a {
   background-position: 0 -672px;
   height: 32px;
   width: 32px; }
-/* line 896, ../../app/stylesheets/partials/_960grid.sass */
-#projects .container-main .photo-container .author-container a.sito, #single_project .container-main .photo-container .author-container a.sito {
+/* line 930, ../../app/stylesheets/partials/_960grid.sass */
+#projects .container-main .photo-container .author-container a.generic, #single_project .container-main .photo-container .author-container a.generic {
   background-color: yellow;
   color: black;
-  font-size: 0.875em;
-  line-height: 1.23077em;
-  letter-spacing: 0.15625em;
+  font-size: 0.75em;
+  line-height: 1.25em;
   clear: both;
-  font-family: "miso";
+  font-family: "source sans pro";
   font-weight: 400;
+  font-style: italic;
   position: relative;
   text-decoration: underline;
-  margin-left: 10px; }
-/* line 911, ../../app/stylesheets/partials/_960grid.sass */
+  margin-left: 10px;
+  padding: 0 5px 0 2px;
+  cursor: pointer; }
+/* line 945, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main h1.title, #single_project .container-main h1.title {
   margin-top: 4px;
   font-size: 3.75em;
   line-height: 0.86667em; }
-/* line 915, ../../app/stylesheets/partials/_960grid.sass */
+/* line 949, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .icon-where, #projects .container-main .icon-time, #projects .container-main .icon-cost, #single_project .container-main .icon-where, #single_project .container-main .icon-time, #single_project .container-main .icon-cost {
   margin-top: 6px;
   margin-right: 7px; }
-/* line 921, ../../app/stylesheets/partials/_960grid.sass */
+/* line 955, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul, #single_project .container-main ul {
   list-style-type: none;
   padding: 0;
   padding-top: 10px; }
-/* line 925, ../../app/stylesheets/partials/_960grid.sass */
+/* line 959, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul:first-child, #single_project .container-main ul:first-child {
   margin-top: 20px; }
-/* line 927, ../../app/stylesheets/partials/_960grid.sass */
+/* line 961, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul:last-child, #single_project .container-main ul:last-child {
   margin-bottom: 25px; }
-/* line 930, ../../app/stylesheets/partials/_960grid.sass */
+/* line 964, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul li h2.subtitle, #single_project .container-main ul li h2.subtitle {
   margin-bottom: 7px; }
-/* line 933, ../../app/stylesheets/partials/_960grid.sass */
+/* line 967, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul li.cost h2.subtitle, #single_project .container-main ul li.cost h2.subtitle {
   text-decoration: underline; }
-/* line 935, ../../app/stylesheets/partials/_960grid.sass */
+/* line 969, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main ul li.cost .total, #single_project .container-main ul li.cost .total {
   color: #ff4874; }
-/* line 937, ../../app/stylesheets/partials/_960grid.sass */
+/* line 971, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main h2.subtitle, #single_project .container-main h2.subtitle {
   margin-bottom: 35px;
   color: #6045ff;
   font-size: 2.25em;
   line-height: 0.97222em; }
-/* line 943, ../../app/stylesheets/partials/_960grid.sass */
-#projects .container-main h2.subtitle span, #single_project .container-main h2.subtitle span {
+/* line 976, ../../app/stylesheets/partials/_960grid.sass */
+#projects .container-main h2.team, #single_project .container-main h2.team {
+  margin-top: 35px;
+  margin-bottom: 25px; }
+/* line 980, ../../app/stylesheets/partials/_960grid.sass */
+#projects .container-main h2.team span, #single_project .container-main h2.team span {
   text-transform: none;
   font-size: 0.69444em;
   line-height: 1.12em; }
-/* line 947, ../../app/stylesheets/partials/_960grid.sass */
+/* line 984, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main p, #single_project .container-main p {
   font-family: "source sans pro";
   font-weight: 400;
@@ -3634,7 +3688,7 @@ footer .blue .rights a {
   margin: 0;
   margin-top: 8px;
   margin-bottom: 13px; }
-/* line 956, ../../app/stylesheets/partials/_960grid.sass */
+/* line 993, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main p:last-child, #single_project .container-main p:last-child {
   margin-bottom: 25px; }
 
