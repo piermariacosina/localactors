@@ -72,6 +72,18 @@ class Localactors < Padrino::Application
     #c.increment('localactors.whoweare', 1)
     render "our_approach"
   end
+  
+  get '/projects' do
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.whoweare', 1)
+    render "projects"
+  end
+  
+  get '/single_project' do
+    #c = CockpitoDataSender.new
+    #c.increment('localactors.whoweare', 1)
+    render "single_project"
+  end
    
   # get '/subscribe', :provides => [:html, :json] do
   # 
