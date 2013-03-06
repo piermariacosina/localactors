@@ -3495,6 +3495,10 @@ footer .blue .rights a {
   display: inline;
   margin-bottom: 60px; }
 /* line 851, ../../app/stylesheets/partials/_960grid.sass */
+#projects img, #single_project img {
+  width: auto;
+  height: auto; }
+/* line 854, ../../app/stylesheets/partials/_960grid.sass */
 #projects hr.spine, #single_project hr.spine {
   height: 5px;
   background: url('/images/textures/spined.png') repeat-x left top;
@@ -3504,7 +3508,7 @@ footer .blue .rights a {
   display: inline;
   border: none;
   margin-top: 60px; }
-/* line 858, ../../app/stylesheets/partials/_960grid.sass */
+/* line 861, ../../app/stylesheets/partials/_960grid.sass */
 #projects hr.dotted, #single_project hr.dotted {
   margin: 10px 0 25px 0;
   border-top: 1px #001fff dashed;
@@ -3512,7 +3516,7 @@ footer .blue .rights a {
   float: left;
   margin-right: 2.63158%;
   display: inline; }
-/* line 863, ../../app/stylesheets/partials/_960grid.sass */
+/* line 866, ../../app/stylesheets/partials/_960grid.sass */
 #projects ul.container-team, #single_project ul.container-team {
   overflow: hidden;
   *zoom: 1;
@@ -3524,17 +3528,17 @@ footer .blue .rights a {
   margin-bottom: 10px;
   padding: 0;
   list-style-type: none; }
-/* line 870, ../../app/stylesheets/partials/_960grid.sass */
+/* line 873, ../../app/stylesheets/partials/_960grid.sass */
 #projects ul.container-team li.team-member, #single_project ul.container-team li.team-member {
   width: 13.15789%;
   float: left;
   margin-right: 2.63158%;
   display: inline; }
-/* line 872, ../../app/stylesheets/partials/_960grid.sass */
+/* line 875, ../../app/stylesheets/partials/_960grid.sass */
 #projects ul.container-team li.team-member img.photo-team, #single_project ul.container-team li.team-member img.photo-team {
   width: 60px;
   height: 60px; }
-/* line 875, ../../app/stylesheets/partials/_960grid.sass */
+/* line 878, ../../app/stylesheets/partials/_960grid.sass */
 #projects ul.container-team li.team-member a.member, #single_project ul.container-team li.team-member a.member {
   position: relative;
   float: left;
@@ -3548,16 +3552,12 @@ footer .blue .rights a {
   text-decoration: underline;
   background: yellow;
   cursor: pointer; }
-/* line 889, ../../app/stylesheets/partials/_960grid.sass */
+/* line 892, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main, #single_project .container-main {
   width: 68.42105%;
   float: left;
   margin-right: 2.63158%;
   display: inline; }
-/* line 891, ../../app/stylesheets/partials/_960grid.sass */
-#projects .container-main img, #single_project .container-main img {
-  margin: 0;
-  padding: 0; }
 /* line 894, ../../app/stylesheets/partials/_960grid.sass */
 #projects .container-main .photo-container, #single_project .container-main .photo-container {
   overflow: hidden;
