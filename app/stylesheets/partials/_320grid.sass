@@ -10,7 +10,7 @@ $container-style: magic
 $break: 16
 
 section.page
-	+susy-grid-background
+	//+susy-grid-background
 	+container($total-columns, $break)
 	overflow: hidden
 
@@ -1173,10 +1173,8 @@ footer
 		
 #projects, #single_project	
 	+span-columns(7)
-	//background: cyan
-	.container-main
+	.container-main, .block-main
 		+span-columns(7)
-		//background: white
 		h1.title, h2.subtitle
 			margin: 0
 			font-family: "miso"
@@ -1228,7 +1226,6 @@ footer
 				font-size: px-to-em(25px,36px)
 				line-height: px-to-em(28px,25px)
 		p 
-			//+span-columns(6,6)
 			font-family: "source sans pro"
 			font-weight: 400
 			color: $purple
