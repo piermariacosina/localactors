@@ -758,6 +758,32 @@ section.page
 			
 #explanation
 	padding-top: 10px
+	ul.publisher-list
+		@include clearfix
+		+span-columns(7)
+		margin: 0
+		margin-bottom: 10px
+		padding: 0
+		list-style-type: none
+		li.publisher
+			+span-columns(2,7)
+			min-height: 145px
+			img.photo-publisher
+				width: 100px
+				height: 100px
+			a
+				position: relative
+				display: inline-block
+				padding: 0 5px 0 2px
+				font-family: "miso"
+				font-weight: 200
+				font-size: px-to-em(14px,16px)
+				line-height: px-to-em(16px,14px)
+				color: black
+				text-decoration: underline
+				background: $yellow
+				@extend .hover !optional
+				cursor: pointer
 	ul
 		li
 			h2
