@@ -1,6 +1,7 @@
 var basicURl = 'javascripts/vendor/'
 yepnope([{
 load: [ basicURl+'jquery.js',
+					basicURl+'jquery-ujs.js',
 					basicURl+'jquery.scrollTo.js',
 					basicURl+'jquery-ui/ui/jquery.ui.core.js',
 					basicURl+'jquery-ui/ui/jquery.ui.widget.js',

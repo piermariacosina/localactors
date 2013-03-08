@@ -24,28 +24,46 @@ gem 'susy'
 gem 'padrino', '0.10.7'
 gem 'padrino-contrib'
 
+# Datamapper
+gem 'dm-sqlite-adapter'
+gem 'dm-validations'
+gem 'dm-timestamps'
+gem 'dm-migrations'
+gem 'dm-constraints'
+gem 'dm-aggregates'
+gem 'dm-core'
+
+# Test requirements
+
+
 # gem 'gibbon'
 # gem 'rdiscount'
 
 
 # Test requirements
 group :development, :test do
-	gem 'rspec', :group => "test"
-	gem 'rack-test', :require => "rack/test", :group => "test"
+	gem 'spork'
+	gem 'guard'
 	gem 'guard-rspec'
 	gem 'guard-spork'
-	gem 'spork'
+	gem 'guard-livereload'
 	gem 'colored'
 	gem 'deadweight', :require => 'deadweight/hijack/rails'
-end
-
-group :test do
-	gem 'capybara'
-	gem 'rb-fsevent'
 	gem 'terminal-notifier-guard'
+	gem 'yajl-ruby'
+	gem 'rack-livereload'
+	gem 'rspec', :group => "test"
+	gem 'rspec-expectations'
+	gem 'capybara', :group => "test"
+	gem 'cucumber', :group => "test"
+	gem 'guard-cucumber', :group => "test"
+	gem 'database_cleaner', :group => "test"
+	gem 'rack-test', :require => "rack/test", :group => "test"
+	gem 'rb-fsevent'
 	gem 'rspec-padrino'
 	gem 'capybara-webkit'
 end
+
 
 
 
@@ -61,7 +79,8 @@ group :development do
 	gem 'better_errors'
 	gem 'oily_png'
 	gem 'binding_of_caller'
-	
+	gem 'guard-bundler'
+	gem 'guard-annotate'
 end
 
 # Or Padrino Edge

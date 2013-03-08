@@ -19,6 +19,13 @@ end
 #require 'rdiscount'
 require 'sinatra/cross_origin'
 
+#Enable live relead middleware rack
+require 'rack-livereload'
+require 'yajl'
+
+
+
+
 
 
 
@@ -27,8 +34,6 @@ require 'sinatra/cross_origin'
 #
 # Padrino::Logger::Config[:development][:log_level]  = :devel
 # Padrino::Logger::Config[:development][:log_static] = true
-#
-# ## Configure your I18n
 #
 
 #
@@ -56,9 +61,7 @@ end
 # Add your after (RE)load hooks here
 #
 Padrino.after_load do
-end
-
-Padrino.after_load do
+	DataMapper.finalize
 end
 
 Padrino.load!
