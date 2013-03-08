@@ -1191,8 +1191,108 @@ footer
 		
 #projects, #single_project	
 	+span-columns(7,7)
+	hr.spine
+		+span-columns(7,7)
+		position: relative
+		z-index: 2
+		height: 5px
+		$image: image-url("textures/spined.png")
+		background: $image repeat-x left top
+		border: none
+		margin-bottom: 15px
+	hr.dotted
+		margin: 10px 0 25px 0
+		border-top: 1px $blue dashed
+		@extend .wide !optional
+		+span-columns(7,7)
+	.top
+		margin-top: 30px
+	img
+		width: 100%
+		height: auto
+	ul.container-team
+		@include clearfix
+		+span-columns(7,7)
+		margin: 0
+		margin-bottom: 10px
+		padding: 0
+		list-style-type: none
+		li.team-member
+			+span-columns(2,7)
+			min-height: 110px
+			img.photo-team
+				width: 60px
+				height: 60px
+			a.member
+				position: relative
+				float: left
+				display: inline-block
+				padding: 0 5px 0 2px
+				font-family: "miso"
+				font-weight: 200
+				font-size: px-to-em(14px,16px)
+				line-height: px-to-em(16px,14px)
+				color: black
+				text-decoration: underline
+				background: $yellow
+				@extend .hover !optional
+				cursor: pointer
 	.container-main, .block-main
 		+span-columns(7,7)
+		.photo-container
+			@include clearfix
+			margin-bottom: 10px
+			img.photo-publisher
+				width: 66px
+				height: 66px
+			.author-container
+				+span-columns(5,9)
+				@include clearfix
+				padding-right: 9px
+				border-right: 1px $blue dashed
+				@extend .wide !optional
+				img
+					position: relative
+					float: left
+				.social
+					position: relative
+					float: left
+					margin-left: 10px
+					margin-bottom: 12px
+					a 
+						z-index: 9
+						margin-right: 3px
+						display: inline-block
+						position: relative
+						float: left
+						margin-right: 3px
+						cursor: pointer
+						&:hover
+							opacity: 0.8
+					.twitter
+						+assign-sprite-background($assets)
+						+sprite($assets, "twitter", true)
+					.facebook
+						+assign-sprite-background($assets)
+						+sprite($assets, "facebook", true)
+					.linkedin
+						+assign-sprite-background($assets)
+						+sprite($assets, "linkedin", true)
+				a.generic
+					background-color: $yellow
+					color: black
+					@extend .hover !optional
+					font-size: px-to-em(12px,16px)
+					line-height: px-to-em(15px,12px)
+					clear: both
+					font-family: "source sans pro"
+					font-weight: 400
+					font-style: italic
+					position: relative
+					text-decoration: underline
+					margin-left: 10px
+					padding: 0 5px 0 2px
+					cursor: pointer
 		h1.title, h2.subtitle
 			margin: 0
 			font-family: "miso"
@@ -1234,6 +1334,7 @@ footer
 					text-decoration: underline
 				.total
 					color: $rose
+					margin-bottom: 20px
 		h2.subtitle
 			margin-bottom: 20px
 			color: $purple
@@ -1243,6 +1344,9 @@ footer
 				text-transform: none
 				font-size: px-to-em(25px,36px)
 				line-height: px-to-em(28px,25px)
+		h2.team
+			margin-top: 25px
+			margin-bottom: 15px 
 		p 
 			font-family: "source sans pro"
 			font-weight: 400
@@ -1255,3 +1359,114 @@ footer
 				margin-top: 8px
 			&:last-child
 				margin-bottom: 20px
+				
+#projects
+	list-style-type: none
+	padding: 0
+	.block-header
+		+span-columns(7,7)
+		position: relative
+		margin-bottom: 20px
+		background: $light-yellow
+		margin-top: -17px
+		padding-top: 17px
+		.last
+			border-bottom: none
+			padding-bottom: 0
+		.container-publisher
+			+span-columns(4,7)
+			margin-bottom: 10px
+			min-height: px-to-em(66px)
+			img.photo-publisher
+				position: absolute
+				float: left
+				width: 66px
+				height: 66px
+			h3.publisher, h3.ngo
+				margin: 0
+				margin-left: 80px
+				position: relative
+				float: left
+				font-family: "miso"
+				font-weight: 400
+				color: $blue
+				text-transform: uppercase
+			h3.publisher
+				font-size: px-to-em(28px)
+				line-height: px-to-em(23px,28px)
+			h3.ngo
+				font-size: px-to-em(20px)
+				line-height: px-to-em(17px,20px)
+				padding-top: 5px
+		.container-costs
+			+span-columns(3 omega,7)
+			position: absolute
+			top: 17px
+			right: 0
+			p.costs
+				background: white
+			p.costs, a
+				font-family: "miso"
+				font-size: px-to-em(14px)
+				line-height: px-to-em(17px,14px)
+				color: $purple
+				text-transform: uppercase
+				letter-spacing: px-to-em(2px)
+				text-align: right
+				margin: 0
+				span.number
+					color: $rose
+			a
+				color: black
+				text-decoration: underline
+				background: $yellow
+				@extend .hover !optional
+				float: right
+				position: relative
+				padding: 0 5px 0 2px
+				margin-top: 5px
+	.block-main
+		+span-columns(7,7)
+		.container-title
+			+span-columns(7,7)
+			h1.title
+				margin-top: 0
+				font-size: px-to-em(40px)
+				line-height: px-to-em(36px,40px)
+			.icon-where, .icon-time, .icon-cost
+				margin-top: 0	
+				margin-right: 3px			
+			h2.subtitle
+				margin-bottom: 25px
+				color: $purple
+				font-size: px-to-em(28px)
+				line-height: px-to-em(23px,28px)
+		ul.description
+			padding: 0
+			padding-top: 4px
+			+span-columns(7,7)
+			clear: none
+			li.mono
+				p 
+					+span-columns(7,7)
+			li 
+				+span-columns(7,7)
+				.number-list
+					+span-columns(1,7)
+					margin-bottom: 5px
+					p
+						margin: 0
+						font-size: px-to-em(42px)
+						line-height: px-to-em(35px,42px)
+						text-align: right
+				p 
+					+span-columns(6 omega,7)
+					font-family: "miso"
+					font-size: px-to-em(14px)
+					line-height: px-to-em(17px,14px)
+					color: $purple
+					text-transform: uppercase
+					letter-spacing: px-to-em(2px)
+					margin: 0
+					margin-bottom: 10px
+

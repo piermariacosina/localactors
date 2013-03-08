@@ -1,242 +1,242 @@
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
-/* line 39, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 39, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
 
-/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 47, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 55, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 55, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 69, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 69, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 82, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 82, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 html, button, input, select, textarea {
   font-family: sans-serif; }
 
-/* line 88, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 88, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 body {
   margin: 0; }
 
-/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:focus {
   outline: thin dotted; }
 
-/* line 109, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 109, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 a:active, a:hover {
   outline: 0; }
 
-/* line 122, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 122, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 127, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 127, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-/* line 132, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 132, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
 
-/* line 137, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 137, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-/* line 142, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 142, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0; }
 
-/* line 153, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 153, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 159, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 159, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 b, strong {
   font-weight: bold; }
 
-/* line 163, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 163, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 blockquote {
   margin: 1em 40px; }
 
-/* line 168, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 168, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dfn {
   font-style: italic; }
 
-/* line 173, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 173, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 180, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 180, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 p, pre {
   margin: 1em 0; }
 
-/* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 188, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   _font-family: "courier new", monospace;
   font-size: 1em; }
 
-/* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 195, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-/* line 202, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 202, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q {
   quotes: none; }
 
-/* line 208, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 208, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 214, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 214, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 small {
   font-size: 80%; }
 
-/* line 220, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 220, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 227, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 227, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 231, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 231, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 245, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 245, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dl, menu, ol, ul {
   margin: 1em 0; }
 
-/* line 249, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 249, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 dd {
   margin: 0 0 0 40px; }
 
-/* line 256, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 256, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 menu, ol, ul {
   padding: 0 0 0 40px; }
 
-/* line 268, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 268, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 img {
   border: 0;
   /* 1 */
   -ms-interpolation-mode: bicubic;
   /* 2 */ }
 
-/* line 274, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 274, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 285, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 285, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 figure {
   margin: 0; }
 
-/* line 296, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 296, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 form {
   margin: 0; }
 
-/* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 301, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 310, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 310, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
   *margin-left: -7px; }
 
-/* line 323, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 323, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input, select, textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle; }
 
-/* line 333, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 333, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button, input {
   line-height: normal; }
 
-/* line 347, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 347, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
   *overflow: visible; }
 
-/* line 355, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 355, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button[disabled], input[disabled] {
   cursor: default; }
 
-/* line 364, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 364, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
   *height: 13px;
   *width: 13px; }
 
-/* line 374, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 374, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 384, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 384, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 390, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 390, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 397, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 397, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-/* line 409, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
+/* line 409, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%; }
 
-/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em; }
@@ -322,7 +322,7 @@ body {
   border: 1px #001fff solid; }
 
 /* line 41, ../../app/stylesheets/partials/_320grid.sass */
-.hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, #explanation ul.publisher-list li.publisher a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover {
+.hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, #explanation ul.publisher-list li.publisher a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #projects ul.container-team li.team-member a.member:hover, #single_project ul.container-team li.team-member a.member:hover, #projects .container-main .photo-container .author-container a.generic:hover, #projects .block-main .photo-container .author-container a.generic:hover, #single_project .container-main .photo-container .author-container a.generic:hover, #single_project .block-main .photo-container .author-container a.generic:hover, #projects .block-header .container-costs a:hover {
   color: #6045ff;
   background-color: #81ffd0; }
 
@@ -365,7 +365,7 @@ i {
   padding: 0 0 0 10px;
   margin: 7px 0 0 0;
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .banner-container .banner-call ul li {
   list-style-image: none;
   list-style-type: none;
@@ -993,7 +993,7 @@ section.page {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden; }
-/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 section.page:after {
   content: "";
   display: table;
@@ -1596,13 +1596,13 @@ footer .blue ul li {
   font-size: 0.875em;
   text-transform: uppercase;
   margin-top: 3px; }
-/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer .blue ul li:first-child, footer .blue ul li.first {
   padding-left: 0; }
-/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer .blue ul li:last-child {
   padding-right: 0; }
-/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 footer .blue ul li.last {
   padding-right: 0; }
 /* line 850, ../../app/stylesheets/partials/_320grid.sass */
@@ -1703,7 +1703,7 @@ footer .blue .rights a {
   background-position: 0 -988px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 #mailing-list a span.icon:hover, #mailing-list a span.icon.mobile_icon_subscribe_hover, #mailing-list a span.icon.mobile_icon_subscribe-hover {
   background-position: 0 -236px; }
 /* line 936, ../../app/stylesheets/partials/_320grid.sass */
@@ -1783,7 +1783,7 @@ footer .blue .rights a {
   background-position: 0 -1824px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 #faq a span.icon:hover, #faq a span.icon.mobile_icon_question_hover, #faq a span.icon.mobile_icon_question-hover {
   background-position: 0 -828px; }
 /* line 996, ../../app/stylesheets/partials/_320grid.sass */
@@ -1845,7 +1845,7 @@ footer .blue .rights a {
   background-position: 0 -1362px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 #think a span.icon:hover, #think a span.icon.mobile_icon_think_hover, #think a span.icon.mobile_icon_think-hover {
   background-position: 0 -324px; }
 
@@ -1860,7 +1860,7 @@ footer .blue .rights a {
   background-position: 0 -3775px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 #publish a span.icon:hover, #publish a span.icon.mobile_icon_publish_hover, #publish a span.icon.mobile_icon_publish-hover {
   background-position: 0 -2416px; }
 
@@ -1899,7 +1899,7 @@ footer .blue .rights a {
   background-position: 0 -2714px;
   height: 56px;
   width: 68px; }
-/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 #submit-project a span.icon:hover, #submit-project a span.icon.mobile_icon_submit_hover, #submit-project a span.icon.mobile_icon_submit-hover {
   background-position: 0 -1306px; }
 /* line 1078, ../../app/stylesheets/partials/_320grid.sass */
@@ -2073,31 +2073,175 @@ footer .blue .rights a {
   margin-right: 5%;
   display: inline; }
 /* line 1194, ../../app/stylesheets/partials/_320grid.sass */
+#projects hr.spine, #single_project hr.spine {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  position: relative;
+  z-index: 2;
+  height: 5px;
+  background: url('/images/textures/spined.png') repeat-x left top;
+  border: none;
+  margin-bottom: 15px; }
+/* line 1203, ../../app/stylesheets/partials/_320grid.sass */
+#projects hr.dotted, #single_project hr.dotted {
+  margin: 10px 0 25px 0;
+  border-top: 1px #001fff dashed;
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 1208, ../../app/stylesheets/partials/_320grid.sass */
+#projects .top, #single_project .top {
+  margin-top: 30px; }
+/* line 1210, ../../app/stylesheets/partials/_320grid.sass */
+#projects img, #single_project img {
+  width: 100%;
+  height: auto; }
+/* line 1213, ../../app/stylesheets/partials/_320grid.sass */
+#projects ul.container-team, #single_project ul.container-team {
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  list-style-type: none; }
+/* line 1220, ../../app/stylesheets/partials/_320grid.sass */
+#projects ul.container-team li.team-member, #single_project ul.container-team li.team-member {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  min-height: 110px; }
+/* line 1223, ../../app/stylesheets/partials/_320grid.sass */
+#projects ul.container-team li.team-member img.photo-team, #single_project ul.container-team li.team-member img.photo-team {
+  width: 60px;
+  height: 60px; }
+/* line 1226, ../../app/stylesheets/partials/_320grid.sass */
+#projects ul.container-team li.team-member a.member, #single_project ul.container-team li.team-member a.member {
+  position: relative;
+  float: left;
+  display: inline-block;
+  padding: 0 5px 0 2px;
+  font-family: "miso";
+  font-weight: 200;
+  font-size: 0.875em;
+  line-height: 1.14286em;
+  color: black;
+  text-decoration: underline;
+  background: yellow;
+  cursor: pointer; }
+/* line 1240, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main, #projects .block-main, #single_project .container-main, #single_project .block-main {
   width: 100%;
   float: left;
   margin-right: 5%;
   display: inline; }
-/* line 1196, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1242, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container, #projects .block-main .photo-container, #single_project .container-main .photo-container, #single_project .block-main .photo-container {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 10px; }
+/* line 1245, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container img.photo-publisher, #projects .block-main .photo-container img.photo-publisher, #single_project .container-main .photo-container img.photo-publisher, #single_project .block-main .photo-container img.photo-publisher {
+  width: 66px;
+  height: 66px; }
+/* line 1248, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container, #projects .block-main .photo-container .author-container, #single_project .container-main .photo-container .author-container, #single_project .block-main .photo-container .author-container {
+  width: 53.84615%;
+  float: left;
+  margin-right: 3.84615%;
+  display: inline;
+  overflow: hidden;
+  *zoom: 1;
+  padding-right: 9px;
+  border-right: 1px #001fff dashed; }
+/* line 1254, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container img, #projects .block-main .photo-container .author-container img, #single_project .container-main .photo-container .author-container img, #single_project .block-main .photo-container .author-container img {
+  position: relative;
+  float: left; }
+/* line 1257, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social, #projects .block-main .photo-container .author-container .social, #single_project .container-main .photo-container .author-container .social, #single_project .block-main .photo-container .author-container .social {
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 12px; }
+/* line 1262, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social a, #projects .block-main .photo-container .author-container .social a, #single_project .container-main .photo-container .author-container .social a, #single_project .block-main .photo-container .author-container .social a {
+  z-index: 9;
+  margin-right: 3px;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer; }
+/* line 1270, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social a:hover, #projects .block-main .photo-container .author-container .social a:hover, #single_project .container-main .photo-container .author-container .social a:hover, #single_project .block-main .photo-container .author-container .social a:hover {
+  opacity: 0.8; }
+/* line 1272, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social .twitter, #projects .block-main .photo-container .author-container .social .twitter, #single_project .container-main .photo-container .author-container .social .twitter, #single_project .block-main .photo-container .author-container .social .twitter {
+  background-image: url('/images/assets-sf904ec5bc8.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -129px;
+  height: 32px;
+  width: 32px; }
+/* line 1275, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social .facebook, #projects .block-main .photo-container .author-container .social .facebook, #single_project .container-main .photo-container .author-container .social .facebook, #single_project .block-main .photo-container .author-container .social .facebook {
+  background-image: url('/images/assets-sf904ec5bc8.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -292px;
+  height: 32px;
+  width: 32px; }
+/* line 1278, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container .social .linkedin, #projects .block-main .photo-container .author-container .social .linkedin, #single_project .container-main .photo-container .author-container .social .linkedin, #single_project .block-main .photo-container .author-container .social .linkedin {
+  background-image: url('/images/assets-sf904ec5bc8.png');
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 0 -672px;
+  height: 32px;
+  width: 32px; }
+/* line 1281, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main .photo-container .author-container a.generic, #projects .block-main .photo-container .author-container a.generic, #single_project .container-main .photo-container .author-container a.generic, #single_project .block-main .photo-container .author-container a.generic {
+  background-color: yellow;
+  color: black;
+  font-size: 0.75em;
+  line-height: 1.25em;
+  clear: both;
+  font-family: "source sans pro";
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  text-decoration: underline;
+  margin-left: 10px;
+  padding: 0 5px 0 2px;
+  cursor: pointer; }
+/* line 1296, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main h1.title, #projects .container-main h2.subtitle, #projects .block-main h1.title, #projects .block-main h2.subtitle, #single_project .container-main h1.title, #single_project .container-main h2.subtitle, #single_project .block-main h1.title, #single_project .block-main h2.subtitle {
   margin: 0;
   font-family: "miso";
   text-transform: uppercase;
   font-weight: 400; }
-/* line 1201, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1301, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main h1.title, #projects .block-main h1.title, #single_project .container-main h1.title, #single_project .block-main h1.title {
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 2em;
   line-height: 0.875em;
   color: #ff4874; }
-/* line 1207, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1307, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main .icon-where, #projects .container-main .icon-time, #projects .container-main .icon-cost, #projects .block-main .icon-where, #projects .block-main .icon-time, #projects .block-main .icon-cost, #single_project .container-main .icon-where, #single_project .container-main .icon-time, #single_project .container-main .icon-cost, #single_project .block-main .icon-where, #single_project .block-main .icon-time, #single_project .block-main .icon-cost {
   float: left;
   position: relative;
   margin-top: -3px;
   margin-right: 3px; }
-/* line 1212, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1312, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main .icon-where, #projects .block-main .icon-where, #single_project .container-main .icon-where, #single_project .block-main .icon-where {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -2105,7 +2249,7 @@ footer .blue .rights a {
   background-position: 0 -3938px;
   height: 21px;
   width: 17px; }
-/* line 1215, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1315, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main .icon-time, #projects .block-main .icon-time, #single_project .container-main .icon-time, #single_project .block-main .icon-time {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -2113,7 +2257,7 @@ footer .blue .rights a {
   background-position: 0 -3451px;
   height: 21px;
   width: 17px; }
-/* line 1218, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1318, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main .icon-cost, #projects .block-main .icon-cost, #single_project .container-main .icon-cost, #single_project .block-main .icon-cost {
   background-image: url('/images/assets-sf904ec5bc8.png');
   background-repeat: no-repeat;
@@ -2121,37 +2265,42 @@ footer .blue .rights a {
   background-position: 0 -2836px;
   height: 21px;
   width: 17px; }
-/* line 1221, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1321, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main ul, #projects .block-main ul, #single_project .container-main ul, #single_project .block-main ul {
   clear: both;
   list-style-type: none;
   padding: 0;
   padding-top: 10px;
   margin: 0; }
-/* line 1227, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1327, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main ul:last-child, #projects .block-main ul:last-child, #single_project .container-main ul:last-child, #single_project .block-main ul:last-child {
   margin-bottom: 20px; }
-/* line 1230, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1330, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main ul li h2.subtitle, #projects .block-main ul li h2.subtitle, #single_project .container-main ul li h2.subtitle, #single_project .block-main ul li h2.subtitle {
   margin-bottom: 7px; }
-/* line 1233, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1333, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main ul li.cost h2.subtitle, #projects .block-main ul li.cost h2.subtitle, #single_project .container-main ul li.cost h2.subtitle, #single_project .block-main ul li.cost h2.subtitle {
   text-decoration: underline; }
-/* line 1235, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1335, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main ul li.cost .total, #projects .block-main ul li.cost .total, #single_project .container-main ul li.cost .total, #single_project .block-main ul li.cost .total {
-  color: #ff4874; }
-/* line 1237, ../../app/stylesheets/partials/_320grid.sass */
+  color: #ff4874;
+  margin-bottom: 20px; }
+/* line 1338, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main h2.subtitle, #projects .block-main h2.subtitle, #single_project .container-main h2.subtitle, #single_project .block-main h2.subtitle {
   margin-bottom: 20px;
   color: #6045ff;
   font-size: 1.3125em;
   line-height: 0.7619em; }
-/* line 1242, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1343, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main h2.subtitle span, #projects .block-main h2.subtitle span, #single_project .container-main h2.subtitle span, #single_project .block-main h2.subtitle span {
   text-transform: none;
   font-size: 0.69444em;
   line-height: 1.12em; }
-/* line 1246, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1347, ../../app/stylesheets/partials/_320grid.sass */
+#projects .container-main h2.team, #projects .block-main h2.team, #single_project .container-main h2.team, #single_project .block-main h2.team {
+  margin-top: 25px;
+  margin-bottom: 15px; }
+/* line 1350, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main p, #projects .block-main p, #single_project .container-main p, #single_project .block-main p {
   font-family: "source sans pro";
   font-weight: 400;
@@ -2160,12 +2309,176 @@ footer .blue .rights a {
   line-height: 1.33333em;
   margin-top: 0;
   margin-bottom: 5px; }
-/* line 1254, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1358, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main p:first-child, #projects .block-main p:first-child, #single_project .container-main p:first-child, #single_project .block-main p:first-child {
   margin-top: 8px; }
-/* line 1256, ../../app/stylesheets/partials/_320grid.sass */
+/* line 1360, ../../app/stylesheets/partials/_320grid.sass */
 #projects .container-main p:last-child, #projects .block-main p:last-child, #single_project .container-main p:last-child, #single_project .block-main p:last-child {
   margin-bottom: 20px; }
+
+/* line 1363, ../../app/stylesheets/partials/_320grid.sass */
+#projects {
+  list-style-type: none;
+  padding: 0; }
+/* line 1366, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  position: relative;
+  margin-bottom: 20px;
+  background: #fffed9;
+  margin-top: -17px;
+  padding-top: 17px; }
+/* line 1373, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .last {
+  border-bottom: none;
+  padding-bottom: 0; }
+/* line 1376, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-publisher {
+  width: 55.0%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-bottom: 10px;
+  min-height: 4.125em; }
+/* line 1380, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-publisher img.photo-publisher {
+  position: absolute;
+  float: left;
+  width: 66px;
+  height: 66px; }
+/* line 1385, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-publisher h3.publisher, #projects .block-header .container-publisher h3.ngo {
+  margin: 0;
+  margin-left: 80px;
+  position: relative;
+  float: left;
+  font-family: "miso";
+  font-weight: 400;
+  color: #001fff;
+  text-transform: uppercase; }
+/* line 1394, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-publisher h3.publisher {
+  font-size: 1.75em;
+  line-height: 0.82143em; }
+/* line 1397, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-publisher h3.ngo {
+  font-size: 1.25em;
+  line-height: 0.85em;
+  padding-top: 5px; }
+/* line 1401, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-costs {
+  width: 40%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  position: absolute;
+  top: 17px;
+  right: 0; }
+/* line 1406, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-costs p.costs {
+  background: white; }
+/* line 1408, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-costs p.costs, #projects .block-header .container-costs a {
+  font-family: "miso";
+  font-size: 0.875em;
+  line-height: 1.21429em;
+  color: #6045ff;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  text-align: right;
+  margin: 0; }
+/* line 1417, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-costs p.costs span.number, #projects .block-header .container-costs a span.number {
+  color: #ff4874; }
+/* line 1419, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-header .container-costs a {
+  color: black;
+  text-decoration: underline;
+  background: yellow;
+  float: right;
+  position: relative;
+  padding: 0 5px 0 2px;
+  margin-top: 5px; }
+/* line 1428, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 1430, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main .container-title {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 1432, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main .container-title h1.title {
+  margin-top: 0;
+  font-size: 2.5em;
+  line-height: 0.9em; }
+/* line 1436, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main .container-title .icon-where, #projects .block-main .container-title .icon-time, #projects .block-main .container-title .icon-cost {
+  margin-top: 0;
+  margin-right: 3px; }
+/* line 1439, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main .container-title h2.subtitle {
+  margin-bottom: 25px;
+  color: #6045ff;
+  font-size: 1.75em;
+  line-height: 0.82143em; }
+/* line 1444, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description {
+  padding: 0;
+  padding-top: 4px;
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  clear: none; }
+/* line 1450, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description li.mono p {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 1452, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description li {
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  display: inline; }
+/* line 1454, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description li .number-list {
+  width: 10%;
+  float: left;
+  margin-right: 5%;
+  display: inline;
+  margin-bottom: 5px; }
+/* line 1457, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description li .number-list p {
+  margin: 0;
+  font-size: 2.625em;
+  line-height: 0.83333em;
+  text-align: right; }
+/* line 1462, ../../app/stylesheets/partials/_320grid.sass */
+#projects .block-main ul.description li p {
+  width: 85%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1.25em;
+  display: inline;
+  font-family: "miso";
+  font-size: 0.875em;
+  line-height: 1.21429em;
+  color: #6045ff;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  margin: 0;
+  margin-bottom: 10px; }
 
 @media (min-width: 58.75em) {
   /* line 3, ../../app/stylesheets/partials/_960grid.sass */
@@ -2186,12 +2499,12 @@ footer .blue .rights a {
     background-clip: content-box; }
 
   /* line 6, ../../app/stylesheets/partials/_960grid.sass */
-  .hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, #explanation ul.publisher-list li.publisher a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, section.page #explanation ul.publisher-list li.publisher a:hover, #terms a:hover, #projects ul.container-team li.team-member a.member:hover, #single_project ul.container-team li.team-member a.member:hover, #projects .container-main .photo-container .author-container a.generic:hover, #single_project .container-main .photo-container .author-container a.generic:hover, #projects .block-header .container-costs a:hover {
+  .hover:hover, .call .call-container a:hover, section.page header nav.navigation ul li a:hover, section.page header #paper a:hover, #explanation ul.publisher-list li.publisher a:hover, footer .blue ul li a:hover, footer .blue .rights a:hover, #mailing-list h2 span:hover, #faq h2 span:hover, #submit-project h2 span:hover, #think h2 span:hover, #publish h2 span:hover, #projects ul.container-team li.team-member a.member:hover, #single_project ul.container-team li.team-member a.member:hover, #projects .container-main .photo-container .author-container a.generic:hover, #projects .block-main .photo-container .author-container a.generic:hover, #single_project .container-main .photo-container .author-container a.generic:hover, #single_project .block-main .photo-container .author-container a.generic:hover, #projects .block-header .container-costs a:hover, section.page #explanation ul.publisher-list li.publisher a:hover, #terms a:hover {
     color: #6045ff;
     background-color: #81ffd0; }
 
   /* line 9, ../../app/stylesheets/partials/_960grid.sass */
-  .wide, section.page footer #prefooter, section.page footer .blue, section.page #mailing-list, section.page #faq, section.page #submit-project, section.page #think, section.page #publish, #projects hr.dotted, #single_project hr.dotted, #projects .container-main .photo-container .author-container, #single_project .container-main .photo-container .author-container {
+  .wide, #projects hr.dotted, #single_project hr.dotted, #projects .container-main .photo-container .author-container, #projects .block-main .photo-container .author-container, #single_project .container-main .photo-container .author-container, #single_project .block-main .photo-container .author-container, section.page footer #prefooter, section.page footer .blue, section.page #mailing-list, section.page #faq, section.page #submit-project, section.page #think, section.page #publish {
     width: 80.85106%;
     float: left;
     margin-right: 2.12766%; }
@@ -2876,7 +3189,7 @@ footer .blue .rights a {
   /* line 427, ../../app/stylesheets/partials/_960grid.sass */
   section.page header .banner-container .banner-call ul {
     list-style: none; }
-  /* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+  /* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
   section.page header .banner-container .banner-call ul li {
     list-style-image: none;
     list-style-type: none;
@@ -3061,7 +3374,7 @@ footer .blue .rights a {
     background-position: 0 -704px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #mailing-list a span.icon:hover, section.page #mailing-list a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #mailing-list a span#icon-number1:hover, section.page #mailing-list a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #mailing-list a span#icon-number2:hover, section.page #mailing-list a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #mailing-list a span#icon-number3:hover, section.page #mailing-list a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #mailing-list a span#arrow1:hover, section.page #mailing-list a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #mailing-list a span#arrow2:hover, section.page #mailing-list a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #mailing-list a span#arrow3:hover, section.page #mailing-list a span.icon.icon_subscribe_hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe_hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe_hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe_hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe_hover#arrow3, section.page #mailing-list a span.icon.icon_subscribe-hover, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number1, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number1, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number2, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number2, section.page #mailing-list a #submit-project .submit span.icon_subscribe-hover#icon-number3, section.page #submit-project .submit #mailing-list a span.icon_subscribe-hover#icon-number3, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow1, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow1, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow2, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow2, section.page #mailing-list a #map #steps #text ul li span.icon_subscribe-hover#arrow3, section.page #map #steps #text ul li #mailing-list a span.icon_subscribe-hover#arrow3 {
     background-position: 0 -67px; }
   /* line 582, ../../app/stylesheets/partials/_960grid.sass */
@@ -3129,7 +3442,7 @@ footer .blue .rights a {
     background-position: 0 -1762px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #faq a span.icon:hover, section.page #faq a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #faq a span#icon-number1:hover, section.page #faq a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #faq a span#icon-number2:hover, section.page #faq a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #faq a span#icon-number3:hover, section.page #faq a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #faq a span#arrow1:hover, section.page #faq a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #faq a span#arrow2:hover, section.page #faq a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #faq a span#arrow3:hover, section.page #faq a span.icon.icon_question_hover, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question_hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question_hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question_hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question_hover#arrow3, section.page #faq a span.icon.icon_question-hover, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number1, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number1, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number2, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number2, section.page #faq a #submit-project .submit span.icon_question-hover#icon-number3, section.page #submit-project .submit #faq a span.icon_question-hover#icon-number3, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow1, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow1, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow2, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow2, section.page #faq a #map #steps #text ul li span.icon_question-hover#arrow3, section.page #map #steps #text ul li #faq a span.icon_question-hover#arrow3 {
     background-position: 0 -766px; }
   /* line 624, ../../app/stylesheets/partials/_960grid.sass */
@@ -3160,7 +3473,7 @@ footer .blue .rights a {
     background-position: 0 -1418px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #think a span.icon:hover, section.page #think a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #think a span#icon-number1:hover, section.page #think a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #think a span#icon-number2:hover, section.page #think a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #think a span#icon-number3:hover, section.page #think a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #think a span#arrow1:hover, section.page #think a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #think a span#arrow2:hover, section.page #think a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #think a span#arrow3:hover, section.page #think a span.icon.icon_think_hover, section.page #think a #submit-project .submit span.icon_think_hover#icon-number1, section.page #submit-project .submit #think a span.icon_think_hover#icon-number1, section.page #think a #submit-project .submit span.icon_think_hover#icon-number2, section.page #submit-project .submit #think a span.icon_think_hover#icon-number2, section.page #think a #submit-project .submit span.icon_think_hover#icon-number3, section.page #submit-project .submit #think a span.icon_think_hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think_hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think_hover#arrow3, section.page #think a span.icon.icon_think-hover, section.page #think a #submit-project .submit span.icon_think-hover#icon-number1, section.page #submit-project .submit #think a span.icon_think-hover#icon-number1, section.page #think a #submit-project .submit span.icon_think-hover#icon-number2, section.page #submit-project .submit #think a span.icon_think-hover#icon-number2, section.page #think a #submit-project .submit span.icon_think-hover#icon-number3, section.page #submit-project .submit #think a span.icon_think-hover#icon-number3, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow1, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow1, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow2, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow2, section.page #think a #map #steps #text ul li span.icon_think-hover#arrow3, section.page #map #steps #text ul li #think a span.icon_think-hover#arrow3 {
     background-position: 0 -380px; }
   /* line 644, ../../app/stylesheets/partials/_960grid.sass */
@@ -3179,7 +3492,7 @@ footer .blue .rights a {
     background-position: 0 -3554px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #publish a span.icon:hover, section.page #publish a #submit-project .submit span#icon-number1:hover, section.page #submit-project .submit #publish a span#icon-number1:hover, section.page #publish a #submit-project .submit span#icon-number2:hover, section.page #submit-project .submit #publish a span#icon-number2:hover, section.page #publish a #submit-project .submit span#icon-number3:hover, section.page #submit-project .submit #publish a span#icon-number3:hover, section.page #publish a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #publish a span#arrow1:hover, section.page #publish a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #publish a span#arrow2:hover, section.page #publish a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #publish a span#arrow3:hover, section.page #publish a span.icon.icon_publish_hover, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish_hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish_hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish_hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish_hover#arrow3, section.page #publish a span.icon.icon_publish-hover, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number1, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number1, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number2, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number2, section.page #publish a #submit-project .submit span.icon_publish-hover#icon-number3, section.page #submit-project .submit #publish a span.icon_publish-hover#icon-number3, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow1, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow1, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow2, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow2, section.page #publish a #map #steps #text ul li span.icon_publish-hover#arrow3, section.page #map #steps #text ul li #publish a span.icon_publish-hover#arrow3 {
     background-position: 0 -2060px; }
   /* line 652, ../../app/stylesheets/partials/_960grid.sass */
@@ -3203,7 +3516,7 @@ footer .blue .rights a {
     background-position: 0 -2652px;
     height: 62px;
     width: 74px; }
-  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  /* line 43, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   section.page #submit-project a span.icon:hover, section.page #submit-project a .submit span#icon-number1:hover, section.page #submit-project .submit a span#icon-number1:hover, section.page #submit-project a .submit span#icon-number2:hover, section.page #submit-project .submit a span#icon-number2:hover, section.page #submit-project a .submit span#icon-number3:hover, section.page #submit-project .submit a span#icon-number3:hover, section.page #submit-project a #map #steps #text ul li span#arrow1:hover, section.page #map #steps #text ul li #submit-project a span#arrow1:hover, section.page #submit-project a #map #steps #text ul li span#arrow2:hover, section.page #map #steps #text ul li #submit-project a span#arrow2:hover, section.page #submit-project a #map #steps #text ul li span#arrow3:hover, section.page #map #steps #text ul li #submit-project a span#arrow3:hover, section.page #submit-project a span.icon.icon_submit_hover, section.page #submit-project a .submit span.icon_submit_hover#icon-number1, section.page #submit-project .submit a span.icon_submit_hover#icon-number1, section.page #submit-project a .submit span.icon_submit_hover#icon-number2, section.page #submit-project .submit a span.icon_submit_hover#icon-number2, section.page #submit-project a .submit span.icon_submit_hover#icon-number3, section.page #submit-project .submit a span.icon_submit_hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit_hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit_hover#arrow3, section.page #submit-project a span.icon.icon_submit-hover, section.page #submit-project a .submit span.icon_submit-hover#icon-number1, section.page #submit-project .submit a span.icon_submit-hover#icon-number1, section.page #submit-project a .submit span.icon_submit-hover#icon-number2, section.page #submit-project .submit a span.icon_submit-hover#icon-number2, section.page #submit-project a .submit span.icon_submit-hover#icon-number3, section.page #submit-project .submit a span.icon_submit-hover#icon-number3, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow1, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow1, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow2, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow2, section.page #submit-project a #map #steps #text ul li span.icon_submit-hover#arrow3, section.page #map #steps #text ul li #submit-project a span.icon_submit-hover#arrow3 {
     background-position: 0 -1044px; }
   /* line 665, ../../app/stylesheets/partials/_960grid.sass */
@@ -3363,7 +3676,7 @@ footer .blue .rights a {
     padding: 0;
     border: 0;
     overflow: hidden; }
-  /* line 60, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 60, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li {
     list-style-image: none;
     list-style-type: none;
@@ -3373,13 +3686,13 @@ footer .blue .rights a {
     float: left;
     padding-left: 4px;
     padding-right: 4px; }
-  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
     padding-left: 0; }
-  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:last-child {
     padding-right: 0; }
-  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
   /* line 760, ../../app/stylesheets/partials/_960grid.sass */
@@ -3401,13 +3714,13 @@ footer .blue .rights a {
     display: block !important;
     position: relative;
     border: 2px white solid; }
-  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 48, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:first-child, section.page #map #steps #text ul li.first {
     padding-left: 0; }
-  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li:last-child {
     padding-right: 0; }
-  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   section.page #map #steps #text ul li.last {
     padding-right: 0; }
   /* line 765, ../../app/stylesheets/partials/_960grid.sass */
@@ -3538,26 +3851,18 @@ footer .blue .rights a {
     height: auto; }
   /* line 873, ../../app/stylesheets/partials/_960grid.sass */
   #projects hr.spine, #single_project hr.spine {
-    position: relative;
-    z-index: 2;
-    height: 5px;
-    background: url('/images/textures/spined.png') repeat-x left top;
-    width: 100%;
-    float: left;
-    margin-right: 2.63158%;
-    border: none;
-    margin-bottom: 15px; }
-  /* line 883, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .top, #single_project .top {
-    margin-top: 60px; }
-  /* line 885, ../../app/stylesheets/partials/_960grid.sass */
-  #projects hr.dotted, #single_project hr.dotted {
-    margin: 10px 0 25px 0;
-    border-top: 1px #001fff dashed;
     width: 100%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 890, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 875, ../../app/stylesheets/partials/_960grid.sass */
+  #projects .top, #single_project .top {
+    margin-top: 60px; }
+  /* line 877, ../../app/stylesheets/partials/_960grid.sass */
+  #projects hr.dotted, #single_project hr.dotted {
+    width: 100%;
+    float: left;
+    margin-right: 2.63158%; }
+  /* line 879, ../../app/stylesheets/partials/_960grid.sass */
   #projects ul.container-team, #single_project ul.container-team {
     overflow: hidden;
     width: 100%;
@@ -3567,17 +3872,17 @@ footer .blue .rights a {
     margin-bottom: 10px;
     padding: 0;
     list-style-type: none; }
-  /* line 897, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 886, ../../app/stylesheets/partials/_960grid.sass */
   #projects ul.container-team li.team-member, #single_project ul.container-team li.team-member {
     width: 13.15789%;
     float: left;
     margin-right: 2.63158%;
     min-height: 110px; }
-  /* line 900, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 889, ../../app/stylesheets/partials/_960grid.sass */
   #projects ul.container-team li.team-member img.photo-team, #single_project ul.container-team li.team-member img.photo-team {
     width: 60px;
     height: 60px; }
-  /* line 903, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 892, ../../app/stylesheets/partials/_960grid.sass */
   #projects ul.container-team li.team-member a.member, #single_project ul.container-team li.team-member a.member {
     position: relative;
     float: left;
@@ -3591,16 +3896,20 @@ footer .blue .rights a {
     text-decoration: underline;
     background: yellow;
     cursor: pointer; }
-  /* line 917, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 906, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main, #single_project .container-main {
     width: 68.42105%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 919, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 908, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container, #single_project .container-main .photo-container {
     overflow: hidden;
     margin-bottom: 10px; }
-  /* line 922, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 911, ../../app/stylesheets/partials/_960grid.sass */
+  #projects .container-main .photo-container img.photo-publisher, #single_project .container-main .photo-container img.photo-publisher {
+    width: 100px;
+    height: 100px; }
+  /* line 914, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container, #single_project .container-main .photo-container .author-container {
     width: 53.84615%;
     float: left;
@@ -3608,17 +3917,17 @@ footer .blue .rights a {
     overflow: hidden;
     padding-right: 9px;
     border-right: 1px #001fff dashed; }
-  /* line 928, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 920, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container img, #single_project .container-main .photo-container .author-container img {
     position: relative;
     float: left; }
-  /* line 931, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 923, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social, #single_project .container-main .photo-container .author-container .social {
     position: relative;
     float: left;
     margin-left: 10px;
     margin-bottom: 12px; }
-  /* line 936, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 928, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social a, #single_project .container-main .photo-container .author-container .social a {
     z-index: 9;
     margin-right: 3px;
@@ -3627,10 +3936,10 @@ footer .blue .rights a {
     float: left;
     margin-right: 3px;
     cursor: pointer; }
-  /* line 944, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 936, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social a:hover, #single_project .container-main .photo-container .author-container .social a:hover {
     opacity: 0.8; }
-  /* line 946, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 938, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social .twitter, #single_project .container-main .photo-container .author-container .social .twitter {
     background-image: url('/images/assets-sf904ec5bc8.png');
     background-repeat: no-repeat;
@@ -3638,7 +3947,7 @@ footer .blue .rights a {
     background-position: 0 -129px;
     height: 32px;
     width: 32px; }
-  /* line 949, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 941, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social .facebook, #single_project .container-main .photo-container .author-container .social .facebook {
     background-image: url('/images/assets-sf904ec5bc8.png');
     background-repeat: no-repeat;
@@ -3646,7 +3955,7 @@ footer .blue .rights a {
     background-position: 0 -292px;
     height: 32px;
     width: 32px; }
-  /* line 952, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 944, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container .social .linkedin, #single_project .container-main .photo-container .author-container .social .linkedin {
     background-image: url('/images/assets-sf904ec5bc8.png');
     background-repeat: no-repeat;
@@ -3654,7 +3963,7 @@ footer .blue .rights a {
     background-position: 0 -672px;
     height: 32px;
     width: 32px; }
-  /* line 955, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 947, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .photo-container .author-container a.generic, #single_project .container-main .photo-container .author-container a.generic {
     background-color: yellow;
     color: black;
@@ -3669,51 +3978,48 @@ footer .blue .rights a {
     margin-left: 10px;
     padding: 0 5px 0 2px;
     cursor: pointer; }
-  /* line 970, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 962, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main h1.title, #single_project .container-main h1.title {
     margin-top: 4px;
     font-size: 3.75em;
     line-height: 0.86667em; }
-  /* line 974, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 966, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main .icon-where, #projects .container-main .icon-time, #projects .container-main .icon-cost, #single_project .container-main .icon-where, #single_project .container-main .icon-time, #single_project .container-main .icon-cost {
     margin-top: 6px;
     margin-right: 7px; }
-  /* line 980, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 972, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main ul, #single_project .container-main ul {
     list-style-type: none;
     padding: 0;
     padding-top: 10px; }
-  /* line 984, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 976, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main ul:first-child, #single_project .container-main ul:first-child {
     margin-top: 20px; }
-  /* line 986, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 978, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main ul:last-child, #single_project .container-main ul:last-child {
     margin-bottom: 25px; }
-  /* line 989, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 981, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main ul li h2.subtitle, #single_project .container-main ul li h2.subtitle {
     margin-bottom: 7px; }
-  /* line 992, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 984, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main ul li.cost h2.subtitle, #single_project .container-main ul li.cost h2.subtitle {
     text-decoration: underline; }
-  /* line 994, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .container-main ul li.cost .total, #single_project .container-main ul li.cost .total {
-    color: #ff4874; }
-  /* line 996, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 986, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main h2.subtitle, #single_project .container-main h2.subtitle {
     margin-bottom: 35px;
     color: #6045ff;
     font-size: 2.25em;
     line-height: 0.97222em; }
-  /* line 1001, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 991, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main h2.team, #single_project .container-main h2.team {
     margin-top: 35px;
     margin-bottom: 25px; }
-  /* line 1005, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 994, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main h2.team span, #single_project .container-main h2.team span {
     text-transform: none;
     font-size: 0.69444em;
     line-height: 1.12em; }
-  /* line 1009, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 998, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main p, #single_project .container-main p {
     font-family: "source sans pro";
     font-weight: 400;
@@ -3723,151 +4029,86 @@ footer .blue .rights a {
     margin: 0;
     margin-top: 8px;
     margin-bottom: 13px; }
-  /* line 1018, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1007, ../../app/stylesheets/partials/_960grid.sass */
   #projects .container-main p:last-child, #single_project .container-main p:last-child {
     margin-bottom: 25px; }
 
-  /* line 1022, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1011, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header {
     width: 100%;
     float: left;
-    margin-right: 2.63158%;
-    position: relative;
-    margin-bottom: 20px;
-    background: #fffed9;
-    margin-top: -17px;
-    padding-top: 17px; }
-  /* line 1029, ../../app/stylesheets/partials/_960grid.sass */
+    margin-right: 2.63158%; }
+  /* line 1013, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header .last {
     padding-bottom: 15px;
     border-bottom: 1px dashed #001fff; }
-  /* line 1032, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1016, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header .container-publisher {
     width: 52.63158%;
     float: left;
-    margin-right: 2.63158%;
-    margin-bottom: 10px;
-    min-height: 4.125em; }
-  /* line 1036, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-publisher img.photo-publisher {
-    position: absolute;
-    float: left;
-    width: 66px;
-    height: 66px; }
-  /* line 1041, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-publisher h3.publisher, #projects .block-header .container-publisher h3.ngo {
-    margin: 0;
-    margin-left: 80px;
-    position: relative;
-    float: left;
-    font-family: "miso";
-    font-weight: 400;
-    color: #001fff;
-    text-transform: uppercase; }
-  /* line 1050, ../../app/stylesheets/partials/_960grid.sass */
+    margin-right: 2.63158%; }
+  /* line 1018, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header .container-publisher h3.publisher {
     font-size: 3.25em;
     line-height: 0.69231em; }
-  /* line 1053, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1021, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header .container-publisher h3.ngo {
     font-size: 2.25em;
-    line-height: 0.75em;
-    padding-top: 5px; }
-  /* line 1057, ../../app/stylesheets/partials/_960grid.sass */
+    line-height: 0.75em; }
+  /* line 1024, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-header .container-costs {
     width: 44.73684%;
     float: right;
-    margin-right: 0;
-    position: absolute;
-    top: 17px; }
-  /* line 1061, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-costs p.costs {
-    background: white; }
-  /* line 1063, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-costs p.costs, #projects .block-header .container-costs a {
-    font-family: "miso";
-    font-size: 0.875em;
-    line-height: 1.21429em;
-    color: #6045ff;
-    text-transform: uppercase;
-    letter-spacing: 0.125em;
-    text-align: right;
-    margin: 0; }
-  /* line 1072, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-costs p.costs span.number, #projects .block-header .container-costs a span.number {
-    color: #ff4874; }
-  /* line 1074, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-header .container-costs a {
-    color: black;
-    text-decoration: underline;
-    background: yellow;
-    float: right;
-    position: relative;
-    padding: 0 5px 0 2px;
-    margin-top: 5px; }
-  /* line 1083, ../../app/stylesheets/partials/_960grid.sass */
+    margin-right: 0; }
+  /* line 1026, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main {
     width: 100%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 1085, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1028, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main .container-title {
     width: 52.63158%;
     float: left;
     margin-right: 2.63158%; }
-  /* line 1087, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1030, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main .container-title h1.title {
-    margin-top: 0;
     font-size: 3.75em;
     line-height: 0.86667em; }
-  /* line 1091, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1033, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main .container-title .icon-where, #projects .block-main .container-title .icon-time, #projects .block-main .container-title .icon-cost {
     margin-top: 6px;
     margin-right: 7px; }
-  /* line 1094, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1036, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main .container-title h2.subtitle {
     margin-bottom: 35px;
-    color: #6045ff;
     font-size: 2.25em;
     line-height: 0.97222em; }
-  /* line 1099, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1040, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main ul.description {
-    padding: 0;
-    padding-top: 4px;
     width: 44.73684%;
     float: right;
-    margin-right: 0;
-    clear: none; }
-  /* line 1104, ../../app/stylesheets/partials/_960grid.sass */
+    margin-right: 0; }
+  /* line 1043, ../../app/stylesheets/partials/_960grid.sass */
+  #projects .block-main ul.description li.mono p {
+    width: 64.70588%;
+    float: right;
+    margin-right: 0; }
+  /* line 1045, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main ul.description li {
     width: 100%;
     float: left;
     margin-right: 5.88235%; }
-  /* line 1106, ../../app/stylesheets/partials/_960grid.sass */
+  /* line 1047, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main ul.description li .number-list {
-    width: 11.76471%;
+    width: 29.41176%;
     float: left;
     margin-right: 5.88235%;
-    margin-left: 6.38298%; }
-  /* line 1109, ../../app/stylesheets/partials/_960grid.sass */
-  #projects .block-main ul.description li .number-list p {
-    margin: 0;
-    font-size: 2.625em;
-    line-height: 0.83333em;
-    text-align: right; }
-  /* line 1114, ../../app/stylesheets/partials/_960grid.sass */
+    margin-bottom: 0; }
+  /* line 1050, ../../app/stylesheets/partials/_960grid.sass */
   #projects .block-main ul.description li p {
     width: 64.70588%;
     float: right;
-    margin-right: 0;
-    font-family: "miso";
-    font-size: 0.875em;
-    line-height: 1.21429em;
-    color: #6045ff;
-    text-transform: uppercase;
-    letter-spacing: 0.125em;
-    margin: 0;
-    margin-bottom: 20px; } }
+    margin-right: 0; } }
 /* line 1, ../../app/stylesheets/partials/_map.sass */
 #map {
   clear: both;
@@ -3880,7 +4121,7 @@ footer .blue .rights a {
 /* line 8, ../../app/stylesheets/partials/_map.sass */
 #map #slides ul {
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 #map #slides ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3931,7 +4172,7 @@ footer .blue .rights a {
 /* line 2, ../../app/stylesheets/partials/_explanation.sass */
 #explanation ul {
   list-style: none; }
-/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p362/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../.rvm/gems/ruby-1.9.3-p374/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 #explanation ul li {
   list-style-image: none;
   list-style-type: none;

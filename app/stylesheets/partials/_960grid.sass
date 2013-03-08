@@ -871,21 +871,10 @@
 			width: auto
 			height: auto
 		hr.spine
-			position: relative
-			z-index: 2
-			height: 5px
-			$image: image-url("textures/spined.png")
-			background: $image repeat-x left top
 			+span-columns(13,13)
-			border: none
-			//margin-top: 60px
-			margin-bottom: 15px
 		.top
 			margin-top: 60px
 		hr.dotted
-			margin: 10px 0 25px 0
-			border-top: 1px $blue dashed
-			@extend .wide !optional
 			+span-columns(13,13)
 		ul.container-team
 			@include clearfix
@@ -919,6 +908,9 @@
 			.photo-container
 				@include clearfix
 				margin-bottom: 10px
+				img.photo-publisher
+					width: 100px
+					height: 100px
 				.author-container
 					+span-columns(5,9)
 					@include clearfix
@@ -991,8 +983,6 @@
 				li.cost
 					h2.subtitle
 						text-decoration: underline
-					.total
-						color: $rose
 			h2.subtitle
 				margin-bottom: 35px
 				color: $purple
@@ -1001,7 +991,6 @@
 			h2.team
 				margin-top: 35px
 				margin-bottom: 25px 
-	
 				span
 					text-transform: none
 					font-size: px-to-em(25px,36px)
@@ -1021,71 +1010,24 @@
 	#projects
 		.block-header
 			+span-columns(13,13)
-			position: relative
-			margin-bottom: 20px
-			background: $light-yellow
-			margin-top: -17px
-			padding-top: 17px
 			.last
 				padding-bottom: 15px
 				border-bottom: 1px dashed $blue
 			.container-publisher
 				+span-columns(7,13)
-				margin-bottom: 10px
-				min-height: px-to-em(66px)
-				img.photo-publisher
-					position: absolute
-					float: left
-					width: 66px
-					height: 66px
-				h3.publisher, h3.ngo
-					margin: 0
-					margin-left: 80px
-					position: relative
-					float: left
-					font-family: "miso"
-					font-weight: 400
-					color: $blue
-					text-transform: uppercase
 				h3.publisher
 					font-size: px-to-em(52px)
 					line-height: px-to-em(36px,52px)
 				h3.ngo
 					font-size: px-to-em(36px)
 					line-height: px-to-em(27px,36px)
-					padding-top: 5px
 			.container-costs
 				+span-columns(6 omega,13)
-				position: absolute
-				top: 17px
-				p.costs
-					background: white
-				p.costs, a
-					font-family: "miso"
-					font-size: px-to-em(14px)
-					line-height: px-to-em(17px,14px)
-					color: $purple
-					text-transform: uppercase
-					letter-spacing: px-to-em(2px)
-					text-align: right
-					margin: 0
-					span.number
-						color: $rose
-				a
-					color: black
-					text-decoration: underline
-					background: $yellow
-					@extend .hover !optional
-					float: right
-					position: relative
-					padding: 0 5px 0 2px
-					margin-top: 5px
 		.block-main
 			+span-columns(13,13)
 			.container-title
 				+span-columns(7,13)
 				h1.title
-					margin-top: 0
 					font-size: px-to-em(60px)
 					line-height: px-to-em(52px,60px)
 				.icon-where, .icon-time, .icon-cost
@@ -1093,31 +1035,17 @@
 					margin-right: 7px			
 				h2.subtitle
 					margin-bottom: 35px
-					color: $purple
 					font-size: px-to-em(36px)
 					line-height: px-to-em(35px,36px)
 			ul.description
-				padding: 0
-				padding-top: 4px
 				+span-columns(6 omega,13)
-				clear: none
+				li.mono
+					p 
+						+span-columns(4 omega,6)
 				li 
 					+span-columns(6,6)
 					.number-list
-						+span-columns(1,6)
-						+pre(1)
-						p
-							margin: 0
-							font-size: px-to-em(42px)
-							line-height: px-to-em(35px,42px)
-							text-align: right
+						+span-columns(2,6)
+						margin-bottom: 0
 					p 
 						+span-columns(4 omega,6)
-						font-family: "miso"
-						font-size: px-to-em(14px)
-						line-height: px-to-em(17px,14px)
-						color: $purple
-						text-transform: uppercase
-						letter-spacing: px-to-em(2px)
-						margin: 0
-						margin-bottom: 20px				
