@@ -9,11 +9,6 @@ $container-style: magic
 
 $break: 16
 
-section.page
-	+susy-grid-background
-	+container($total-columns, $break)
-	overflow: hidden
-
 body
 	-webkit-font-smoothing: antialiased
 .ul
@@ -520,9 +515,8 @@ div.notice
 				@include replace-with-sprite($assets,"exclamation-mobile")
 
 section.page
-	+pre(1)
+	+susy-grid-background
 	+container($total-columns, $break)
-	margin-left: 0
 	overflow: hidden
 	#description
 		+hyphenation
@@ -1191,16 +1185,14 @@ footer
 		border-top: 1px $blue solid
 		margin-top: 0px
 
-+at-breakpoint(10)
-	section.page
-		+pre(1)
+
 		
 		
 		
 #projects, #single_project	
-	+span-columns(7)
+	+span-columns(7,7)
 	.container-main, .block-main
-		+span-columns(7)
+		+span-columns(7,7)
 		h1.title, h2.subtitle
 			margin: 0
 			font-family: "miso"
