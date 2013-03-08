@@ -57,6 +57,7 @@ group :development, :test do
 	gem 'capybara', :group => "test"
 	gem 'cucumber', :group => "test"
 	gem 'guard-cucumber', :group => "test"
+	gem 'guard-compass'
 	gem 'database_cleaner', :group => "test"
 	gem 'rack-test', :require => "rack/test", :group => "test"
 	gem 'rb-fsevent'

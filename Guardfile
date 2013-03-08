@@ -19,7 +19,7 @@ guard 'cucumber' , :cli => "--drb --color --format pretty" do
   watch(%r{^features/step_definitions/(.+)_steps\.rb$}) { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'features' }
 end
 
-guard 'rspec' , :cli => "--drb --color --format pretty" do
+guard 'rspec' , :cli => "--drb" do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
@@ -55,15 +55,19 @@ guard 'bundler' do
   # watch(/^.+\.gemspec/)
 end
 
-guard 'annotate' do
-  watch( 'db/schema.rb' )
+#  guard 'annotate',:tests => true do
+# #   watch( 'db/schema.rb' )
+# # 
+# #   # Uncomment the following line if you also want to run annotate anytime
+# #   # a model file changes
+# #   #watch( 'app/models/**/*.rb' )
+# # 
+# #   # Uncomment the following line if you are running routes annotation
+# #   # with the ":routes => true" option
+# #   watch( 'config/routes.rb' )
+#  end
 
-  # Uncomment the following line if you also want to run annotate anytime
-  # a model file changes
-  #watch( 'app/models/**/*.rb' )
 
-  # Uncomment the following line if you are running routes annotation
-  # with the ":routes => true" option
-  #watch( 'config/routes.rb' )
+guard 'compass' do
+  watch(/^src\/(.*)\.s[ac]ss/)
 end
-
