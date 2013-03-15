@@ -13,15 +13,16 @@ if Padrino.env == :development
 	Padrino::Application.use BetterErrors::Middleware
 	BetterErrors.application_root = PADRINO_ROOT
 	BetterErrors.logger = Padrino.logger
+	#Enable live relead middleware rack
+	require 'rack-livereload'
+	require 'yajl'
 end
 
 # require 'gibbon'
 #require 'rdiscount'
 require 'sinatra/cross_origin'
 
-#Enable live relead middleware rack
-require 'rack-livereload'
-require 'yajl'
+
 
 
 
