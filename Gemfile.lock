@@ -13,6 +13,7 @@ GEM
       rake
     awesome_print (1.1.0)
     bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.1-x86-mingw32)
     better_errors (0.7.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -68,6 +69,9 @@ GEM
       dm-core (~> 1.2.0)
     dm-migrations (1.2.0)
       dm-core (~> 1.2.0)
+    dm-postgres-adapter (1.2.0)
+      dm-do-adapter (~> 1.2.0)
+      do_postgres (~> 0.10.6)
     dm-sqlite-adapter (1.2.0)
       dm-do-adapter (~> 1.2.0)
       do_sqlite3 (~> 0.10.6)
@@ -75,6 +79,10 @@ GEM
       dm-core (~> 1.2.0)
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
+    do_postgres (0.10.12)
+      data_objects (= 0.10.12)
+    do_postgres (0.10.12-x86-mingw32)
+      data_objects (= 0.10.12)
     do_sqlite3 (0.10.12)
       data_objects (= 0.10.12)
     do_sqlite3 (0.10.12-x86-mingw32)
@@ -175,6 +183,8 @@ GEM
       padrino-core (= 0.10.7)
     padrino-rpm (0.6.1)
       newrelic_rpm (~> 3.3.3)
+    pg (0.14.1)
+    pg (0.14.1-x86-mingw32)
     polyglot (0.3.3)
     pry (0.9.12)
       coderay (~> 1.0.5)
@@ -276,6 +286,7 @@ DEPENDENCIES
   dm-constraints
   dm-core
   dm-migrations
+  dm-postgres-adapter
   dm-sqlite-adapter
   dm-timestamps
   dm-validations
@@ -292,6 +303,7 @@ DEPENDENCIES
   padrino (= 0.10.7)
   padrino-contrib
   padrino-rpm
+  pg
   rack-google-analytics
   rack-livereload
   rack-test

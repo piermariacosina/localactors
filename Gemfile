@@ -25,8 +25,8 @@ gem 'susy'
 gem 'padrino', '0.10.7'
 gem 'padrino-contrib'
 
+
 # Datamapper
-gem 'dm-sqlite-adapter'
 gem 'dm-validations'
 gem 'dm-timestamps'
 gem 'dm-migrations'
@@ -43,6 +43,7 @@ gem 'dm-core'
 
 # Test requirements
 group :development, :test do
+	gem 'dm-sqlite-adapter'
 	gem 'spork'
 	gem 'guard'
 	gem 'guard-rspec'
@@ -73,6 +74,8 @@ group :production do
 	gem 'yui-compressor', :require => 'yui/compressor'
 	gem 'padrino-rpm'
 	gem 'rack-google-analytics', :require => "rack/google-analytics"
+	gem 'dm-postgres-adapter'
+	gem 'pg'
 end
 
 group :development do
