@@ -34,3 +34,5 @@ end
 
 # Mounts the core application for this project
 Padrino.mount("Localactors").to('/')
+
+Padrino.mount("Admin").to("/admin")

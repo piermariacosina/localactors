@@ -60,6 +60,9 @@ class Localactors < Padrino::Application
     render "mails/mailing-list", :layout =>false
   end
   
+
+  
+  
   
   get '/callforprojects' do
     #c = CockpitoDataSender.new

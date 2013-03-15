@@ -12,6 +12,7 @@ GEM
     annotate (2.5.0)
       rake
     awesome_print (1.1.0)
+    bcrypt-ruby (3.0.1)
     better_errors (0.7.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -260,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   awesome_print
+  bcrypt-ruby
   better_errors
   binding_of_caller
   capybara

@@ -14,6 +14,7 @@ gem 'sinatra-redirect-with-flash'
 gem 'sinatra-cross_origin'
 
 # Component requirements
+gem 'bcrypt-ruby', :require => "bcrypt"
 
 gem 'compass'
 gem 'compass-h5bp'
