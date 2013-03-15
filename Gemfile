@@ -40,6 +40,7 @@ gem 'dm-core'
 # gem 'gibbon'
 # gem 'rdiscount'
 
+gem 'rspec'
 
 # Test requirements
 group :development, :test do
@@ -54,7 +55,7 @@ group :development, :test do
 	gem 'terminal-notifier-guard'
 	gem 'yajl-ruby'
 	gem 'rack-livereload'
-	gem 'rspec', :group => "test"
+	
 	gem 'rspec-expectations'
 	gem 'capybara', :group => "test"
 	gem 'cucumber', :group => "test"
