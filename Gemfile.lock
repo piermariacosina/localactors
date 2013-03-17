@@ -72,9 +72,6 @@ GEM
     dm-postgres-adapter (1.2.0)
       dm-do-adapter (~> 1.2.0)
       do_postgres (~> 0.10.6)
-    dm-sqlite-adapter (1.2.0)
-      dm-do-adapter (~> 1.2.0)
-      do_sqlite3 (~> 0.10.6)
     dm-timestamps (1.2.0)
       dm-core (~> 1.2.0)
     dm-validations (1.2.0)
@@ -82,10 +79,6 @@ GEM
     do_postgres (0.10.12)
       data_objects (= 0.10.12)
     do_postgres (0.10.12-x86-mingw32)
-      data_objects (= 0.10.12)
-    do_sqlite3 (0.10.12)
-      data_objects (= 0.10.12)
-    do_sqlite3 (0.10.12-x86-mingw32)
       data_objects (= 0.10.12)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
@@ -287,7 +280,6 @@ DEPENDENCIES
   dm-core
   dm-migrations
   dm-postgres-adapter
-  dm-sqlite-adapter
   dm-timestamps
   dm-validations
   guard
