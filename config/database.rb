@@ -14,6 +14,9 @@ DataMapper::Property::String.length(255)
 
 case Padrino.env
   when :development then DataMapper.setup(:default, "postgres://piermariacosina@localhost/localactors_development")
-  when :production  then DataMapper.setup(:default, "postgres://piermariacosina/localactors_production")
+  when :production then DataMapper.setup(:default, ENV["DATABASE_URL"])
+  when :staging then DataMapper.setup(:default, ENV["DATABASE_URL"])
+  when :staging  then DataMapper.auto_upgrade!
+  when :production  then DataMapper.auto_upgrade!
   when :test        then DataMapper.setup(:default, "postgres://piermariacosina/localactors_test")
 end

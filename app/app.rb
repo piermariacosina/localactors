@@ -21,7 +21,7 @@ class Localactors < Padrino::Application
   
     enable :cross_origins
   end
-  
+
   
   configure :production do
     register AnalyticsInitializer

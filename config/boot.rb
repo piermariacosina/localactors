@@ -7,6 +7,7 @@ require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
+
 # Setup better_errors
 if Padrino.env == :development
 	require 'better_errors'
