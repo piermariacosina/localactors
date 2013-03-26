@@ -528,8 +528,7 @@ section.page
 			display: none
 		#logo
 			margin-bottom: 12px
-			@include clearfix
-			@include float-left
+			+span-columns(7,7)
 			@include logo($assets,"mobile")
 			.logo_text
 				margin: 0 !important
