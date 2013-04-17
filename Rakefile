@@ -1,5 +1,3 @@
-require File.dirname(__FILE__) + '/config/boot.rb'
-require 'thor'
+require File.expand_path('../config/boot.rb', __FILE__)
 require 'padrino-core/cli/rake'
-
 PadrinoTasks.init

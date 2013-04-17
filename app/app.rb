@@ -21,7 +21,7 @@ class Localactors < Padrino::Application
   
     enable :cross_origins
   end
-  
+
   
   configure :production do
     register AnalyticsInitializer
@@ -59,6 +59,9 @@ class Localactors < Padrino::Application
   get '/mail' do
     render "mails/mailing-list", :layout =>false
   end
+  
+
+  
   
   
   get '/callforprojects' do
@@ -122,15 +125,12 @@ class Localactors < Padrino::Application
   # layout  :my_layout            # Layout can be in views/layouts/foo.ext or views/foo.ext (default :application)
   #
 
-  ##
-  # You can manage errors like:
-  #
-  #   error 404 do
-  #     render 'errors/404'
-  #   end
-  #
-  #   error 505 do
-  #     render 'errors/505'
-  #   end
-  #
+    # error 404 do
+    #   render 'errors/404'
+    # end
+    # 
+    # error 505 do
+    #   render 'errors/505'
+    # end
+  
 end

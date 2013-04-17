@@ -1,7 +1,17 @@
 
-+at-breakpoint($break)
++at-breakpoint(16)
 	section.page
 		+susy-grid-background
+		
+	#test
+		background-color: blue
+		+span-columns(3,16)
+		position: relative
+		float: left
+		display: none
+		&.blu
+			clear: both
+
 	.hover
 		&:hover
 			color: $purple
@@ -347,15 +357,15 @@
 
 		header
 			overflow: visible
-			+span-columns(16)
+			+span-columns(16,16)
 			
 			#logo
 				+logo($assets,"web")
-				position: absolute
+				+span-columns(6,16)
 			nav.navigation
-				position: relative
+				clear: none
 				top: 25px
-				+pre(6)
+				display: inline
 				+span-columns(3,16)
 				ul
 					float: none

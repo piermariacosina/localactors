@@ -6,14 +6,12 @@ require 'spork'
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 
-
-
 Spork.prefork do
 
   require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
   require 'capybara/rspec'
   require 'rspec/expectations'
-  
+
   Capybara.app = Padrino.application
 end
 

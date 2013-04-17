@@ -8,12 +8,15 @@ gem 'thin'
 
 # Project requirements
 gem 'rake'
+gem 'pg'
+
 
 gem 'sinatra-flash', :require => 'sinatra/flash'
 gem 'sinatra-redirect-with-flash'
 gem 'sinatra-cross_origin'
 
 # Component requirements
+gem 'bcrypt-ruby', :require => "bcrypt"
 
 gem 'compass'
 gem 'compass-h5bp'
@@ -24,28 +27,50 @@ gem 'susy'
 gem 'padrino', '0.10.7'
 gem 'padrino-contrib'
 
-# gem 'gibbon'
-# gem 'rdiscount'
+
+# Datamapper
+gem 'dm-validations'
+gem 'dm-timestamps'
+gem 'dm-migrations'
+gem 'dm-constraints'
+gem 'dm-aggregates'
+gem 'dm-core'
+gem 'dm-postgres-adapter'
 
 
 # Test requirements
+
+
+# gem 'gibbon'
+# gem 'rdiscount'
+
+gem 'rspec'
+
+# Test requirements
 group :development, :test do
-	gem 'rspec', :group => "test"
-	gem 'rack-test', :require => "rack/test", :group => "test"
+	gem 'spork'
+	gem 'guard'
 	gem 'guard-rspec'
 	gem 'guard-spork'
-	gem 'spork'
+	gem 'guard-livereload'
 	gem 'colored'
 	gem 'deadweight', :require => 'deadweight/hijack/rails'
-end
-
-group :test do
-	gem 'capybara'
-	gem 'rb-fsevent'
 	gem 'terminal-notifier-guard'
+	gem 'yajl-ruby'
+	gem 'rack-livereload'
+	
+	gem 'rspec-expectations'
+	gem 'capybara', :group => "test"
+	gem 'cucumber', :group => "test"
+	gem 'guard-cucumber', :group => "test"
+	gem 'guard-compass'
+	gem 'database_cleaner', :group => "test"
+	gem 'rack-test', :require => "rack/test", :group => "test"
+	gem 'rb-fsevent'
 	gem 'rspec-padrino'
 	gem 'capybara-webkit'
 end
+
 
 
 
@@ -61,7 +86,8 @@ group :development do
 	gem 'better_errors'
 	gem 'oily_png'
 	gem 'binding_of_caller'
-	
+	gem 'guard-bundler'
+	gem 'guard-annotate'
 end
 
 # Or Padrino Edge

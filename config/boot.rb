@@ -7,12 +7,16 @@ require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
+
 # Setup better_errors
 if Padrino.env == :development
 	require 'better_errors'
 	Padrino::Application.use BetterErrors::Middleware
 	BetterErrors.application_root = PADRINO_ROOT
 	BetterErrors.logger = Padrino.logger
+	#Enable live relead middleware rack
+	require 'rack-livereload'
+	require 'yajl'
 end
 
 # require 'gibbon'
@@ -22,13 +26,16 @@ require 'sinatra/cross_origin'
 
 
 
+
+
+
+
+
 ##
 # ## Enable devel logging
 #
-# Padrino::Logger::Config[:development][:log_level]  = :devel
-# Padrino::Logger::Config[:development][:log_static] = true
-#
-# ## Configure your I18n
+#Padrino::Logger::Config[:staging][:log_level] = :devel
+#Padrino::Logger::Config[:staging][:log_static] = true
 #
 
 #
@@ -56,9 +63,7 @@ end
 # Add your after (RE)load hooks here
 #
 Padrino.after_load do
-end
-
-Padrino.after_load do
+	DataMapper.finalize
 end
 
 Padrino.load!

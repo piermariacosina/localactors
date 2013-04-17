@@ -527,8 +527,7 @@ section.page
 			display: none
 		#logo
 			margin-bottom: 12px
-			@include clearfix
-			@include float-left
+			+span-columns(7,7)
 			@include logo($assets,"mobile")
 			.logo_text
 				margin: 0 !important
@@ -1468,4 +1467,11 @@ footer
 					letter-spacing: px-to-em(2px)
 					margin: 0
 					margin-bottom: 10px
-
+#test
+	background-color: blue
+	+span-columns(7,7)
+	position: relative
+	float: left
+	
+	&.blu
+		clear: both
