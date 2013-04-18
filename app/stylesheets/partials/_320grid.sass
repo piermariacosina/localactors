@@ -514,7 +514,7 @@ div.notice
 				@include replace-with-sprite($assets,"exclamation-mobile")
 
 section.page
-	+susy-grid-background
+	//+susy-grid-background
 	+container($total-columns, $break)
 	overflow: hidden
 	#description
@@ -530,7 +530,7 @@ section.page
 			+span-columns(7,7)
 			@include logo($assets,"mobile")
 			.logo_text
-				margin: 0 !important
+				margin: 0 0 10px 0 !important
 		#number
 			height: 50px
 			width: 75px
@@ -873,18 +873,26 @@ footer
 				background-color: yellow
 				color: black
 				@extend .hover !optional
+#mailing-list, #think, #submit-project, #publish, #faq
+	width: 100%
+	.icon
+		width: 100% !important
+		position: absolute
 
+		
 			
 #mailing-list, #think, #submit-project, #publish, #faq
 	h2
 		letter-spacing: px-to-em(1px)
 		span.hl
 			line-height: px-to-em(27px, 21px) !important
+			margin-left: -27px
 			span.ul
+				font-size: px-to-em(19px, 19px)
 				line-height: px-to-em(27px, 21px)
 		span.subtitle
 			display: inline-block
-			margin-left: 25px
+			margin-left: 0
 			line-height: px-to-em(19px, 19px)
 	#spiegazione
 		+float-left
@@ -1165,8 +1173,7 @@ footer
 					background-color: $acqua
 		
 	a span.icon
-		margin-left: 20px
-		+span-columns(2,$break)
+		margin-left: 10px
 	h2
 		+span-columns(5 omega,$total-columns)
 		@extend .section_title !optional

@@ -1,7 +1,8 @@
 
 +at-breakpoint(16)
 	section.page
-		+susy-grid-background
+		//+susy-grid-background
+		padding-left: 80px
 		
 	#test
 		background-color: blue
@@ -31,6 +32,16 @@
 		
 	.clear
 		clear: both
+	#mailing-list, #think, #submit-project, #publish, #faq
+		a span.icon
+			margin-left: 25px
+		h2
+			+pre(3,13)
+			span.hl
+				margin-left: -35px
+				span.ul
+			span.subtitle
+				margin-left: 0
 		
 	div.success
 		+span-columns(8,11)
@@ -509,10 +520,6 @@
 			@extend .borded !optional
 
 		#mailing-list, #think, #submit-project, #publish, #faq
-			h2
-				span.hl
-					span.ul
-				span.subtitle
 			#spiegazione
 				p
 					font-size: px-to-em(14px) !important
@@ -615,7 +622,7 @@
 				+span-columns(11,13)
 			ul.questions
 				float: left
-				+pre(4)
+				+pre(4,13)
 				li
 					h3
 						font-size: px-to-em(16px)
